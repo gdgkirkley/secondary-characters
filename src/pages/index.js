@@ -1,21 +1,94 @@
 import React from "react"
-import { Link } from "gatsby"
-
+import styled from "styled-components"
+import { useStaticQuery, graphql } from "gatsby"
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
+import EmailBar from "../components/emailbar"
 
-const IndexPage = () => (
-  <Layout>
-    <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link>
-  </Layout>
-)
+const HeroBanner = styled.div`
+  background: url("${props => props.backgroundImage}");
+  background-size: cover;
+  background-position: 50% 35%;
+  width: 100%;
+  min-height: 60vh;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  @media (max-width: 768px) {
+    min-height: 50vh;
+  }
+`
+
+const Titles = styled.div`
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  color: white;
+  & h1,
+  h3 {
+    color: ${props => props.theme.grey10};
+    margin: 0 auto;
+    box-shadow: ${props => props.theme.bs};
+  }
+  & h1 {
+    font-size: ${props => props.theme.fontSize.display};
+    text-transform: uppercase;
+    margin-top: 64px;
+  }
+  & h3 {
+    margin-top: 20px;
+    width: 350px;
+  }
+  @media (max-width: 768px) {
+    & h1 {
+      font-size: ${props => props.theme.fontSize.highLevel};
+      text-transform: uppercase;
+      margin-top: 36px;
+    }
+    & h3 {
+      font-size: ${props => props.theme.fontSize.reading};
+      margin-top: 20px;
+      width: 350px;
+    }
+  }
+`
+
+const IndexPage = () => {
+  const data = useStaticQuery(graphql`
+    query {
+      homePageData: allMarkdownRemark(
+        filter: { frontmatter: { templateKey: { eq: "home-page" } } }
+      ) {
+        edges {
+          node {
+            frontmatter {
+              title
+              subtitle
+              headerImage {
+                image
+              }
+            }
+          }
+        }
+      }
+    }
+  `)
+
+  const home = data.homePageData.edges[0].node
+  return (
+    <Layout>
+      <SEO title="Home" />
+      <HeroBanner backgroundImage={home.frontmatter.headerImage.image}>
+        <Titles>
+          <h1>{home.frontmatter.title}</h1>
+          <h3>{home.frontmatter.subtitle}</h3>
+        </Titles>
+      </HeroBanner>
+      <EmailBar />
+    </Layout>
+  )
+}
 
 export default IndexPage

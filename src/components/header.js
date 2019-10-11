@@ -1,35 +1,65 @@
-import { Link } from "gatsby"
-import PropTypes from "prop-types"
 import React from "react"
+import { Link } from "gatsby"
+import { useStaticQuery, graphql } from "gatsby"
+import styled from "styled-components"
+import PropTypes from "prop-types"
+import Img from "gatsby-image"
+import NavBar from "./navbar"
 
-const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
+const HeaderStyle = styled.header`
+  display: grid;
+  grid-template-columns: 1.5fr 2fr;
+  align-items: center;
+  box-shadow: ${props => props.theme.bs};
+`
+
+const Logo = styled.div`
+  width: 128px;
+  margin-left: 64px;
+`
+
+const Header = () => {
+  const data = useStaticQuery(graphql`
+    query {
+      placeholderImage: file(
+        relativePath: { eq: "sc-logo-no-background_1.png" }
+      ) {
+        childImageSharp {
+          fluid(maxWidth: 300) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      navbarData: allMarkdownRemark(
+        filter: { frontmatter: { templateKey: { eq: "navbar" } } }
+      ) {
+        edges {
+          node {
+            id
+            frontmatter {
+              menuItems {
+                label
+                linkType
+                linkURL
+              }
+            }
+          }
+        }
+      }
+    }
+  `)
+
+  return (
+    <HeaderStyle>
+      <Logo>
+        <Link to="/">
+          <Img fluid={data.placeholderImage.childImageSharp.fluid} />
         </Link>
-      </h1>
-    </div>
-  </header>
-)
+      </Logo>
+      <NavBar navMenuItems={data.navbarData} />
+    </HeaderStyle>
+  )
+}
 
 Header.propTypes = {
   siteTitle: PropTypes.string,

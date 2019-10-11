@@ -30,3 +30,13 @@ const Image = () => {
 }
 
 export default Image
+
+export const smallImage = graphql`
+  fragment smallImage on File {
+    childImageSharp {
+      fluid(maxWidth: 300) {
+        ...GatsbyImageSharpFluid
+      }
+    }
+  }
+`
