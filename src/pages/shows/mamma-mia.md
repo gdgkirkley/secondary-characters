@@ -4,7 +4,6 @@ title: Mamma Mia!
 dates: July 2020
 tagline: The magic of ABBA's timeless songs
 location: Chilliwack Cultural Centre
-locationLink: http://chilliwackculturalcentre.ca
 image: /img/mammamia.jpg
 showCredits:
   - credit: Music and Lyrics by

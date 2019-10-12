@@ -14,7 +14,6 @@ export const query = graphql`
             dates
             tagline
             location
-            locationLink
             image
             showCredits {
               credit
@@ -66,6 +65,14 @@ const Section = styled.section`
   &:last-child {
     border-bottom: none;
   }
+  & .section-head {
+    margin: 36px 0px;
+    font-size: ${props => props.theme.fontSize.subHeading};
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: ${props => props.theme.primary3};
+    text-transform: uppercase;
+  }
 `
 
 const TopContent = styled.div`
@@ -99,6 +106,7 @@ const TicketBoxDesktop = styled.div`
   background: ${props => props.theme.grey10};
   border-radius: 16px;
   max-width: 425px;
+  max-height: 300px;
   padding: 24px;
   & h2,
   h3,
@@ -142,6 +150,11 @@ const BuyTicketsButton = styled.button`
   }
 `
 
+const ArtistGrid = styled.div`
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+`
+
 const ShowTemplate = ({ data: { showData } }) => {
   const show = showData.edges[0].node.frontmatter
   const description = showData.edges[0].node.html
@@ -179,12 +192,12 @@ const ShowTemplate = ({ data: { showData } }) => {
         </Section>
         {show.creativeTeam.length ? (
           <Section>
-            <div>
-              <h2>Creative Team</h2>
+            <h2 className="section-head">Creative Team</h2>
+            <ArtistGrid>
               {show.creativeTeam.map(artist => {
                 return <Artist artist={artist} key={artist.artist} />
               })}
-            </div>
+            </ArtistGrid>
           </Section>
         ) : null}
       </ShowContent>
