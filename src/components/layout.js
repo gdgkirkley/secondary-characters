@@ -4,6 +4,7 @@ import Helmet from "react-helmet"
 import PropTypes from "prop-types"
 import useSiteMetadata from "../hooks/useSiteMetadata"
 import Header from "./header"
+import Footer from "./footer"
 
 const theme = {
   primary1: "#330065",
@@ -116,8 +117,9 @@ const Layout = ({ children }) => {
         </Helmet>
         <Header siteTitle={title} />
 
-          <main>{children}</main>
+        <main>{children}</main>
 
+        <Footer />
         <GlobalStyle />
       </>
     </ThemeProvider>

@@ -1,0 +1,81 @@
+import React from "react"
+import styled from "styled-components"
+
+const ShowCardStyle = styled.div`
+  display: grid;
+  @media (max-width: 768px) {
+    width: 100%;
+  }
+`
+
+const ShowImage = styled.div`
+  background: url("${props => props.backgroundImage}");
+  background-size: cover;
+  background-position: 50% 50%;
+  min-height: 430px;
+  min-width: 570px;
+  overflow: hidden;
+  @media (max-width: 768px){
+      min-width: 450px;
+  }
+`
+
+const ShowTitle = styled.div`
+  margin-top: -35px;
+  & h1 {
+    color: ${props => props.theme.primary3};
+    text-transform: uppercase;
+    padding: 8px 32px;
+    width: 60%;
+    border-radius: ${props => props.theme.borderRadius};
+    background-color: ${props => props.theme.primary9};
+    margin: 0;
+  }
+`
+
+const ShowInfo = styled.div`
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  grid-gap: 16px;
+  align-items: center;
+  padding: 0px 16px;
+`
+
+const TicketButton = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: ${props => props.theme.borderRadius};
+  border: 1px solid ${props => props.theme.primary5};
+  font-size: ${props => props.theme.fontSize.emphasis};
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: bold;
+  color: ${props => props.theme.primary4};
+  min-height: 55px;
+  transition: 0.4s linear;
+  &:hover {
+    background: ${props => props.theme.primary4};
+    color: ${props => props.theme.grey10};
+    cursor: pointer;
+  }
+`
+
+const ShowCard = ({ show }) => {
+  return (
+    <ShowCardStyle>
+      <ShowImage backgroundImage={show.frontmatter.image} />
+      <ShowTitle>
+        <h1>{show.frontmatter.title}</h1>
+      </ShowTitle>
+      <ShowInfo>
+        <div>
+          <h3>Coming {show.frontmatter.dates}</h3>
+          <p>{show.frontmatter.tagline}</p>
+        </div>
+        <TicketButton>Tickets & Info</TicketButton>
+      </ShowInfo>
+    </ShowCardStyle>
+  )
+}
+
+export default ShowCard

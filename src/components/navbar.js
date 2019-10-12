@@ -43,7 +43,7 @@ const NavBar = props => {
     <NavBarStyle>
       {navMenuItems.edges[0].node.frontmatter.menuItems.map(menuItem => {
         return (
-          <Link to={menuItem.linkURL}>
+          <Link to={menuItem.linkURL} key={menuItem.label}>
             <li>
               {menuItem.label} <Caret />
             </li>

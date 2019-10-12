@@ -4,6 +4,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import EmailBar from "../components/emailbar"
+import ShowCard from "../components/showcard"
 
 const HeroBanner = styled.div`
   background: url("${props => props.backgroundImage}");
@@ -55,6 +56,20 @@ const Titles = styled.div`
   }
 `
 
+const Shows = styled.div`
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 170px;
+  margin: 64px 250px;
+  justify-content: space-around;
+  align-items: center;
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+    margin: 64px 0px;
+    grid-gap: 64px;
+  }
+`
+
 const IndexPage = () => {
   const data = useStaticQuery(graphql`
     query {
@@ -80,6 +95,9 @@ const IndexPage = () => {
           node {
             frontmatter {
               title
+              dates
+              tagline
+              image
             }
           }
         }
@@ -98,6 +116,11 @@ const IndexPage = () => {
         </Titles>
       </HeroBanner>
       <EmailBar />
+      <Shows>
+        {data.showData.edges.map(show => (
+          <ShowCard show={show.node} key={show.node.frontmatter.title} />
+        ))}
+      </Shows>
     </Layout>
   )
 }
