@@ -7,6 +7,9 @@ const NavBarStyle = styled.nav`
   display: flex;
   justify-content: space-evenly;
   margin-right: 64px;
+  @media (max-width: 768px) {
+    display: none;
+  }
   & li {
     font-size: ${props => props.theme.fontSize.subHeading};
     list-style: none;
@@ -16,6 +19,9 @@ const NavBarStyle = styled.nav`
     font-weight: bold;
     display: flex;
     align-items: center;
+    @media (max-width: 1525px) {
+      font-size: ${props => props.theme.fontSize.emphasis};
+    }
     &:hover {
       cursor: pointer;
       & svg {

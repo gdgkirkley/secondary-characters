@@ -16,6 +16,9 @@ const HeaderStyle = styled.header`
 const Logo = styled.div`
   width: 128px;
   margin-left: 64px;
+  @media (max-width: 768px) {
+    margin-left: 0px;
+  }
 `
 
 const Header = () => {

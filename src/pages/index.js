@@ -38,7 +38,7 @@ const Titles = styled.div`
     margin-top: 64px;
   }
   & h3 {
-    margin-top: 20px;
+    margin-top: 10px;
     width: 350px;
   }
   @media (max-width: 768px) {
@@ -69,6 +69,17 @@ const IndexPage = () => {
               headerImage {
                 image
               }
+            }
+          }
+        }
+      }
+      showData: allMarkdownRemark(
+        filter: { frontmatter: { templateKey: { eq: "show" } } }
+      ) {
+        edges {
+          node {
+            frontmatter {
+              title
             }
           }
         }
