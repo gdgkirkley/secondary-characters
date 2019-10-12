@@ -1,5 +1,6 @@
 import React from "react"
 import styled from "styled-components"
+import { Link } from "gatsby"
 
 const ShowCardStyle = styled.div`
   display: grid;
@@ -62,19 +63,21 @@ const TicketButton = styled.div`
 
 const ShowCard = ({ show }) => {
   return (
-    <ShowCardStyle>
-      <ShowImage backgroundImage={show.frontmatter.image} />
-      <ShowTitle>
-        <h1>{show.frontmatter.title}</h1>
-      </ShowTitle>
-      <ShowInfo>
-        <div>
-          <h3>Coming {show.frontmatter.dates}</h3>
-          <p>{show.frontmatter.tagline}</p>
-        </div>
-        <TicketButton>Tickets & Info</TicketButton>
-      </ShowInfo>
-    </ShowCardStyle>
+    <Link to={show.fields.slug}>
+      <ShowCardStyle>
+        <ShowImage backgroundImage={show.frontmatter.image} />
+        <ShowTitle>
+          <h1>{show.frontmatter.title}</h1>
+        </ShowTitle>
+        <ShowInfo>
+          <div>
+            <h3>Coming {show.frontmatter.dates}</h3>
+            <p>{show.frontmatter.tagline}</p>
+          </div>
+          <TicketButton>Tickets & Info</TicketButton>
+        </ShowInfo>
+      </ShowCardStyle>
+    </Link>
   )
 }
 

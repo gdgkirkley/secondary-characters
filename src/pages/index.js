@@ -99,6 +99,9 @@ const IndexPage = () => {
               tagline
               image
             }
+            fields {
+              slug
+            }
           }
         }
       }

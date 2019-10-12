@@ -87,9 +87,14 @@ const GlobalStyle = createGlobalStyle`
     }
     a {
         text-decoration: none;
-        
+        color: ${props => props.theme.warning3};
+        &:hover {
+          color: ${props => props.theme.warning4};
+          cursor: pointer;
+        }
     }
     h1, h2, h3, h4, h5, h6 {
+      margin: 0;
       font-family: "Roboto Condensed", Arial, Helvetica, sans-serif;
       color: ${props => props.theme.primary1};
       & * {
@@ -98,6 +103,17 @@ const GlobalStyle = createGlobalStyle`
     }
     strong {
         color: ${props => props.theme.grey3};
+    }
+    button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: ${props => props.theme.borderRadius};
+      min-height: 55px;
+      transition: 0.4s linear;
+      font-size: ${props => props.theme.fontSize.emphasis};
+      font-family: "Roboto Condensed", sans-serif;
+      font-weight: bold;
     }
 `
 

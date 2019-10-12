@@ -8,7 +8,7 @@ import Email from "./icons/email"
 const DonateBar = styled.div`
   display: grid;
   grid-template-columns: 1fr;
-  padding: 0px 128px;
+  padding: 16px 128px;
   background-color: ${props => props.theme.primary5};
 `
 
