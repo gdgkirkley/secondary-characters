@@ -2,12 +2,13 @@ backend:
   name: git-gateway
   branch: master
 
-media_folder: /src/images
+media_folder: /static/img
 public_folder: /img
 
 collections:
   - name: "artists"
     label: "Artists"
+    label_singular: "Artist"
     description: "The names, headshots and bios of everyone who has worked on a show"
     folder: "src/pages/artists"
     create: true
@@ -19,5 +20,35 @@ collections:
           default: "artist",
         }
       - { label: "Name", name: "name", widget: "string" }
-      - { label: "Image", name: "image", widget: "image" }
+      - { label: "Headshot", name: "headshot", widget: "image" }
       - { label: "Bio", name: "body", widget: "markdown" }
+  - name: "shows"
+    label: "Shows"
+    label_singular: "Show"
+    description: "These are the current shows"
+    folder: "src/pages/shows"
+    create: true
+    fields:
+      - {
+          label: "Template Key",
+          name: "templateKey",
+          widget: "hidden",
+          default: "show",
+        }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Image", name: "image", widget: "image" }
+      - { label: "Dates", name: "dates", widget: "string" }
+      - { label: "Tagline", name: "tagline", widget: "string" }
+      - { label: "Location", name: "location", widget: "string" }
+      - { label: "Ticket Link", name: "ticketLink", widget: "string" }
+      - label: "Show Credits"
+        name: "showCredits"
+        widget: "list"
+        fields:
+          - {
+              label: "Credit",
+              name: "credit",
+              widget: "string",
+              hint: "For example, Written by",
+            }
+          - { label: "Artist", name: "artist", widget: "string" }
