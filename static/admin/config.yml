@@ -4,3 +4,20 @@ backend:
 
 media_folder: /src/images
 public_folder: /img
+
+collections:
+  - name: "artists"
+    label: "Artists"
+    description: "The names, headshots and bios of everyone who has worked on a show"
+    folder: "src/pages/artists"
+    create: true
+    fields:
+      - {
+          label: "Template Key",
+          name: "templateKey",
+          widget: "hidden",
+          default: "artist",
+        }
+      - { label: "Name", name: "name", widget: "string" }
+      - { label: "Image", name: "image", widget: "image" }
+      - { label: "Bio", name: "body", widget: "markdown" }

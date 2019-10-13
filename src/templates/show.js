@@ -3,6 +3,7 @@ import { graphql } from "gatsby"
 import styled from "styled-components"
 import Layout from "../components/layout"
 import Artist from "../components/artist"
+import SEO from "../components/seo"
 
 export const query = graphql`
   query($slug: String!) {
@@ -152,7 +153,8 @@ const BuyTicketsButton = styled.button`
 
 const ArtistGrid = styled.div`
   display: grid;
-  grid-template-columns: repeat(8, 1fr);
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 12px;
 `
 
 const ShowTemplate = ({ data: { showData } }) => {
@@ -160,6 +162,7 @@ const ShowTemplate = ({ data: { showData } }) => {
   const description = showData.edges[0].node.html
   return (
     <Layout>
+      <SEO title={show.title} />
       <HeroBanner backgroundImage={show.image} />
       <ShowContent>
         <Section>

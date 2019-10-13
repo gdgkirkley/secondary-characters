@@ -23,6 +23,7 @@ const ShowImage = styled.div`
 
 const ShowTitle = styled.div`
   margin-top: -35px;
+  margin-left: -10px;
   & h1 {
     color: ${props => props.theme.primary3};
     text-transform: uppercase;
@@ -42,6 +43,17 @@ const ShowInfo = styled.div`
   padding: 0px 16px;
 `
 
+const DateTag = styled.div`
+  margin-top: 24px;
+  & h3 {
+    color: ${props => props.theme.grey1};
+    font-size: ${props => props.theme.fontSize.emphasis};
+  }
+  & .tag {
+    color: ${props => props.theme.grey2};
+  }
+`
+
 const TicketButton = styled.div`
   display: flex;
   justify-content: center;
@@ -52,7 +64,7 @@ const TicketButton = styled.div`
   font-family: "Roboto Condensed", sans-serif;
   font-weight: bold;
   color: ${props => props.theme.primary4};
-  min-height: 55px;
+  min-height: 65px;
   transition: 0.4s linear;
   &:hover {
     background: ${props => props.theme.primary4};
@@ -70,10 +82,10 @@ const ShowCard = ({ show }) => {
           <h1>{show.frontmatter.title}</h1>
         </ShowTitle>
         <ShowInfo>
-          <div>
+          <DateTag>
             <h3>Coming {show.frontmatter.dates}</h3>
-            <p>{show.frontmatter.tagline}</p>
-          </div>
+            <p className="tag">{show.frontmatter.tagline}</p>
+          </DateTag>
           <TicketButton>Tickets & Info</TicketButton>
         </ShowInfo>
       </ShowCardStyle>
