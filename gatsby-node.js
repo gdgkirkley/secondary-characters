@@ -1,6 +1,8 @@
 const _ = require("lodash")
 const path = require("path")
 const { createFilePath } = require("gatsby-source-filesystem")
+const remark = require("remark")
+const remarkHTML = require("remark-html")
 
 exports.createPages = ({ actions, graphql }) => {
   const { createPage } = actions
@@ -72,5 +74,23 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
       node,
       value,
     })
+  }
+
+  if (
+    node.internal.type === `MarkdownRemark` &&
+    node.frontmatter.templateKey === "contentpage" &&
+    node.frontmatter.sections &&
+    node.frontmatter.sections.length
+  ) {
+    const markdown = node.frontmatter.sections
+    node.frontmatter.sections = markdown.map(section => {
+      const field = section.content
+      section.content = remark()
+        .use(remarkHTML)
+        .processSync(field)
+        .toString()
+      return section
+    })
+    return node
   }
 }

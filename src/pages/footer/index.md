@@ -28,6 +28,6 @@ socialLinks:
   - icon: Instagram
     link: https://www.instagram.com/secondarycharacters
   - icon: Email
-    link: mailchimp.com
+    link: https://mailchimp.com
 trademark: Secondary Characters Musical Theatre Society (C) 2019. A registered non-profit. Website by Gabriel Kirkley.
 ---

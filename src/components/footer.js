@@ -1,5 +1,5 @@
 import React from "react"
-import { useStaticQuery, graphql } from "gatsby"
+import { useStaticQuery, graphql, Link } from "gatsby"
 import styled from "styled-components"
 import Facebook from "./icons/facebook"
 import Instagram from "./icons/instagram"
@@ -161,7 +161,11 @@ const Footer = () => {
         <FooterNav>
           <LeftMenu>
             {footer.leftMenu.map(menuItem => {
-              return <h3 key={menuItem.label}>{menuItem.label}</h3>
+              return (
+                <Link to={menuItem.linkURL}>
+                  <h3 key={menuItem.label}>{menuItem.label}</h3>
+                </Link>
+              )
             })}
           </LeftMenu>
           <SocialLinks>
@@ -173,15 +177,21 @@ const Footer = () => {
               }
               const Tag = components[social.icon]
               return (
-                <SocialBg>
-                  <Tag />
-                </SocialBg>
+                <a href={social.link} target="_blank" rel="noopener noreferrer">
+                  <SocialBg>
+                    <Tag />
+                  </SocialBg>
+                </a>
               )
             })}
           </SocialLinks>
           <RightMenu>
             {footer.rightMenu.map(menuItem => {
-              return <h3 key={menuItem.label}>{menuItem.label}</h3>
+              return (
+                <Link to={menuItem.linkURL}>
+                  <h3 key={menuItem.label}>{menuItem.label}</h3>
+                </Link>
+              )
             })}
           </RightMenu>
         </FooterNav>

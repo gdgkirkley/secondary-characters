@@ -8,6 +8,7 @@ import ShowCard from "../components/showcard"
 
 const HeroBanner = styled.div`
   background: url("${props => props.backgroundImage}");
+  background-color: ${props => props.theme.grey1};
   background-size: cover;
   background-position: 50% 35%;
   width: 100%;
