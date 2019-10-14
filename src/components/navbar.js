@@ -32,20 +32,23 @@ const NavBarStyle = styled.nav`
     @media (max-width: 865px) {
       flex-direction: column;
       align-items: center;
-      z-index: 2;
-      height: 0vh;
-      width: 100vw;
+      z-index: 999;
       position: fixed;
-      top: 80px;
+      top: 95px;
+      right: 0;
+      bottom: 0;
       background: white;
       margin-right: 0px;
       visibility: hidden;
       opacity: 0;
-      transition: 0.2s linear;
+      transition: all 200ms;
+      overflow: auto;
       &.open {
-        height: 95vh;
         visibility: visible;
         opacity: 1;
+        & body {
+          position: fixed;
+        }
       }
     }
   }
@@ -60,6 +63,9 @@ const NavBarStyle = styled.nav`
     align-items: center;
     @media (max-width: 1600px) {
       font-size: ${props => props.theme.fontSize.emphasis};
+    }
+    @media (max-width: 865px) {
+      font-size: ${props => props.theme.fontSize.subHeading};
     }
     &:hover {
       cursor: pointer;

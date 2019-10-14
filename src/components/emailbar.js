@@ -8,7 +8,8 @@ const EmailBarStyle = styled.div`
   align-items: center;
   padding: 8px 0px;
   @media (max-width: 768px) {
-    flex-direction: column;
+    justify-content: center;
+    padding: 8px;
     & h2 {
       display: none;
     }
@@ -27,6 +28,9 @@ const EmailBarStyle = styled.div`
     font-size: ${props => props.theme.fontSize.reading};
     font-family: "Roboto Condensed", Arial, Helvetica, sans-serif;
     border: none;
+    @media (max-width: 768px) {
+      width: 300px;
+    }
   }
 `
 

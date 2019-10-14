@@ -61,6 +61,7 @@ const FooterStyle = styled.footer`
   overflow: hidden;
   text-align: center;
   color: ${props => props.theme.grey10};
+  z-index: -1;
   & h3 {
     color: ${props => props.theme.grey10};
     margin: 0;
@@ -84,12 +85,11 @@ const FooterStyle = styled.footer`
 const FooterNav = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  margin: 0px 128px;
   padding: 48px 64px;
   @media (max-width: 1200px) {
     grid-template-columns: 1fr;
     grid-gap: 32px;
-    margin: 0;
+    padding: 48px 0px;
   }
 `
 
@@ -139,7 +139,8 @@ const Trademark = styled.p`
   font-size: ${props => props.theme.fontSize.information};
   @media (max-width: 1200px) {
     justify-self: center;
-    width: 400px;
+    width: 250px;
+    margin-bottom: 90px;
   }
 `
 
@@ -175,7 +176,7 @@ const Footer = () => {
   `)
   const footer = data.footer.edges[0].node.frontmatter
   return (
-    <div>
+    <>
       <DonateBar>
         <DonateContent>
           <button>Donate Now</button>
@@ -222,7 +223,7 @@ const Footer = () => {
         </FooterNav>
         <Trademark>{footer.trademark}</Trademark>
       </FooterStyle>
-    </div>
+    </>
   )
 }
 

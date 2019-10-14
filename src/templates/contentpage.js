@@ -48,9 +48,6 @@ const PageContent = styled.div`
   border-radius: 16px;
   padding: 16px 32px;
   max-width: 1300px;
-  @media (max-width: 768px) {
-    margin-top: 0px;
-  }
 `
 
 const Section = styled.section`

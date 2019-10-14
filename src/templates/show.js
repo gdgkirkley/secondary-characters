@@ -55,7 +55,7 @@ const ShowContent = styled.div`
   border-radius: 16px;
   padding: 16px 32px;
   max-width: 1300px;
-  @media (max-width: 768px) {
+  @media (max-width: 900px) {
     margin-top: 0px;
   }
 `

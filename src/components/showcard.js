@@ -41,6 +41,9 @@ const ShowInfo = styled.div`
   grid-gap: 16px;
   align-items: center;
   padding: 0px 16px;
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+  }
 `
 
 const DateTag = styled.div`
