@@ -64,7 +64,11 @@ const Shows = styled.div`
   margin: 64px 250px;
   justify-content: space-around;
   align-items: center;
-  @media (max-width: 768px) {
+  transition: 0.2s linear;
+  @media (max-width: 1600px) {
+    grid-gap: 15%;
+  }
+  @media (max-width: 975px) {
     grid-template-columns: 1fr;
     margin: 64px 0px;
     grid-gap: 64px;

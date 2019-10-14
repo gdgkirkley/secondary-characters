@@ -97,6 +97,17 @@ const TopContent = styled.div`
     max-width: 750px;
     line-height: 2;
   }
+  & .mobile-dates {
+    display: none;
+  }
+  @media (max-width: 900px) {
+    grid-gap: 48px;
+    grid-template-columns: 1fr;
+    & .mobile-dates {
+      margin: 24px 0px;
+      display: inline-flex;
+    }
+  }
 `
 
 const TicketBoxDesktop = styled.div`
@@ -109,16 +120,33 @@ const TicketBoxDesktop = styled.div`
   max-width: 425px;
   max-height: 300px;
   padding: 24px;
+  @media (max-width: 900px) {
+    display: none;
+  }
+`
+
+const TicketBoxMobile = styled.div`
+  background: ${props => props.theme.grey10};
+  display: none;
+  @media (max-width: 900px) {
+    display: grid;
+    justify-content: center;
+    padding: 16px;
+  }
+`
+
+const DatesLocation = styled.div`
   & h2,
   h3,
   h4 {
     font-family: "Roboto", Arial, Helvetica, sans-serif;
   }
   & h2 {
-    font-size: ${props => props.theme.fontSize.subHeading};
+    font-size: ${props => props.theme.fontSize.highLevel};
     color: ${props => props.theme.grey1};
   }
   & h3 {
+    margin-top: 32px;
     font-size: ${props => props.theme.emphasis};
     color: ${props => props.theme.primary3};
   }
@@ -155,6 +183,12 @@ const ArtistGrid = styled.div`
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-gap: 12px;
+  @media (max-width: 1200px) {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  @media (max-width: 768px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
 `
 
 const ShowTemplate = ({ data: { showData } }) => {
@@ -164,6 +198,11 @@ const ShowTemplate = ({ data: { showData } }) => {
     <Layout>
       <SEO title={show.title} />
       <HeroBanner backgroundImage={show.image} />
+      <TicketBoxMobile>
+        <a href={show.ticketLink}>
+          <BuyTicketsButton>Buy Tickets</BuyTicketsButton>
+        </a>
+      </TicketBoxMobile>
       <ShowContent>
         <Section>
           <TopContent>
@@ -176,6 +215,13 @@ const ShowTemplate = ({ data: { showData } }) => {
                   </p>
                 )
               })}
+              <div className="mobile-dates">
+                <DatesLocation>
+                  <h2>{show.dates}</h2>
+                  <h4>at the {show.location}</h4>
+                  <h3>{show.tagline}</h3>
+                </DatesLocation>
+              </div>
               <div
                 className="description"
                 dangerouslySetInnerHTML={{ __html: description }}
@@ -185,11 +231,11 @@ const ShowTemplate = ({ data: { showData } }) => {
               <a href={show.ticketLink}>
                 <BuyTicketsButton>Buy Tickets</BuyTicketsButton>
               </a>
-              <div className="dates-location">
+              <DatesLocation>
                 <h2>{show.dates}</h2>
                 <h4>at the {show.location}</h4>
-              </div>
-              <h3>{show.tagline}</h3>
+                <h3>{show.tagline}</h3>
+              </DatesLocation>
             </TicketBoxDesktop>
           </TopContent>
         </Section>

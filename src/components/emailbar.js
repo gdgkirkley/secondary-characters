@@ -21,9 +21,11 @@ const EmailBarStyle = styled.div`
     margin: 0;
   }
   & input {
-    padding: 16px;
+    padding: 16px 24px;
     width: 380px;
     border-radius: ${props => props.theme.borderRadius};
+    font-size: ${props => props.theme.fontSize.reading};
+    font-family: "Roboto Condensed", Arial, Helvetica, sans-serif;
     border: none;
   }
 `
@@ -67,8 +69,8 @@ const EmailBar = () => {
           type="text"
           placeholder={
             windowSize.width > 768
-              ? "Add your email"
-              : "Stay up to date! Add your email"
+              ? "Add your email..."
+              : "Stay up to date! Add your email..."
           }
         />
       </form>

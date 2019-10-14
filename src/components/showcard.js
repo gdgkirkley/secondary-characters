@@ -16,8 +16,8 @@ const ShowImage = styled.div`
   min-height: 430px;
   min-width: 570px;
   overflow: hidden;
-  @media (max-width: 768px){
-      min-width: 450px;
+  @media (max-width: 1600px){
+      min-width:40vw;
   }
 `
 
@@ -28,7 +28,7 @@ const ShowTitle = styled.div`
     color: ${props => props.theme.primary3};
     text-transform: uppercase;
     padding: 8px 32px;
-    width: 60%;
+    width: fit-content;
     border-radius: ${props => props.theme.borderRadius};
     background-color: ${props => props.theme.primary9};
     margin: 0;

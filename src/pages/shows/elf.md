@@ -1,7 +1,8 @@
 ---
 templateKey: show
 title: Elf The Musical
-dates: Dec 2019
+dates: December 9 - 22, 2019
+shortDate: December 2019
 tagline: The modern holiday classic
 location: Chilliwack Cultural Centre
 image: /img/elf.jpg

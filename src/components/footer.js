@@ -6,19 +6,29 @@ import Instagram from "./icons/instagram"
 import Email from "./icons/email"
 
 const DonateBar = styled.div`
-  display: grid;
-  grid-template-columns: 1fr;
+  display: flex;
+  /*
+  grid-template-columns: 1fr; 
+  */
   padding: 16px 128px;
   background-color: ${props => props.theme.primary5};
+  @media (max-width: 768px) {
+    padding: 48px 20px;
+  }
 `
 
 const DonateContent = styled.div`
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  /*grid-template-columns: 1fr 1fr; */
+  width: 100%;
   align-items: center;
-  justify-items: center;
-  @media (max-width: 768px) {
-    grid-template-columns: 1fr;
+  justify-content: space-around;
+  @media (max-width: 1200px) {
+    flex-direction: column-reverse;
+    text-align: center;
+    & h1 {
+      padding: 16px 0px;
+    }
   }
   & h1 {
     color: ${props => props.theme.grey10};
@@ -65,7 +75,7 @@ const FooterStyle = styled.footer`
     position: absolute;
     bottom: -150px;
     right: -180px;
-    @media (max-width: 758px) {
+    @media (max-width: 1200px) {
       bottom: -250px;
     }
   }
@@ -76,8 +86,9 @@ const FooterNav = styled.div`
   grid-template-columns: 1fr 1fr 1fr;
   margin: 0px 128px;
   padding: 48px 64px;
-  @media (max-width: 758px) {
+  @media (max-width: 1200px) {
     grid-template-columns: 1fr;
+    grid-gap: 32px;
     margin: 0;
   }
 `
@@ -85,11 +96,18 @@ const FooterNav = styled.div`
 const LeftMenu = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr;
+  grid-gap: 16px;
+  @media (max-width: 1200px) {
+    grid-template-columns: 1fr;
+  }
 `
 
 const SocialLinks = styled.div`
   display: flex;
   justify-content: space-evenly;
+  @media (max-width: 1200px) {
+    justify-content: center;
+  }
 `
 
 const SocialBg = styled.div`
@@ -98,6 +116,7 @@ const SocialBg = styled.div`
   background: ${props => props.theme.primary3};
   border-radius: ${props => props.theme.borderRadius};
   transition: 0.2s linear;
+  margin: 0px 16px;
   & svg {
     width: 40px;
     height: 100%;
@@ -112,10 +131,16 @@ const SocialBg = styled.div`
 const RightMenu = styled.div`
   display: grid;
   grid-template-columns: 1fr;
+  grid-gap: 16px;
 `
 
 const Trademark = styled.p`
+  line-height: 1.5;
   font-size: ${props => props.theme.fontSize.information};
+  @media (max-width: 1200px) {
+    justify-self: center;
+    width: 400px;
+  }
 `
 
 const Footer = () => {

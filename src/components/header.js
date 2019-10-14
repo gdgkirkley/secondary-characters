@@ -10,13 +10,21 @@ const HeaderStyle = styled.header`
   display: grid;
   grid-template-columns: 1.5fr 2fr;
   align-items: center;
+  background: white;
   box-shadow: ${props => props.theme.bs};
+  @media (max-width: 1600px) {
+    grid-template-columns: 0.5fr 2fr;
+  }
+  @media (max-width: 768px) {
+    position: sticky;
+    top: 0;
+  }
 `
 
 const Logo = styled.div`
   width: 128px;
   margin-left: 64px;
-  @media (max-width: 768px) {
+  @media (max-width: 1250px) {
     margin-left: 0px;
   }
 `

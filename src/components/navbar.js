@@ -7,12 +7,12 @@ import Bars from "./icons/bars"
 const NavBarStyle = styled.nav`
   display: flex;
   justify-content: space-evenly;
-  @media (max-width: 768px) {
+  @media (max-width: 865px) {
     justify-content: flex-end;
   }
   & .bars {
     display: none;
-    @media (max-width: 758px) {
+    @media (max-width: 865px) {
       display: inline-flex;
       margin-right: 32px;
       &:hover {
@@ -23,21 +23,28 @@ const NavBarStyle = styled.nav`
   & ul {
     display: flex;
     justify-content: space-evenly;
+    margin: 0;
     margin-right: 64px;
     width: 100%;
-    @media (max-width: 768px) {
+    @media (max-width: 1600px) {
+      margin-right: 0px;
+    }
+    @media (max-width: 865px) {
       flex-direction: column;
       align-items: center;
-      z-index: 999;
-      height: 90vh;
-      width: 100%;
-      position: absolute;
+      z-index: 2;
+      height: 0vh;
+      width: 100vw;
+      position: fixed;
       top: 80px;
       background: white;
       margin-right: 0px;
+      visibility: hidden;
       opacity: 0;
-      transition: 0.4s ease-in-out;
+      transition: 0.2s linear;
       &.open {
+        height: 95vh;
+        visibility: visible;
         opacity: 1;
       }
     }
@@ -51,7 +58,7 @@ const NavBarStyle = styled.nav`
     font-weight: bold;
     display: flex;
     align-items: center;
-    @media (max-width: 1525px) {
+    @media (max-width: 1600px) {
       font-size: ${props => props.theme.fontSize.emphasis};
     }
     &:hover {
