@@ -30,10 +30,13 @@ const EmailBarStyle = styled.div`
 
 const EmailBar = () => {
   const getSize = () => {
-    return {
-      width: window.innerWidth,
-      height: window.innerHeight,
+    if (typeof window !== "undefined" && window.innerWidth) {
+      return {
+        width: window.innerWidth,
+        height: window.innerHeight,
+      }
     }
+    return null
   }
 
   const [windowSize, setWindowSize] = useState(getSize)
@@ -42,8 +45,9 @@ const EmailBar = () => {
     const handleResize = () => {
       setWindowSize(getSize())
     }
-
-    window.addEventListener("resize", handleResize)
+    if (typeof window !== "undefined" && window.innerWidth) {
+      window.addEventListener("resize", handleResize)
+    }
 
     return () => window.removeEventListener("resize", handleResize)
   }, [])
