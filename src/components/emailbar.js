@@ -42,14 +42,14 @@ const EmailBar = () => {
   const [windowSize, setWindowSize] = useState(getSize)
 
   useEffect(() => {
-    const handleResize = () => {
-      setWindowSize(getSize())
-    }
     if (typeof window !== "undefined" && window.innerWidth) {
+      const handleResize = () => {
+        setWindowSize(getSize())
+      }
       window.addEventListener("resize", handleResize)
-    }
 
-    return () => window.removeEventListener("resize", handleResize)
+      return () => window.removeEventListener("resize", handleResize)
+    }
   }, [])
 
   const handleSubmit = e => {
