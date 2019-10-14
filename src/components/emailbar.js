@@ -52,6 +52,7 @@ const EmailBar = () => {
 
   useEffect(() => {
     if (typeof window !== "undefined" && window.innerWidth) {
+      setWindowSize(getSize())
       const handleResize = () => {
         setWindowSize(getSize())
       }

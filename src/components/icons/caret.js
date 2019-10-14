@@ -1,6 +1,6 @@
 import React from "react"
 
-const Caret = () => (
+const Caret = props => (
   <svg
     aria-hidden="true"
     focusable="false"
@@ -9,6 +9,7 @@ const Caret = () => (
     role="img"
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 320 512"
+    onClick={props.onClick && props.onClick}
   >
     <path
       fill="currentColor"

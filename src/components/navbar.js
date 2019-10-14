@@ -41,6 +41,7 @@ const TopMenu = styled.ul`
     bottom: 0;
     background: white;
     margin-right: 0px;
+    padding: 0;
     visibility: hidden;
     opacity: 0;
     transition: all 200ms;
@@ -70,6 +71,9 @@ const DropMenu = styled.ul`
   visibility: hidden;
   opacity: 0;
   transition: 0.2s ease-in-out;
+  @media (max-width: 1600px) {
+    width: calc(100% + 100px);
+  }
   @media (max-width: 865px) {
     display: inline-flex;
     position: initial;
@@ -149,13 +153,17 @@ const TopMenuItem = styled.li`
       border-bottom: 14px solid #fff;
       width: 0;
       height: 0;
+      @media (max-width: 1600px) {
+        bottom: -36px;
+      }
     }
     &:before {
       border-left: 16px solid transparent;
       border-right: 16px solid transparent;
       border-bottom: 16px solid ${props => props.theme.grey7};
-      -webkit-animation: 0.5s ArrowIn 1;
-      animation: 0.5s ArrowIn 1;
+      -webkit-animation: 0.6s ArrowIn 1;
+      animation: 0.6s ArrowIn 1;
+      transition: 0.4s ease-in-out;
     }
   }
   & svg {
@@ -211,7 +219,7 @@ const NavBar = props => {
               key={menuItem.label}
               className={dropMenus[menuItem.label] ? "open" : ""}
             >
-              {menuItem.label} <Caret />
+              {menuItem.label} <Caret onClick={handleMenuItemClick} />
               {menuItem.dropdown.length ? (
                 <DropMenu className={dropMenus[menuItem.label] ? "open" : ""}>
                   {menuItem.dropdown.map(dropItem => {
