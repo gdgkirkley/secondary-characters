@@ -18,6 +18,7 @@ const HeaderStyle = styled.header`
   @media (max-width: 768px) {
     position: sticky;
     top: 0;
+    z-index: 999;
   }
 `
 

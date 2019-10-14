@@ -61,7 +61,7 @@ const FooterStyle = styled.footer`
   overflow: hidden;
   text-align: center;
   color: ${props => props.theme.grey10};
-  z-index: -1;
+  z-index: 1;
   & h3 {
     color: ${props => props.theme.grey10};
     margin: 0;

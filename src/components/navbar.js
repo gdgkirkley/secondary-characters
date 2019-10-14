@@ -28,13 +28,13 @@ const TopMenu = styled.ul`
   margin: 0;
   margin-right: 64px;
   width: 100%;
+  z-index: 999;
   @media (max-width: 1600px) {
     margin-right: 0px;
   }
   @media (max-width: 865px) {
     flex-direction: column;
     align-items: center;
-    z-index: 999;
     position: fixed;
     top: 95px;
     right: 0;
@@ -48,9 +48,6 @@ const TopMenu = styled.ul`
     &.open {
       visibility: visible;
       opacity: 1;
-      & body {
-        position: fixed;
-      }
     }
   }
 `
@@ -72,6 +69,20 @@ const DropMenu = styled.ul`
   list-style: none;
   visibility: hidden;
   opacity: 0;
+  transition: 0.2s ease-in-out;
+  @media (max-width: 865px) {
+    display: inline-flex;
+    position: initial;
+    width: 100%;
+    transform: none;
+    border: none;
+    height: 0;
+    padding: 0;
+    &.open {
+      padding: 16px 24px;
+      height: auto;
+    }
+  }
   & li {
     word-wrap: none;
     font-size: ${props => props.theme.fontSize.emphasis};
@@ -99,11 +110,22 @@ const TopMenuItem = styled.li`
   display: flex;
   align-items: center;
   position: relative;
+  transition: 0.2s ease-in-out;
   @media (max-width: 1600px) {
     font-size: ${props => props.theme.fontSize.emphasis};
   }
   @media (max-width: 865px) {
+    flex-direction: column;
     font-size: ${props => props.theme.fontSize.subHeading};
+    & svg {
+      display: none;
+    }
+    &.open {
+      &:after,
+      :before {
+        display: none;
+      }
+    }
   }
   &:hover {
     color: ${props => props.theme.primary4};
