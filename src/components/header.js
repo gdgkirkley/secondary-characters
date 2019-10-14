@@ -52,6 +52,10 @@ const Header = () => {
                 label
                 linkType
                 linkURL
+                dropdown {
+                  label
+                  linkURL
+                }
               }
             }
           }

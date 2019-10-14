@@ -188,8 +188,8 @@ const Footer = () => {
           <LeftMenu>
             {footer.leftMenu.map(menuItem => {
               return (
-                <Link to={menuItem.linkURL}>
-                  <h3 key={menuItem.label}>{menuItem.label}</h3>
+                <Link to={menuItem.linkURL} key={menuItem.label}>
+                  <h3>{menuItem.label}</h3>
                 </Link>
               )
             })}
@@ -203,7 +203,12 @@ const Footer = () => {
               }
               const Tag = components[social.icon]
               return (
-                <a href={social.link} target="_blank" rel="noopener noreferrer">
+                <a
+                  href={social.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  key={social.icon}
+                >
                   <SocialBg>
                     <Tag />
                   </SocialBg>
@@ -214,8 +219,8 @@ const Footer = () => {
           <RightMenu>
             {footer.rightMenu.map(menuItem => {
               return (
-                <Link to={menuItem.linkURL}>
-                  <h3 key={menuItem.label}>{menuItem.label}</h3>
+                <Link to={menuItem.linkURL} key={menuItem.label}>
+                  <h3>{menuItem.label}</h3>
                 </Link>
               )
             })}
