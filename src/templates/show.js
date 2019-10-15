@@ -21,6 +21,10 @@ export const query = graphql`
               artist
             }
             ticketLink
+            cast {
+              credit
+              artist
+            }
             creativeTeam {
               credit
               artist
@@ -198,11 +202,13 @@ const ShowTemplate = ({ data: { showData } }) => {
     <Layout>
       <SEO title={show.title} />
       <HeroBanner backgroundImage={show.image} />
-      <TicketBoxMobile>
-        <a href={show.ticketLink}>
-          <BuyTicketsButton>Buy Tickets</BuyTicketsButton>
-        </a>
-      </TicketBoxMobile>
+      {show.ticketLink ? (
+        <TicketBoxMobile>
+          <a href={show.ticketLink}>
+            <BuyTicketsButton>Buy Tickets</BuyTicketsButton>
+          </a>
+        </TicketBoxMobile>
+      ) : null}
       <ShowContent>
         <Section>
           <TopContent>
@@ -228,9 +234,11 @@ const ShowTemplate = ({ data: { showData } }) => {
               />
             </div>
             <TicketBoxDesktop>
-              <a href={show.ticketLink}>
-                <BuyTicketsButton>Buy Tickets</BuyTicketsButton>
-              </a>
+              {show.ticketLink ? (
+                <a href={show.ticketLink}>
+                  <BuyTicketsButton>Buy Tickets</BuyTicketsButton>
+                </a>
+              ) : null}
               <DatesLocation>
                 <h2>{show.dates}</h2>
                 <h4>at the {show.location}</h4>
@@ -239,6 +247,16 @@ const ShowTemplate = ({ data: { showData } }) => {
             </TicketBoxDesktop>
           </TopContent>
         </Section>
+        {show.cast.length ? (
+          <Section>
+            <h2 className="section-head">Cast</h2>
+            <ArtistGrid>
+              {show.cast.map(artist => {
+                return <Artist artist={artist} key={artist.artist} />
+              })}
+            </ArtistGrid>
+          </Section>
+        ) : null}
         {show.creativeTeam.length ? (
           <Section>
             <h2 className="section-head">Creative Team</h2>

@@ -1,5 +1,6 @@
 ---
 templateKey: show
+upcoming: true
 title: Mamma Mia!
 dates: July 2020
 tagline: The magic of ABBA's timeless songs

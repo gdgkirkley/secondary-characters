@@ -1,5 +1,6 @@
 ---
 templateKey: show
+upcoming: true
 title: "Elf: The Musical"
 dates: December 9 - 22, 2019
 shortDate: December 2019

@@ -17,7 +17,6 @@ exports.createPages = ({ actions, graphql }) => {
               slug
             }
             frontmatter {
-              path
               templateKey
             }
           }
@@ -46,7 +45,7 @@ exports.createPages = ({ actions, graphql }) => {
         pathName = "/"
         component = path.resolve(`src/pages/index.js`)
       } else {
-        pathName = edge.node.frontmatter.path || edge.node.fields.slug
+        pathName = edge.node.fields.slug
         component = path.resolve(
           `src/templates/${String(edge.node.frontmatter.templateKey)}.js`
         )

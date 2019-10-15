@@ -94,7 +94,9 @@ const IndexPage = () => {
         }
       }
       showData: allMarkdownRemark(
-        filter: { frontmatter: { templateKey: { eq: "show" } } }
+        filter: {
+          frontmatter: { templateKey: { eq: "show" }, upcoming: { eq: true } }
+        }
       ) {
         edges {
           node {

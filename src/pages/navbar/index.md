@@ -9,11 +9,12 @@ menuItems:
         linkURL: /shows/elf
       - label: Mamma Mia!
         linkURL: /shows/mamma-mia
-
   - label: Past Shows
     linkType: internal
     linkURL: /past-shows
-    dropdown: []
+    dropdown:
+      - label: Joseph (2013)
+        linkURL: /shows/joseph-and-the-amazing-technicolor-dreamcoat
   - label: Get Involved
     linkType: internal
     linkURL: /get-involved
