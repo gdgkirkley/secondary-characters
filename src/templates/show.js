@@ -247,7 +247,7 @@ const ShowTemplate = ({ data: { showData } }) => {
             </TicketBoxDesktop>
           </TopContent>
         </Section>
-        {show.cast.length ? (
+        {show.cast && show.cast.length ? (
           <Section>
             <h2 className="section-head">Cast</h2>
             <ArtistGrid>
