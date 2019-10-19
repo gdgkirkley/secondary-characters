@@ -30,7 +30,7 @@ const TopMenu = styled.ul`
   width: 100%;
   z-index: 999;
   @media (max-width: 1600px) {
-    margin-right: 0px;
+    margin-right: 16px;
   }
   @media (max-width: 865px) {
     flex-direction: column;
@@ -219,7 +219,8 @@ const NavBar = props => {
               key={menuItem.label}
               className={dropMenus[menuItem.label] ? "open" : ""}
             >
-              {menuItem.label} <Caret onClick={handleMenuItemClick} />
+              {menuItem.label}{" "}
+              <Caret id={menuItem.label} onClick={handleMenuItemClick} />
               {menuItem.dropdown.length ? (
                 <DropMenu className={dropMenus[menuItem.label] ? "open" : ""}>
                   {menuItem.dropdown.map(dropItem => {

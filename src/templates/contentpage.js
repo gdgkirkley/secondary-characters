@@ -1,5 +1,6 @@
 import React from "react"
 import { graphql } from "gatsby"
+import BackgroundImage from "gatsby-background-image"
 import styled from "styled-components"
 import Layout from "../components/layout"
 
@@ -11,7 +12,13 @@ export const query = graphql`
           frontmatter {
             title
             showBanner
-            image
+            image {
+              childImageSharp {
+                fluid(maxWidth: 1600) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
             sections {
               sectionHead
               content
@@ -25,8 +32,7 @@ export const query = graphql`
   }
 `
 
-const HeroBanner = styled.div`
-  background: url("${props => props.backgroundImage}");
+const HeroBanner = styled(BackgroundImage)`
   background-color: ${props => props.theme.accent7};
   background-size: cover;
   background-position: 50% 50%;
@@ -36,6 +42,7 @@ const HeroBanner = styled.div`
   display: flex;
   justify-content: center;
   align-items: flex-start;
+  z-index: -1;
   @media (max-width: 768px) {
     min-height: 50vh;
   }
@@ -74,7 +81,12 @@ const ContentPage = ({ data: { pageData } }) => {
   return (
     <Layout>
       {page.frontmatter.showBanner ? (
-        <HeroBanner backgroundImage={page.frontmatter.image} />
+        <HeroBanner
+          fluid={
+            page.frontmatter.image &&
+            page.frontmatter.image.childImageSharp.fluid
+          }
+        />
       ) : null}
       <PageContent inset={page.frontmatter.showBanner}>
         <Section>

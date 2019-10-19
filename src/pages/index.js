@@ -1,17 +1,15 @@
 import React from "react"
 import styled from "styled-components"
 import { useStaticQuery, graphql } from "gatsby"
+import BackgroundImage from "gatsby-background-image"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import EmailBar from "../components/emailbar"
 import ShowCard from "../components/showcard"
 
-const HeroBanner = styled.div`
-  background: url("${props => props.backgroundImage}");
-  background-color: ${props => props.theme.grey1};
-  background-size: cover;
-  background-position: 50% 35%;
+const HeroBanner = styled(BackgroundImage)`
   width: 100%;
+  background-position: 50% 35%;
   min-height: 60vh;
   color: white;
   display: flex;
@@ -28,6 +26,7 @@ const Titles = styled.div`
   text-align: center;
   justify-content: center;
   color: white;
+  z-index: 2;
   & h1,
   h3 {
     color: ${props => props.theme.grey10};
@@ -87,7 +86,13 @@ const IndexPage = () => {
               title
               subtitle
               headerImage {
-                image
+                image {
+                  childImageSharp {
+                    fluid(maxWidth: 1600) {
+                      ...GatsbyImageSharpFluid
+                    }
+                  }
+                }
               }
             }
           }
@@ -104,7 +109,13 @@ const IndexPage = () => {
               title
               dates
               tagline
-              image
+              image {
+                childImageSharp {
+                  fluid(maxWidth: 300) {
+                    ...GatsbyImageSharpFluid
+                  }
+                }
+              }
             }
             fields {
               slug
@@ -119,7 +130,9 @@ const IndexPage = () => {
   return (
     <Layout>
       <SEO title="Home" />
-      <HeroBanner backgroundImage={home.frontmatter.headerImage.image}>
+      <HeroBanner
+        fluid={home.frontmatter.headerImage.image.childImageSharp.fluid}
+      >
         <Titles>
           <h1>{home.frontmatter.title}</h1>
           <h3>{home.frontmatter.subtitle}</h3>

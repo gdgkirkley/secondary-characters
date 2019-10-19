@@ -1,6 +1,7 @@
 import React from "react"
 import styled from "styled-components"
 import { Link } from "gatsby"
+import BackgroundImage from "gatsby-background-image"
 
 const ShowCardStyle = styled.div`
   display: grid;
@@ -9,15 +10,15 @@ const ShowCardStyle = styled.div`
   }
 `
 
-const ShowImage = styled.div`
-  background: url("${props => props.backgroundImage}");
+const ShowImage = styled(BackgroundImage)`
   background-size: cover;
   background-position: 50% 50%;
   min-height: 430px;
   min-width: 570px;
   overflow: hidden;
-  @media (max-width: 1600px){
-      min-width:40vw;
+  z-index: -1;
+  @media (max-width: 1600px) {
+    min-width: 40vw;
   }
 `
 
@@ -80,7 +81,7 @@ const ShowCard = ({ show }) => {
   return (
     <Link to={show.fields.slug}>
       <ShowCardStyle>
-        <ShowImage backgroundImage={show.frontmatter.image} />
+        <ShowImage fluid={show.frontmatter.image.childImageSharp.fluid} />
         <ShowTitle>
           <h1>{show.frontmatter.title}</h1>
         </ShowTitle>

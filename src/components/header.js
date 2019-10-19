@@ -13,6 +13,9 @@ const HeaderStyle = styled.header`
   background: white;
   box-shadow: ${props => props.theme.bs};
   @media (max-width: 1600px) {
+    grid-template-columns: 1fr 2fr;
+  }
+  @media (max-width: 1000px) {
     grid-template-columns: 0.5fr 2fr;
   }
   @media (max-width: 768px) {

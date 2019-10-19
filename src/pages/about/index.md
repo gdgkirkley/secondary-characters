@@ -2,7 +2,7 @@
 templateKey: contentpage
 title: About Us
 showBanner: true
-image: /img/hunchback_cast.jpg
+image: /img/hunchback_cast.JPG
 sections:
   - sectionHead: Mission Statement
     content: To provide musical opportunity for artists of all ages and to present imaginative, passionate and inspiring musical theatre productions for the community.

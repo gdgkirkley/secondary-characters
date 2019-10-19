@@ -26,7 +26,18 @@ module.exports = {
     {
       resolve: "gatsby-transformer-remark",
       options: {
-        plugins: [],
+        plugins: [
+          {
+            resolve: "gatsby-remark-relative-images",
+            options: {
+              name: "images",
+            },
+          },
+          {
+            resolve: "gatsby-remark-images",
+            options: {},
+          },
+        ],
       },
     },
     `gatsby-plugin-sharp`,
@@ -42,8 +53,5 @@ module.exports = {
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
     },
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
   ],
 }

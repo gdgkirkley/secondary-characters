@@ -1,5 +1,6 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
+import Img from "gatsby-image"
 import styled from "styled-components"
 
 const ArtistCredit = styled.div`
@@ -24,10 +25,6 @@ const ArtistHeadshot = styled.div`
   display: flex;
   align-items: center;
   align-self: center;
-  & img {
-    width: 150px;
-    height: auto;
-  }
 `
 
 const Artist = ({ artist }) => {
@@ -40,7 +37,13 @@ const Artist = ({ artist }) => {
           node {
             frontmatter {
               name
-              headshot
+              headshot {
+                childImageSharp {
+                  fluid(maxWidth: 150) {
+                    ...GatsbyImageSharpFluid
+                  }
+                }
+              }
             }
             html
           }
@@ -57,9 +60,9 @@ const Artist = ({ artist }) => {
     return (
       <ArtistCredit>
         <ArtistHeadshot>
-          <img
-            src={foundArtist.node.frontmatter.headshot}
-            alt={foundArtist.node.frontmatter.name}
+          <Img
+            fluid={foundArtist.node.frontmatter.headshot.childImageSharp.fluid}
+            style={{ width: "150px" }}
           />
         </ArtistHeadshot>
         <p className="credit">

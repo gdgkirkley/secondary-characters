@@ -1,5 +1,6 @@
 import React from "react"
 import { graphql } from "gatsby"
+import Img from "gatsby-image"
 import styled from "styled-components"
 import Layout from "../components/layout"
 import Artist from "../components/artist"
@@ -15,7 +16,13 @@ export const query = graphql`
             dates
             tagline
             location
-            image
+            image {
+              childImageSharp {
+                fluid(maxWidth: 1600) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
             showCredits {
               credit
               artist
@@ -38,9 +45,6 @@ export const query = graphql`
 `
 
 const HeroBanner = styled.div`
-  background: url("${props => props.backgroundImage}");
-  background-size: cover;
-  background-position: 50% 50%;
   width: 100%;
   min-height: 50vh;
   color: white;
@@ -201,7 +205,22 @@ const ShowTemplate = ({ data: { showData } }) => {
   return (
     <Layout>
       <SEO title={show.title} />
-      <HeroBanner backgroundImage={show.image} />
+      <HeroBanner>
+        <Img
+          fluid={show.image.childImageSharp.fluid}
+          objectFit="cover"
+          objectPosition="50% 50%"
+          style={{
+            width: "100%",
+            height: "50vh",
+            color: "white",
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "flex-start",
+            zIndex: "-1",
+          }}
+        />
+      </HeroBanner>
       {show.ticketLink ? (
         <TicketBoxMobile>
           <a href={show.ticketLink}>
