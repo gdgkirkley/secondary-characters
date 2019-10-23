@@ -49,6 +49,10 @@ export const query = graphql`
               credit
               artist
             }
+            sections {
+              sectionHead
+              content
+            }
           }
           html
         }
@@ -280,7 +284,7 @@ const ShowTemplate = ({ data: { showData } }) => {
   const [selectedPhoto, setSelectedPhoto] = useState(
     show.photoGallery && show.photoGallery.length ? show.photoGallery[0] : ""
   )
-  const [photoActive, setPhotoActive] = useState(1)
+  const [photoActive, setPhotoActive] = useState(0)
 
   const handlePhotoThumbClick = e => {
     const newImage = show.photoGallery.find(photo => {
@@ -346,7 +350,11 @@ const ShowTemplate = ({ data: { showData } }) => {
             </div>
             <TicketBoxDesktop>
               {show.ticketLink ? (
-                <a href={show.ticketLink}>
+                <a
+                  href={show.ticketLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <BuyTicketsButton>Buy Tickets</BuyTicketsButton>
                 </a>
               ) : null}
@@ -416,6 +424,16 @@ const ShowTemplate = ({ data: { showData } }) => {
             </ArtistGrid>
           </Section>
         ) : null}
+        {show.sections && show.sections.length
+          ? show.sections.map(section => {
+              return (
+                <Section>
+                  <h2 className="section-head">{section.sectionHead}</h2>
+                  <div dangerouslySetInnerHTML={{ __html: section.content }} />
+                </Section>
+              )
+            })
+          : null}
       </ShowContent>
     </Layout>
   )
