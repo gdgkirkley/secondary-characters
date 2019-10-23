@@ -225,6 +225,9 @@ const PhotoGalleryMainImageContainer = styled.div`
   min-height: 700px;
   margin: 32px 0px;
   overflow: hidden;
+  @media (max-width: 768px) {
+    min-height: 250px;
+  }
 `
 
 const PhotoGalleryMainImage = styled(Img)`
@@ -246,8 +249,7 @@ const PhotoGalleryMainImage = styled(Img)`
 
 const PhotoGalleryCarousel = styled.div`
   display: grid;
-  grid-auto-columns: 1fr;
-  grid-auto-flow: column;
+  grid-template-columns: auto 1fr;
   grid-gap: 8px;
   & button {
     display: inline-flex;
@@ -256,6 +258,9 @@ const PhotoGalleryCarousel = styled.div`
     background: none;
     width: 100%;
     height: 100%;
+  }
+  @media (max-width: 768px) {
+    grid-template-columns: repeat(4, 1fr);
   }
 `
 
