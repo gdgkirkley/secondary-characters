@@ -22,6 +22,78 @@ collections:
       - { label: "Name", name: "name", widget: "string" }
       - { label: "Headshot", name: "headshot", widget: "image" }
       - { label: "Bio", name: "body", widget: "markdown" }
+  - name: "menus"
+    label: "Menus"
+    description: "The header and footer menus"
+    files:
+      - file: "src/pages/navbar/index.md"
+        label: "Main Menu"
+        name: "headerMenu"
+        fields:
+          - {
+              label: "Template Key",
+              name: "templateKey",
+              widget: "hidden",
+              default: "navbar",
+            }
+          - label: "Menu Items"
+            label_singular: "Menu Item"
+            name: "menuItems"
+            widget: "list"
+            allow_add: false
+            fields:
+              - { label: "Menu Item", name: "label", widget: "string" }
+              - label: "Dropdown Items"
+                label_singular: "Dropdown Item"
+                name: "dropdown"
+                widget: "list"
+                fields:
+                  - { label: "Menu Item", name: "label", widget: "string" }
+                  - { label: "URL Link", name: "linkURL", widget: "string" }
+      - file: "src/pages/footer/index.md"
+        label: "Footer Menu"
+        name: "footerMenu"
+        fields:
+          - {
+              label: "Template Key",
+              name: "templateKey",
+              widget: "hidden",
+              default: "footer",
+            }
+          - {
+              label: "Donation Message",
+              name: "donateMessage",
+              widget: "string",
+            }
+          - { label: "Donation Link", name: "donateLink", widget: "string" }
+          - label: "Left Menu Items"
+            label_singular: "Menu Item"
+            name: "leftMenu"
+            widget: "list"
+            fields:
+              - { label: "Menu Item", name: "label", widget: "string" }
+              - { label: "URL Link", name: "linkURL", widget: "string" }
+          - label: "Right Menu Items"
+            label_singular: "Menu Item"
+            name: "rightMenu"
+            widget: "list"
+            fields:
+              - { label: "Menu Item", name: "label", widget: "string" }
+              - { label: "URL Link", name: "linkURL", widget: "string" }
+          - label: "Social Links"
+            label_singular: "Social Link"
+            name: "socialLinks"
+            widget: "list"
+            fields:
+              - label: "Social Icon"
+                name: "icon"
+                widget: "select"
+                hint: "New icons will require development."
+                options:
+                  - { label: "Facebook", value: "Facebook" }
+                  - { label: "Instagram", value: "Instagram" }
+                  - { label: "Email", value: "Email" }
+              - { label: "URL Link", name: "link", widget: "string" }
   - name: "shows"
     label: "Shows"
     label_singular: "Show"
@@ -35,13 +107,21 @@ collections:
           widget: "hidden",
           default: "show",
         }
+      - { label: "Is this show upcoming?", name: "upcoming", widget: "boolean" }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Image", name: "image", widget: "image" }
       - { label: "Dates", name: "dates", widget: "string" }
       - { label: "Tagline", name: "tagline", widget: "string" }
       - { label: "Location", name: "location", widget: "string" }
-      - { label: "Ticket Link", name: "ticketLink", widget: "string" }
+      - { label: "Description", name: "body", widget: "markdown" }
+      - {
+          label: "Ticket Link",
+          name: "ticketLink",
+          widget: "string",
+          hint: "Leave this blank if show is past",
+        }
       - label: "Show Credits"
+        label_singular: "Show Credit"
         name: "showCredits"
         widget: "list"
         fields:
@@ -52,3 +132,246 @@ collections:
               hint: "For example, Written by",
             }
           - { label: "Artist", name: "artist", widget: "string" }
+      - label: "Photo Gallery"
+        label_singular: "Image"
+        name: "photoGallery"
+        widget: "list"
+        fields:
+          - { label: "Image", name: "image", widget: "image" }
+          - {
+              label: "Unique Image Id",
+              name: "id",
+              widget: "string",
+              hint: "This should be a unique identifier. Required to make the gallery work!",
+            }
+          - {
+              label: "Alternate Text",
+              name: "altText",
+              widget: "text",
+              hint: "This should be a detailed description of the image for accessibility.",
+            }
+          - { label: "Image Credit", name: "imageCredit", widget: "string" }
+          - {
+              label: "Image Description",
+              name: "imageDescription",
+              widget: "text",
+              hint: "Unlike the alt text, this will be displayed to all users.",
+            }
+      - label: "Cast"
+        label_singular: "Cast Member"
+        name: "cast"
+        widget: "list"
+        fields:
+          - { label: "Character Name", name: "credit", widget: "string" }
+          - { label: "Artist", name: "artist", widget: "string" }
+      - label: "Creative Team"
+        label_singular: "Team Member"
+        name: "creativeTeam"
+        widget: "list"
+        fields:
+          - { label: "Role", name: "credit", widget: "string" }
+          - {
+              label: "Artist",
+              name: "artist",
+              widget: "string",
+              hint: "This must match their name in the Artist collection exactly",
+            }
+      - label: "Additional Show Page Sections"
+        label_singular: "Section"
+        name: "sections"
+        widget: "list"
+        fields:
+          - { label: "Section Name", name: "sectionHead", widget: "string" }
+          - { label: "Content", name: "content", widget: "markdown" }
+  - name: "pages"
+    label: "Pages"
+    label_singular: "Page"
+    description: "This is the content of static pages throughout the site"
+    create: true
+    files:
+      - file: "src/pages/about/index.md"
+        label: "About"
+        name: "about"
+        fields:
+          - {
+              label: "Template Key",
+              name: "templateKey",
+              widget: "hidden",
+              default: "contentpage",
+            }
+          - { label: "Page Title", name: "title", widget: "string" }
+          - {
+              label: "Show an image banner on this page?",
+              name: "showBanner",
+              widget: "boolean",
+            }
+          - { label: "Banner Image", name: "image", widget: "image" }
+          - { label: "Page Body", name: "body", widget: "markdown" }
+          - label: "Additional Page Sections"
+            label_singular: "Page Section"
+            name: "sections"
+            widget: "list"
+            fields:
+              - { label: "Section Name", name: "sectionHead", widget: "string" }
+              - { label: "Content", name: "content", widget: "markdown" }
+              - {
+                  label: "Include a button link?",
+                  name: "displayButton",
+                  widget: "boolean",
+                }
+              - { label: "Button Link URL", name: "link", widget: "string" }
+      - file: "src/pages/advertising/index.md"
+        label: "Program Advertising"
+        name: "advertising"
+        fields:
+          - {
+              label: "Template Key",
+              name: "templateKey",
+              widget: "hidden",
+              default: "contentpage",
+            }
+          - { label: "Page Title", name: "title", widget: "string" }
+          - {
+              label: "Show an image banner on this page?",
+              name: "showBanner",
+              widget: "boolean",
+            }
+          - { label: "Banner Image", name: "image", widget: "image" }
+          - { label: "Page Body", name: "body", widget: "markdown" }
+          - label: "Additional Page Sections"
+            label_singular: "Page Section"
+            name: "sections"
+            widget: "list"
+            fields:
+              - { label: "Section Name", name: "sectionHead", widget: "string" }
+              - { label: "Content", name: "content", widget: "markdown" }
+              - {
+                  label: "Include a button link?",
+                  name: "displayButton",
+                  widget: "boolean",
+                }
+              - { label: "Button Link URL", name: "link", widget: "string" }
+      - file: "src/pages/contact/index.md"
+        label: "Contact"
+        name: "contact"
+        fields:
+          - {
+              label: "Template Key",
+              name: "templateKey",
+              widget: "hidden",
+              default: "contentpage",
+            }
+          - { label: "Page Title", name: "title", widget: "string" }
+          - {
+              label: "Show an image banner on this page?",
+              name: "showBanner",
+              widget: "boolean",
+            }
+          - { label: "Banner Image", name: "image", widget: "image" }
+          - { label: "Page Body", name: "body", widget: "markdown" }
+          - label: "Additional Page Sections"
+            label_singular: "Page Section"
+            name: "sections"
+            widget: "list"
+            fields:
+              - { label: "Section Name", name: "sectionHead", widget: "string" }
+              - { label: "Content", name: "content", widget: "markdown" }
+              - {
+                  label: "Include a button link?",
+                  name: "displayButton",
+                  widget: "boolean",
+                }
+              - { label: "Button Link URL", name: "link", widget: "string" }
+      - file: "src/pages/get-involved/auditions/index.md"
+        label: "Auditions"
+        name: "auditions"
+        fields:
+          - {
+              label: "Template Key",
+              name: "templateKey",
+              widget: "hidden",
+              default: "contentpage",
+            }
+          - { label: "Page Title", name: "title", widget: "string" }
+          - {
+              label: "Show an image banner on this page?",
+              name: "showBanner",
+              widget: "boolean",
+            }
+          - { label: "Banner Image", name: "image", widget: "image" }
+          - { label: "Page Body", name: "body", widget: "markdown" }
+          - label: "Additional Page Sections"
+            label_singular: "Page Section"
+            name: "sections"
+            widget: "list"
+            fields:
+              - { label: "Section Name", name: "sectionHead", widget: "string" }
+              - { label: "Content", name: "content", widget: "markdown" }
+              - {
+                  label: "Include a button link?",
+                  name: "displayButton",
+                  widget: "boolean",
+                }
+              - { label: "Button Link URL", name: "link", widget: "string" }
+      - file: "src/pages/get-involved/volunteer/index.md"
+        label: "Volunteer"
+        name: "volunteer"
+        fields:
+          - {
+              label: "Template Key",
+              name: "templateKey",
+              widget: "hidden",
+              default: "contentpage",
+            }
+          - { label: "Page Title", name: "title", widget: "string" }
+          - {
+              label: "Show an image banner on this page?",
+              name: "showBanner",
+              widget: "boolean",
+            }
+          - { label: "Banner Image", name: "image", widget: "image" }
+          - { label: "Page Body", name: "body", widget: "markdown" }
+          - label: "Additional Page Sections"
+            label_singular: "Page Section"
+            name: "sections"
+            widget: "list"
+            fields:
+              - { label: "Section Name", name: "sectionHead", widget: "string" }
+              - { label: "Content", name: "content", widget: "markdown" }
+              - {
+                  label: "Include a button link?",
+                  name: "displayButton",
+                  widget: "boolean",
+                }
+              - { label: "Button Link URL", name: "link", widget: "string" }
+      - file: "src/pages/support/index.md"
+        label: "Support"
+        name: "support"
+        fields:
+          - {
+              label: "Template Key",
+              name: "templateKey",
+              widget: "hidden",
+              default: "contentpage",
+            }
+          - { label: "Page Title", name: "title", widget: "string" }
+          - {
+              label: "Show an image banner on this page?",
+              name: "showBanner",
+              widget: "boolean",
+            }
+          - { label: "Banner Image", name: "image", widget: "image" }
+          - { label: "Page Body", name: "body", widget: "markdown" }
+          - label: "Additional Page Sections"
+            label_singular: "Page Section"
+            name: "sections"
+            widget: "list"
+            fields:
+              - { label: "Section Name", name: "sectionHead", widget: "string" }
+              - { label: "Content", name: "content", widget: "markdown" }
+              - {
+                  label: "Include a button link?",
+                  name: "displayButton",
+                  widget: "boolean",
+                }
+              - { label: "Button Link URL", name: "link", widget: "string" }
