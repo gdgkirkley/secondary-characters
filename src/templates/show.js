@@ -131,6 +131,10 @@ const TicketBoxDesktop = styled.div`
   @media (max-width: 900px) {
     display: none;
   }
+  & a {
+    display: flex;
+    justify-content: center;
+  }
 `
 
 const TicketBoxMobile = styled.div`
