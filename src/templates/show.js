@@ -224,6 +224,7 @@ const PhotoGalleryMainImageContainer = styled.div`
 `
 
 const PhotoGalleryMainImage = styled(Img)`
+  border: 2px solid ${props => props.theme.primary5};
   border-radius: 16px;
   opacity: 1;
   visibility: visible;
@@ -264,6 +265,9 @@ const PhotoGalleryThumb = styled(Img)`
   :active {
     border: 2px solid ${props => props.theme.primary3};
     cursor: pointer;
+    opacity: 1;
+  }
+  &.selected {
     opacity: 1;
   }
 `
@@ -374,6 +378,9 @@ const ShowTemplate = ({ data: { showData } }) => {
             </PhotoGalleryMainImageContainer>
             <PhotoGalleryCarousel>
               {show.photoGallery.map(photo => {
+                const selected =
+                  (firstSelectedPhoto.id === photo.id && photoActive === 1) ||
+                  (secondSelectedPhoto.id === photo.id && photoActive === 2)
                 return (
                   <button
                     key={photo.id}
@@ -384,6 +391,7 @@ const ShowTemplate = ({ data: { showData } }) => {
                     <PhotoGalleryThumb
                       fluid={photo.image.childImageSharp.fluid}
                       alt={photo.altText}
+                      className={selected ? "selected" : ""}
                     />
                   </button>
                 )
