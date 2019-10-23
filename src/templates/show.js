@@ -226,16 +226,17 @@ const PhotoGalleryMainImageContainer = styled.div`
 const PhotoGalleryMainImage = styled(Img)`
   border: 2px solid ${props => props.theme.primary5};
   border-radius: 16px;
-  opacity: 1;
-  visibility: visible;
+  opacity: 0;
+  visibility: hidden;
   width: 100%;
   height: 100%;
   position: absolute;
   top: 0;
   left: 0;
-  &.inactive {
-    opacity: 0;
-    visibility: hidden;
+  transition: all 1s ease-in-out;
+  &.active {
+    opacity: 1;
+    visibility: visible;
   }
 `
 
@@ -276,25 +277,21 @@ const ShowTemplate = ({ data: { showData } }) => {
   const show = showData.edges[0].node.frontmatter
   const description = showData.edges[0].node.html
 
-  const [firstSelectedPhoto, setFirstSelectedPhoto] = useState(
-    show.photoGallery && show.photoGallery.length ? show.photoGallery[0] : ""
-  )
-  const [secondSelectedPhoto, setSecondSelectedPhoto] = useState(
+  const [selectedPhoto, setSelectedPhoto] = useState(
     show.photoGallery && show.photoGallery.length ? show.photoGallery[0] : ""
   )
   const [photoActive, setPhotoActive] = useState(1)
 
   const handlePhotoThumbClick = e => {
     const newImage = show.photoGallery.find(photo => {
-      return photo.id === parseFloat(e.currentTarget.id)
+      return photo.id === e.currentTarget.id
+    })
+    const newImageIndex = show.photoGallery.findIndex(photo => {
+      return photo.id === e.currentTarget.id
     })
     if (!newImage) return
-    photoActive === 1 ? setPhotoActive(2) : setPhotoActive(1)
-    if (photoActive === 1) {
-      setSecondSelectedPhoto(newImage)
-    } else {
-      setFirstSelectedPhoto(newImage)
-    }
+    setPhotoActive(newImageIndex)
+    setSelectedPhoto(newImage)
   }
 
   return (
@@ -365,22 +362,22 @@ const ShowTemplate = ({ data: { showData } }) => {
           <Section>
             <h2 className="section-head">Photos</h2>
             <PhotoGalleryMainImageContainer>
-              <PhotoGalleryMainImage
-                fluid={firstSelectedPhoto.image.childImageSharp.fluid}
-                className={photoActive === 1 ? "" : "inactive"}
-                style={{ zIndex: "2", position: "absolute" }}
-              />
-              <PhotoGalleryMainImage
-                fluid={secondSelectedPhoto.image.childImageSharp.fluid}
-                className={photoActive === 2 ? "" : "inactive"}
-                style={{ zIndex: "1", position: "absolute" }}
-              />
+              {show.photoGallery.map((photo, index) => {
+                return (
+                  <PhotoGalleryMainImage
+                    key={photo.id}
+                    fluid={photo.image.childImageSharp.fluid}
+                    className={index === photoActive ? "active" : ""}
+                    style={{ zIndex: index, position: "absolute" }}
+                    alt={photo.altText}
+                  />
+                )
+              })}
             </PhotoGalleryMainImageContainer>
             <PhotoGalleryCarousel>
-              {show.photoGallery.map(photo => {
+              {show.photoGallery.map((photo, index) => {
                 const selected =
-                  (firstSelectedPhoto.id === photo.id && photoActive === 1) ||
-                  (secondSelectedPhoto.id === photo.id && photoActive === 2)
+                  selectedPhoto.id === photo.id && photoActive === index
                 return (
                   <button
                     key={photo.id}

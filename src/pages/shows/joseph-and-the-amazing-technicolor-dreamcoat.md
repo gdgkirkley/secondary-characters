@@ -15,52 +15,52 @@ showCredits:
 ticketLink: null
 photoGallery:
   - image: /img/joseph1.jpg
-    id: 1
-    altText: Joseph 1
+    id: joseph1
+    altText: Joseph, a young man wearing the costume of an Egyptian pharoah, crosses his arms and stares out towards the camera with a determined expression. A group of men who are mostly his brothers, all wearing Egyptian clothing, are arrayed in pleading positions behind him.
     imageCredit: Photographer
     imageDescription: This is a photo of Joseph
   - image: /img/joseph2.jpg
-    id: 2
+    id: joseph2
     altText: Joseph 2
     imageCredit: Photographer
     imageDescription: Another photo
   - image: /img/joseph3.jpg
-    id: 3
+    id: joseph3
     altText: Joseph 3
     imageCredit: Photographer
     imageDescription: Another photo
   - image: /img/joseph4.jpg
-    id: 4
+    id: joseph4
     altText: Joseph 4
     imageCredit: Photographer
     imageDescription: Another photo
   - image: /img/joseph5.jpg
-    id: 5
+    id: joseph5
     altText: Joseph 5
     imageCredit: Photographer
     imageDescription: Another photo
   - image: /img/joseph6.jpg
-    id: 6
+    id: joseph6
     altText: Joseph 6
     imageCredit: Photographer
     imageDescription: Another photo
   - image: /img/joseph7.jpg
-    id: 7
+    id: joseph7
     altText: Joseph 7
     imageCredit: Photographer
     imageDescription: Another photo
   - image: /img/joseph8.jpg
-    id: 8
+    id: joseph8
     altText: Joseph 8
     imageCredit: Photographer
     imageDescription: Another photo
   - image: /img/joseph9.jpg
-    id: 9
+    id: joseph9
     altText: Joseph 9
     imageCredit: Photographer
     imageDescription: Another photo
   - image: /img/joseph10.jpg
-    id: 10
+    id: joseph10
     altText: Joseph 10
     imageCredit: Photographer
     imageDescription: Another photo
