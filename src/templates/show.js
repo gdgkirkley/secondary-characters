@@ -277,10 +277,10 @@ const ShowTemplate = ({ data: { showData } }) => {
   const description = showData.edges[0].node.html
 
   const [firstSelectedPhoto, setFirstSelectedPhoto] = useState(
-    show.photoGallery.length ? show.photoGallery[0] : ""
+    show.photoGallery && show.photoGallery.length ? show.photoGallery[0] : ""
   )
   const [secondSelectedPhoto, setSecondSelectedPhoto] = useState(
-    show.photoGallery.length ? show.photoGallery[0] : ""
+    show.photoGallery && show.photoGallery.length ? show.photoGallery[0] : ""
   )
   const [photoActive, setPhotoActive] = useState(1)
 
