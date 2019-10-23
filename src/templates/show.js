@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useState } from "react"
 import { graphql } from "gatsby"
 import Img from "gatsby-image"
 import styled from "styled-components"
@@ -28,6 +28,19 @@ export const query = graphql`
               artist
             }
             ticketLink
+            photoGallery {
+              id
+              image {
+                childImageSharp {
+                  fluid(maxWidth: 1600) {
+                    ...GatsbyImageSharpFluid
+                  }
+                }
+              }
+              altText
+              imageCredit
+              imageDescription
+            }
             cast {
               credit
               artist
@@ -203,9 +216,83 @@ const ArtistGrid = styled.div`
   }
 `
 
+const PhotoGalleryMainImageContainer = styled.div`
+  position: relative;
+  min-height: 700px;
+  margin: 32px 0px;
+  overflow: hidden;
+`
+
+const PhotoGalleryMainImage = styled(Img)`
+  border-radius: 16px;
+  opacity: 1;
+  visibility: visible;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  &.inactive {
+    opacity: 0;
+    visibility: hidden;
+  }
+`
+
+const PhotoGalleryCarousel = styled.div`
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-auto-flow: column;
+  grid-gap: 8px;
+  & button {
+    display: inline-flex;
+    padding: 0;
+    border: none;
+    background: none;
+    width: 100%;
+    height: 100%;
+  }
+`
+
+const PhotoGalleryThumb = styled(Img)`
+  border-radius: 16px;
+  border: 2px solid ${props => props.theme.primary5};
+  opacity: 0.5;
+  transition: 0.4s linear;
+  width: 100%;
+  &:hover,
+  :focus,
+  :active {
+    border: 2px solid ${props => props.theme.primary3};
+    cursor: pointer;
+    opacity: 1;
+  }
+`
+
 const ShowTemplate = ({ data: { showData } }) => {
   const show = showData.edges[0].node.frontmatter
   const description = showData.edges[0].node.html
+
+  const [firstSelectedPhoto, setFirstSelectedPhoto] = useState(
+    show.photoGallery.length ? show.photoGallery[0] : ""
+  )
+  const [secondSelectedPhoto, setSecondSelectedPhoto] = useState(
+    show.photoGallery.length ? show.photoGallery[0] : ""
+  )
+  const [photoActive, setPhotoActive] = useState(1)
+
+  const handlePhotoThumbClick = e => {
+    const newImage = show.photoGallery.find(photo => {
+      return photo.id === parseFloat(e.currentTarget.id)
+    })
+    if (!newImage) return
+    photoActive === 1 ? setPhotoActive(2) : setPhotoActive(1)
+    if (photoActive === 1) {
+      setSecondSelectedPhoto(newImage)
+    } else {
+      setFirstSelectedPhoto(newImage)
+    }
+  }
+
   return (
     <Layout>
       <SEO title={show.title} />
@@ -270,6 +357,40 @@ const ShowTemplate = ({ data: { showData } }) => {
             </TicketBoxDesktop>
           </TopContent>
         </Section>
+        {show.photoGallery && show.photoGallery.length ? (
+          <Section>
+            <h2 className="section-head">Photos</h2>
+            <PhotoGalleryMainImageContainer>
+              <PhotoGalleryMainImage
+                fluid={firstSelectedPhoto.image.childImageSharp.fluid}
+                className={photoActive === 1 ? "" : "inactive"}
+                style={{ zIndex: "2", position: "absolute" }}
+              />
+              <PhotoGalleryMainImage
+                fluid={secondSelectedPhoto.image.childImageSharp.fluid}
+                className={photoActive === 2 ? "" : "inactive"}
+                style={{ zIndex: "1", position: "absolute" }}
+              />
+            </PhotoGalleryMainImageContainer>
+            <PhotoGalleryCarousel>
+              {show.photoGallery.map(photo => {
+                return (
+                  <button
+                    key={photo.id}
+                    name={photo.id}
+                    id={photo.id}
+                    onClick={handlePhotoThumbClick}
+                  >
+                    <PhotoGalleryThumb
+                      fluid={photo.image.childImageSharp.fluid}
+                      alt={photo.altText}
+                    />
+                  </button>
+                )
+              })}
+            </PhotoGalleryCarousel>
+          </Section>
+        ) : null}
         {show.cast && show.cast.length ? (
           <Section>
             <h2 className="section-head">Cast</h2>

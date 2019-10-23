@@ -13,6 +13,57 @@ showCredits:
   - credit: Lyrics by
     artist: Tim Rice
 ticketLink: null
+photoGallery:
+  - image: /img/joseph1.jpg
+    id: 1
+    altText: Joseph 1
+    imageCredit: Photographer
+    imageDescription: This is a photo of Joseph
+  - image: /img/joseph2.jpg
+    id: 2
+    altText: Joseph 2
+    imageCredit: Photographer
+    imageDescription: Another photo
+  - image: /img/joseph3.jpg
+    id: 3
+    altText: Joseph 3
+    imageCredit: Photographer
+    imageDescription: Another photo
+  - image: /img/joseph4.jpg
+    id: 4
+    altText: Joseph 4
+    imageCredit: Photographer
+    imageDescription: Another photo
+  - image: /img/joseph5.jpg
+    id: 5
+    altText: Joseph 5
+    imageCredit: Photographer
+    imageDescription: Another photo
+  - image: /img/joseph6.jpg
+    id: 6
+    altText: Joseph 6
+    imageCredit: Photographer
+    imageDescription: Another photo
+  - image: /img/joseph7.jpg
+    id: 7
+    altText: Joseph 7
+    imageCredit: Photographer
+    imageDescription: Another photo
+  - image: /img/joseph8.jpg
+    id: 8
+    altText: Joseph 8
+    imageCredit: Photographer
+    imageDescription: Another photo
+  - image: /img/joseph9.jpg
+    id: 9
+    altText: Joseph 9
+    imageCredit: Photographer
+    imageDescription: Another photo
+  - image: /img/joseph10.jpg
+    id: 10
+    altText: Joseph 10
+    imageCredit: Photographer
+    imageDescription: Another photo
 cast:
   - credit: Joseph
     artist: Morgan Cox

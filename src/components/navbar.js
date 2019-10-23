@@ -225,8 +225,8 @@ const NavBar = props => {
                 <DropMenu className={dropMenus[menuItem.label] ? "open" : ""}>
                   {menuItem.dropdown.map(dropItem => {
                     return (
-                      <Link to={dropItem.linkURL}>
-                        <li key={dropItem.label}>{dropItem.label}</li>
+                      <Link to={dropItem.linkURL} key={dropItem.label}>
+                        <li>{dropItem.label}</li>
                       </Link>
                     )
                   })}
