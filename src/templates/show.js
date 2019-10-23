@@ -249,7 +249,7 @@ const PhotoGalleryMainImage = styled(Img)`
 
 const PhotoGalleryCarousel = styled.div`
   display: grid;
-  grid-template-columns: auto 1fr;
+  grid-template-columns: repeat(10, 1fr);
   grid-gap: 8px;
   & button {
     display: inline-flex;
