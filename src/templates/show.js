@@ -110,11 +110,17 @@ const TopContent = styled.div`
     font-size: ${props => props.theme.fontSize.display};
     font-weight: bold;
     margin: 24px 0px;
+    @media (max-width: 768px) {
+      font-size: ${props => props.theme.fontSize.title};
+    }
   }
   & .credit {
     margin: 0;
     line-height: 1.5;
     color: ${props => props.theme.grey5};
+    @media (max-width: 768px) {
+      font-size: ${props => props.theme.fontSize.information};
+    }
   }
   & .description {
     color: ${props => props.theme.grey1};
@@ -173,6 +179,9 @@ const DatesLocation = styled.div`
   & h2 {
     font-size: ${props => props.theme.fontSize.highLevel};
     color: ${props => props.theme.grey1};
+    @media (max-width: 768px) {
+      font-size: ${props => props.theme.fontSize.emphasis};
+    }
   }
   & h3 {
     margin-top: 32px;

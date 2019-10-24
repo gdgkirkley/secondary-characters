@@ -17,6 +17,9 @@ const ArtistCredit = styled.div`
   }
   &:hover {
     cursor: ${props => (props.noHover ? "inherit" : "pointer")};
+    & .name {
+      color: ${props => props.theme.primary5};
+    }
   }
 `
 
@@ -30,7 +33,7 @@ const ArtistHeadshot = styled.div`
   align-items: center;
   align-self: center;
   border: 0px solid ${props => props.theme.primary5};
-  transition: border 0.3s ease-in-out;
+  transition: border 0.1s ease-in-out;
 
   ${ArtistCredit}:hover & {
     border: ${props =>
