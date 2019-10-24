@@ -432,7 +432,7 @@ const ShowTemplate = ({ data: { showData } }) => {
         {show.sections && show.sections.length
           ? show.sections.map(section => {
               return (
-                <Section>
+                <Section key={section.sectionHead}>
                   <h2 className="section-head">{section.sectionHead}</h2>
                   <div dangerouslySetInnerHTML={{ __html: section.content }} />
                 </Section>

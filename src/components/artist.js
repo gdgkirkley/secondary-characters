@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useState } from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 import styled from "styled-components"
@@ -12,7 +12,11 @@ const ArtistCredit = styled.div`
     font-size: ${props => props.theme.fontSize.information};
     & .name {
       font-size: ${props => props.theme.fontSize.reading};
+      margin: 4px 0px;
     }
+  }
+  &:hover {
+    cursor: pointer;
   }
 `
 
@@ -25,9 +29,75 @@ const ArtistHeadshot = styled.div`
   display: flex;
   align-items: center;
   align-self: center;
+  border: 0px solid ${props => props.theme.primary5};
+  transition: border 0.3s ease-in-out;
+
+  ${ArtistCredit}:hover & {
+    border: 3px solid ${props => props.theme.primary5};
+  }
+`
+
+const ArtistBioModal = styled.div`
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+  opacity: 0;
+  visibility: hidden;
+  transform: scale(1.1);
+  transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s;
+  &.show-modal {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+    transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s;
+  }
+  & span {
+    &.close-button {
+      float: right;
+      width: 1.5rem;
+      line-height: 1.5rem;
+      text-align: center;
+      cursor: pointer;
+      border-radius: 0.25rem;
+      background-color: lightgray;
+      &:hover {
+        background-color: darkgrey;
+      }
+      @media (max-width: 768px) {
+        width: 24px;
+        line-height: 1.5;
+      }
+    }
+  }
+`
+
+const ArtistBioModalContent = styled.div`
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 16px;
+  min-width: 500px;
+  border-radius: 16px;
+  & h2,
+  h3 {
+    color: ${props => props.theme.grey1};
+    margin: 8px 0px;
+  }
+  @media (max-width: 768px) {
+    min-width: 98vw;
+    min-height: 50vh;
+  }
 `
 
 const Artist = ({ artist }) => {
+  const [showModal, setShowModal] = useState(false)
+
   const data = useStaticQuery(graphql`
     query {
       artists: allMarkdownRemark(
@@ -52,25 +122,45 @@ const Artist = ({ artist }) => {
     }
   `)
 
+  const toggleBioModal = () => {
+    setShowModal(!showModal)
+  }
+
   const foundArtist = data.artists.edges.find(art => {
     return art.node.frontmatter.name === artist.artist
   })
 
   if (foundArtist) {
     return (
-      <ArtistCredit>
-        <ArtistHeadshot>
-          <Img
-            fluid={foundArtist.node.frontmatter.headshot.childImageSharp.fluid}
-            style={{ width: "150px" }}
-          />
-        </ArtistHeadshot>
-        <p className="credit">
-          <strong className="name">{foundArtist.node.frontmatter.name}</strong>
-          <br />
-          {artist.credit}
-        </p>
-      </ArtistCredit>
+      <>
+        <ArtistCredit onClick={toggleBioModal}>
+          <ArtistHeadshot>
+            <Img
+              fluid={
+                foundArtist.node.frontmatter.headshot.childImageSharp.fluid
+              }
+              style={{ width: "150px" }}
+            />
+          </ArtistHeadshot>
+          <p className="credit">
+            <strong className="name">
+              {foundArtist.node.frontmatter.name}
+            </strong>
+            <br />
+            {artist.credit}
+          </p>
+        </ArtistCredit>
+        <ArtistBioModal className={showModal ? "show-modal" : ""}>
+          <ArtistBioModalContent>
+            <span class="close-button" onClick={toggleBioModal}>
+              &times;
+            </span>
+            <h2>{foundArtist.node.frontmatter.name}</h2>
+            <h3>{artist.credit}</h3>
+            <div dangerouslySetInnerHTML={{ __html: foundArtist.node.html }} />
+          </ArtistBioModalContent>
+        </ArtistBioModal>
+      </>
     )
   }
 
