@@ -35,6 +35,10 @@ const ArtistHeadshot = styled.div`
   ${ArtistCredit}:hover & {
     border: 3px solid ${props => props.theme.primary5};
   }
+  @media (max-width: 400px) {
+    width: 100px;
+    height: 100px;
+  }
 `
 
 const ArtistBioModal = styled.div`
