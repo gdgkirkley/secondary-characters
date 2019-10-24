@@ -109,7 +109,19 @@ collections:
           widget: "hidden",
           default: "show",
         }
-      - { label: "Is this show upcoming?", name: "upcoming", widget: "boolean" }
+      - {
+          label: "Is this show upcoming?",
+          name: "upcoming",
+          widget: "boolean",
+          hint: "Upcoming shows will appear on the home page.",
+        }
+      - {
+          label: "Order on Home Page",
+          name: "orderOnHomePage",
+          widget: "number",
+          valueType: "int",
+          hint: "Controls the order of shows on the home page where 1 is first.",
+        }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Image", name: "image", widget: "image" }
       - { label: "Dates", name: "dates", widget: "string" }

@@ -1,6 +1,7 @@
 ---
 templateKey: show
 upcoming: false
+orderOnHomePage: 0
 title: Joseph and the Amazing Technicolor Dreamcoat
 dates: July 2013
 shortDate: July 2013

@@ -102,6 +102,7 @@ const IndexPage = () => {
         filter: {
           frontmatter: { templateKey: { eq: "show" }, upcoming: { eq: true } }
         }
+        sort: { fields: [frontmatter___orderOnHomePage], order: ASC }
       ) {
         edges {
           node {
@@ -109,6 +110,7 @@ const IndexPage = () => {
               title
               dates
               tagline
+              orderOnHomePage
               image {
                 childImageSharp {
                   fluid(maxWidth: 300) {

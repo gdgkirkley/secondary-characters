@@ -1,6 +1,7 @@
 ---
 templateKey: show
 upcoming: true
+orderOnHomePage: 1
 title: "Elf: The Musical"
 dates: December 20 - 21, 2019
 shortDate: December 2019
