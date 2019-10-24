@@ -16,7 +16,7 @@ const ArtistCredit = styled.div`
     }
   }
   &:hover {
-    cursor: pointer;
+    cursor: ${props => (props.noHover ? "inherit" : "pointer")};
   }
 `
 
@@ -33,7 +33,8 @@ const ArtistHeadshot = styled.div`
   transition: border 0.3s ease-in-out;
 
   ${ArtistCredit}:hover & {
-    border: 3px solid ${props => props.theme.primary5};
+    border: ${props =>
+      props.noHover ? "none" : `3px solid ${props.theme.primary5}`};
   }
   @media (max-width: 400px) {
     width: 100px;
@@ -169,8 +170,8 @@ const Artist = ({ artist }) => {
   }
 
   return (
-    <ArtistCredit>
-      <ArtistHeadshot />
+    <ArtistCredit noHover={true}>
+      <ArtistHeadshot noHover={true} />
       <p className="credit">
         <strong className="name">{artist.artist}</strong>
         <br />
