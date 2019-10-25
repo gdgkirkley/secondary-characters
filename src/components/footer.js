@@ -187,8 +187,10 @@ const Footer = () => {
         <FooterNav>
           <LeftMenu>
             {footer.leftMenu.map(menuItem => {
+              const beginLinkRegex = /^..\//
+              const fixedLink = menuItem.linkURL.replace(beginLinkRegex, "/")
               return (
-                <Link to={menuItem.linkURL} key={menuItem.label}>
+                <Link to={fixedLink} key={menuItem.label}>
                   <h3>{menuItem.label}</h3>
                 </Link>
               )
@@ -218,8 +220,10 @@ const Footer = () => {
           </SocialLinks>
           <RightMenu>
             {footer.rightMenu.map(menuItem => {
+              const beginLinkRegex = /^..\//
+              const fixedLink = menuItem.linkURL.replace(beginLinkRegex, "/")
               return (
-                <Link to={menuItem.linkURL} key={menuItem.label}>
+                <Link to={fixedLink} key={menuItem.label}>
                   <h3>{menuItem.label}</h3>
                 </Link>
               )

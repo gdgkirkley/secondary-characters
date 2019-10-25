@@ -224,8 +224,13 @@ const NavBar = props => {
               {menuItem.dropdown.length ? (
                 <DropMenu className={dropMenus[menuItem.label] ? "open" : ""}>
                   {menuItem.dropdown.map(dropItem => {
+                    const beginLinkRegex = /^..\//
+                    const fixedLink = dropItem.linkURL.replace(
+                      beginLinkRegex,
+                      "/"
+                    )
                     return (
-                      <Link to={dropItem.linkURL} key={dropItem.label}>
+                      <Link to={fixedLink} key={dropItem.label}>
                         <li>{dropItem.label}</li>
                       </Link>
                     )

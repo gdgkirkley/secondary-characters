@@ -67,6 +67,12 @@ exports.createPages = ({ actions, graphql }) => {
 exports.onCreateNode = ({ node, actions, getNode }) => {
   const { createNodeField } = actions
 
+  if (
+    node.frontmatter &&
+    node.frontmatter.templateKey &&
+    node.frontmatter.templateKey != "navbar"
+  ) {
+  }
   fmImagesToRelative(node)
 
   if (node.internal.type === `MarkdownRemark`) {

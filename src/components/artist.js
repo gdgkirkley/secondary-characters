@@ -160,7 +160,7 @@ const Artist = ({ artist }) => {
         </ArtistCredit>
         <ArtistBioModal className={showModal ? "show-modal" : ""}>
           <ArtistBioModalContent>
-            <span class="close-button" onClick={toggleBioModal}>
+            <span className="close-button" onClick={toggleBioModal}>
               &times;
             </span>
             <h2>{foundArtist.node.frontmatter.name}</h2>

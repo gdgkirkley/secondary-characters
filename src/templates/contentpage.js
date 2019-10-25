@@ -99,7 +99,7 @@ const ContentPage = ({ data: { pageData } }) => {
         {page.frontmatter.sections && page.frontmatter.sections.length
           ? page.frontmatter.sections.map(section => {
               return (
-                <Section>
+                <Section key={section.sectionHead}>
                   <h1 className="section-head">{section.sectionHead}</h1>
                   <div
                     className="main-content"

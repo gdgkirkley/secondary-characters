@@ -11,7 +11,7 @@ menuItems:
         linkURL: /shows/mamma-mia
   - label: Past Shows
     linkType: internal
-    linkURL: /past-shows
+    linkURL: past-shows
     dropdown:
       - label: Joseph (2013)
         linkURL: /shows/joseph-and-the-amazing-technicolor-dreamcoat
@@ -20,12 +20,12 @@ menuItems:
     linkURL: /get-involved
     dropdown:
       - label: Auditions
-        linkURL: /get-involved/auditions
+        linkURL: /get-involved/auditions/
       - label: Volunteer
-        linkURL: /get-involved/volunteer
+        linkURL: /get-involved/volunteer/
   - label: About
     linkType: internal
-    linkURL: /about
+    linkURL: about
     dropdown:
       - label: About
         linkURL: /about
