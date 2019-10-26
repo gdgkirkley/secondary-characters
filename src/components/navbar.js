@@ -131,8 +131,13 @@ const TopMenuItem = styled.li`
       }
     }
   }
+  &:focus {
+    text-decoration: underline;
+    outline: none;
+  }
   &:hover {
     color: ${props => props.theme.primary4};
+    outline: none;
     cursor: pointer;
     & svg {
       transform: rotate(0deg);
@@ -202,6 +207,7 @@ const NavBar = props => {
   }
 
   const handleMenuItemClick = e => {
+    if (e.keyCode && e.keyCode !== 13) return
     setDropMenus({
       [e.target.id]: !dropMenus[e.target.id],
     })
@@ -215,9 +221,11 @@ const NavBar = props => {
           return (
             <TopMenuItem
               onClick={handleMenuItemClick}
+              onKeyDown={handleMenuItemClick}
               id={menuItem.label}
               key={menuItem.label}
               className={dropMenus[menuItem.label] ? "open" : ""}
+              tabIndex="0"
             >
               {menuItem.label}{" "}
               <Caret id={menuItem.label} onClick={handleMenuItemClick} />

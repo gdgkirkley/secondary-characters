@@ -24,13 +24,31 @@ const EmailBarStyle = styled.div`
   & input {
     padding: 16px 24px;
     width: 380px;
-    border-radius: ${props => props.theme.borderRadius};
+    border-radius: 1000px 0px 0px 1000px;
     font-size: ${props => props.theme.fontSize.reading};
     font-family: "Roboto Condensed", Arial, Helvetica, sans-serif;
     border: none;
     @media (max-width: 768px) {
       width: 300px;
     }
+  }
+`
+
+const SignUpForm = styled.form`
+  display: flex;
+`
+
+const SignUpButton = styled.button`
+  border-radius: 0px 1000px 1000px 0px;
+  width: 140px;
+  border: none;
+  border-left: 1px solid ${props => props.theme.grey9};
+  background: white;
+  color: ${props => props.theme.primary5};
+  &:hover {
+    cursor: pointer;
+    background: ${props => props.theme.primary5};
+    color: white;
   }
 `
 
@@ -69,7 +87,7 @@ const EmailBar = () => {
   return (
     <EmailBarStyle>
       <h2>Stay up to date!</h2>
-      <form onSubmit={handleSubmit}>
+      <SignUpForm onSubmit={handleSubmit}>
         <input
           type="text"
           placeholder={
@@ -78,7 +96,8 @@ const EmailBar = () => {
               : "Stay up to date! Add your email..."
           }
         />
-      </form>
+        <SignUpButton type="submit">Sign Up!</SignUpButton>
+      </SignUpForm>
     </EmailBarStyle>
   )
 }
