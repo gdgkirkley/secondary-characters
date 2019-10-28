@@ -9,6 +9,13 @@ module.exports = {
     `gatsby-plugin-react-helmet`,
     "gatsby-plugin-styled-components",
     {
+      resolve: "gatsby-plugin-mailchimp",
+      options: {
+        endpoint:
+          "https://secondarycharacters.us7.list-manage.com/subscribe/post?u=2f54245a577f34db39743347e&id=37f2aae127",
+      },
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,

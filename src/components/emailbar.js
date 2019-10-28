@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react"
 import styled from "styled-components"
+import addToMailchimp from "gatsby-plugin-mailchimp"
 
 const EmailBarStyle = styled.div`
   background-color: ${props => props.theme.accent5};
@@ -37,6 +38,7 @@ const EmailBarStyle = styled.div`
 
 const SignUpForm = styled.form`
   display: flex;
+  position: relative;
   @media (max-width: 768px) {
     flex-direction: column;
     align-items: center;
@@ -61,8 +63,31 @@ const SignUpButton = styled.button`
   }
 `
 
+const SuccessMessage = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 60px;
+  min-width: 60px;
+  padding: 8px 16px;
+  border-radius: 16px;
+  position: absolute;
+  bottom: 60px;
+  right: 0;
+  z-index: 2;
+  background: white;
+  transition: 1s ease-in-out;
+  opacity: 0;
+  visibility: hidden;
+  &.display {
+    opacity: 1;
+    visibility: visible;
+  }
+`
+
 const EmailBar = () => {
   const [email, setEmail] = useState("")
+  const [message, setMessage] = useState("")
 
   const getSize = () => {
     if (typeof window !== "undefined" && window.innerWidth) {
@@ -92,14 +117,26 @@ const EmailBar = () => {
   }, [])
 
   const handleChange = e => {
-    setEmail({ [e.target.name]: e.target.value })
+    setEmail(e.target.value)
+  }
+
+  const handleSubmit = e => {
+    e.preventDefault()
+
+    addToMailchimp(email)
+      .then(data => {
+        setMessage(data.msg)
+        setTimeout(() => {
+          setMessage("")
+        }, 3000)
+      })
+      .catch(err => {})
   }
 
   return (
     <EmailBarStyle>
       <h2>Stay up to date!</h2>
-      <SignUpForm name="Email Form" method="POST" data-netlify="true">
-        <input type="hidden" name="form-name" value="Email Form" />
+      <SignUpForm onSubmit={handleSubmit} method="POST">
         <input
           type="text"
           placeholder={
@@ -111,8 +148,10 @@ const EmailBar = () => {
           name="email"
           onChange={handleChange}
         />
-        <input type="hidden" name="status" value="subscribed" />
         <SignUpButton type="submit">Sign Up!</SignUpButton>
+        <SuccessMessage className={message ? "display" : ""}>
+          {message}
+        </SuccessMessage>
       </SignUpForm>
     </EmailBarStyle>
   )
