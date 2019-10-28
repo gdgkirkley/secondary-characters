@@ -96,6 +96,12 @@ const Currency = styled.span`
   }
 `
 
+function encode(data) {
+  return Object.keys(data)
+    .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+    .join("&")
+}
+
 const DonateForm = () => {
   const [values, setValues] = useState({
     first_name: "",
@@ -119,14 +125,31 @@ const DonateForm = () => {
     })
   }
 
+  const handleSubmit = e => {
+    e.preventDefault()
+    const form = e.target
+    fetch("/", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: encode({
+        "form-name": form.getAttribute("name"),
+        ...values,
+      }),
+    })
+      .then(() => navigate(form.getAttribute("action")))
+      .catch(error => alert(error))
+  }
+
   return (
     <>
       <Form
         method="POST"
         action="https://www.paypal.com/cgi-bin/webscr"
         data-netlify="true"
-        name="Donate Form"
+        name="Donate"
+        onSubmit={handleSubmit}
       >
+        <input type="hidden" name="form-name" value="Donate" />
         <input type="hidden" name="cmd" value="_donations" />
         <input
           type="hidden"
