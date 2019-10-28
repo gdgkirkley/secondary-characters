@@ -65,6 +65,12 @@ const ContactForm = () => {
     message: "",
   })
 
+  const encode = data => {
+    return Object.keys(data)
+      .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+      .join("&")
+  }
+
   const handleChange = e => {
     setValues({
       ...values,
@@ -73,15 +79,15 @@ const ContactForm = () => {
   }
 
   const handleSubmit = e => {
-    e.preventDefault()
-
     fetch("/", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: encode({ "form-name": "conatct", ...values }),
+      body: encode({ "form-name": "contact", ...values }),
     })
       .then(() => alert("Message sent!"))
       .catch(err => alert(err))
+
+    e.preventDefault()
   }
 
   return (
