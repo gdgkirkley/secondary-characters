@@ -127,7 +127,6 @@ const DonateForm = () => {
         data-netlify="true"
         name="Donate Form"
       >
-        <input type="hidden" name="form-name" value="Donate Form" />
         <input type="hidden" name="cmd" value="_donations" />
         <input
           type="hidden"
