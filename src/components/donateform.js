@@ -127,7 +127,6 @@ const DonateForm = () => {
   }
 
   const handleSubmit = e => {
-    e.preventDefault()
     const form = e.target
     fetch("/", {
       method: "POST",
