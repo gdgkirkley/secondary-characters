@@ -76,6 +76,9 @@ const GlobalStyle = createGlobalStyle`
         line-height: 1;
         font-family: "Roboto", Arial, Helvetica, sans-serif;
     }
+    main {
+      min-height: 60vh;
+    }
     /* Remove margin for the main div that Gatsby mounts into*/
     > div {
         margin-top: 0;
@@ -96,7 +99,7 @@ const GlobalStyle = createGlobalStyle`
     h1, h2, h3, h4, h5, h6 {
       margin: 0;
       font-family: "Roboto Condensed", Arial, Helvetica, sans-serif;
-      color: ${props => props.theme.primary1};
+      color: ${props => props.theme.grey1};
       & * {
           margin-top: 0.5rem;
       }

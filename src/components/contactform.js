@@ -1,11 +1,9 @@
 import React, { useState } from "react"
 import styled from "styled-components"
-import { encode } from "punycode"
 
 const Form = styled.form`
   display: grid;
   grid-gap: 16px;
-  border: 1px solid ${props => props.theme.grey10};
   & label {
     width: 100%;
     margin: 8px 0px;
@@ -20,14 +18,14 @@ const Form = styled.form`
       min-height: 36px;
       border: 1px solid ${props => props.theme.grey6};
       border-radius: 16px;
-      background: ${props => props.theme.grey9};
-      transition: 0.1s linear;
+      background: ${props => props.theme.grey10};
+      transition: 0.3s linear;
       font-family: "Roboto", Arial, Helvetica, sans-serif;
       font-size: ${props => props.theme.fontSize.reading};
       &:hover,
       :focus {
         border: 1px solid ${props => props.theme.primary5};
-        background: ${props => props.theme.grey10};
+        background: white;
       }
       &:focus {
         outline: none;
@@ -50,10 +48,12 @@ const Form = styled.form`
     color: ${props => props.theme.primary4};
     min-height: 65px;
     transition: 0.4s linear;
-    &:hover {
+    &:hover,
+    :focus {
       background: ${props => props.theme.primary4};
       color: ${props => props.theme.grey10};
       cursor: pointer;
+      outline: none;
     }
   }
 `

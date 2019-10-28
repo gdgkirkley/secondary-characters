@@ -30,12 +30,17 @@ const EmailBarStyle = styled.div`
     border: none;
     @media (max-width: 768px) {
       width: 300px;
+      border-radius: 1000px;
     }
   }
 `
 
 const SignUpForm = styled.form`
   display: flex;
+  @media (max-width: 768px) {
+    flex-direction: column;
+    align-items: center;
+  }
 `
 
 const SignUpButton = styled.button`
@@ -49,6 +54,10 @@ const SignUpButton = styled.button`
     cursor: pointer;
     background: ${props => props.theme.primary5};
     color: white;
+  }
+  @media (max-width: 768px) {
+    border-radius: 1000px;
+    margin: 16px 0px;
   }
 `
 
