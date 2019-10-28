@@ -115,6 +115,18 @@ const TopMenuItem = styled.li`
   align-items: center;
   position: relative;
   transition: 0.2s ease-in-out;
+  &:focus {
+    text-decoration: underline;
+    outline: none;
+  }
+  &:hover {
+    color: ${props => props.theme.primary4};
+    outline: none;
+    cursor: pointer;
+    & svg {
+      transform: rotate(0deg);
+    }
+  }
   @media (max-width: 1600px) {
     font-size: ${props => props.theme.fontSize.emphasis};
   }
@@ -130,17 +142,9 @@ const TopMenuItem = styled.li`
         display: none;
       }
     }
-  }
-  &:focus {
-    text-decoration: underline;
-    outline: none;
-  }
-  &:hover {
-    color: ${props => props.theme.primary4};
-    outline: none;
-    cursor: pointer;
-    & svg {
-      transform: rotate(0deg);
+    &:focus {
+      text-decoration: none;
+      outline: none;
     }
   }
   &.open {
