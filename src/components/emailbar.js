@@ -62,6 +62,8 @@ const SignUpButton = styled.button`
 `
 
 const EmailBar = () => {
+  const [email, setEmail] = useState("")
+
   const getSize = () => {
     if (typeof window !== "undefined" && window.innerWidth) {
       return {
@@ -89,14 +91,15 @@ const EmailBar = () => {
     }
   }, [])
 
-  const handleSubmit = e => {
-    e.preventDefault()
+  const handleChange = e => {
+    setEmail({ [e.target.name]: e.target.value })
   }
 
   return (
     <EmailBarStyle>
       <h2>Stay up to date!</h2>
-      <SignUpForm onSubmit={handleSubmit}>
+      <SignUpForm name="Email Form" method="POST" data-netlify="true">
+        <input type="hidden" name="form-name" value="Email Form" />
         <input
           type="text"
           placeholder={
@@ -104,7 +107,11 @@ const EmailBar = () => {
               ? "Add your email..."
               : "Stay up to date! Add your email..."
           }
+          value={email}
+          name="email"
+          onChange={handleChange}
         />
+        <input type="hidden" name="status" value="subscribed" />
         <SignUpButton type="submit">Sign Up!</SignUpButton>
       </SignUpForm>
     </EmailBarStyle>
