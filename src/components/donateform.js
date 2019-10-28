@@ -1,5 +1,4 @@
 import React, { useState } from "react"
-import { navigate } from "@reach/router"
 import styled from "styled-components"
 
 const Form = styled.form`
@@ -127,6 +126,7 @@ const DonateForm = () => {
   }
 
   const handleSubmit = e => {
+    e.preventDefault()
     const form = e.target
     fetch("/", {
       method: "POST",
@@ -136,7 +136,9 @@ const DonateForm = () => {
         ...values,
       }),
     })
-      .then(() => navigate(form.getAttribute("action")))
+      .then(res => {
+        document.querySelector("#paypalform").submit()
+      })
       .catch(error => alert(error))
   }
 
@@ -144,25 +146,11 @@ const DonateForm = () => {
     <>
       <Form
         method="POST"
-        action="https://www.paypal.com/cgi-bin/webscr"
         data-netlify="true"
         name="Donate"
         onSubmit={handleSubmit}
       >
         <input type="hidden" name="form-name" value="Donate" />
-        <input type="hidden" name="cmd" value="_donations" />
-        <input
-          type="hidden"
-          name="business"
-          value="shelley@secondarycharacters.org"
-        />
-        <input
-          type="hidden"
-          name="item_name"
-          value="Donation to Secondary Characters"
-        />
-        <input type="hidden" name="currency_code" value="CAD" />
-        <input type="hidden" name="tax" value="0" />
         <label htmlFor="first_name">
           First Name:
           <input
@@ -217,6 +205,26 @@ const DonateForm = () => {
           </Currency>
         </label>
         <button type="submit">Donate with Paypal</button>
+      </Form>
+      <Form
+        method="POST"
+        action="https://www.paypal.com/cgi-bin/webscr"
+        id="paypalform"
+      >
+        <input type="hidden" name="cmd" value="_donations" />
+        <input
+          type="hidden"
+          name="business"
+          value="shelley@secondarycharacters.org"
+        />
+        <input
+          type="hidden"
+          name="item_name"
+          value="Donation to Secondary Characters"
+        />
+        <input type="hidden" name="currency_code" value="CAD" />
+        <input type="hidden" name="tax" value="0" />
+        <input type="hidden" name="amount" value={values.amount} />
       </Form>
       <Secured>
         <a
