@@ -1,7 +1,7 @@
 ---
 templateKey: footer
 donateMessage: Help support your vibrant arts community
-donateLink: /donate
+donateLink: /support
 leftMenu:
   - label: About Us
     linkType: internal

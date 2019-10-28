@@ -4,6 +4,7 @@ import BackgroundImage from "gatsby-background-image"
 import styled from "styled-components"
 import Layout from "../components/layout"
 import ContactForm from "../components/contactform"
+import DonateForm from "../components/donateform"
 
 export const query = graphql`
   query($slug: String!) {
@@ -95,6 +96,7 @@ const FormPage = ({ data: { pageData } }) => {
   const page = pageData.edges[0].node
   const components = {
     contactform: ContactForm,
+    donateform: DonateForm,
   }
   const Tag = components[page.frontmatter.pageForm]
   return (

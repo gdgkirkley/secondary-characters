@@ -179,7 +179,9 @@ const Footer = () => {
     <>
       <DonateBar>
         <DonateContent>
-          <button>Donate Now</button>
+          <Link to={footer.donateLink}>
+            <button>Donate Now</button>
+          </Link>
           <h1>{footer.donateMessage}</h1>
         </DonateContent>
       </DonateBar>
