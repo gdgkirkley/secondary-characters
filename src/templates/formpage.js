@@ -5,6 +5,7 @@ import styled from "styled-components"
 import Layout from "../components/layout"
 import ContactForm from "../components/contactform"
 import DonateForm from "../components/donateform"
+import SEO from "../components/seo"
 
 export const query = graphql`
   query($slug: String!) {
@@ -101,6 +102,7 @@ const FormPage = ({ data: { pageData } }) => {
   const Tag = components[page.frontmatter.pageForm]
   return (
     <Layout>
+      <SEO title={page.frontmatter.title} />
       {page.frontmatter.showBanner ? (
         <HeroBanner fluid={page.frontmatter.image.childImageSharp.fluid} />
       ) : null}

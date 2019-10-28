@@ -3,6 +3,7 @@ import { graphql } from "gatsby"
 import BackgroundImage from "gatsby-background-image"
 import styled from "styled-components"
 import Layout from "../components/layout"
+import SEO from "../components/seo"
 
 export const query = graphql`
   query($slug: String!) {
@@ -80,6 +81,7 @@ const ContentPage = ({ data: { pageData } }) => {
   const page = pageData.edges[0].node
   return (
     <Layout>
+      <SEO title={page.frontmatter.title} />
       {page.frontmatter.showBanner ? (
         <HeroBanner
           fluid={
