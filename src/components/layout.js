@@ -6,7 +6,7 @@ import useSiteMetadata from "../hooks/useSiteMetadata"
 import Header from "./header"
 import Footer from "./footer"
 
-const theme = {
+export const theme = {
   primary1: "#330065",
   primary2: "#4D0891",
   primary3: "#6714B8",

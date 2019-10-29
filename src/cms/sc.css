@@ -1,0 +1,60 @@
+html {
+  box-sizing: border-box;
+  font-size: 10px;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 1.8rem;
+  line-height: 1;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+main {
+  min-height: 60vh;
+}
+/* Remove margin for the main div that Gatsby mounts into*/
+div {
+  margin-top: 0;
+}
+svg {
+  width: 32px;
+  height: 1%;
+  margin: 0px 8px;
+}
+a {
+  text-decoration: none;
+  color: #ec3b6b;
+}
+a:hover {
+  color: #c10135;
+  cursor: pointer;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-family: "Roboto Condensed", Arial, Helvetica, sans-serif;
+  color: #222222;
+}
+strong {
+  color: #535353;
+}
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1000px;
+  min-height: 55px;
+  transition: 0.4s linear;
+  font-size: 24px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: bold;
+}

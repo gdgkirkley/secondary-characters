@@ -6,7 +6,7 @@ const AboutPagePreview = ({ entry, widgetFor }) => {
   console.log(entry, widgetFor)
   return (
     <AboutPageTemplate
-      pageData={{
+      data={{
         frontmatter: entry.getIn(["data"]).toJS(),
         html: entry.getIn(["data"], "body"),
         bodyIsMarkdown: true,

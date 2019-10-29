@@ -8,6 +8,8 @@ module.exports = {
     {
       resolve: "gatsby-plugin-netlify-cms",
       options: {
+        htmlTitle: "SC Admin",
+        htmlFavicon: `${__dirname}/static/img/sc-logo-no-background_1.png`,
         modulePath: `${__dirname}/src/cms/cms.js`,
       },
     },

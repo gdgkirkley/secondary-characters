@@ -7,14 +7,17 @@ const EmailBarStyle = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 170px;
-  padding: 8px 64px;
+  padding: 8px 250px;
   justify-content: center;
   align-items: center;
-  @media (max-width: 1250px) {
-    grid-gap: 20px;
+  @media (max-width: 1600px) {
+    grid-gap: 15%;
+    padding: 8px 32px;
   }
   @media (max-width: 950px) {
     grid-template-columns: 1fr;
+    padding: 8px 16px;
+    grid-gap: 64px;
     & h2 {
       display: none;
     }
