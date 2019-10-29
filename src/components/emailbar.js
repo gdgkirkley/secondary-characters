@@ -4,13 +4,17 @@ import addToMailchimp from "gatsby-plugin-mailchimp"
 
 const EmailBarStyle = styled.div`
   background-color: ${props => props.theme.accent5};
-  display: flex;
-  justify-content: space-evenly;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 170px;
+  padding: 8px 64px;
+  justify-content: center;
   align-items: center;
-  padding: 8px 0px;
-  @media (max-width: 768px) {
-    justify-content: center;
-    padding: 8px;
+  @media (max-width: 1250px) {
+    grid-gap: 20px;
+  }
+  @media (max-width: 950px) {
+    grid-template-columns: 1fr;
     & h2 {
       display: none;
     }
@@ -21,6 +25,7 @@ const EmailBarStyle = styled.div`
     font-weight: bold;
     text-transform: uppercase;
     margin: 0;
+    text-align: center;
   }
   & input {
     padding: 16px 24px;
@@ -39,6 +44,7 @@ const EmailBarStyle = styled.div`
 const SignUpForm = styled.form`
   display: flex;
   position: relative;
+  justify-self: center;
   @media (max-width: 768px) {
     flex-direction: column;
     align-items: center;

@@ -5,7 +5,12 @@ module.exports = {
     author: `Gabe Kirkley`,
   },
   plugins: [
-    "gatsby-plugin-netlify-cms",
+    {
+      resolve: "gatsby-plugin-netlify-cms",
+      options: {
+        modulePath: `${__dirname}/src/cms/cms.js`,
+      },
+    },
     `gatsby-plugin-react-helmet`,
     "gatsby-plugin-styled-components",
     {

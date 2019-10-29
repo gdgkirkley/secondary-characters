@@ -40,7 +40,7 @@ const Titles = styled.div`
   }
   & h3 {
     margin-top: 10px;
-    width: 350px;
+    width: 380px;
   }
   @media (max-width: 768px) {
     & h1 {
