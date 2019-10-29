@@ -11,6 +11,7 @@ collections:
   - name: "artists"
     label: "Artists"
     label_singular: "Artist"
+    identifier_field: "name"
     description: "The names, headshots and bios of everyone who has worked on a show"
     folder: "src/pages/artists"
     create: true
