@@ -1,5 +1,5 @@
 import CMS from "netlify-cms-app"
 
-import AboutPagePreview from "./preview-templates/AboutPagePreview"
+import cloudinary from "netlify-cms-media-library-cloudinary"
 
-CMS.registerPreviewTemplate("about", AboutPagePreview)
+CMS.registerMediaLibrary(cloudinary)

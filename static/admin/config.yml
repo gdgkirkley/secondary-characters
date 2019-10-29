@@ -5,6 +5,12 @@ backend:
 media_folder: /static/img
 public_folder: /img
 
+media_library:
+  name: cloudinary
+  config:
+    cloud_name: secondary-characters
+    api_key: 463348179117281
+
 logo_url: /img/sc-logo-no-background_1.png
 
 collections:

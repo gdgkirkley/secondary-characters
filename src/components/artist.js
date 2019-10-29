@@ -116,9 +116,12 @@ const Artist = ({ artist }) => {
             frontmatter {
               name
               headshot {
-                childImageSharp {
+                childImageCloudinary {
                   fluid(maxWidth: 150) {
-                    ...GatsbyImageSharpFluid
+                    base64: imgBase64
+                    src: imgSrc
+                    srcSet: imgSrcSet
+                    sizes
                   }
                 }
               }
@@ -145,7 +148,7 @@ const Artist = ({ artist }) => {
           <ArtistHeadshot>
             <Img
               fluid={
-                foundArtist.node.frontmatter.headshot.childImageSharp.fluid
+                foundArtist.node.frontmatter.headshot.childImageCloudinary.fluid
               }
               style={{ width: "150px" }}
             />
