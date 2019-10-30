@@ -77,6 +77,39 @@ const Section = styled.section`
   }
 `
 
+export const ContentPageTemplate = ({ frontmatter, html }) => (
+  <Layout>
+    <SEO title={frontmatter.title} />
+    {frontmatter.showBanner ? (
+      <HeroBanner
+        fluid={frontmatter.image && frontmatter.image.childImageSharp.fluid}
+      />
+    ) : null}
+    <PageContent inset={frontmatter.showBanner}>
+      <Section>
+        <h1 className="section-head">{frontmatter.title}</h1>
+        <div
+          className="main-content"
+          dangerouslySetInnerHTML={{ __html: html }}
+        />
+      </Section>
+      {frontmatter.sections && frontmatter.sections.length
+        ? frontmatter.sections.map(section => {
+            return (
+              <Section key={section.sectionHead}>
+                <h1 className="section-head">{section.sectionHead}</h1>
+                <div
+                  className="main-content"
+                  dangerouslySetInnerHTML={{ __html: section.content }}
+                />
+              </Section>
+            )
+          })
+        : null}
+    </PageContent>
+  </Layout>
+)
+
 const ContentPage = ({ data: { pageData } }) => {
   const page = pageData.edges[0].node
   return (

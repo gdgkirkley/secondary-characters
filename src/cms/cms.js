@@ -1,5 +1,11 @@
-import CMS from "netlify-cms-app"
+import React from 'react';
+import CMS from 'netlify-cms-app';
+import StyleSheetInjector from './stylesheetinjector';
 
-import AboutPagePreview from "./preview-templates/AboutPagePreview"
+import AboutPagePreview from './preview-templates/AboutPagePreview';
 
-CMS.registerPreviewTemplate("about", AboutPagePreview)
+CMS.registerPreviewTemplate('about', 
+  <StyleSheetInjector>
+    <AboutPagePreview {...props} />
+  </StyleSheetInjector>
+));
