@@ -232,7 +232,11 @@ const Footer = () => {
             })}
           </RightMenu>
         </FooterNav>
-        <Trademark>{footer.trademark}</Trademark>
+        <Trademark>
+          Secondary Characters Musical Theatre Society ©{" "}
+          {new Date().getFullYear()}. A registered non-profit. Website by
+          Gabriel Kirkley.
+        </Trademark>
       </FooterStyle>
     </>
   )
