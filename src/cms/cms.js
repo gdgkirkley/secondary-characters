@@ -4,8 +4,9 @@ import StyleSheetInjector from './stylesheetinjector';
 
 import AboutPagePreview from './preview-templates/AboutPagePreview';
 
-CMS.registerPreviewTemplate('about', 
+CMS.registerPreviewTemplate(
+  'about',
   <StyleSheetInjector>
     <AboutPagePreview {...props} />
-  </StyleSheetInjector>
-));
+  </StyleSheetInjector>,
+);
