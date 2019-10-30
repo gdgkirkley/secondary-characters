@@ -4,6 +4,8 @@ import StyleSheetInjector from './stylesheetinjector';
 
 import AboutPagePreview from './preview-templates/AboutPagePreview';
 
+CMS.registerPreviewStyle('/sc.css');
+
 CMS.registerPreviewTemplate('about', props => (
   <StyleSheetInjector>
     <AboutPagePreview {...props} />
