@@ -1,9 +1,9 @@
-import React from "react"
-import { graphql } from "gatsby"
-import BackgroundImage from "gatsby-background-image"
-import styled from "styled-components"
-import Layout from "../components/layout"
-import SEO from "../components/seo"
+import React from 'react';
+import { graphql } from 'gatsby';
+import BackgroundImage from 'gatsby-background-image';
+import styled from 'styled-components';
+import Layout from '../components/layout';
+import SEO from '../components/seo';
 
 export const query = graphql`
   query($slug: String!) {
@@ -31,7 +31,7 @@ export const query = graphql`
       }
     }
   }
-`
+`;
 
 const HeroBanner = styled(BackgroundImage)`
   background-color: ${props => props.theme.accent7};
@@ -47,16 +47,16 @@ const HeroBanner = styled(BackgroundImage)`
   @media (max-width: 768px) {
     min-height: 50vh;
   }
-`
+`;
 
 const PageContent = styled.div`
   margin: 0 auto;
-  margin-top: ${props => (props.inset ? "-40px" : "40px")};
+  margin-top: ${props => (props.inset ? '-40px' : '40px')};
   background: white;
   border-radius: 16px;
   padding: 16px 32px;
   max-width: 1300px;
-`
+`;
 
 const Section = styled.section`
   padding-bottom: 48px;
@@ -67,7 +67,7 @@ const Section = styled.section`
   & .section-head {
     margin: 36px 0px;
     font-size: ${props => props.theme.fontSize.subHeading};
-    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-weight: bold;
     color: ${props => props.theme.primary3};
     text-transform: uppercase;
@@ -75,43 +75,20 @@ const Section = styled.section`
   & .main-content {
     line-height: 2;
   }
-`
+`;
 
-export const ContentPageTemplate = ({ frontmatter, html }) => (
+export const ContentPageTemplate = ({ title }) => (
   <Layout>
-    <SEO title={frontmatter.title} />
-    {frontmatter.showBanner ? (
-      <HeroBanner
-        fluid={frontmatter.image && frontmatter.image.childImageSharp.fluid}
-      />
-    ) : null}
-    <PageContent inset={frontmatter.showBanner}>
+    <PageContent>
       <Section>
-        <h1 className="section-head">{frontmatter.title}</h1>
-        <div
-          className="main-content"
-          dangerouslySetInnerHTML={{ __html: html }}
-        />
+        <h1 className="section-head">{title}</h1>
       </Section>
-      {frontmatter.sections && frontmatter.sections.length
-        ? frontmatter.sections.map(section => {
-            return (
-              <Section key={section.sectionHead}>
-                <h1 className="section-head">{section.sectionHead}</h1>
-                <div
-                  className="main-content"
-                  dangerouslySetInnerHTML={{ __html: section.content }}
-                />
-              </Section>
-            )
-          })
-        : null}
     </PageContent>
   </Layout>
-)
+);
 
 const ContentPage = ({ data: { pageData } }) => {
-  const page = pageData.edges[0].node
+  const page = pageData.edges[0].node;
   return (
     <Layout>
       <SEO title={page.frontmatter.title} />
@@ -141,12 +118,12 @@ const ContentPage = ({ data: { pageData } }) => {
                     dangerouslySetInnerHTML={{ __html: section.content }}
                   />
                 </Section>
-              )
+              );
             })
           : null}
       </PageContent>
     </Layout>
-  )
-}
+  );
+};
 
-export default ContentPage
+export default ContentPage;
