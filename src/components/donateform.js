@@ -230,6 +230,8 @@ const DonateForm = () => {
         <a
           href="https://www.paypal.com/webapps/mpp/paypal-popup"
           title="How PayPal Works"
+          target="_blank"
+          rel="noopener noreferrer"
         >
           <img
             src="https://www.paypalobjects.com/digitalassets/c/website/marketing/na/us/logo-center/9_bdg_secured_by_pp_2line.png"

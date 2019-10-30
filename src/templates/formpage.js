@@ -7,6 +7,7 @@ import ContactForm from "../components/contactform"
 import DonateForm from "../components/donateform"
 import SEO from "../components/seo"
 import VolunteerForm from "../components/volunteerform"
+import AuditionForm from "../components/auditionform"
 
 export const query = graphql`
   query($slug: String!) {
@@ -100,6 +101,7 @@ const FormPage = ({ data: { pageData } }) => {
     contactform: ContactForm,
     donateform: DonateForm,
     volunteerform: VolunteerForm,
+    auditionform: AuditionForm,
   }
   const Tag = components[page.frontmatter.pageForm]
   return (
