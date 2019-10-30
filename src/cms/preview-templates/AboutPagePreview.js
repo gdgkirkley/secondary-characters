@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { ContentPageTemplate } from '../../templates/contentpage';
 
 const AboutPagePreview = ({ entry }) => {
-  const title = entry.getIn(['data', 'frontmatter', 'title']);
+  const title = entry.getIn(['data', 'title']);
   return <ContentPageTemplate title={title} />;
 };
 
