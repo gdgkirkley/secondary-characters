@@ -1,10 +1,10 @@
-import React from "react"
-import { Link } from "gatsby"
-import { useStaticQuery, graphql } from "gatsby"
-import styled from "styled-components"
-import PropTypes from "prop-types"
-import Img from "gatsby-image"
-import NavBar from "./navbar"
+import React from 'react';
+import { Link } from 'gatsby';
+import { useStaticQuery, graphql } from 'gatsby';
+import styled from 'styled-components';
+import PropTypes from 'prop-types';
+import Img from 'gatsby-image';
+import NavBar from './navbar';
 
 const HeaderStyle = styled.header`
   display: grid;
@@ -23,7 +23,7 @@ const HeaderStyle = styled.header`
     top: 0;
     z-index: 999;
   }
-`
+`;
 
 const Logo = styled.div`
   width: 128px;
@@ -31,7 +31,7 @@ const Logo = styled.div`
   @media (max-width: 1250px) {
     margin-left: 0px;
   }
-`
+`;
 
 const Header = () => {
   const data = useStaticQuery(graphql`
@@ -54,7 +54,6 @@ const Header = () => {
             frontmatter {
               menuItems {
                 label
-                linkType
                 linkURL
                 dropdown {
                   label
@@ -66,7 +65,7 @@ const Header = () => {
         }
       }
     }
-  `)
+  `);
 
   return (
     <HeaderStyle>
@@ -77,15 +76,15 @@ const Header = () => {
       </Logo>
       <NavBar navMenuItems={data.navbarData} />
     </HeaderStyle>
-  )
-}
+  );
+};
 
 Header.propTypes = {
   siteTitle: PropTypes.string,
-}
+};
 
 Header.defaultProps = {
   siteTitle: ``,
-}
+};
 
-export default Header
+export default Header;
