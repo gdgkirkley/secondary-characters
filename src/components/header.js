@@ -54,7 +54,6 @@ const Header = () => {
             frontmatter {
               menuItems {
                 label
-                linkURL
                 dropdown {
                   label
                   linkURL

@@ -115,6 +115,7 @@ collections:
           name: "upcoming",
           widget: "boolean",
           hint: "Upcoming shows will appear on the home page.",
+          default: false
         }
       - {
           label: "Order on Home Page",
@@ -122,18 +123,20 @@ collections:
           widget: "number",
           valueType: "int",
           hint: "Controls the order of shows on the home page where 1 is first.",
+          default: 1
         }
-      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Title", name: "title", widget: "string", required: true, default: "" }
       - { label: "Image", name: "image", widget: "image" }
-      - { label: "Dates", name: "dates", widget: "string" }
-      - { label: "Tagline", name: "tagline", widget: "string" }
-      - { label: "Location", name: "location", widget: "string" }
-      - { label: "Description", name: "body", widget: "markdown" }
+      - { label: "Dates", name: "dates", widget: "string", default: "" }
+      - { label: "Tagline", name: "tagline", widget: "string", default: "" }
+      - { label: "Location", name: "location", widget: "string", default: "" }
+      - { label: "Description", name: "body", widget: "markdown", default: "" }
       - {
           label: "Ticket Link",
           name: "ticketLink",
           widget: "string",
           hint: "Leave this blank if show is past",
+          default: ""
         }
       - label: "Show Credits"
         label_singular: "Show Credit"
@@ -158,6 +161,7 @@ collections:
               name: "id",
               widget: "string",
               hint: "This should be a unique identifier. Required to make the gallery work!",
+              required: true
             }
           - {
               label: "Alternate Text",
