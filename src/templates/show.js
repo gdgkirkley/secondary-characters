@@ -1,10 +1,10 @@
-import React, { useState } from "react"
-import { graphql } from "gatsby"
-import Img from "gatsby-image"
-import styled from "styled-components"
-import Layout from "../components/layout"
-import Artist from "../components/artist"
-import SEO from "../components/seo"
+import React, { useState } from 'react';
+import { graphql } from 'gatsby';
+import Img from 'gatsby-image';
+import styled from 'styled-components';
+import Layout from '../components/layout';
+import Artist from '../components/artist';
+import SEO from '../components/seo';
 
 export const query = graphql`
   query($slug: String!) {
@@ -59,7 +59,7 @@ export const query = graphql`
       }
     }
   }
-`
+`;
 
 const HeroBanner = styled.div`
   width: 100%;
@@ -71,7 +71,7 @@ const HeroBanner = styled.div`
   @media (max-width: 768px) {
     min-height: 50vh;
   }
-`
+`;
 
 const ShowContent = styled.div`
   margin: 0 auto;
@@ -83,7 +83,7 @@ const ShowContent = styled.div`
   @media (max-width: 900px) {
     margin-top: 0px;
   }
-`
+`;
 
 const Section = styled.section`
   padding-bottom: 48px;
@@ -94,12 +94,12 @@ const Section = styled.section`
   & .section-head {
     margin: 36px 0px;
     font-size: ${props => props.theme.fontSize.subHeading};
-    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-weight: bold;
     color: ${props => props.theme.primary3};
     text-transform: uppercase;
   }
-`
+`;
 
 const TopContent = styled.div`
   display: grid;
@@ -139,7 +139,7 @@ const TopContent = styled.div`
       display: inline-flex;
     }
   }
-`
+`;
 
 const TicketBoxDesktop = styled.div`
   display: grid;
@@ -158,7 +158,7 @@ const TicketBoxDesktop = styled.div`
     display: flex;
     justify-content: center;
   }
-`
+`;
 
 const TicketBoxMobile = styled.div`
   background: ${props => props.theme.grey10};
@@ -168,13 +168,13 @@ const TicketBoxMobile = styled.div`
     justify-content: center;
     padding: 16px;
   }
-`
+`;
 
 const DatesLocation = styled.div`
   & h2,
   h3,
   h4 {
-    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
   }
   & h2 {
     font-size: ${props => props.theme.fontSize.highLevel};
@@ -201,10 +201,10 @@ const DatesLocation = styled.div`
     display: flex;
     justify-content: center;
   }
-`
+`;
 
 const BuyTicketsButton = styled.button`
-  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
   text-transform: uppercase;
   color: ${props => props.theme.grey10};
   background: ${props => props.theme.warning3};
@@ -215,7 +215,7 @@ const BuyTicketsButton = styled.button`
     background: ${props => props.theme.warning4};
     cursor: pointer;
   }
-`
+`;
 
 const ArtistGrid = styled.div`
   display: grid;
@@ -227,7 +227,7 @@ const ArtistGrid = styled.div`
   @media (max-width: 768px) {
     grid-template-columns: repeat(2, 1fr);
   }
-`
+`;
 
 const PhotoGalleryMainImageContainer = styled.div`
   position: relative;
@@ -237,7 +237,7 @@ const PhotoGalleryMainImageContainer = styled.div`
   @media (max-width: 768px) {
     min-height: 250px;
   }
-`
+`;
 
 const PhotoGalleryMainImage = styled(Img)`
   border: 2px solid ${props => props.theme.primary5};
@@ -254,7 +254,7 @@ const PhotoGalleryMainImage = styled(Img)`
     opacity: 1;
     visibility: visible;
   }
-`
+`;
 
 const PhotoGalleryCarousel = styled.div`
   display: grid;
@@ -271,7 +271,7 @@ const PhotoGalleryCarousel = styled.div`
   @media (max-width: 768px) {
     grid-template-columns: repeat(4, 1fr);
   }
-`
+`;
 
 const PhotoGalleryThumb = styled(Img)`
   border-radius: 16px;
@@ -289,28 +289,28 @@ const PhotoGalleryThumb = styled(Img)`
   &.selected {
     opacity: 1;
   }
-`
+`;
 
 const ShowTemplate = ({ data: { showData } }) => {
-  const show = showData.edges[0].node.frontmatter
-  const description = showData.edges[0].node.html
+  const show = showData.edges[0].node.frontmatter;
+  const description = showData.edges[0].node.html;
 
   const [selectedPhoto, setSelectedPhoto] = useState(
-    show.photoGallery && show.photoGallery.length ? show.photoGallery[0] : ""
-  )
-  const [photoActive, setPhotoActive] = useState(0)
+    show.photoGallery && show.photoGallery.length ? show.photoGallery[0] : '',
+  );
+  const [photoActive, setPhotoActive] = useState(0);
 
   const handlePhotoThumbClick = e => {
     const newImage = show.photoGallery.find(photo => {
-      return photo.id === e.currentTarget.id
-    })
+      return photo.id === e.currentTarget.id;
+    });
     const newImageIndex = show.photoGallery.findIndex(photo => {
-      return photo.id === e.currentTarget.id
-    })
-    if (!newImage) return
-    setPhotoActive(newImageIndex)
-    setSelectedPhoto(newImage)
-  }
+      return photo.id === e.currentTarget.id;
+    });
+    if (!newImage) return;
+    setPhotoActive(newImageIndex);
+    setSelectedPhoto(newImage);
+  };
 
   return (
     <Layout>
@@ -321,13 +321,13 @@ const ShowTemplate = ({ data: { showData } }) => {
           objectFit="cover"
           objectPosition="50% 50%"
           style={{
-            width: "100%",
-            height: "50vh",
-            color: "white",
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "flex-start",
-            zIndex: "-1",
+            width: '100%',
+            height: '50vh',
+            color: 'white',
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'flex-start',
+            zIndex: '-1',
           }}
         />
       </HeroBanner>
@@ -343,13 +343,14 @@ const ShowTemplate = ({ data: { showData } }) => {
           <TopContent>
             <div>
               <h1 className="title">{show.title}</h1>
-              {show.showCredits.map(credit => {
-                return (
-                  <p className="credit" key={credit.artist}>
-                    {credit.credit} <strong>{credit.artist}</strong>
-                  </p>
-                )
-              })}
+              {show.showCredits &&
+                show.showCredits.map(credit => {
+                  return (
+                    <p className="credit" key={credit.artist}>
+                      {credit.credit} <strong>{credit.artist}</strong>
+                    </p>
+                  );
+                })}
               <div className="mobile-dates">
                 <DatesLocation>
                   <h2>{show.dates}</h2>
@@ -389,17 +390,17 @@ const ShowTemplate = ({ data: { showData } }) => {
                   <PhotoGalleryMainImage
                     key={photo.id}
                     fluid={photo.image.childImageSharp.fluid}
-                    className={index === photoActive ? "active" : ""}
-                    style={{ zIndex: index, position: "absolute" }}
+                    className={index === photoActive ? 'active' : ''}
+                    style={{ zIndex: index, position: 'absolute' }}
                     alt={photo.altText}
                   />
-                )
+                );
               })}
             </PhotoGalleryMainImageContainer>
             <PhotoGalleryCarousel>
               {show.photoGallery.map((photo, index) => {
                 const selected =
-                  selectedPhoto.id === photo.id && photoActive === index
+                  selectedPhoto.id === photo.id && photoActive === index;
                 return (
                   <button
                     key={photo.id}
@@ -410,10 +411,10 @@ const ShowTemplate = ({ data: { showData } }) => {
                     <PhotoGalleryThumb
                       fluid={photo.image.childImageSharp.fluid}
                       alt={photo.altText}
-                      className={selected ? "selected" : ""}
+                      className={selected ? 'selected' : ''}
                     />
                   </button>
-                )
+                );
               })}
             </PhotoGalleryCarousel>
           </Section>
@@ -423,7 +424,7 @@ const ShowTemplate = ({ data: { showData } }) => {
             <h2 className="section-head">Cast</h2>
             <ArtistGrid>
               {show.cast.map(artist => {
-                return <Artist artist={artist} key={artist.artist} />
+                return <Artist artist={artist} key={artist.artist} />;
               })}
             </ArtistGrid>
           </Section>
@@ -433,7 +434,7 @@ const ShowTemplate = ({ data: { showData } }) => {
             <h2 className="section-head">Creative Team</h2>
             <ArtistGrid>
               {show.creativeTeam.map(artist => {
-                return <Artist artist={artist} key={artist.artist} />
+                return <Artist artist={artist} key={artist.artist} />;
               })}
             </ArtistGrid>
           </Section>
@@ -445,12 +446,12 @@ const ShowTemplate = ({ data: { showData } }) => {
                   <h2 className="section-head">{section.sectionHead}</h2>
                   <div dangerouslySetInnerHTML={{ __html: section.content }} />
                 </Section>
-              )
+              );
             })
           : null}
       </ShowContent>
     </Layout>
-  )
-}
+  );
+};
 
-export default ShowTemplate
+export default ShowTemplate;
