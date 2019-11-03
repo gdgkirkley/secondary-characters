@@ -3,8 +3,6 @@ templateKey: artist
 name: Emily Hamel-Brisson
 headshot: /img/emily.jpg
 ---
-Emily Hamel-Brisson
-
 Emily has been active in the theatre community here in Chilliwack since she was 12 years old, getting her start with David Walsh and the Chilliwack Academy of Music. Since then, she has worked with The Chilliwack Players Guild, Rosebud School of Performing Arts, Pacific Theatre, The Chilliwack School of Performing Arts and Creative Outlet.
 
 She earned a diploma in the Performing Arts from Rosebud School of Performing, and sang with Trinity Western University's Chorus and Chamber Choir during her time there.
