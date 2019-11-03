@@ -7,6 +7,6 @@ image: /img/littlewomen1.jpg
 dates: July 2009
 tagline: The classic story by Louisa May Alcott
 location: UFV Theatre
-ticketLink: '   '
+ticketLink: null
 ---
 It's about Jo and Meg and Amy and Beth.

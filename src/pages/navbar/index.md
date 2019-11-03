@@ -15,6 +15,8 @@ menuItems:
     dropdown:
       - label: Joseph (2013)
         linkURL: /shows/joseph-and-the-amazing-technicolor-dreamcoat
+      - label: Little Women (2009)
+        linkURL: /shows/little-women
   - label: Get Involved
     linkType: internal
     linkURL: /get-involved

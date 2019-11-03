@@ -1,8 +1,8 @@
-import React, { useState, useEffect, useRef } from "react"
-import styled from "styled-components"
-import { Link } from "gatsby"
-import Caret from "./icons/caret"
-import Bars from "./icons/bars"
+import React, { useState, useEffect, useRef } from 'react';
+import styled from 'styled-components';
+import { Link } from 'gatsby';
+import Caret from './icons/caret';
+import Bars from './icons/bars';
 
 const NavBarStyle = styled.nav`
   display: flex;
@@ -20,7 +20,7 @@ const NavBarStyle = styled.nav`
       }
     }
   }
-`
+`;
 
 const TopMenu = styled.ul`
   display: flex;
@@ -51,7 +51,7 @@ const TopMenu = styled.ul`
       opacity: 1;
     }
   }
-`
+`;
 
 const DropMenu = styled.ul`
   display: flex;
@@ -89,7 +89,7 @@ const DropMenu = styled.ul`
   }
   & li {
     word-wrap: none;
-    font-size: ${props => props.theme.fontSize.emphasis};
+    font-size: ${props => props.theme.fontSize.reading};
     line-height: 2;
   }
   & a {
@@ -102,14 +102,14 @@ const DropMenu = styled.ul`
     visibility: visible;
     opacity: 1;
   }
-`
+`;
 
 const TopMenuItem = styled.li`
   font-size: ${props => props.theme.fontSize.subHeading};
   list-style: none;
   color: ${props => props.theme.primary5};
   text-transform: uppercase;
-  font-family: "Roboto Condensed";
+  font-family: 'Roboto Condensed';
   font-weight: bold;
   display: flex;
   align-items: center;
@@ -150,7 +150,7 @@ const TopMenuItem = styled.li`
   &.open {
     &:after,
     :before {
-      content: "";
+      content: '';
       position: absolute;
       left: 50%;
       bottom: -28px;
@@ -182,45 +182,45 @@ const TopMenuItem = styled.li`
     height: 100%;
     transition: 0.2s linear;
   }
-`
+`;
 
 const NavBar = props => {
-  const { navMenuItems } = props
-  const [open, setOpen] = useState(false)
-  const [dropMenus, setDropMenus] = useState({})
+  const { navMenuItems } = props;
+  const [open, setOpen] = useState(false);
+  const [dropMenus, setDropMenus] = useState({});
 
-  const outer = useRef()
+  const outer = useRef();
 
   useEffect(() => {
-    document.addEventListener("mousedown", handleOutsideClick)
+    document.addEventListener('mousedown', handleOutsideClick);
 
     return () => {
-      document.removeEventListener("mousedown", handleOutsideClick)
-    }
-  }, [])
+      document.removeEventListener('mousedown', handleOutsideClick);
+    };
+  }, []);
 
   const handleOutsideClick = e => {
     if (outer.current.contains(e.target)) {
-      return
+      return;
     }
-    setDropMenus({})
-  }
+    setDropMenus({});
+  };
 
   const handleToggle = () => {
-    setOpen(!open)
-  }
+    setOpen(!open);
+  };
 
   const handleMenuItemClick = e => {
-    if (e.keyCode && e.keyCode !== 13) return
+    if (e.keyCode && e.keyCode !== 13) return;
     setDropMenus({
       [e.target.id]: !dropMenus[e.target.id],
-    })
-  }
+    });
+  };
 
   return (
     <NavBarStyle>
       <Bars className="bars" onClick={handleToggle} />
-      <TopMenu className={open ? "open" : ""} ref={outer}>
+      <TopMenu className={open ? 'open' : ''} ref={outer}>
         {navMenuItems.edges[0].node.frontmatter.menuItems.map(menuItem => {
           return (
             <TopMenuItem
@@ -228,33 +228,33 @@ const NavBar = props => {
               onKeyDown={handleMenuItemClick}
               id={menuItem.label}
               key={menuItem.label}
-              className={dropMenus[menuItem.label] ? "open" : ""}
+              className={dropMenus[menuItem.label] ? 'open' : ''}
               tabIndex="0"
             >
-              {menuItem.label}{" "}
+              {menuItem.label}{' '}
               <Caret id={menuItem.label} onClick={handleMenuItemClick} />
               {menuItem.dropdown.length ? (
-                <DropMenu className={dropMenus[menuItem.label] ? "open" : ""}>
+                <DropMenu className={dropMenus[menuItem.label] ? 'open' : ''}>
                   {menuItem.dropdown.map(dropItem => {
-                    const beginLinkRegex = /^..\//
+                    const beginLinkRegex = /^..\//;
                     const fixedLink = dropItem.linkURL.replace(
                       beginLinkRegex,
-                      "/"
-                    )
+                      '/',
+                    );
                     return (
                       <Link to={fixedLink} key={dropItem.label}>
                         <li>{dropItem.label}</li>
                       </Link>
-                    )
+                    );
                   })}
                 </DropMenu>
               ) : null}
             </TopMenuItem>
-          )
+          );
         })}
       </TopMenu>
     </NavBarStyle>
-  )
-}
+  );
+};
 
-export default NavBar
+export default NavBar;
