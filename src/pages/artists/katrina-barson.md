@@ -3,7 +3,7 @@ templateKey: artist
 name: Katrina Barson
 headshot: /img/kat.jpg
 ---
-Katrina Barson
+
 
 A true triple threat, Katrina has been performing since her early childhood in school productions (Muzzy – Thoroughly Modern Millie, GW Graham Theatre) and at the Chilliwack School of Performing Arts (Belle – Beauty and the Beast, Winnifred – Once Upon a Mattress, Asaka – Once On This Island). You may also know her from some of her community performances with Secondary Characters (Little Red – Into the Woods, Amy – Little Women), Newbury Arts Concepts (Rosie – Bye Bye Birdie) and Theatre Junkies (Gift of the Magi). 
 
