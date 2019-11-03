@@ -429,7 +429,7 @@ const ShowTemplate = ({ data: { showData } }) => {
             </ArtistGrid>
           </Section>
         ) : null}
-        {show.creativeTeam.length ? (
+        {show.creativeTeam && show.creativeTeam.length ? (
           <Section>
             <h2 className="section-head">Creative Team</h2>
             <ArtistGrid>
