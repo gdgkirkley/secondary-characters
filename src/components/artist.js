@@ -1,7 +1,7 @@
-import React, { useState } from "react"
-import { useStaticQuery, graphql } from "gatsby"
-import Img from "gatsby-image"
-import styled from "styled-components"
+import React, { useState } from 'react';
+import { useStaticQuery, graphql } from 'gatsby';
+import Img from 'gatsby-image';
+import styled from 'styled-components';
 
 const ArtistCredit = styled.div`
   display: flex;
@@ -16,12 +16,13 @@ const ArtistCredit = styled.div`
     }
   }
   &:hover {
-    cursor: ${props => (props.noHover ? "inherit" : "pointer")};
+    cursor: ${props => (props.noHover ? 'inherit' : 'pointer')};
     & .name {
-      color: ${props => props.theme.primary5};
+      color: ${props =>
+        props.noHover ? props.theme.grey3 : props.theme.primary5};
     }
   }
-`
+`;
 
 const ArtistHeadshot = styled.div`
   height: 150px;
@@ -37,13 +38,13 @@ const ArtistHeadshot = styled.div`
 
   ${ArtistCredit}:hover & {
     border: ${props =>
-      props.noHover ? "none" : `3px solid ${props.theme.primary5}`};
+      props.noHover ? 'none' : `3px solid ${props.theme.primary5}`};
   }
   @media (max-width: 400px) {
     width: 100px;
     height: 100px;
   }
-`
+`;
 
 const ArtistBioModal = styled.div`
   position: fixed;
@@ -81,7 +82,7 @@ const ArtistBioModal = styled.div`
       }
     }
   }
-`
+`;
 
 const ArtistBioModalContent = styled.div`
   position: absolute;
@@ -91,7 +92,20 @@ const ArtistBioModalContent = styled.div`
   background-color: white;
   padding: 16px;
   min-width: 500px;
+  max-height: 80%;
+  overflow-y: scroll;
   border-radius: 16px;
+  line-height: 2;
+  &::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 7px;
+  }
+  &::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 1px rgba(255, 255, 255, 0.5);
+    -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, 0.5);
+  }
   & h2,
   h3 {
     color: ${props => props.theme.grey1};
@@ -101,10 +115,10 @@ const ArtistBioModalContent = styled.div`
     min-width: 98vw;
     min-height: 50vh;
   }
-`
+`;
 
 const Artist = ({ artist }) => {
-  const [showModal, setShowModal] = useState(false)
+  const [showModal, setShowModal] = useState(false);
 
   const data = useStaticQuery(graphql`
     query {
@@ -128,15 +142,15 @@ const Artist = ({ artist }) => {
         }
       }
     }
-  `)
+  `);
 
   const toggleBioModal = () => {
-    setShowModal(!showModal)
-  }
+    setShowModal(!showModal);
+  };
 
   const foundArtist = data.artists.edges.find(art => {
-    return art.node.frontmatter.name === artist.artist
-  })
+    return art.node.frontmatter.name === artist.artist;
+  });
 
   if (foundArtist) {
     return (
@@ -147,7 +161,7 @@ const Artist = ({ artist }) => {
               fluid={
                 foundArtist.node.frontmatter.headshot.childImageSharp.fluid
               }
-              style={{ width: "150px" }}
+              style={{ width: '150px' }}
             />
           </ArtistHeadshot>
           <p className="credit">
@@ -158,7 +172,7 @@ const Artist = ({ artist }) => {
             {artist.credit}
           </p>
         </ArtistCredit>
-        <ArtistBioModal className={showModal ? "show-modal" : ""}>
+        <ArtistBioModal className={showModal ? 'show-modal' : ''}>
           <ArtistBioModalContent>
             <span className="close-button" onClick={toggleBioModal}>
               &times;
@@ -169,7 +183,7 @@ const Artist = ({ artist }) => {
           </ArtistBioModalContent>
         </ArtistBioModal>
       </>
-    )
+    );
   }
 
   return (
@@ -181,7 +195,7 @@ const Artist = ({ artist }) => {
         {artist.credit}
       </p>
     </ArtistCredit>
-  )
-}
+  );
+};
 
-export default Artist
+export default Artist;
