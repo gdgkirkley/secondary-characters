@@ -127,19 +127,11 @@ collections:
           default: 1,
         }
       - {
-<<<<<<< HEAD
           label: 'Title',
           name: 'title',
           widget: 'string',
           required: true,
           default: '',
-=======
-          label: "Ticket Link", 
-          name: "ticketLink",
-          widget: "string",
-          hint: "Leave this blank if show is past",
-          default: ""
->>>>>>> 8109e1fde44357216f65e6c31ddf82fa7b797bc3
         }
       - { label: 'Image', name: 'image', widget: 'image', required: true }
       - {
