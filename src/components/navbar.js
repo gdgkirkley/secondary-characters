@@ -63,6 +63,8 @@ const DropMenu = styled.ul`
   left: 50%;
   transform: translate(-50%, 0%);
   width: calc(100% + 60px);
+  max-height: 80vh;
+  overflow-y: scroll;
   background: white;
   border: 1px solid ${props => props.theme.grey6};
   border-radius: 16px;
@@ -71,6 +73,16 @@ const DropMenu = styled.ul`
   visibility: hidden;
   opacity: 0;
   transition: 0.2s ease-in-out;
+  &::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 7px;
+  }
+  &::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 1px rgba(255, 255, 255, 0.5);
+    -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, 0.5);
+  }
   @media (max-width: 1600px) {
     width: calc(100% + 100px);
   }
@@ -89,8 +101,9 @@ const DropMenu = styled.ul`
   }
   & li {
     word-wrap: none;
-    font-size: ${props => props.theme.fontSize.reading};
-    line-height: 2;
+    font-size: 22px;
+    line-height: 1.5;
+    margin: 12px 0px;
   }
   & a {
     color: ${props => props.theme.primary5};

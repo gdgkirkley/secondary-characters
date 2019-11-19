@@ -12,7 +12,8 @@ const ArtistCredit = styled.div`
     font-size: ${props => props.theme.fontSize.information};
     & .name {
       font-size: ${props => props.theme.fontSize.reading};
-      margin: 4px 0px;
+      margin: 8px 0px;
+      line-height: 1.5;
     }
   }
   &:hover {
