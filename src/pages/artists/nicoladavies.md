@@ -4,4 +4,4 @@ name: Nicola Davies
 headshot: /img/nicola.jpg
 ---
 
-Nicola is great.
+Bio coming soon!

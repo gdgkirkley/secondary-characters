@@ -4,4 +4,4 @@ name: Steffi Munshaw
 headshot: /img/steffi.jpg
 ---
 
-Steffi is great.
+Bio coming soon!

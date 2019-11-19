@@ -4,4 +4,4 @@ name: Kris Ward
 headshot: /img/kris-ward.jpg
 ---
 
-Kris is great.
+Bio coming soon!

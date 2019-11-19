@@ -1,6 +1,7 @@
 ---
 templateKey: artist
 name: Caroline Davies
-headshot: /img/img_2242.jpg
+headshot: /img/caroline.jpg
 ---
-This is not Caroline
+
+Bio coming soon!

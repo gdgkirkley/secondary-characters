@@ -4,4 +4,4 @@ name: Shelley Wojcik
 headshot: /img/shelley.png
 ---
 
-Shelley is great.
+Bio coming soon!
