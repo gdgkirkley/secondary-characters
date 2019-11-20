@@ -3,23 +3,25 @@ module.exports = {
     title: `Secondary Characters`,
     description: `The official site of Secondary Characters`,
     author: `Gabe Kirkley`,
+    url: 'https://secondarycharacters.org',
+    image: '/img/sc-logo-no-background_1.png',
   },
   plugins: [
     {
-      resolve: "gatsby-plugin-netlify-cms",
+      resolve: 'gatsby-plugin-netlify-cms',
       options: {
-        htmlTitle: "SC Admin",
+        htmlTitle: 'SC Admin',
         htmlFavicon: `${__dirname}/static/img/sc-logo-no-background_1.png`,
         modulePath: `${__dirname}/src/cms/cms.js`,
       },
     },
     `gatsby-plugin-react-helmet`,
-    "gatsby-plugin-styled-components",
+    'gatsby-plugin-styled-components',
     {
-      resolve: "gatsby-plugin-mailchimp",
+      resolve: 'gatsby-plugin-mailchimp',
       options: {
         endpoint:
-          "https://secondarycharacters.us7.list-manage.com/subscribe/post?u=2f54245a577f34db39743347e&id=37f2aae127",
+          'https://secondarycharacters.us7.list-manage.com/subscribe/post?u=2f54245a577f34db39743347e&id=37f2aae127',
       },
     },
     {
@@ -30,25 +32,25 @@ module.exports = {
       },
     },
     {
-      resolve: "gatsby-source-filesystem",
+      resolve: 'gatsby-source-filesystem',
       options: {
-        name: "pages",
+        name: 'pages',
         path: `${__dirname}/src/pages`,
       },
     },
     `gatsby-transformer-sharp`,
     {
-      resolve: "gatsby-transformer-remark",
+      resolve: 'gatsby-transformer-remark',
       options: {
         plugins: [
           {
-            resolve: "gatsby-remark-relative-images",
+            resolve: 'gatsby-remark-relative-images',
             options: {
-              name: "images",
+              name: 'images',
             },
           },
           {
-            resolve: "gatsby-remark-images",
+            resolve: 'gatsby-remark-images',
             options: {
               maxWidth: 1200,
             },
@@ -70,4 +72,4 @@ module.exports = {
       },
     },
   ],
-}
+};
