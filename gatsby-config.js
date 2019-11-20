@@ -4,7 +4,7 @@ module.exports = {
     description: `The official site of Secondary Characters`,
     author: `Gabe Kirkley`,
     url: 'https://secondarycharacters.org',
-    image: '/img/sc-logo-no-background_1.png',
+    image: '/img/homebanner.jpg',
   },
   plugins: [
     {

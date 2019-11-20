@@ -64,8 +64,12 @@ function SEO({ description, lang, meta, title, image }) {
           content: metaImage,
         },
         {
+          property: `og:url`,
+          content: site.siteMetadata.url,
+        },
+        {
           name: `twitter:card`,
-          content: `summary`,
+          content: `summary_large_image`,
         },
         {
           name: `twitter:creator`,
