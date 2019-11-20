@@ -23,6 +23,7 @@ export const query = graphql`
                   ...GatsbyImageSharpFluid
                 }
               }
+              relativePath
             }
             desktopBanner {
               childImageSharp {
@@ -344,7 +345,7 @@ const ShowTemplate = ({ data: { showData } }) => {
       <SEO
         title={show.title}
         description={excerpt}
-        image={show.image.childImageSharp.fluid.src}
+        image={`/img/${show.image.relativePath}`}
       />
       <HeroBanner>
         <Img

@@ -24,6 +24,7 @@ export const query = graphql`
                   ...GatsbyImageSharpFluid
                 }
               }
+              relativePath
             }
             sections {
               sectionHead
@@ -116,7 +117,7 @@ const FormPage = ({ data: { pageData } }) => {
         description={page.excerpt}
         image={
           page.frontmatter.showBanner &&
-          page.frontmatter.image.childImageSharp.fluid.src
+          `/img/${page.frontmatter.image.relativePath}`
         }
       />
       {page.frontmatter.showBanner ? (
