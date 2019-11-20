@@ -1,28 +1,35 @@
-import React, { useState } from "react"
-import { Form } from "./styles/formstyles"
+import React, { useState } from 'react';
+import { Form } from './styles/formstyles';
+import { trackCustomEvent } from 'gatsby-plugin-google-analytics';
 
 const VolunteerForm = () => {
   const [values, setValues] = useState({
-    firstName: "",
-    lastName: "",
-    email: "",
-    phone: "",
+    firstName: '',
+    lastName: '',
+    email: '',
+    phone: '',
     contact: true,
-    message: "",
-  })
+    message: '',
+  });
 
   const handleChange = e => {
-    if (e.target.name === "contact") {
+    trackCustomEvent({
+      category: 'form',
+      action: 'Volunteer',
+      label: e.target.name,
+    });
+
+    if (e.target.name === 'contact') {
       return setValues({
         ...values,
         contact: !values.contact,
-      })
+      });
     }
     setValues({
       ...values,
       [e.target.name]: e.target.value,
-    })
-  }
+    });
+  };
 
   return (
     <Form data-netlify="true" name="Volunteer Form" method="POST">
@@ -89,7 +96,7 @@ const VolunteerForm = () => {
       </label>
       <button type="submit">Send your message!</button>
     </Form>
-  )
-}
+  );
+};
 
-export default VolunteerForm
+export default VolunteerForm;

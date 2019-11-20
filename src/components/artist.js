@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
-import Img from 'gatsby-image';
 import styled from 'styled-components';
+import { trackCustomEvent } from 'gatsby-plugin-google-analytics';
+import Img from 'gatsby-image';
 
 const ArtistCredit = styled.div`
   display: flex;
@@ -155,6 +156,11 @@ const Artist = ({ artist }) => {
   `);
 
   const toggleBioModal = () => {
+    trackCustomEvent({
+      category: 'artist',
+      action: 'bio',
+      label: 'Viewed artist bio',
+    });
     setShowModal(!showModal);
   };
 

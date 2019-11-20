@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Form } from './styles/formstyles';
+import { trackCustomEvent } from 'gatsby-plugin-google-analytics';
 
 const AuditionForm = () => {
   const [values, setValues] = useState({
@@ -13,6 +14,12 @@ const AuditionForm = () => {
   });
 
   const handleChange = e => {
+    trackCustomEvent({
+      category: 'form',
+      action: 'Audition',
+      label: e.target.name,
+    });
+
     setValues({
       ...values,
       [e.target.name]: e.target.value,

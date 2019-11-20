@@ -1,5 +1,6 @@
-import React, { useState } from "react"
-import styled from "styled-components"
+import React, { useState } from 'react';
+import styled from 'styled-components';
+import { trackCustomEvent } from 'gatsby-plugin-google-analytics';
 
 const Form = styled.form`
   display: grid;
@@ -8,7 +9,7 @@ const Form = styled.form`
     width: 100%;
     margin: 8px 0px;
     font-weight: bold;
-    font-family: "Roboto Condensed", Arial, Helvetica, sans-serif;
+    font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif;
     color: ${props => props.theme.grey6};
     & input,
     textarea {
@@ -20,7 +21,7 @@ const Form = styled.form`
       border-radius: 16px;
       background: ${props => props.theme.grey10};
       transition: 0.3s linear;
-      font-family: "Roboto", Arial, Helvetica, sans-serif;
+      font-family: 'Roboto', Arial, Helvetica, sans-serif;
       font-size: ${props => props.theme.fontSize.reading};
       &:hover,
       :focus {
@@ -43,7 +44,7 @@ const Form = styled.form`
     border: 1px solid ${props => props.theme.primary5};
     font-size: ${props => props.theme.fontSize.emphasis};
     background: white;
-    font-family: "Roboto Condensed", sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
     font-weight: bold;
     color: ${props => props.theme.primary4};
     min-height: 65px;
@@ -56,14 +57,14 @@ const Form = styled.form`
       outline: none;
     }
   }
-`
+`;
 
 const Suggested = styled.div`
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 36px;
   margin: 16px 0px;
-`
+`;
 
 const Secured = styled.div`
   display: flex;
@@ -72,7 +73,7 @@ const Secured = styled.div`
   & img {
     border-radius: ${props => props.theme.borderRadius};
   }
-`
+`;
 
 const Currency = styled.span`
   display: flex;
@@ -94,53 +95,69 @@ const Currency = styled.span`
   & .currency {
     border-radius: 0px 16px 16px 0px;
   }
-`
+`;
 
 function encode(data) {
   return Object.keys(data)
-    .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
-    .join("&")
+    .map(key => encodeURIComponent(key) + '=' + encodeURIComponent(data[key]))
+    .join('&');
 }
 
 const DonateForm = () => {
   const [values, setValues] = useState({
-    first_name: "",
-    last_name: "",
-    email: "",
-    amount: "25.00",
-  })
+    first_name: '',
+    last_name: '',
+    email: '',
+    amount: '25.00',
+  });
 
   const handleChange = e => {
+    trackCustomEvent({
+      category: 'form',
+      action: 'Donate',
+      label: e.target.name,
+    });
     setValues({
       ...values,
       [e.target.name]: e.target.value,
-    })
-  }
+    });
+  };
 
   const handleValueButton = e => {
-    e.preventDefault()
+    e.preventDefault();
+    trackCustomEvent({
+      category: 'form',
+      action: 'Donate',
+      label: 'Value Change',
+      value: e.target.value,
+    });
     setValues({
       ...values,
       amount: e.target.value,
-    })
-  }
+    });
+  };
 
   const handleSubmit = e => {
-    e.preventDefault()
-    const form = e.target
-    fetch("/", {
-      method: "POST",
-      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+    e.preventDefault();
+    trackCustomEvent({
+      category: 'form',
+      action: 'Donate',
+      label: 'Form Submission',
+    });
+    const form = e.target;
+    fetch('/', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
       body: encode({
-        "form-name": form.getAttribute("name"),
+        'form-name': form.getAttribute('name'),
         ...values,
       }),
     })
       .then(res => {
-        document.querySelector("#paypalform").submit()
+        document.querySelector('#paypalform').submit();
       })
-      .catch(error => alert(error))
-  }
+      .catch(error => alert(error));
+  };
 
   return (
     <>
@@ -241,7 +258,7 @@ const DonateForm = () => {
         </a>
       </Secured>
     </>
-  )
-}
+  );
+};
 
-export default DonateForm
+export default DonateForm;

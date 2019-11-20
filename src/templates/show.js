@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { graphql } from 'gatsby';
+import { trackCustomEvent } from 'gatsby-plugin-google-analytics';
 import Img from 'gatsby-image';
 import styled from 'styled-components';
 import Layout from '../components/layout';
@@ -312,6 +313,13 @@ const ShowTemplate = ({ data: { showData } }) => {
   const [photoActive, setPhotoActive] = useState(0);
 
   const handlePhotoThumbClick = e => {
+    trackCustomEvent({
+      category: 'show',
+      action: 'Gallery',
+      label: 'Photo thumb click',
+      value: e.currentTarget.id,
+    });
+
     const newImage = show.photoGallery.find(photo => {
       return photo.id === e.currentTarget.id;
     });
