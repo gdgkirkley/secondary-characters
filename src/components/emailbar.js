@@ -1,6 +1,7 @@
-import React, { useState, useEffect } from "react"
-import styled from "styled-components"
-import addToMailchimp from "gatsby-plugin-mailchimp"
+import React, { useState, useEffect } from 'react';
+import styled from 'styled-components';
+import addToMailchimp from 'gatsby-plugin-mailchimp';
+import { getSize } from '../lib/functions';
 
 const EmailBarStyle = styled.div`
   background-color: ${props => props.theme.accent5};
@@ -35,14 +36,14 @@ const EmailBarStyle = styled.div`
     width: 380px;
     border-radius: 1000px 0px 0px 1000px;
     font-size: ${props => props.theme.fontSize.reading};
-    font-family: "Roboto Condensed", Arial, Helvetica, sans-serif;
+    font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif;
     border: none;
     @media (max-width: 768px) {
       width: 300px;
       border-radius: 1000px;
     }
   }
-`
+`;
 
 const SignUpForm = styled.form`
   display: flex;
@@ -52,7 +53,7 @@ const SignUpForm = styled.form`
     flex-direction: column;
     align-items: center;
   }
-`
+`;
 
 const SignUpButton = styled.button`
   border-radius: 0px 1000px 1000px 0px;
@@ -70,7 +71,7 @@ const SignUpButton = styled.button`
     border-radius: 1000px;
     margin: 16px 0px;
   }
-`
+`;
 
 const SuccessMessage = styled.div`
   display: flex;
@@ -92,55 +93,45 @@ const SuccessMessage = styled.div`
     opacity: 1;
     visibility: visible;
   }
-`
+`;
 
 const EmailBar = () => {
-  const [email, setEmail] = useState("")
-  const [message, setMessage] = useState("")
-
-  const getSize = () => {
-    if (typeof window !== "undefined" && window.innerWidth) {
-      return {
-        width: window.innerWidth,
-        height: window.innerHeight,
-      }
-    }
-    return null
-  }
+  const [email, setEmail] = useState('');
+  const [message, setMessage] = useState('');
 
   const [windowSize, setWindowSize] = useState({
     width: 0,
     height: 0,
-  })
+  });
 
   useEffect(() => {
-    if (typeof window !== "undefined" && window.innerWidth) {
-      setWindowSize(getSize())
+    if (typeof window !== 'undefined' && window.innerWidth) {
+      setWindowSize(getSize());
       const handleResize = () => {
-        setWindowSize(getSize())
-      }
-      window.addEventListener("resize", handleResize)
+        setWindowSize(getSize());
+      };
+      window.addEventListener('resize', handleResize);
 
-      return () => window.removeEventListener("resize", handleResize)
+      return () => window.removeEventListener('resize', handleResize);
     }
-  }, [])
+  }, []);
 
   const handleChange = e => {
-    setEmail(e.target.value)
-  }
+    setEmail(e.target.value);
+  };
 
   const handleSubmit = e => {
-    e.preventDefault()
+    e.preventDefault();
 
     addToMailchimp(email)
       .then(data => {
-        setMessage(data.msg)
+        setMessage(data.msg);
         setTimeout(() => {
-          setMessage("")
-        }, 3000)
+          setMessage('');
+        }, 3000);
       })
-      .catch(err => {})
-  }
+      .catch(err => {});
+  };
 
   return (
     <EmailBarStyle>
@@ -150,20 +141,20 @@ const EmailBar = () => {
           type="text"
           placeholder={
             windowSize.width > 768
-              ? "Add your email..."
-              : "Stay up to date! Add your email..."
+              ? 'Add your email...'
+              : 'Stay up to date! Add your email...'
           }
           value={email}
           name="email"
           onChange={handleChange}
         />
         <SignUpButton type="submit">Sign Up!</SignUpButton>
-        <SuccessMessage className={message ? "display" : ""}>
+        <SuccessMessage className={message ? 'display' : ''}>
           {message}
         </SuccessMessage>
       </SignUpForm>
     </EmailBarStyle>
-  )
-}
+  );
+};
 
-export default EmailBar
+export default EmailBar;

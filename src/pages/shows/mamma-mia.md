@@ -6,7 +6,8 @@ title: Mamma Mia!
 dates: July 2020
 tagline: The magic of ABBA's timeless songs
 location: Chilliwack Cultural Centre
-image: /img/mammamia.jpg
+image: /img/mammamia-square.jpg
+desktopBanner: /img/mammamia.jpg
 showCredits:
   - credit: Music and Lyrics by
     artist: Björn Ulvaeus & Benny Andersson

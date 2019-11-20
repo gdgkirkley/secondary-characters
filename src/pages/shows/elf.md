@@ -35,15 +35,15 @@ cast:
     artist: Kimberly Iversen
   - credit: Manager/Mr. Greenway
     artist: Glen Pinchin
-  - credit: Chadwick/Security Guard/Fake Santa/Ensemble
+  - credit: Chadwick/ Security Guard/ Fake Santa/ Ensemble
     artist: Josh Power
-  - credit: Matthews/Security Guard/Policeman/Ensemble
+  - credit: Matthews/ Security Guard/ Policeman/ Ensemble
     artist: Zara Coulter
-  - credit: Charlotte Dennon Sarah/Santa's Helper/Charlie/Ensemble
+  - credit: Charlotte Dennon Sarah/ Santa's Helper/ Charlie/ Ensemble
     artist: Rebecca Bailey
-  - credit: Saleswoman/Darlene Lambert/Ensemble
+  - credit: Saleswoman/ Darlene Lambert/ Ensemble
     artist: Jamye Gallawan
-  - credit: Sam/Mother/Shawanda/Emma Van Brockin/Ensemble
+  - credit: Sam/ Mother/ Shawanda /Emma Van Brockin/ Ensemble
     artist: Madison Willoughby
   - credit: Ensemble
     artist: Reece Clegg

@@ -1,13 +1,13 @@
-import React from "react"
-import { graphql } from "gatsby"
-import BackgroundImage from "gatsby-background-image"
-import styled from "styled-components"
-import Layout from "../components/layout"
-import ContactForm from "../components/contactform"
-import DonateForm from "../components/donateform"
-import SEO from "../components/seo"
-import VolunteerForm from "../components/volunteerform"
-import AuditionForm from "../components/auditionform"
+import React from 'react';
+import { graphql } from 'gatsby';
+import BackgroundImage from 'gatsby-background-image';
+import styled from 'styled-components';
+import Layout from '../components/layout';
+import ContactForm from '../components/contactform';
+import DonateForm from '../components/donateform';
+import SEO from '../components/seo';
+import VolunteerForm from '../components/volunteerform';
+import AuditionForm from '../components/auditionform';
 
 export const query = graphql`
   query($slug: String!) {
@@ -36,7 +36,7 @@ export const query = graphql`
       }
     }
   }
-`
+`;
 
 const HeroBanner = styled(BackgroundImage)`
   background-color: ${props => props.theme.accent7};
@@ -52,16 +52,20 @@ const HeroBanner = styled(BackgroundImage)`
   @media (max-width: 768px) {
     min-height: 50vh;
   }
-`
+`;
 
 const PageContent = styled.div`
   margin: 0 auto;
-  margin-top: ${props => (props.inset ? "-40px" : "40px")};
+  margin-top: ${props => (props.inset ? '-40px' : '40px')};
   background: white;
   border-radius: 16px;
   padding: 16px 32px;
   max-width: 1300px;
-`
+  @media (max-width: 768px) {
+    padding: 16px 32px;
+    max-width: 768px;
+  }
+`;
 
 const TwoColumn = styled.div`
   display: grid;
@@ -70,7 +74,7 @@ const TwoColumn = styled.div`
   @media (max-width: 768px) {
     grid-template-columns: 1fr;
   }
-`
+`;
 
 const Section = styled.section`
   padding-bottom: 48px;
@@ -85,7 +89,7 @@ const Section = styled.section`
   & .section-head {
     margin: 36px 0px;
     font-size: ${props => props.theme.fontSize.subHeading};
-    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-weight: bold;
     color: ${props => props.theme.primary3};
     text-transform: uppercase;
@@ -93,17 +97,17 @@ const Section = styled.section`
   & .main-content {
     line-height: 2;
   }
-`
+`;
 
 const FormPage = ({ data: { pageData } }) => {
-  const page = pageData.edges[0].node
+  const page = pageData.edges[0].node;
   const components = {
     contactform: ContactForm,
     donateform: DonateForm,
     volunteerform: VolunteerForm,
     auditionform: AuditionForm,
-  }
-  const Tag = components[page.frontmatter.pageForm]
+  };
+  const Tag = components[page.frontmatter.pageForm];
   return (
     <Layout>
       <SEO title={page.frontmatter.title} />
@@ -135,12 +139,12 @@ const FormPage = ({ data: { pageData } }) => {
                     dangerouslySetInnerHTML={{ __html: section.content }}
                   />
                 </Section>
-              )
+              );
             })
           : null}
       </PageContent>
     </Layout>
-  )
-}
+  );
+};
 
-export default FormPage
+export default FormPage;

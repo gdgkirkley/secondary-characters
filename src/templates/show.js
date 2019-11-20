@@ -1,10 +1,11 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { graphql } from 'gatsby';
 import Img from 'gatsby-image';
 import styled from 'styled-components';
 import Layout from '../components/layout';
 import Artist from '../components/artist';
 import SEO from '../components/seo';
+import { getSize } from '../lib/functions';
 
 export const query = graphql`
   query($slug: String!) {
@@ -17,6 +18,13 @@ export const query = graphql`
             tagline
             location
             image {
+              childImageSharp {
+                fluid(maxWidth: 1600) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
+            desktopBanner {
               childImageSharp {
                 fluid(maxWidth: 1600) {
                   ...GatsbyImageSharpFluid
@@ -312,17 +320,38 @@ const ShowTemplate = ({ data: { showData } }) => {
     setSelectedPhoto(newImage);
   };
 
+  const [windowSize, setWindowSize] = useState({
+    width: 0,
+    height: 0,
+  });
+
+  useEffect(() => {
+    if (typeof window !== 'undefined' && window.innerWidth) {
+      setWindowSize(getSize());
+      const handleResize = () => {
+        setWindowSize(getSize());
+      };
+      window.addEventListener('resize', handleResize);
+
+      return () => window.removeEventListener('resize', handleResize);
+    }
+  }, []);
+
   return (
     <Layout>
       <SEO title={show.title} />
       <HeroBanner>
         <Img
-          fluid={show.image.childImageSharp.fluid}
+          fluid={
+            show.desktopBanner && windowSize.width > 768
+              ? show.desktopBanner.childImageSharp.fluid
+              : show.image.childImageSharp.fluid
+          }
           objectFit="cover"
           objectPosition="50% 50%"
           style={{
             width: '100%',
-            height: '50vh',
+            height: '60vh',
             color: 'white',
             display: 'flex',
             justifyContent: 'center',

@@ -6,7 +6,7 @@ import styled from 'styled-components';
 const ArtistCredit = styled.div`
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   text-align: center;
   & p {
     font-size: ${props => props.theme.fontSize.information};
@@ -21,6 +21,15 @@ const ArtistCredit = styled.div`
     & .name {
       color: ${props =>
         props.noHover ? props.theme.grey3 : props.theme.primary5};
+    }
+  }
+  @media (max-width: 768px) {
+    max-width: 150px;
+    & p {
+      word-break: normal;
+      & .name {
+        word-break: normal;
+      }
     }
   }
 `;
@@ -41,7 +50,7 @@ const ArtistHeadshot = styled.div`
     border: ${props =>
       props.noHover ? 'none' : `3px solid ${props.theme.primary5}`};
   }
-  @media (max-width: 400px) {
+  @media (max-width: 768px) {
     width: 100px;
     height: 100px;
   }
