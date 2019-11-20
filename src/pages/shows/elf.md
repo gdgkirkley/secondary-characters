@@ -2,7 +2,7 @@
 templateKey: show
 upcoming: true
 orderOnHomePage: 1
-title: "Elf: The Musical"
+title: 'Elf: The Musical'
 dates: December 20 - 21, 2019
 shortDate: December 2019
 tagline: The modern holiday classic
@@ -18,6 +18,39 @@ showCredits:
   - credit: Based on the New Line Cinema film written by
     artist: David Berenbaum
 ticketLink: https://www.eventbrite.ca/d/canada--british-columbia/elf-the-musical-chilliwack/
+cast:
+  - credit: Buddy
+    artist: Keegan Zaporozan
+  - credit: Santa
+    artist: Ralph Verhagen
+  - credit: Walter Hobbs
+    artist: Vince Dimanno
+  - credit: Emily Hobbs
+    artist: Kristina Ocampo
+  - credit: Michael Hobbs
+    artist: Caleb Ocampo
+  - credit: Jovie
+    artist: Skye Mandin
+  - credit: Deb/Ensemble
+    artist: Kimberly Iversen
+  - credit: Manager/Mr. Greenway
+    artist: Glen Pinchin
+  - credit: Chadwick/Security Guard/Fake Santa/Ensemble
+    artist: Josh Power
+  - credit: Matthews/Security Guard/Policeman/Ensemble
+    artist: Zara Coulter
+  - credit: Charlotte Dennon Sarah/Santa's Helper/Charlie/Ensemble
+    artist: Rebecca Bailey
+  - credit: Saleswoman/Darlene Lambert/Ensemble
+    artist: Jamye Gallawan
+  - credit: Sam/Mother/Shawanda/Emma Van Brockin/Ensemble
+    artist: Madison Willoughby
+  - credit: Ensemble
+    artist: Reece Clegg
+  - credit: Ensemble
+    artist: Arli Clegg
+  - credit: Ensemble
+    artist: Ailey Reuter
 creativeTeam:
   - credit: Stage and Vocal Director
     artist: Stefanie Swinnard
@@ -27,6 +60,8 @@ creativeTeam:
     artist: Shelley Wojcik
   - credit: Props, Costumes & Set Designer
     artist: Steffi Munshaw
+  - credit: Costume Construction
+    artist: Susan Newbury
   - credit: Set Construction & Design
     artist: Kris Ward
 sections:
