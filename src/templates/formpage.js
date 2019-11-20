@@ -32,6 +32,7 @@ export const query = graphql`
             }
           }
           html
+          excerpt
         }
       }
     }
@@ -110,7 +111,14 @@ const FormPage = ({ data: { pageData } }) => {
   const Tag = components[page.frontmatter.pageForm];
   return (
     <Layout>
-      <SEO title={page.frontmatter.title} />
+      <SEO
+        title={page.frontmatter.title}
+        description={page.excerpt}
+        image={
+          page.frontmatter.showBanner &&
+          page.frontmatter.image.childImageSharp.fluid.src
+        }
+      />
       {page.frontmatter.showBanner ? (
         <HeroBanner fluid={page.frontmatter.image.childImageSharp.fluid} />
       ) : null}

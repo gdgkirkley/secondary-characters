@@ -63,6 +63,7 @@ export const query = graphql`
             }
           }
           html
+          excerpt
         }
       }
     }
@@ -302,6 +303,7 @@ const PhotoGalleryThumb = styled(Img)`
 const ShowTemplate = ({ data: { showData } }) => {
   const show = showData.edges[0].node.frontmatter;
   const description = showData.edges[0].node.html;
+  const excerpt = showData.edges[0].node.excerpt;
 
   const [selectedPhoto, setSelectedPhoto] = useState(
     show.photoGallery && show.photoGallery.length ? show.photoGallery[0] : '',
@@ -339,7 +341,11 @@ const ShowTemplate = ({ data: { showData } }) => {
 
   return (
     <Layout>
-      <SEO title={show.title} />
+      <SEO
+        title={show.title}
+        description={excerpt}
+        image={show.image.childImageSharp.fluid.src}
+      />
       <HeroBanner>
         <Img
           fluid={

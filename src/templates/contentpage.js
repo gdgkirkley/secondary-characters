@@ -27,6 +27,7 @@ export const query = graphql`
             }
           }
           html
+          excerpt
         }
       }
     }
@@ -91,7 +92,14 @@ const ContentPage = ({ data: { pageData } }) => {
   const page = pageData.edges[0].node;
   return (
     <Layout>
-      <SEO title={page.frontmatter.title} />
+      <SEO
+        title={page.frontmatter.title}
+        description={page.excerpt}
+        image={
+          page.frontmatter.image &&
+          page.frontmatter.image.childImageSharp.fluid.src
+        }
+      />
       {page.frontmatter.showBanner ? (
         <HeroBanner
           fluid={
