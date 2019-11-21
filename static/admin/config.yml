@@ -135,6 +135,13 @@ collections:
         }
       - { label: 'Image', name: 'image', widget: 'image', required: true }
       - {
+          label: 'Banner Image',
+          name: 'desktopBanner',
+          widget: 'image',
+          required: false,
+          hint: "If the above image doesn't look good in the banner, this can be used to replace it just on desktops",
+        }
+      - {
           label: 'Dates',
           name: 'dates',
           widget: 'string',
@@ -169,6 +176,13 @@ collections:
           hint: 'Leave this blank if show is past',
           required: false,
           default: '',
+        }
+      - {
+          label: 'Are tickets on sale?',
+          name: 'ticketOnSale',
+          widget: 'boolean',
+          required: true,
+          default: false,
         }
       - label: 'Show Credits'
         label_singular: 'Show Credit'

@@ -18,6 +18,7 @@ showCredits:
   - credit: Based on the New Line Cinema film written by
     artist: David Berenbaum
 ticketLink: https://www.eventbrite.ca/d/canada--british-columbia/elf-the-musical-chilliwack/
+ticketOnSale: true
 cast:
   - credit: Buddy
     artist: Keegan Zaporozan

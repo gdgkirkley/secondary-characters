@@ -15,6 +15,13 @@ module.exports = {
         modulePath: `${__dirname}/src/cms/cms.js`,
       },
     },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: 'UA-153007437-1',
+        head: true,
+      },
+    },
     `gatsby-plugin-react-helmet`,
     'gatsby-plugin-styled-components',
     {
@@ -22,13 +29,6 @@ module.exports = {
       options: {
         endpoint:
           'https://secondarycharacters.us7.list-manage.com/subscribe/post?u=2f54245a577f34db39743347e&id=37f2aae127',
-      },
-    },
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: 'UA-153007437-1',
-        head: true,
       },
     },
     {

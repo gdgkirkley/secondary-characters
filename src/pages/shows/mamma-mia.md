@@ -14,6 +14,7 @@ showCredits:
   - credit: Book by
     artist: Catherine Johnson
 ticketLink: http://secondarycharacters.org
+ticketOnSale: false
 creativeTeam:
   - credit: Director
     artist: Steffi Munshaw

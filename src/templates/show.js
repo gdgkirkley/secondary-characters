@@ -14,6 +14,7 @@ export const query = graphql`
       edges {
         node {
           frontmatter {
+            upcoming
             title
             dates
             tagline
@@ -38,6 +39,7 @@ export const query = graphql`
               artist
             }
             ticketLink
+            ticketOnSale
             photoGallery {
               id
               image {
@@ -375,7 +377,7 @@ const ShowTemplate = ({ data: { showData } }) => {
           }}
         />
       </HeroBanner>
-      {show.ticketLink ? (
+      {show.upcoming && show.ticketOnSale && show.ticketLink ? (
         <TicketBoxMobile>
           <a href={show.ticketLink}>
             <BuyTicketsButton>Buy Tickets</BuyTicketsButton>
@@ -408,14 +410,24 @@ const ShowTemplate = ({ data: { showData } }) => {
               />
             </div>
             <TicketBoxDesktop>
-              {show.ticketLink ? (
-                <a
-                  href={show.ticketLink}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <BuyTicketsButton>Buy Tickets</BuyTicketsButton>
-                </a>
+              {show.upcoming ? (
+                show.ticketOnSale ? (
+                  show.ticketLink ? (
+                    <a
+                      href={show.ticketLink}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <BuyTicketsButton>Buy Tickets</BuyTicketsButton>
+                    </a>
+                  ) : (
+                    // If it's marked on sale but there's no link.
+                    <h2>Tickets On Sale Soon!</h2>
+                  )
+                ) : (
+                  // If it's not on sale yet, but is upcoming
+                  <h2>Tickets On Sale Soon!</h2>
+                )
               ) : null}
               <DatesLocation>
                 <h2>{show.dates}</h2>
