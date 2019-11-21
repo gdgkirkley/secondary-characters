@@ -1,16 +1,18 @@
-import React from "react"
-import styled from "styled-components"
-import { useStaticQuery, graphql } from "gatsby"
-import BackgroundImage from "gatsby-background-image"
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import EmailBar from "../components/emailbar"
-import ShowCard from "../components/showcard"
+import React from 'react';
+import styled from 'styled-components';
+import { useStaticQuery, graphql } from 'gatsby';
+import BackgroundImage from 'gatsby-background-image';
+import Layout from '../components/layout';
+import SEO from '../components/seo';
+import EmailBar from '../components/emailbar';
+import ShowCard from '../components/showcard';
 
 const HeroBanner = styled(BackgroundImage)`
   width: 100%;
   background-position: 50% 35%;
   min-height: 60vh;
+  /* For accessibility: */
+  background-color: black;
   color: white;
   display: flex;
   justify-content: center;
@@ -18,7 +20,7 @@ const HeroBanner = styled(BackgroundImage)`
   @media (max-width: 768px) {
     min-height: 50vh;
   }
-`
+`;
 
 const Titles = styled.div`
   display: flex;
@@ -54,7 +56,7 @@ const Titles = styled.div`
       width: 350px;
     }
   }
-`
+`;
 
 const Shows = styled.div`
   display: grid;
@@ -72,7 +74,7 @@ const Shows = styled.div`
     margin: 64px 0px;
     grid-gap: 64px;
   }
-`
+`;
 
 const IndexPage = () => {
   const data = useStaticQuery(graphql`
@@ -126,9 +128,9 @@ const IndexPage = () => {
         }
       }
     }
-  `)
+  `);
 
-  const home = data.homePageData.edges[0].node
+  const home = data.homePageData.edges[0].node;
   return (
     <Layout>
       <SEO title="Home" />
@@ -147,7 +149,7 @@ const IndexPage = () => {
         ))}
       </Shows>
     </Layout>
-  )
-}
+  );
+};
 
-export default IndexPage
+export default IndexPage;

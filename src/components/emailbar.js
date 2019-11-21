@@ -137,6 +137,9 @@ const EmailBar = () => {
     <EmailBarStyle>
       <h2>Stay up to date!</h2>
       <SignUpForm onSubmit={handleSubmit} method="POST">
+        <label htmlFor="email" hidden>
+          Add your email to our email list
+        </label>
         <input
           type="text"
           placeholder={

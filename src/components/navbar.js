@@ -239,7 +239,7 @@ const NavBar = props => {
             <TopMenuItem
               onClick={handleMenuItemClick}
               onKeyDown={handleMenuItemClick}
-              id={menuItem.label}
+              id={menuItem.label.replace(/(')|(\s+)/g, '').toLowerCase()}
               key={menuItem.label}
               className={dropMenus[menuItem.label] ? 'open' : ''}
               tabIndex="0"

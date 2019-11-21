@@ -1,9 +1,9 @@
-import React from "react"
-import { useStaticQuery, graphql, Link } from "gatsby"
-import styled from "styled-components"
-import Facebook from "./icons/facebook"
-import Instagram from "./icons/instagram"
-import Email from "./icons/email"
+import React from 'react';
+import { useStaticQuery, graphql, Link } from 'gatsby';
+import styled from 'styled-components';
+import Facebook from './icons/facebook';
+import Instagram from './icons/instagram';
+import Email from './icons/email';
 
 const DonateBar = styled.div`
   display: flex;
@@ -15,7 +15,7 @@ const DonateBar = styled.div`
   @media (max-width: 768px) {
     padding: 48px 20px;
   }
-`
+`;
 
 const DonateContent = styled.div`
   display: flex;
@@ -38,7 +38,7 @@ const DonateContent = styled.div`
     background: ${props => props.theme.grey10};
     color: ${props => props.theme.primary4};
     text-transform: uppercase;
-    font-family: "Roboto Condensed", sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
     font-size: ${props => props.theme.fontSize.emphasis};
     font-weight: bold;
     border-radius: ${props => props.theme.borderRadius};
@@ -51,7 +51,7 @@ const DonateContent = styled.div`
       cursor: pointer;
     }
   }
-`
+`;
 
 const FooterStyle = styled.footer`
   display: grid;
@@ -65,10 +65,10 @@ const FooterStyle = styled.footer`
   & h3 {
     color: ${props => props.theme.grey10};
     margin: 0;
-    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
   }
   &:after {
-    content: "";
+    content: '';
     min-width: 300px;
     min-height: 300px;
     transform: rotate(40deg);
@@ -80,7 +80,7 @@ const FooterStyle = styled.footer`
       bottom: -250px;
     }
   }
-`
+`;
 
 const FooterNav = styled.div`
   display: grid;
@@ -91,7 +91,7 @@ const FooterNav = styled.div`
     grid-gap: 32px;
     padding: 48px 0px;
   }
-`
+`;
 
 const LeftMenu = styled.div`
   display: grid;
@@ -100,7 +100,7 @@ const LeftMenu = styled.div`
   @media (max-width: 1200px) {
     grid-template-columns: 1fr;
   }
-`
+`;
 
 const SocialLinks = styled.div`
   display: flex;
@@ -108,7 +108,7 @@ const SocialLinks = styled.div`
   @media (max-width: 1200px) {
     justify-content: center;
   }
-`
+`;
 
 const SocialBg = styled.div`
   width: 70px;
@@ -126,13 +126,13 @@ const SocialBg = styled.div`
     background: ${props => props.theme.primary4};
     cursor: pointer;
   }
-`
+`;
 
 const RightMenu = styled.div`
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 16px;
-`
+`;
 
 const Trademark = styled.p`
   line-height: 1.5;
@@ -142,7 +142,7 @@ const Trademark = styled.p`
     width: 250px;
     margin-bottom: 90px;
   }
-`
+`;
 
 const Footer = () => {
   const data = useStaticQuery(graphql`
@@ -173,8 +173,8 @@ const Footer = () => {
         }
       }
     }
-  `)
-  const footer = data.footer.edges[0].node.frontmatter
+  `);
+  const footer = data.footer.edges[0].node.frontmatter;
   return (
     <>
       <DonateBar>
@@ -189,13 +189,13 @@ const Footer = () => {
         <FooterNav>
           <LeftMenu>
             {footer.leftMenu.map(menuItem => {
-              const beginLinkRegex = /^..\//
-              const fixedLink = menuItem.linkURL.replace(beginLinkRegex, "/")
+              const beginLinkRegex = /^..\//;
+              const fixedLink = menuItem.linkURL.replace(beginLinkRegex, '/');
               return (
                 <Link to={fixedLink} key={menuItem.label}>
                   <h3>{menuItem.label}</h3>
                 </Link>
-              )
+              );
             })}
           </LeftMenu>
           <SocialLinks>
@@ -204,8 +204,8 @@ const Footer = () => {
                 Facebook: Facebook,
                 Instagram: Instagram,
                 Email: Email,
-              }
-              const Tag = components[social.icon]
+              };
+              const Tag = components[social.icon];
               return (
                 <a
                   href={social.link}
@@ -214,32 +214,33 @@ const Footer = () => {
                   key={social.icon}
                 >
                   <SocialBg>
+                    <span hidden>{social.icon}</span>
                     <Tag />
                   </SocialBg>
                 </a>
-              )
+              );
             })}
           </SocialLinks>
           <RightMenu>
             {footer.rightMenu.map(menuItem => {
-              const beginLinkRegex = /^..\//
-              const fixedLink = menuItem.linkURL.replace(beginLinkRegex, "/")
+              const beginLinkRegex = /^..\//;
+              const fixedLink = menuItem.linkURL.replace(beginLinkRegex, '/');
               return (
                 <Link to={fixedLink} key={menuItem.label}>
                   <h3>{menuItem.label}</h3>
                 </Link>
-              )
+              );
             })}
           </RightMenu>
         </FooterNav>
         <Trademark>
-          Secondary Characters Musical Theatre Society ©{" "}
+          Secondary Characters Musical Theatre Society ©{' '}
           {new Date().getFullYear()}. A registered non-profit. Website by
           Gabriel Kirkley.
         </Trademark>
       </FooterStyle>
     </>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;
