@@ -378,6 +378,18 @@ collections:
                   widget: 'boolean',
                 }
               - { label: 'Button Link URL', name: 'link', widget: 'string' }
+      - file: 'src/pages/get-involved/audition-guide/index.md'
+        label: 'Audition Guide'
+        name: 'audition-guide'
+        fields:
+          - {
+              label: 'Template Key',
+              name: 'templateKey',
+              widget: 'hidden',
+              default: 'contentpage',
+            }
+          - { label: 'Page Title', name: 'title', widget: 'string' }
+          - { label: 'Page Body', name: 'body', widget: 'markdown' }
       - file: 'src/pages/get-involved/volunteer/index.md'
         label: 'Volunteer'
         name: 'volunteer'
