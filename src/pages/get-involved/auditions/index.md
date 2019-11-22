@@ -85,7 +85,7 @@ January 18th, 6:00pm-9:00pm
 
 - Please indicate your role preference on your audition form.
 
-Check out our Audition Guide for information about the audition process.
+Check out our [Audition Guide](/get-involved/audition-guide) for information about the audition process.
 For more information: info@secondarycharacters.org
 
 ### Rehearsal Schedule:

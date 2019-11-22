@@ -206,7 +206,14 @@ const Footer = () => {
                 Email: Email,
               };
               const Tag = components[social.icon];
-              return (
+              return social.icon === 'Email' ? (
+                <Link to={social.link}>
+                  <SocialBg>
+                    <span hidden>{social.icon}</span>
+                    <Tag />
+                  </SocialBg>
+                </Link>
+              ) : (
                 <a
                   href={social.link}
                   target="_blank"
