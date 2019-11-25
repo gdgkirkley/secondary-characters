@@ -17,11 +17,25 @@ const ArtistCredit = styled.div`
       line-height: 1.5;
     }
   }
+  & button {
+    background: white;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    color: ${props => props.theme.primary5};
+    font-size: ${props => props.theme.fontSize.information};
+    min-height: 20px;
+    transition: 0.2s linear;
+  }
   &:hover {
     cursor: ${props => (props.noHover ? 'inherit' : 'pointer')};
     & .name {
       color: ${props =>
         props.noHover ? props.theme.grey3 : props.theme.primary5};
+    }
+    & button {
+      text-decoration: underline;
+      cursor: pointer;
     }
   }
   @media (max-width: 768px) {
@@ -159,7 +173,7 @@ const Artist = ({ artist }) => {
     trackCustomEvent({
       category: 'artist',
       action: 'bio',
-      label: 'Viewed artist bio',
+      label: 'View artist bio',
     });
     setShowModal(!showModal);
   };
@@ -187,6 +201,7 @@ const Artist = ({ artist }) => {
             <br />
             {artist.credit}
           </p>
+          <button>See Bio</button>
         </ArtistCredit>
         <ArtistBioModal className={showModal ? 'show-modal' : ''}>
           <ArtistBioModalContent>
