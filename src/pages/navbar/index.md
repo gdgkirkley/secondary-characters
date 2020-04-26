@@ -4,7 +4,7 @@ menuItems:
   - dropdown:
       - label: 'Elf: The Musical'
         linkURL: /shows/elf
-      - label: Mamma Mia!  (POSTPONED until July 2021)
+      - label: 'Mamma Mia! '
         linkURL: /shows/mamma-mia
     label: What's On
   - dropdown:
