@@ -16,7 +16,6 @@ export const query = graphql`
           frontmatter {
             upcoming
             title
-            callout
             dates
             tagline
             location
@@ -94,16 +93,6 @@ const ShowContent = styled.div`
   border-radius: 16px;
   padding: 16px 32px;
   max-width: 1300px;
-
-  & blockquote {
-    background-color: ${props => props.theme.grey10};
-    padding: 10px;
-    & h2,
-    h3 {
-      color: ${props => props.theme.primary5};
-    }
-  }
-
   @media (max-width: 900px) {
     margin-top: 0px;
   }
@@ -315,15 +304,6 @@ const PhotoGalleryThumb = styled(Img)`
   }
 `;
 
-const Callout = styled.h2`
-  padding: 10px 20px;
-  font-size: ${props => props.theme.fontSize.emphasis};
-  border-radius: ${props => props.theme.borderRadius};
-  background: ${props => props.theme.warning3};
-  color: ${props => props.theme.grey10};
-  margin: 20px 0px;
-`;
-
 const ShowTemplate = ({ data: { showData } }) => {
   const show = showData.edges[0].node.frontmatter;
   const description = showData.edges[0].node.html;
@@ -409,7 +389,6 @@ const ShowTemplate = ({ data: { showData } }) => {
           <TopContent>
             <div>
               <h1 className="title">{show.title}</h1>
-              {show.callout ? <Callout>{show.callout}</Callout> : null}
               {show.showCredits &&
                 show.showCredits.map(credit => {
                   return (

@@ -110,7 +110,6 @@ const IndexPage = () => {
           node {
             frontmatter {
               title
-              callout
               dates
               tagline
               orderOnHomePage
