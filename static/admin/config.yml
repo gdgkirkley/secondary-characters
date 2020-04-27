@@ -133,6 +133,14 @@ collections:
           required: true,
           default: '',
         }
+      - {
+          label: 'Callout',
+          name: 'callout',
+          widget: 'string',
+          required: false,
+          default: '',
+          hint: 'This will add a special message in red under the title',
+        }
       - { label: 'Image', name: 'image', widget: 'image', required: true }
       - {
           label: 'Banner Image',

@@ -1,14 +1,15 @@
-import React from "react"
-import styled from "styled-components"
-import { Link } from "gatsby"
-import BackgroundImage from "gatsby-background-image"
+import React from 'react';
+import styled from 'styled-components';
+import { Link } from 'gatsby';
+import BackgroundImage from 'gatsby-background-image';
 
 const ShowCardStyle = styled.div`
   display: grid;
+  position: relative;
   @media (max-width: 768px) {
     width: 100%;
   }
-`
+`;
 
 const ShowImage = styled(BackgroundImage)`
   background-size: cover;
@@ -20,7 +21,7 @@ const ShowImage = styled(BackgroundImage)`
   @media (max-width: 1600px) {
     min-width: 40vw;
   }
-`
+`;
 
 const ShowTitle = styled.div`
   margin-top: -35px;
@@ -34,7 +35,7 @@ const ShowTitle = styled.div`
     background-color: ${props => props.theme.primary9};
     margin: 0;
   }
-`
+`;
 
 const ShowInfo = styled.div`
   display: grid;
@@ -45,7 +46,7 @@ const ShowInfo = styled.div`
   @media (max-width: 768px) {
     grid-template-columns: 1fr;
   }
-`
+`;
 
 const DateTag = styled.div`
   margin-top: 24px;
@@ -56,7 +57,7 @@ const DateTag = styled.div`
   & .tag {
     color: ${props => props.theme.grey2};
   }
-`
+`;
 
 const TicketButton = styled.div`
   display: flex;
@@ -65,7 +66,7 @@ const TicketButton = styled.div`
   border-radius: ${props => props.theme.borderRadius};
   border: 1px solid ${props => props.theme.primary5};
   font-size: ${props => props.theme.fontSize.emphasis};
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
   font-weight: bold;
   color: ${props => props.theme.primary4};
   min-height: 65px;
@@ -75,12 +76,26 @@ const TicketButton = styled.div`
     color: ${props => props.theme.grey10};
     cursor: pointer;
   }
-`
+`;
+
+const Callout = styled.div`
+  position: absolute;
+  top: -10px;
+  right: 0;
+  padding: 10px 20px;
+  font-size: ${props => props.theme.fontSize.emphasis};
+  border-radius: ${props => props.theme.borderRadius};
+  background: ${props => props.theme.warning3};
+  color: ${props => props.theme.grey10};
+`;
 
 const ShowCard = ({ show }) => {
   return (
     <Link to={show.fields.slug}>
       <ShowCardStyle>
+        {show.frontmatter.callout ? (
+          <Callout>{show.frontmatter.callout}</Callout>
+        ) : null}
         <ShowImage fluid={show.frontmatter.image.childImageSharp.fluid} />
         <ShowTitle>
           <h1>{show.frontmatter.title}</h1>
@@ -94,7 +109,7 @@ const ShowCard = ({ show }) => {
         </ShowInfo>
       </ShowCardStyle>
     </Link>
-  )
-}
+  );
+};
 
-export default ShowCard
+export default ShowCard;
