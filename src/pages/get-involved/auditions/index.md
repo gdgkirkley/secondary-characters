@@ -58,9 +58,10 @@ sections:
       **Age** 20 to 25
       ### Ensemble
       Consists of the Islanders, who work at Donna's, Wedding-Guests.
+    displayButton: false
+    link: " "
 ---
-
-## Mamma Mia! (summer 2020)
+## Mamma Mia! (Summer 2020)
 
 ### Audition and Callback location:
 
@@ -68,7 +69,7 @@ sections:
 
 ### Auditions
 
-January 11th, 2:00pm-8:00pm  
+January 11th, 2:00pm-8:00pm\
 January 12th, 10:00am-4:00pm
 
 ### Callbacks
@@ -77,34 +78,31 @@ January 18th, 6:00pm-9:00pm
 
 ### Requirements
 
-- If you would like to audition for ensemble only, we will be booking 1/2 hour group auditions where we practice vocals and theatre games together.
-
-- If you would like to audition for a supporting or leading role, we will be booking you for 1 hour and this includes the group audition (see above) as well as an individual call. Please prepare one musical theatre song excerpt; the full song is not necessary, but completely acceptable.
-
-- A pianist will be provided; please bring sheet music..
-
-- Please indicate your role preference on your audition form.
+* If you would like to audition for ensemble only, we will be booking 1/2 hour group auditions where we practice vocals and theatre games together.
+* If you would like to audition for a supporting or leading role, we will be booking you for 1 hour and this includes the group audition (see above) as well as an individual call. Please prepare one musical theatre song excerpt; the full song is not necessary, but completely acceptable.
+* A pianist will be provided; please bring sheet music..
+* Please indicate your role preference on your audition form.
 
 Check out our [Audition Guide](/get-involved/audition-guide) for information about the audition process.
 For more information: info@secondarycharacters.org
 
 ### Rehearsal Schedule:
 
-**​Location**: 45530 Spadina Avenue, Players Guild Hall, Chilliwack  
-**Readthrough**: TBD  
-**Rehearsal Dates and Times**:  
-May through July  
-Fridays  
-Saturdays  
+**​Location**: 45530 Spadina Avenue, Players Guild Hall, Chilliwack\
+**Readthrough**: TBD\
+**Rehearsal Dates and Times**:\
+May through July\
+Fridays\
+Saturdays\
 ​Sundays
 
-_Note that not all cast members will be required on all rehearsal days/times._
+*Note that not all cast members will be required on all rehearsal days/times.*
 
 ### Show Schedule:
 
-**Location**: Chilliwack Cultural Centre Rotary Hall Theatre  
-**Dates and Times**:  
-July 16-19  
+**Location**: Chilliwack Cultural Centre Rotary Hall Theatre\
+**Dates and Times**:\
+July 16-19\
 July 23-26
 
 Cast are expected to be available for all dates unless previously discussed with director.
