@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 import styled from 'styled-components';
 import { trackCustomEvent } from 'gatsby-plugin-google-analytics';
-import Img from 'gatsby-image';
+import {GatsbyImage, getImage} from 'gatsby-plugin-image';
 
 const ArtistCredit = styled.div`
   display: flex;
@@ -156,9 +156,7 @@ const Artist = ({ artist }) => {
               name
               headshot {
                 childImageSharp {
-                  fluid(maxWidth: 150) {
-                    ...GatsbyImageSharpFluid
-                  }
+                  gatsbyImageData(width: 200)
                 }
               }
             }
@@ -187,10 +185,8 @@ const Artist = ({ artist }) => {
       <>
         <ArtistCredit onClick={toggleBioModal}>
           <ArtistHeadshot>
-            <Img
-              fluid={
-                foundArtist.node.frontmatter.headshot.childImageSharp.fluid
-              }
+            <GatsbyImage
+              image={getImage(foundArtist.node.frontmatter.headshot)}
               style={{ width: '150px' }}
             />
           </ArtistHeadshot>

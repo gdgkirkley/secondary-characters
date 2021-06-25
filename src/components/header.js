@@ -3,7 +3,7 @@ import { Link } from 'gatsby';
 import { useStaticQuery, graphql } from 'gatsby';
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
-import Img from 'gatsby-image';
+import {StaticImage} from 'gatsby-plugin-image';
 import NavBar from './navbar';
 
 const HeaderStyle = styled.header`
@@ -70,7 +70,7 @@ const Header = () => {
     <HeaderStyle>
       <Logo>
         <Link to="/">
-          <Img fluid={data.placeholderImage.childImageSharp.fluid} />
+          <StaticImage src="../images/sc-logo-no-background_1.png" alt="Secondary Characters Logo" />
         </Link>
       </Logo>
       <NavBar navMenuItems={data.navbarData} />

@@ -7,6 +7,8 @@ public_folder: /img
 
 logo_url: /img/sc-logo-no-background_1.png
 
+publish_mode: editorial_workflow
+
 collections:
   - name: 'artists'
     label: 'Artists'
@@ -458,5 +460,7 @@ collections:
                   label: 'Include a button link?',
                   name: 'displayButton',
                   widget: 'boolean',
+                  required: false,
+                  default: false,
                 }
-              - { label: 'Button Link URL', name: 'link', widget: 'string' }
+              - { label: 'Button Link URL', name: 'link', widget: 'string', required: false, default: '' }

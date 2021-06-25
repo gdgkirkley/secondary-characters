@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { graphql } from 'gatsby';
 import { trackCustomEvent } from 'gatsby-plugin-google-analytics';
-import Img from 'gatsby-image';
+import {GatsbyImage, getImage} from 'gatsby-plugin-image';
 import styled from 'styled-components';
 import Layout from '../components/layout';
 import Artist from '../components/artist';
@@ -22,17 +22,17 @@ export const query = graphql`
             location
             image {
               childImageSharp {
-                fluid(maxWidth: 1600) {
-                  ...GatsbyImageSharpFluid
-                }
+              
+                  gatsbyImageData(width: 1600)
+                
               }
               relativePath
             }
             desktopBanner {
               childImageSharp {
-                fluid(maxWidth: 1600) {
-                  ...GatsbyImageSharpFluid
-                }
+            
+                  gatsbyImageData(width: 1600)
+                
               }
             }
             showCredits {
@@ -45,9 +45,9 @@ export const query = graphql`
               id
               image {
                 childImageSharp {
-                  fluid(maxWidth: 1600) {
-                    ...GatsbyImageSharpFluid
-                  }
+          
+                    gatsbyImageData(width: 1600)
+                  
                 }
               }
               altText
@@ -263,7 +263,7 @@ const PhotoGalleryMainImageContainer = styled.div`
   }
 `;
 
-const PhotoGalleryMainImage = styled(Img)`
+const PhotoGalleryMainImage = styled(GatsbyImage)`
   border: 2px solid ${props => props.theme.primary5};
   border-radius: 16px;
   opacity: 0;
@@ -297,7 +297,7 @@ const PhotoGalleryCarousel = styled.div`
   }
 `;
 
-const PhotoGalleryThumb = styled(Img)`
+const PhotoGalleryThumb = styled(GatsbyImage)`
   border-radius: 16px;
   border: 2px solid ${props => props.theme.primary5};
   opacity: 0.5;
@@ -378,11 +378,11 @@ const ShowTemplate = ({ data: { showData } }) => {
         image={`/img/${show.image.relativePath}`}
       />
       <HeroBanner>
-        <Img
-          fluid={
+        <GatsbyImage
+          image={
             show.desktopBanner && windowSize.width > 768
-              ? show.desktopBanner.childImageSharp.fluid
-              : show.image.childImageSharp.fluid
+              ? getImage(show.desktopBanner)
+              : getImage(show.image)
           }
           objectFit="cover"
           objectPosition="50% 50%"
@@ -466,7 +466,7 @@ const ShowTemplate = ({ data: { showData } }) => {
                 return (
                   <PhotoGalleryMainImage
                     key={photo.id}
-                    fluid={photo.image.childImageSharp.fluid}
+                    image={getImage(photo.image)}
                     className={index === photoActive ? 'active' : ''}
                     style={{ zIndex: index, position: 'absolute' }}
                     alt={photo.altText}
@@ -486,7 +486,7 @@ const ShowTemplate = ({ data: { showData } }) => {
                     onClick={handlePhotoThumbClick}
                   >
                     <PhotoGalleryThumb
-                      fluid={photo.image.childImageSharp.fluid}
+                      image={getImage(photo.image)}
                       alt={photo.altText}
                       className={selected ? 'selected' : ''}
                     />
