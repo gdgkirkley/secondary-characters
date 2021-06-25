@@ -313,7 +313,7 @@ August 21-Oct-26\
 Thursdays, Fridays, Sundays (August only)\
 Sundays, Tuesdays, Wednesdays (Sept-Oct)
 
-weekends (day),  weekdays (evenings)\
+Weekends (day),  Weekdays (evenings)\
 ​
 
 *Note that not all cast members will be required on all rehearsal days/times.*
