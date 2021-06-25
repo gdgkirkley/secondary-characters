@@ -67,7 +67,7 @@ const Shows = styled.div`
   align-items: center;
   transition: 0.2s linear;
   @media (max-width: 1600px) {
-    grid-gap: 15%;
+    grid-gap: 120px;
   }
   @media (max-width: 975px) {
     grid-template-columns: 1fr;
