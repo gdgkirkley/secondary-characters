@@ -261,6 +261,24 @@ sections:
       *See recordings for practice.  Note, these are at a slightly slower tempo than normal.*
     displayButton: true
     link: Resources
+  - sectionHead: Covid Health and Safety
+    content: >-
+      **COVID PRECAUTIONS**\
+
+      \
+
+      Every effort is being made to ensure that the process of putting on *Sweeney Todd,*from auditions to performance, will comply with all current safety restrictions as outlined by the BC Ministry of Health and BC Centre for Disease Control.  
+
+
+      For your audition, please arrive warmed up; you will be allowed to enter the building 15 minutes prior to your time slot.  At this time, you (and only you) will have access to the Green Room where you can fill out your audition form.  Following your audition, you will be asked to leave via an exit off the audition room, thus ensuring a one-way flow for performers through the building. 
+
+
+      Please wear a mask to your audition – we ask that you keep this on at all times other than when you sing.  For your audition, you will see an X marking a spot on the floor.  We respectfully ask that you use this mark to ensure proper physical distancing between yourself and the audition panel and accompanist. 
+
+
+      While we are taking every precaution possible to ensure the safety of all cast, crew and audience members, we understand that everyone has different comfort levels around Covid and wish to do our best to accommodate these different comfort levels
+    displayButton: true
+    link: Covid Health and Safety
 ---
 ## Sweeney Todd (Fall  2021)
 
