@@ -2,12 +2,13 @@
 templateKey: formpage
 title: Auditions
 showBanner: true
-image: /img/intothewoods3.jpg
+image: /img/sweeney-todd.jpeg
 pageForm: auditionform
 sections:
   - sectionHead: Roles
     content: >-
-      All experience and age levels are welcome to audition.
+      All experience and age levels are welcome to audition.  Roles are not
+      gender specific.
 
 
       **Sweeney Todd**
@@ -28,9 +29,6 @@ sections:
       Vocal range bottom: F2
 
 
-       
-
-
       **Mrs. Lovett***
 
 
@@ -47,9 +45,6 @@ sections:
 
 
       Vocal range bottom: G3
-
-
-       
 
 
       **Anthony Hope**
@@ -70,9 +65,6 @@ sections:
       Vocal range bottom: Bb2
 
 
-       
-
-
       **Johanna**
 
 
@@ -91,9 +83,6 @@ sections:
       Vocal range bottom: Bb3
 
 
-       
-
-
       **Tobias Ragg**
 
 
@@ -107,9 +96,6 @@ sections:
 
 
       Vocal range bottom: Bb2
-
-
-       
 
 
       **Judge Turpin**
@@ -128,9 +114,6 @@ sections:
 
 
       Vocal range bottom: E2
-
-
-       
 
 
       **The Beadle**
@@ -154,9 +137,6 @@ sections:
       Includes the possibility of accompanying yourself on piano.  (not required)
 
 
-       
-
-
       **Beggar Woman**
 
 
@@ -175,9 +155,6 @@ sections:
       Vocal range bottom: Ab3
 
 
-       
-
-
       **Adolfo Pirelli***
 
 
@@ -193,9 +170,6 @@ sections:
       Vocal range bottom: B2
 
 
-       
-
-
       **Jonas Fogg**
 
 
@@ -205,25 +179,16 @@ sections:
       Age: Adult
 
 
-       
-
-
       **Ensemble**
 
 
       Townspeople; Policemen; Asylum Inmates
 
 
-      Includes a possible feature Quintet.
+      Includes a feature Quintet.
 
 
-       
-
-
-       
-
-
-      *\*Roles of Mrs. Lovett and Adolfo Pirelli are filled.  Roles are not gender specific.*
+      *\*Roles of Mrs. Lovett and Adolfo Pirelli are filled.*
     displayButton: false
     link: " "
   - sectionHead: Resources
