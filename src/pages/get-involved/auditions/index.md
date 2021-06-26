@@ -196,31 +196,25 @@ sections:
       **Additional Song Choice (please choose one of the following)**
 
 
-       
+      Johanna - Green Finch and Linnet Bird, bars 1-20    sheet music   recording
 
 
-      Johanna - Green Finch and Linnet Bird, bars 1-20
+      Anthony - Johanna (part II), bars 5-20   sheet music   recording
 
 
-      Anthony - Johanna (part II), bars 5-20
+      Beggar Woman - No Place Like London, bars 28-42   sheet music    recording
 
 
-      Beggar Woman - No Place Like London, bars 28-42
+      Beadle - Parlour Songs (part I), bar 13-end   sheet music    recording
 
 
-      Beadle - Parlour Songs (part I), bar 13-end
+      Tobias - Pirelli's Miracle Elixir, bars 7-37   sheet music   recording
 
 
-      Tobias - Pirelli's Miracle Elixir, bars 7-37
+      Judge - Pretty Women (part I), bars 5-16 AND bars 25-34    sheet music   recording
 
 
-      Judge - Pretty Women (part I), bars 5-16 AND bars 25-34
-
-
-      Ensemble - Prologue, bars 5-25  * note: you may sing bars 18-25 up the octave if preferred
-
-
-       
+      Ensemble - Prologue, bars 5-25  * note: you may sing bars 18-25 up the octave if preferred         sheet music     recording
 
 
       *See recordings for practice.  Note, these are at a slightly slower tempo than normal.*
