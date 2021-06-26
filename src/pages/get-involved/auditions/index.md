@@ -205,7 +205,7 @@ sections:
       Beggar Woman - No Place Like London, bars 28-42   [sheet music](static/img/beggar-no-place-like-london-bars-28-42.pdf)    recording
 
 
-      Beadle - Parlour Songs (part I), bar 13-end   sheet music    recording
+      Beadle - Parlour Songs (part I), bar 13-end   [sheet music](static/img/beadle-parlour-songs-part-i-bars-13-end.pdf)    recording
 
 
       Tobias - Pirelli's Miracle Elixir, bars 7-37   [sheet music](static/img/tobias-pirelli-s-miracle-elixir-bars-7-37.pdf)   recording
