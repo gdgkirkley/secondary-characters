@@ -269,11 +269,7 @@ For more information: info@secondarycharacters.org
 **Readthrough**: TBD\
 **Rehearsal Dates and Times**:\
 August 21-Oct-26\
-Thursdays, Fridays, Sundays (August only)\
-Sundays, Tuesdays, Wednesdays (Sept-Oct)
-
-Weekends (day),  Weekdays (evenings)\
-​
+Three days a week (times and days TBD)  
 
 *Note that not all cast members will be required on all rehearsal days/times.*
 
