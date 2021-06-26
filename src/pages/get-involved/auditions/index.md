@@ -208,7 +208,7 @@ sections:
       Beadle - Parlour Songs (part I), bar 13-end   [sheet music](static/img/beadle-parlour-songs-part-i-bars-13-end.pdf)    recording
 
 
-      Tobias - Pirelli's Miracle Elixir, bars 7-37   [sheet music](static/img/tobias-pirelli-s-miracle-elixir-bars-7-37.pdf)   recording
+      Tobias - Pirelli's Miracle Elixir, bars 7-37   [sheet music](static/img/tobias-pirelli-s-miracle-elixir-bars-7-37.pdf)   [recording](static/img/tobias-pirelli-s-miracle-elixir-bars-7-37.m4a)
 
 
       Judge - Pretty Women (part I), bars 5-16 AND bars 25-34    [sheet music](static/img/judge-pretty-women-part-i-bars-5-16-25-34.pdf)   recording
