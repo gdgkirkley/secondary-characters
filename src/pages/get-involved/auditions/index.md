@@ -250,9 +250,9 @@ sections:
 July 17th, 10:00am-3:30pm\
 July 18th, 10:00am-3:30pm
 
-### Requirements
+### Requirements  (please indicate in audition availability, which option you choose)
 
-One musical theatre song of your choice (full song or excerpt) and an additional song from the resources provided.   **Please choose one of the following options for your audition:**
+One musical theatre song of your choice (full song or excerpt) and an additional song from the resources provided at the bottom of this page.   **Please choose one of the following options for your audition:**
 
 * In-person auditions.  Performers are required to find and provide their own sheet music to be played by our accompanist.  Sheet music must be submitted digitally by Thursday, July 15thto [nicoladavies@live.ca](mailto:nicoladavies@live.ca).  **OR** you may use digital accompaniment and we will provide a Bluetooth speaker. We will provide the accompaniment for the additional song.
 * Live Zoom auditions.  Performers will be given a zoom meeting time. Please provide your own live or digital accompaniment.  Accompaniment for the additional song will be sent to you when you sign up to audition.  
