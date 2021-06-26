@@ -214,7 +214,7 @@ sections:
       Judge - Pretty Women (part I), bars 5-16 AND bars 25-34    [sheet music](static/img/judge-pretty-women-part-i-bars-5-16-25-34.pdf)   recording
 
 
-      Ensemble - Prologue, bars 5-25  * note: you may sing bars 18-25 up the octave if preferred         sheet music     recording
+      Ensemble - Prologue, bars 5-25  * note: you may sing bars 18-25 up the octave if preferred         [sheet music ](static/img/ensemble-solo-prologue-bars-5-25.pdf)    recording
 
 
       *See recordings for practice.  Note, these are at a slightly slower tempo than normal.*
