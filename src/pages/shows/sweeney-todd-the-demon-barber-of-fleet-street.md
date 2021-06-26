@@ -7,7 +7,7 @@ callout: Auditions July 17-18
 image: /img/sw.jpg
 desktopBanner: ""
 dates: "October 27-31, 2021  "
-tagline: ""
+tagline: Halloween Entertainment!
 location: ""
 ticketLink: ""
 ticketOnSale: false
