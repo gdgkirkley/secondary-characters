@@ -211,7 +211,7 @@ sections:
       Tobias - Pirelli's Miracle Elixir, bars 7-37   [sheet music](static/img/tobias-pirelli-s-miracle-elixir-bars-7-37.pdf)   [recording](static/img/tobias-pirelli-s-miracle-elixir-bars-7-37.m4a)
 
 
-      Judge - Pretty Women (part I), bars 5-16 AND bars 25-34    [sheet music](static/img/judge-pretty-women-part-i-bars-5-16-25-34.pdf)   recording
+      Judge - Pretty Women (part I), bars 5-16 AND bars 25-34    [sheet music](static/img/judge-pretty-women-part-i-bars-5-16-25-34.pdf)   [recording](static/img/judge-pretty-women-part-i-bars-25-34.m4a)
 
 
       Ensemble - Prologue, bars 5-25  * note: you may sing bars 18-25 up the octave if preferred         [sheet music ](static/img/ensemble-solo-prologue-bars-5-25.pdf)    recording
