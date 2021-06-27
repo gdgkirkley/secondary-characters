@@ -275,7 +275,7 @@ Three days a week (times and days TBD)
 
 ### Show Schedule:
 
-**Location**: TBD\
+**Location**: Chilliwack Cultural Centre\
 **Dates and Times**:\
 October 27-31
 
