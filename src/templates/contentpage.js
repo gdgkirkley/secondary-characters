@@ -6,7 +6,7 @@ import Layout from '../components/layout';
 import SEO from '../components/seo';
 
 export const query = graphql`
-  query($slug: String!) {
+  query ($slug: String!) {
     pageData: allMarkdownRemark(filter: { fields: { slug: { eq: $slug } } }) {
       edges {
         node {
@@ -36,7 +36,7 @@ export const query = graphql`
 `;
 
 const HeroBanner = styled(BackgroundImage)`
-  background-color: ${props => props.theme.accent7};
+  background-color: ${(props) => props.theme.accent7};
   background-size: cover;
   background-position: 50% 50%;
   width: 100%;
@@ -53,7 +53,7 @@ const HeroBanner = styled(BackgroundImage)`
 
 const PageContent = styled.div`
   margin: 0 auto;
-  margin-top: ${props => (props.inset ? '-40px' : '40px')};
+  margin-top: ${(props) => (props.inset ? '-40px' : '40px')};
   background: white;
   border-radius: 16px;
   padding: 16px 32px;
@@ -62,16 +62,16 @@ const PageContent = styled.div`
 
 const Section = styled.section`
   padding-bottom: 48px;
-  border-bottom: 1px solid ${props => props.theme.grey9};
+  border-bottom: 1px solid ${(props) => props.theme.grey9};
   &:last-child {
     border-bottom: none;
   }
   & .section-head {
     margin: 36px 0px;
-    font-size: ${props => props.theme.fontSize.subHeading};
+    font-size: ${(props) => props.theme.fontSize.subHeading};
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-weight: bold;
-    color: ${props => props.theme.primary3};
+    color: ${(props) => props.theme.primary3};
     text-transform: uppercase;
   }
   & .main-content {
@@ -118,9 +118,12 @@ const ContentPage = ({ data: { pageData } }) => {
           />
         </Section>
         {page.frontmatter.sections && page.frontmatter.sections.length
-          ? page.frontmatter.sections.map(section => {
+          ? page.frontmatter.sections.map((section) => {
               return (
-                <Section key={section.sectionHead}>
+                <Section
+                  key={section.sectionHead}
+                  id={encodeURI(section.sectionHead.toLowerCase())}
+                >
                   <h1 className="section-head">{section.sectionHead}</h1>
                   <div
                     className="main-content"
