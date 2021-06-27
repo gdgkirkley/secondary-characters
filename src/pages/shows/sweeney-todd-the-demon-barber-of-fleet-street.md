@@ -8,7 +8,7 @@ image: /img/sw.jpg
 desktopBanner: ""
 dates: "October 27-31, 2021  "
 tagline: Halloween Entertainment!
-location: ""
+location: Chilliwack Cultural Centre
 ticketLink: ""
 ticketOnSale: false
 creativeTeam:
