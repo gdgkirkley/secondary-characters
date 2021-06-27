@@ -241,6 +241,8 @@ sections:
 ---
 ## Sweeney Todd (Fall  2021)
 
+[Roles](#roles) | [Resources](#resources) | [COVID Health & Safety](#covid%20health%20and%20safety)
+
 ### Audition and Callback location:
 
 45530 Spadina Avenue, Players Guild Hall, Chilliwack
