@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { graphql } from 'gatsby';
 import { trackCustomEvent } from 'gatsby-plugin-google-analytics';
-import {GatsbyImage, getImage} from 'gatsby-plugin-image';
+import { GatsbyImage, getImage } from 'gatsby-plugin-image';
 import styled from 'styled-components';
 import Layout from '../components/layout';
 import Artist from '../components/artist';
@@ -9,7 +9,7 @@ import SEO from '../components/seo';
 import { getSize } from '../lib/functions';
 
 export const query = graphql`
-  query($slug: String!) {
+  query ($slug: String!) {
     showData: allMarkdownRemark(filter: { fields: { slug: { eq: $slug } } }) {
       edges {
         node {
@@ -22,17 +22,13 @@ export const query = graphql`
             location
             image {
               childImageSharp {
-              
-                  gatsbyImageData(width: 1600)
-                
+                gatsbyImageData(width: 1600)
               }
               relativePath
             }
             desktopBanner {
               childImageSharp {
-            
-                  gatsbyImageData(width: 1600)
-                
+                gatsbyImageData(width: 1600)
               }
             }
             showCredits {
@@ -45,9 +41,7 @@ export const query = graphql`
               id
               image {
                 childImageSharp {
-          
-                    gatsbyImageData(width: 1600)
-                  
+                  gatsbyImageData(width: 1600)
                 }
               }
               altText
@@ -96,11 +90,11 @@ const ShowContent = styled.div`
   max-width: 1300px;
 
   & blockquote {
-    background-color: ${props => props.theme.grey10};
+    background-color: ${(props) => props.theme.grey10};
     padding: 10px;
     & h2,
     h3 {
-      color: ${props => props.theme.primary5};
+      color: ${(props) => props.theme.primary5};
     }
   }
 
@@ -111,16 +105,16 @@ const ShowContent = styled.div`
 
 const Section = styled.section`
   padding-bottom: 48px;
-  border-bottom: 1px solid ${props => props.theme.grey9};
+  border-bottom: 1px solid ${(props) => props.theme.grey9};
   &:last-child {
     border-bottom: none;
   }
   & .section-head {
     margin: 36px 0px;
-    font-size: ${props => props.theme.fontSize.subHeading};
+    font-size: ${(props) => props.theme.fontSize.subHeading};
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-weight: bold;
-    color: ${props => props.theme.primary3};
+    color: ${(props) => props.theme.primary3};
     text-transform: uppercase;
   }
 `;
@@ -130,24 +124,24 @@ const TopContent = styled.div`
   grid-template-columns: 2fr 1fr;
   grid-gap: 85px;
   & .title {
-    color: ${props => props.theme.grey1};
-    font-size: ${props => props.theme.fontSize.display};
+    color: ${(props) => props.theme.grey1};
+    font-size: ${(props) => props.theme.fontSize.display};
     font-weight: bold;
     margin: 24px 0px;
     @media (max-width: 768px) {
-      font-size: ${props => props.theme.fontSize.title};
+      font-size: ${(props) => props.theme.fontSize.title};
     }
   }
   & .credit {
     margin: 0;
     line-height: 1.5;
-    color: ${props => props.theme.grey5};
+    color: ${(props) => props.theme.grey5};
     @media (max-width: 768px) {
-      font-size: ${props => props.theme.fontSize.information};
+      font-size: ${(props) => props.theme.fontSize.information};
     }
   }
   & .description {
-    color: ${props => props.theme.grey1};
+    color: ${(props) => props.theme.grey1};
     margin: 16px 0px;
     max-width: 750px;
     line-height: 2;
@@ -170,7 +164,7 @@ const TicketBoxDesktop = styled.div`
   justify-content: center;
   align-items: flex-start;
   text-align: center;
-  background: ${props => props.theme.grey10};
+  background: ${(props) => props.theme.grey10};
   border-radius: 16px;
   max-width: 425px;
   max-height: 300px;
@@ -185,7 +179,7 @@ const TicketBoxDesktop = styled.div`
 `;
 
 const TicketBoxMobile = styled.div`
-  background: ${props => props.theme.grey10};
+  background: ${(props) => props.theme.grey10};
   display: none;
   @media (max-width: 900px) {
     display: grid;
@@ -201,20 +195,20 @@ const DatesLocation = styled.div`
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
   }
   & h2 {
-    font-size: ${props => props.theme.fontSize.highLevel};
-    color: ${props => props.theme.grey1};
+    font-size: ${(props) => props.theme.fontSize.highLevel};
+    color: ${(props) => props.theme.grey1};
     @media (max-width: 768px) {
-      font-size: ${props => props.theme.fontSize.emphasis};
+      font-size: ${(props) => props.theme.fontSize.emphasis};
     }
   }
   & h3 {
     margin-top: 32px;
-    font-size: ${props => props.theme.emphasis};
-    color: ${props => props.theme.primary3};
+    font-size: ${(props) => props.theme.emphasis};
+    color: ${(props) => props.theme.primary3};
   }
   & h4 {
     margin-top: 16px;
-    color: ${props => props.theme.grey1};
+    color: ${(props) => props.theme.grey1};
   }
   & .dates-location {
     & a {
@@ -230,13 +224,13 @@ const DatesLocation = styled.div`
 const BuyTicketsButton = styled.button`
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
   text-transform: uppercase;
-  color: ${props => props.theme.grey10};
-  background: ${props => props.theme.warning3};
+  color: ${(props) => props.theme.grey10};
+  background: ${(props) => props.theme.warning3};
   border: none;
   padding: 16px 55px;
   min-width: 283px;
   &:hover {
-    background: ${props => props.theme.warning4};
+    background: ${(props) => props.theme.warning4};
     cursor: pointer;
   }
 `;
@@ -264,7 +258,7 @@ const PhotoGalleryMainImageContainer = styled.div`
 `;
 
 const PhotoGalleryMainImage = styled(GatsbyImage)`
-  border: 2px solid ${props => props.theme.primary5};
+  border: 2px solid ${(props) => props.theme.primary5};
   border-radius: 16px;
   opacity: 0;
   visibility: hidden;
@@ -299,14 +293,14 @@ const PhotoGalleryCarousel = styled.div`
 
 const PhotoGalleryThumb = styled(GatsbyImage)`
   border-radius: 16px;
-  border: 2px solid ${props => props.theme.primary5};
+  border: 2px solid ${(props) => props.theme.primary5};
   opacity: 0.5;
   transition: 0.4s linear;
   width: 100%;
   &:hover,
   :focus,
   :active {
-    border: 2px solid ${props => props.theme.primary3};
+    border: 2px solid ${(props) => props.theme.primary3};
     cursor: pointer;
     opacity: 1;
   }
@@ -317,10 +311,10 @@ const PhotoGalleryThumb = styled(GatsbyImage)`
 
 const Callout = styled.h2`
   padding: 10px 20px;
-  font-size: ${props => props.theme.fontSize.emphasis};
-  border-radius: ${props => props.theme.borderRadius};
-  background: ${props => props.theme.warning3};
-  color: ${props => props.theme.grey10};
+  font-size: ${(props) => props.theme.fontSize.emphasis};
+  border-radius: ${(props) => props.theme.borderRadius};
+  background: ${(props) => props.theme.warning3};
+  color: ${(props) => props.theme.grey10};
   margin: 20px 0px;
 `;
 
@@ -334,7 +328,7 @@ const ShowTemplate = ({ data: { showData } }) => {
   );
   const [photoActive, setPhotoActive] = useState(0);
 
-  const handlePhotoThumbClick = e => {
+  const handlePhotoThumbClick = (e) => {
     trackCustomEvent({
       category: 'show',
       action: 'Gallery',
@@ -342,10 +336,10 @@ const ShowTemplate = ({ data: { showData } }) => {
       value: e.currentTarget.id,
     });
 
-    const newImage = show.photoGallery.find(photo => {
+    const newImage = show.photoGallery.find((photo) => {
       return photo.id === e.currentTarget.id;
     });
-    const newImageIndex = show.photoGallery.findIndex(photo => {
+    const newImageIndex = show.photoGallery.findIndex((photo) => {
       return photo.id === e.currentTarget.id;
     });
     if (!newImage) return;
@@ -411,7 +405,7 @@ const ShowTemplate = ({ data: { showData } }) => {
               <h1 className="title">{show.title}</h1>
               {show.callout ? <Callout>{show.callout}</Callout> : null}
               {show.showCredits &&
-                show.showCredits.map(credit => {
+                show.showCredits.map((credit) => {
                   return (
                     <p className="credit" key={credit.artist}>
                       {credit.credit} <strong>{credit.artist}</strong>
@@ -459,7 +453,7 @@ const ShowTemplate = ({ data: { showData } }) => {
           </TopContent>
         </Section>
         {show.photoGallery && show.photoGallery.length ? (
-          <Section>
+          <Section id="photos">
             <h2 className="section-head">Photos</h2>
             <PhotoGalleryMainImageContainer>
               {show.photoGallery.map((photo, index) => {
@@ -497,29 +491,32 @@ const ShowTemplate = ({ data: { showData } }) => {
           </Section>
         ) : null}
         {show.cast && show.cast.length ? (
-          <Section>
+          <Section id="cast">
             <h2 className="section-head">Cast</h2>
             <ArtistGrid>
-              {show.cast.map(artist => {
+              {show.cast.map((artist) => {
                 return <Artist artist={artist} key={artist.artist} />;
               })}
             </ArtistGrid>
           </Section>
         ) : null}
         {show.creativeTeam && show.creativeTeam.length ? (
-          <Section>
+          <Section id="creative-team">
             <h2 className="section-head">Creative Team</h2>
             <ArtistGrid>
-              {show.creativeTeam.map(artist => {
+              {show.creativeTeam.map((artist) => {
                 return <Artist artist={artist} key={artist.artist} />;
               })}
             </ArtistGrid>
           </Section>
         ) : null}
         {show.sections && show.sections.length
-          ? show.sections.map(section => {
+          ? show.sections.map((section) => {
               return (
-                <Section key={section.sectionHead}>
+                <Section
+                  key={section.sectionHead}
+                  id={encodeURI(section.sectionHead.toLowerCase())}
+                >
                   <h2 className="section-head">{section.sectionHead}</h2>
                   <div dangerouslySetInnerHTML={{ __html: section.content }} />
                 </Section>
