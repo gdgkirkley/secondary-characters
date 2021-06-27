@@ -189,8 +189,8 @@ sections:
 
 
       *\*Roles of Mrs. Lovett and Adolfo Pirelli are filled.*
-    displayButton: false
-    link: " "
+    displayButton: true
+    link: " Roles"
   - sectionHead: Resources
     content: >-
       **Additional Song Choice (please choose one of the following)**
