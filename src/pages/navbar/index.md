@@ -4,6 +4,8 @@ menuItems:
   - dropdown:
       - label: "Mamma Mia! "
         linkURL: /shows/mamma-mia
+      - label: Sweeney Todd
+        linkURL: /shows/sweeney-todd-the-demon-barber-of-fleet-street
     label: What's On
   - dropdown:
       - label: Spelling Bee (2019)
