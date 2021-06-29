@@ -2,9 +2,7 @@
 templateKey: navbar
 menuItems:
   - dropdown:
-      - label: 'Elf: The Musical'
-        linkURL: /shows/elf
-      - label: 'Mamma Mia! '
+      - label: "Mamma Mia! "
         linkURL: /shows/mamma-mia
     label: What's On
   - dropdown:
@@ -30,4 +28,3 @@ menuItems:
         linkURL: /contact
     label: About
 ---
-
