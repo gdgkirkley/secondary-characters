@@ -2,9 +2,9 @@
 templateKey: navbar
 menuItems:
   - dropdown:
-      - label: 'Elf: The Musical'
-        linkURL: /shows/elf
-      - label: 'Mamma Mia! '
+      - label: Sweeney Todd
+        linkURL: /shows/sweeney-todd-the-demon-barber-of-fleet-street
+      - label: "Mamma Mia! "
         linkURL: /shows/mamma-mia
     label: What's On
   - dropdown:
@@ -30,4 +30,3 @@ menuItems:
         linkURL: /contact
     label: About
 ---
-
