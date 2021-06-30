@@ -14,8 +14,6 @@ ticketOnSale: false
 creativeTeam:
   - credit: Director
     artist: Steffi Munshaw
-  - credit: Musical Director
-    artist: Nicola Davies
   - credit: Choreographer
     artist: Shelley Wojcik
 ---
