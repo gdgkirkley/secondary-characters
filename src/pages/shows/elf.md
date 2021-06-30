@@ -1,13 +1,16 @@
 ---
 templateKey: show
-upcoming: true
+upcoming: false
 orderOnHomePage: 1
-title: 'Elf: The Musical'
+title: "Elf: The Musical"
+callout: Holiday Musical for all!
+image: /img/elf.jpg
 dates: December 20 - 21, 2019
-shortDate: December 2019
 tagline: The modern holiday classic
 location: St. Thomas Church Hall
-image: /img/elf.jpg
+ticketLink: https://www.eventbrite.ca/d/canada--british-columbia/elf-the-musical-chilliwack/
+shortDate: December 2019
+ticketOnSale: true
 showCredits:
   - credit: Book by
     artist: Thomas Meehan & Bob Martin
@@ -17,8 +20,6 @@ showCredits:
     artist: Chad Beguelin
   - credit: Based on the New Line Cinema film written by
     artist: David Berenbaum
-ticketLink: https://www.eventbrite.ca/d/canada--british-columbia/elf-the-musical-chilliwack/
-ticketOnSale: true
 cast:
   - credit: Buddy
     artist: Keegan Zaporozan
@@ -67,9 +68,11 @@ creativeTeam:
     artist: Kris Ward
 sections:
   - sectionHead: Location
-    content: |
+    content: >
       <h3>St Thomas Church Hall</h3>
+
       <p>First Avenue at Young Road.<br>46048 Gore Ave, Chilliwack</p>
+
       <iframe width="100%" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJH1qIV3Y_hFQROdbdJpDPqc8&key=AIzaSyCKT7MaSSrSw2BKtArl_AHIH199zoJzDjk" allowfullscreen></iframe>
 ---
 
