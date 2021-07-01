@@ -196,6 +196,9 @@ sections:
       **Additional Song Choice (please choose one of the following)**
 
 
+      Sweeney Todd-Epiphany, bars 33-64    sheet music     recording
+
+
       Johanna - Green Finch and Linnet Bird, bars 1-20    [sheet music](static/img/johanna-green-finch-bars-1-20.pdf)   [recording](static/img/johanna-green-finch-bars-1-20.m4a)
 
 
