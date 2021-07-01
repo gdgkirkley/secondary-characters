@@ -196,28 +196,28 @@ sections:
       **Additional Song Choice (please choose one of the following)**
 
 
-      Sweeney Todd - Epiphany, bars 33-64    [sheet music ](static/img/todd-epiphany-bars-33-64.pdf)   [ recording](static/img/todd-epiphany-bars-33-64.m4a)
+      Sweeney Todd - Epiphany, bars 33-64    [sheet music](https://res.cloudinary.com/dsqbaw4bl/image/upload/v1625163847/secondary-characters/todd-epiphany-bars-33-64_t3isym.pdf)     [recording](https://res.cloudinary.com/dsqbaw4bl/video/upload/v1625163847/secondary-characters/todd-epiphany-bars-33-64_lhiyjq.3gp)
 
 
-      Johanna - Green Finch and Linnet Bird, bars 1-20    [sheet music](static/img/johanna-green-finch-bars-1-20.pdf)   [recording](static/img/johanna-green-finch-bars-1-20.m4a)
+      Johanna - Green Finch and Linnet Bird, bars 1-20    [sheet music](https://res.cloudinary.com/dsqbaw4bl/image/upload/v1625163824/secondary-characters/johanna-green-finch-bars-1-20_qqgmwt.pdf)   [recording](https://res.cloudinary.com/dsqbaw4bl/video/upload/v1625163822/secondary-characters/johanna-green-finch-bars-1-20_vd5shc.3gp)
 
 
-      Anthony - Johanna (part II), bars 5-20   [sheet music ](static/img/anthony-johanna-part-ii-bars-5-20.pdf)  [recording](static/img/anthony-johanna-part-ii-bars-5-20.m4a)
+      Anthony - Johanna (part II), bars 5-20   [sheet music](https://res.cloudinary.com/dsqbaw4bl/image/upload/v1625163803/secondary-characters/anthony-johanna-part-ii-bars-5-20_okkoex.pdf)   [recording](https://res.cloudinary.com/dsqbaw4bl/video/upload/v1625163801/secondary-characters/anthony-johanna-part-ii-bars-5-20_ysgqdd.3gp)
 
 
-      Beggar Woman - No Place Like London, bars 28-42   [sheet music](static/img/beggar-no-place-like-london-bars-28-42.pdf)    [recording](static/img/beggar-no-place-like-london-bars-28-42.m4a)
+      Beggar Woman - No Place Like London, bars 28-42   [sheet music](https://res.cloudinary.com/dsqbaw4bl/image/upload/v1625163813/secondary-characters/beggar-no-place-like-london-bars-28-42_hb6gss.pdf)    [recording](https://res.cloudinary.com/dsqbaw4bl/video/upload/v1625163811/secondary-characters/beggar-no-place-like-london-bars-28-42_f5d4mh.3gp)
 
 
-      Beadle - Parlour Songs (part I), bar 13-end   [sheet music](static/img/beadle-parlour-songs-part-i-bars-13-end.pdf)    [recording](static/img/beadle-parlour-songs-part-i-bars-13-end.m4a)
+      Beadle - Parlour Songs (part I), bar 13-end   [sheet music](https://res.cloudinary.com/dsqbaw4bl/image/upload/v1625163808/secondary-characters/beadle-parlour-songs-part-i-bars-13-end_rqtr9t.pdf)    [recording](https://res.cloudinary.com/dsqbaw4bl/video/upload/v1625163806/secondary-characters/beadle-parlour-songs-part-i-bars-13-end_myj9tb.3gp)
 
 
-      Tobias - Pirelli's Miracle Elixir, bars 7-37   [sheet music](static/img/tobias-pirelli-s-miracle-elixir-bars-7-37.pdf)   [recording](static/img/tobias-pirelli-s-miracle-elixir-bars-7-37.m4a)
+      Tobias - Pirelli's Miracle Elixir, bars 7-37   [sheet music](https://res.cloudinary.com/dsqbaw4bl/image/upload/v1625163846/secondary-characters/tobias-pirelli-s-miracle-elixir-bars-7-37_kj8pqq.pdf)   [recording](https://res.cloudinary.com/dsqbaw4bl/video/upload/v1625163846/secondary-characters/tobias-pirelli-s-miracle-elixir-bars-7-37_azvchp.3gp)
 
 
-      Judge - Pretty Women (part I), bars 5-16 AND bars 25-34    [sheet music](static/img/judge-pretty-women-part-i-bars-5-16-25-34.pdf)      [recording (5-20) ](static/img/judge-pretty-women-part-i-bars-5-20.m4a) [recording (25-34)](static/img/judge-pretty-women-part-i-bars-25-34.m4a)
+      Judge - Pretty Women (part I), bars 5-16 AND bars 25-34    [sheet music](https://res.cloudinary.com/dsqbaw4bl/image/upload/v1625163829/secondary-characters/judge-pretty-women-part-i-bars-5-16-25-34_iinff3.pdf)      [recording (5-20)](https://res.cloudinary.com/dsqbaw4bl/video/upload/v1625163832/secondary-characters/judge-pretty-women-part-i-bars-5-20_nvjdoa.3gp)  [recording (25-34)](https://res.cloudinary.com/dsqbaw4bl/video/upload/v1625163834/secondary-characters/judge-pretty-women-part-i-bars-25-34_j6brcv.3gp)
 
 
-      Ensemble - Prologue, bars 5-25  * note: you may sing bars 18-25 up the octave if preferred         [sheet music ](static/img/ensemble-solo-prologue-bars-5-25.pdf)    [recording](static/img/ensemble-solo-prologue-bars-5-25.m4a)
+      Ensemble - Prologue, bars 5-25  * note: you may sing bars 18-25 up the octave if preferred         [sheet music](https://res.cloudinary.com/dsqbaw4bl/image/upload/v1625163819/secondary-characters/ensemble-solo-prologue-bars-5-25_hdtkkr.pdf)     [recording](https://res.cloudinary.com/dsqbaw4bl/video/upload/v1625163817/secondary-characters/ensemble-solo-prologue-bars-5-25_pruu5v.3gp)
 
 
       *See recordings for practice.  Note, these are at a slightly slower tempo than normal.*
