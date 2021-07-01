@@ -3,10 +3,10 @@ templateKey: show
 upcoming: true
 orderOnHomePage: 2
 title: Mamma Mia!
-callout: Postponed until July 2022
+callout: Postponed until summer 2022
 image: /img/mammamia-square.jpg
 desktopBanner: /img/mammamia.jpg
-dates: July 2022
+dates: Summer 2022
 tagline: The magic of ABBA's timeless songs
 location: Chilliwack Cultural Centre
 ticketLink: http://secondarycharacters.org
