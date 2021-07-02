@@ -141,7 +141,7 @@ collections:
           widget: 'string',
           required: true,
           default: '',
-          hint: 'Put an emergency message on a show',
+          hint: 'Put a message on a show',
         }
       - { label: 'Image', name: 'image', widget: 'image', required: true }
       - {
@@ -194,7 +194,7 @@ collections:
           required: true,
           default: false,
         }
-      - label: 'Show Credits'
+      - label: 'Show Creator Credits'
         label_singular: 'Show Credit'
         name: 'showCredits'
         widget: 'list'

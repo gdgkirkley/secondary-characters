@@ -121,3 +121,142 @@ a:hover {
   color: #222222;
   margin: 8px 0px;
 }
+
+.top-content {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 85px;
+}
+
+.title {
+  color: #222222;
+  font-size: 64px;
+  font-weight: bold;
+  margin: 24px 0px;
+}
+
+.buy-tickets {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1000px;
+  min-height: 55px;
+  transition: 0.4s linear;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  color: #f6f6f6;
+  background: #ec3b6b;
+  border: none;
+  padding: 16px 55px;
+  min-width: 283px;
+}
+
+.buy-tickets:hover {
+  background: #c10135;
+  cursor: pointer;
+}
+
+.tickets-box {
+  display: grid;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: center;
+  background: #f6f6f6;
+  border-radius: 16px;
+  max-width: 425px;
+  max-height: 300px;
+  padding: 24px;
+}
+
+.artist-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 12px;
+}
+
+.callout {
+  padding: 10px 20px;
+  font-size: 24px;
+  border-radius: 1000px;
+  background: #ec3b6b;
+  color: #f6f6f6;
+  margin: 20px 0px;
+}
+
+.credit {
+  margin: 0;
+  line-height: 1.5;
+  color: #878787;
+}
+
+.photo-gallery-container {
+  position: relative;
+  min-height: 700px;
+  margin: 32px 0px;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.photo-gallery-thumb {
+  border-radius: 16px;
+  border: 2px solid #9a5cd6;
+  opacity: 0.5;
+  transition: 0.4s linear;
+  width: 100%;
+}
+
+.photo-gallery-thumb:hover,
+.photo-gallery-thumb:focus,
+.photo-gallery-thumb:active {
+  border: 2px solid #6714b8;
+  cursor: pointer;
+  opacity: 1;
+}
+.selected {
+  opacity: 1;
+}
+
+.photo-gallery-carousel {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-gap: 8px;
+}
+
+.photo-gallery-carousel button {
+  display: inline-flex;
+  padding: 0;
+  border: none;
+  background: none;
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 768px) {
+  .photo-gallery-carousel {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .photo-gallery-container {
+    min-height: 250px;
+  }
+}
+
+.photo-gallery-main-image {
+  border: 2px solid #9a5cd6;
+  border-radius: 16px;
+  opacity: 0;
+  visibility: hidden;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all 1s ease-in-out;
+  object-fit: cover;
+}
+
+.active {
+  opacity: 1;
+  visibility: visible;
+}

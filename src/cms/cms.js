@@ -1,10 +1,11 @@
 import CMS from 'netlify-cms-app';
 import ContentPagePreview from './preview-templates/ContentPagePreview';
 import ArtistPreview from './preview-templates/ArtistPreview';
+import ShowPagePreview from './preview-templates/ShowPagePreview';
 import './sc.css';
 
 CMS.registerPreviewTemplate('artists', ArtistPreview);
-
+CMS.registerPreviewTemplate('shows', ShowPagePreview);
 CMS.registerPreviewTemplate('about', ContentPagePreview);
 CMS.registerPreviewTemplate('advertising', ContentPagePreview);
 CMS.registerPreviewTemplate('auditions', ContentPagePreview);
