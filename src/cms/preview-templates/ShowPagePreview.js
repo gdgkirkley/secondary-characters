@@ -142,11 +142,9 @@ const ShowPagePreview = ({ entry, getAsset, fieldsMetadata }) => {
               {data.cast.map((artist) => {
                 return (
                   <div className="artist-credit" key={artist.name}>
-                    <div className="artist-headshot">
-                      <img src={getAsset(artist.headshot)} />
-                    </div>
+                    <div className="artist-headshot" />
                     <p className="credit" style={{ fontSize: '14px' }}>
-                      <strong className="name">{artist.name}</strong>
+                      <strong className="name">{artist.artist}</strong>
                       <br /> {artist.credit}
                     </p>
                   </div>
