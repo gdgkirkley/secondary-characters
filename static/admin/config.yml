@@ -381,7 +381,12 @@ collections:
             widget: 'list'
             fields:
               - { label: 'Section Name', name: 'sectionHead', widget: 'string' }
-              - { label: 'Content', name: 'content', widget: 'markdown' }
+              - {
+                  label: 'Content',
+                  name: 'content',
+                  widget: 'markdown',
+                  editor_components: ['image', 'file'],
+                }
               - {
                   label: 'Include a button link?',
                   name: 'displayButton',
@@ -463,4 +468,10 @@ collections:
                   required: false,
                   default: false,
                 }
-              - { label: 'Button Link URL', name: 'link', widget: 'string', required: false, default: '' }
+              - {
+                  label: 'Button Link URL',
+                  name: 'link',
+                  widget: 'string',
+                  required: false,
+                  default: '',
+                }

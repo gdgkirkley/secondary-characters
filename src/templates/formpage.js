@@ -5,7 +5,7 @@ import styled from 'styled-components';
 import Layout from '../components/layout';
 import ContactForm from '../components/contactform';
 import DonateForm from '../components/donateform';
-import SEO from '../components/seo';
+import Seo from '../components/seo';
 import VolunteerForm from '../components/volunteerform';
 import AuditionForm from '../components/auditionform';
 
@@ -112,7 +112,7 @@ const FormPage = ({ data: { pageData } }) => {
   const Tag = components[page.frontmatter.pageForm];
   return (
     <Layout>
-      <SEO
+      <Seo
         title={page.frontmatter.title}
         description={page.excerpt}
         image={
