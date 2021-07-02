@@ -3,7 +3,7 @@ import { graphql } from 'gatsby';
 import BackgroundImage from 'gatsby-background-image';
 import styled from 'styled-components';
 import Layout from '../components/layout';
-import SEO from '../components/seo';
+import Seo from '../components/seo';
 
 export const query = graphql`
   query ($slug: String!) {
@@ -79,21 +79,11 @@ const Section = styled.section`
   }
 `;
 
-export const ContentPageTemplate = ({ title }) => (
-  <Layout>
-    <PageContent>
-      <Section>
-        <h1 className="section-head">{title}</h1>
-      </Section>
-    </PageContent>
-  </Layout>
-);
-
 const ContentPage = ({ data: { pageData } }) => {
   const page = pageData.edges[0].node;
   return (
     <Layout>
-      <SEO
+      <Seo
         title={page.frontmatter.title}
         description={page.excerpt}
         image={

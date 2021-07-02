@@ -5,7 +5,7 @@ import { GatsbyImage, getImage } from 'gatsby-plugin-image';
 import styled from 'styled-components';
 import Layout from '../components/layout';
 import Artist from '../components/artist';
-import SEO from '../components/seo';
+import Seo from '../components/seo';
 import { getSize } from '../lib/functions';
 
 export const query = graphql`
@@ -366,7 +366,7 @@ const ShowTemplate = ({ data: { showData } }) => {
 
   return (
     <Layout>
-      <SEO
+      <Seo
         title={show.title}
         description={excerpt}
         image={`/img/${show.image.relativePath}`}

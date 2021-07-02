@@ -2,17 +2,19 @@ import React, { useState } from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 import styled from 'styled-components';
 import { trackCustomEvent } from 'gatsby-plugin-google-analytics';
-import {GatsbyImage, getImage} from 'gatsby-plugin-image';
+import { GatsbyImage, getImage } from 'gatsby-plugin-image';
 
-const ArtistCredit = styled.div`
+const ArtistCredit = styled.button`
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   text-align: center;
+  background: white;
+  border: none;
   & p {
-    font-size: ${props => props.theme.fontSize.information};
+    font-size: ${(props) => props.theme.fontSize.information};
     & .name {
-      font-size: ${props => props.theme.fontSize.reading};
+      font-size: ${(props) => props.theme.fontSize.reading};
       margin: 8px 0px;
       line-height: 1.5;
     }
@@ -22,15 +24,15 @@ const ArtistCredit = styled.div`
     border: 0;
     margin: 0;
     padding: 0;
-    color: ${props => props.theme.primary5};
-    font-size: ${props => props.theme.fontSize.information};
+    color: ${(props) => props.theme.primary5};
+    font-size: ${(props) => props.theme.fontSize.information};
     min-height: 20px;
     transition: 0.2s linear;
   }
   &:hover {
-    cursor: ${props => (props.noHover ? 'inherit' : 'pointer')};
+    cursor: ${(props) => (props.noHover ? 'inherit' : 'pointer')};
     & .name {
-      color: ${props =>
+      color: ${(props) =>
         props.noHover ? props.theme.grey3 : props.theme.primary5};
     }
     & button {
@@ -52,17 +54,17 @@ const ArtistCredit = styled.div`
 const ArtistHeadshot = styled.div`
   height: 150px;
   width: 150px;
-  border-radius: ${props => props.theme.borderRadius};
-  background: ${props => props.theme.accent5};
+  border-radius: ${(props) => props.theme.borderRadius};
+  background: ${(props) => props.theme.accent5};
   overflow: hidden;
   display: flex;
   align-items: center;
   align-self: center;
-  border: 0px solid ${props => props.theme.primary5};
+  border: 0px solid ${(props) => props.theme.primary5};
   transition: border 0.1s ease-in-out;
 
   ${ArtistCredit}:hover & {
-    border: ${props =>
+    border: ${(props) =>
       props.noHover ? 'none' : `3px solid ${props.theme.primary5}`};
   }
   @media (max-width: 768px) {
@@ -89,15 +91,19 @@ const ArtistBioModal = styled.div`
     transform: scale(1);
     transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s;
   }
-  & span {
+  & button {
     &.close-button {
       float: right;
       width: 1.5rem;
-      line-height: 1.5rem;
+      max-height: 30px;
+      min-height: 30px;
+      padding: 0;
+      line-height: 0.5;
       text-align: center;
       cursor: pointer;
       border-radius: 0.25rem;
       background-color: lightgray;
+      border: none;
       &:hover {
         background-color: darkgrey;
       }
@@ -133,7 +139,7 @@ const ArtistBioModalContent = styled.div`
   }
   & h2,
   h3 {
-    color: ${props => props.theme.grey1};
+    color: ${(props) => props.theme.grey1};
     margin: 8px 0px;
   }
   @media (max-width: 768px) {
@@ -176,7 +182,7 @@ const Artist = ({ artist }) => {
     setShowModal(!showModal);
   };
 
-  const foundArtist = data.artists.edges.find(art => {
+  const foundArtist = data.artists.edges.find((art) => {
     return art.node.frontmatter.name === artist.artist;
   });
 
@@ -201,9 +207,9 @@ const Artist = ({ artist }) => {
         </ArtistCredit>
         <ArtistBioModal className={showModal ? 'show-modal' : ''}>
           <ArtistBioModalContent>
-            <span className="close-button" onClick={toggleBioModal}>
+            <button className="close-button" onClick={toggleBioModal}>
               &times;
-            </span>
+            </button>
             <h2>{foundArtist.node.frontmatter.name}</h2>
             <h3>{artist.credit}</h3>
             <div dangerouslySetInnerHTML={{ __html: foundArtist.node.html }} />

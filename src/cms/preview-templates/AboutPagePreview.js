@@ -1,10 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { ContentPageTemplate } from '../../templates/contentpage';
 
 const AboutPagePreview = ({ entry }) => {
+  console.log('Rendering');
   const title = entry.getIn(['data', 'title']).toJS();
-  return <ContentPageTemplate title={title} />;
+  return <div>{title}</div>;
 };
 
 AboutPagePreview.propTypes = {

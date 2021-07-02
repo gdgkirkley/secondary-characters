@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import { useStaticQuery, graphql } from 'gatsby';
 import BackgroundImage from 'gatsby-background-image';
 import Layout from '../components/layout';
-import SEO from '../components/seo';
+import Seo from '../components/seo';
 import EmailBar from '../components/emailbar';
 import ShowCard from '../components/showcard';
 
@@ -31,12 +31,12 @@ const Titles = styled.div`
   z-index: 2;
   & h1,
   h3 {
-    color: ${props => props.theme.grey10};
+    color: ${(props) => props.theme.grey10};
     margin: 0 auto;
-    box-shadow: ${props => props.theme.bs};
+    box-shadow: ${(props) => props.theme.bs};
   }
   & h1 {
-    font-size: ${props => props.theme.fontSize.display};
+    font-size: ${(props) => props.theme.fontSize.display};
     text-transform: uppercase;
     margin-top: 64px;
   }
@@ -46,12 +46,12 @@ const Titles = styled.div`
   }
   @media (max-width: 768px) {
     & h1 {
-      font-size: ${props => props.theme.fontSize.highLevel};
+      font-size: ${(props) => props.theme.fontSize.highLevel};
       text-transform: uppercase;
       margin-top: 36px;
     }
     & h3 {
-      font-size: ${props => props.theme.fontSize.reading};
+      font-size: ${(props) => props.theme.fontSize.reading};
       margin-top: 20px;
       width: 350px;
     }
@@ -134,7 +134,7 @@ const IndexPage = () => {
   const home = data.homePageData.edges[0].node;
   return (
     <Layout>
-      <SEO title="Home" />
+      <Seo title="Home" />
       <HeroBanner
         fluid={home.frontmatter.headerImage.image.childImageSharp.fluid}
       >
@@ -145,7 +145,7 @@ const IndexPage = () => {
       </HeroBanner>
       <EmailBar />
       <Shows>
-        {data.showData.edges.map(show => (
+        {data.showData.edges.map((show) => (
           <ShowCard show={show.node} key={show.node.frontmatter.title} />
         ))}
       </Shows>
