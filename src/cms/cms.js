@@ -1,9 +1,9 @@
 import CMS from 'netlify-cms-app';
-import { object } from 'prop-types';
-
 import ContentPagePreview from './preview-templates/ContentPagePreview';
-
+import ArtistPreview from './preview-templates/ArtistPreview';
 import './sc.css';
+
+CMS.registerPreviewTemplate('artists', ArtistPreview);
 
 CMS.registerPreviewTemplate('about', ContentPagePreview);
 CMS.registerPreviewTemplate('advertising', ContentPagePreview);
