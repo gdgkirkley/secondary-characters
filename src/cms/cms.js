@@ -1,9 +1,13 @@
 import CMS from 'netlify-cms-app';
 
-import AboutPagePreview from './preview-templates/AboutPagePreview';
+import ContentPagePreview from './preview-templates/ContentPagePreview';
 
 import './sc.css';
 
-console.log('CMS');
-
-CMS.registerPreviewTemplate('about', AboutPagePreview);
+CMS.registerPreviewTemplate('about', ContentPagePreview);
+CMS.registerPreviewTemplate('advertising', ContentPagePreview);
+CMS.registerPreviewTemplate('auditions', ContentPagePreview);
+CMS.registerPreviewTemplate('contact', ContentPagePreview);
+CMS.registerPreviewTemplate('audition-guide', ContentPagePreview);
+CMS.registerPreviewTemplate('volunteer', ContentPagePreview);
+CMS.registerPreviewTemplate('support', ContentPagePreview);

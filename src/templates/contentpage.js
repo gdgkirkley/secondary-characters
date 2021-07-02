@@ -4,6 +4,7 @@ import BackgroundImage from 'gatsby-background-image';
 import styled from 'styled-components';
 import Layout from '../components/layout';
 import Seo from '../components/seo';
+import Section from '../components/section';
 
 export const query = graphql`
   query ($slug: String!) {
@@ -60,26 +61,7 @@ const PageContent = styled.div`
   max-width: 1300px;
 `;
 
-const Section = styled.section`
-  padding-bottom: 48px;
-  border-bottom: 1px solid ${(props) => props.theme.grey9};
-  &:last-child {
-    border-bottom: none;
-  }
-  & .section-head {
-    margin: 36px 0px;
-    font-size: ${(props) => props.theme.fontSize.subHeading};
-    font-family: 'Roboto', Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    color: ${(props) => props.theme.primary3};
-    text-transform: uppercase;
-  }
-  & .main-content {
-    line-height: 2;
-  }
-`;
-
-const ContentPage = ({ data: { pageData } }) => {
+function ContentPage({ data: { pageData } }) {
   const page = pageData.edges[0].node;
   return (
     <Layout>
@@ -126,6 +108,6 @@ const ContentPage = ({ data: { pageData } }) => {
       </PageContent>
     </Layout>
   );
-};
+}
 
 export default ContentPage;
