@@ -25,7 +25,6 @@ export const query = graphql`
             sections {
               sectionHead
               content
-              displayButton
             }
           }
           html

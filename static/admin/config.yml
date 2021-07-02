@@ -289,12 +289,6 @@ collections:
             fields:
               - { label: 'Section Name', name: 'sectionHead', widget: 'string' }
               - { label: 'Content', name: 'content', widget: 'markdown' }
-              - {
-                  label: 'Include a button link?',
-                  name: 'displayButton',
-                  widget: 'boolean',
-                }
-              - { label: 'Button Link URL', name: 'link', widget: 'string' }
       - file: 'src/pages/advertising/index.md'
         label: 'Program Advertising'
         name: 'advertising'
@@ -320,12 +314,6 @@ collections:
             fields:
               - { label: 'Section Name', name: 'sectionHead', widget: 'string' }
               - { label: 'Content', name: 'content', widget: 'markdown' }
-              - {
-                  label: 'Include a button link?',
-                  name: 'displayButton',
-                  widget: 'boolean',
-                }
-              - { label: 'Button Link URL', name: 'link', widget: 'string' }
       - file: 'src/pages/contact/index.md'
         label: 'Contact'
         name: 'contact'
@@ -351,12 +339,6 @@ collections:
             fields:
               - { label: 'Section Name', name: 'sectionHead', widget: 'string' }
               - { label: 'Content', name: 'content', widget: 'markdown' }
-              - {
-                  label: 'Include a button link?',
-                  name: 'displayButton',
-                  widget: 'boolean',
-                }
-              - { label: 'Button Link URL', name: 'link', widget: 'string' }
       - file: 'src/pages/get-involved/auditions/index.md'
         label: 'Auditions'
         name: 'auditions'
@@ -387,12 +369,6 @@ collections:
                   widget: 'markdown',
                   editor_components: ['image', 'file'],
                 }
-              - {
-                  label: 'Include a button link?',
-                  name: 'displayButton',
-                  widget: 'boolean',
-                }
-              - { label: 'Button Link URL', name: 'link', widget: 'string' }
       - file: 'src/pages/get-involved/audition-guide/index.md'
         label: 'Audition Guide'
         name: 'audition-guide'
@@ -430,12 +406,6 @@ collections:
             fields:
               - { label: 'Section Name', name: 'sectionHead', widget: 'string' }
               - { label: 'Content', name: 'content', widget: 'markdown' }
-              - {
-                  label: 'Include a button link?',
-                  name: 'displayButton',
-                  widget: 'boolean',
-                }
-              - { label: 'Button Link URL', name: 'link', widget: 'string' }
       - file: 'src/pages/support/index.md'
         label: 'Support'
         name: 'support'
@@ -461,17 +431,3 @@ collections:
             fields:
               - { label: 'Section Name', name: 'sectionHead', widget: 'string' }
               - { label: 'Content', name: 'content', widget: 'markdown' }
-              - {
-                  label: 'Include a button link?',
-                  name: 'displayButton',
-                  widget: 'boolean',
-                  required: false,
-                  default: false,
-                }
-              - {
-                  label: 'Button Link URL',
-                  name: 'link',
-                  widget: 'string',
-                  required: false,
-                  default: '',
-                }
