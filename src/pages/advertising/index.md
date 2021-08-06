@@ -2,7 +2,7 @@
 templateKey: contentpage
 title: Program Advertising
 showBanner: true
-image: /img/spellingbee-banner.jpg
+image: /img/oklahoma1.jpg
 ---
 Ads are printed on 80lb glossy paper stock, 8.5" x 5.5", and will appear in each of our programs for a show . Ads will reach all audience members directly, and programs and information are often shared among friends for community theatre productions, creating a strong word-of-mouth marketing presence. We offer four types of advertising in our program:
 
