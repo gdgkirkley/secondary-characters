@@ -25,7 +25,7 @@ sections:
     content: >-
       Kris Ward- President\
 
-      Randy Newbury - Secretary                                                                                                                        Steffi Munshaw - Member\
+      Randy Newbury - Secretary                                                                                                                                            Steffi Munshaw - Member\
 
       Stefanie Swinnard - Member\
 
