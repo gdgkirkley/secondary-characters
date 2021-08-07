@@ -3,7 +3,7 @@ templateKey: show
 upcoming: true
 orderOnHomePage: 1
 title: Sweeney Todd, the demon barber of Fleet Street.
-callout: Auditions July 17-18
+callout: October 2021
 image: /img/sw.jpg
 desktopBanner: ""
 dates: "October 27-31, 2021  "
