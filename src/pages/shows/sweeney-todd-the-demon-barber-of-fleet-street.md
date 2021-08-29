@@ -10,7 +10,7 @@ dates: "October 27-31, 2021  "
 tagline: Halloween Entertainment!
 location: Chilliwack Cultural Centre
 ticketLink: https://www.chilliwackculturalcentre.ca
-ticketOnSale: false
+ticketOnSale: true
 creativeTeam:
   - credit: Director
     artist: Steffi Munshaw
