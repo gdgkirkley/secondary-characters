@@ -1,9 +1,9 @@
 ---
 templateKey: show
 upcoming: true
-orderOnHomePage: 2
+orderOnHomePage: 1
 title: Mamma Mia!
-callout: Postponed until summer 2022
+callout: Summer 2022
 image: /img/mammamia-square.jpg
 desktopBanner: /img/mammamia.jpg
 dates: Summer 2022
