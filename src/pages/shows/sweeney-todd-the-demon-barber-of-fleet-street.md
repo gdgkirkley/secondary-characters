@@ -1,6 +1,6 @@
 ---
 templateKey: show
-upcoming: true
+upcoming: false
 orderOnHomePage: 1
 title: Sweeney Todd, the demon barber of Fleet Street.
 callout: October 2021
