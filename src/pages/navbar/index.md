@@ -2,8 +2,6 @@
 templateKey: navbar
 menuItems:
   - dropdown:
-      - label: Sweeney Todd
-        linkURL: /shows/sweeney-todd-the-demon-barber-of-fleet-street
       - label: "Mamma Mia! "
         linkURL: /shows/mamma-mia
     label: What's On
