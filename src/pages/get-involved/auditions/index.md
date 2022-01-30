@@ -42,17 +42,21 @@ sections:
 
 **Submissions due by February 28th** 
 
-\*Video Submissions only.  Please fill out and submit our audition form with your video and send to  [info@secondarycharacters.org](mailto:info@secondarycharacters.org)
+\*Video Submissions only.  Please submit your video audition and fill out our online audition form using the following link.
+
+
+
+   [Submit Audition](https://forms.gle/q5Wy6r4JMA3VNDEL8)
+
+
 
 **Requirements:**
 
 Choose from *Lay All Your Love On Me*, *Mamma Mia* OR another musical theatre song. Video must show your whole body, with quality audio and live or digital accompaniment.  Suggested karaoke links are below:
 
-*[Lay All Your Love On Me](<https://www.youtube.com/watch?v=YgXrd7eE6ME>)*
+*[Lay All Your Love On Me](https://www.youtube.com/watch?v=YgXrd7eE6ME)*
 
-*[Mamma Mia](<https://www.youtube.com/watch?v=PBRqCYfGhWo>)*
-
-
+*[Mamma Mia](https://www.youtube.com/watch?v=PBRqCYfGhWo)*
 
 **Rehearsal Schedule:**
 
