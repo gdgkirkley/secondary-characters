@@ -7,9 +7,9 @@ pageForm: auditionform
 sections:
   - sectionHead: Roles
     content: |-
-      All experience and age levels are welcome to audition.  
+      \*All experience and age levels are welcome to audition.  
 
-      Roles:
+      **Roles:**
 
       Sky (20's, male identifying, Sophie's fiance)
 
@@ -19,16 +19,8 @@ sections:
     displayButton: true
     link: " Roles"
   - sectionHead: Resources
-    content: |-
-      Lay All Your Love On Me
-
-      <https://www.youtube.com/watch?v=YgXrd7eE6ME>
-
-       
-
-      Mamma Mia
-
-      <https://www.youtube.com/watch?v=PBRqCYfGhWo>
+    content: Check out our [Audition Guide](/get-involved/audition-guide) for
+      information about the audition process.
     displayButton: true
     link: Resources
   - sectionHead: Covid Health and Safety
@@ -50,53 +42,12 @@ sections:
 
 **Submissions due by February 28th** 
 
-**Video Submissions only**
+\*Video Submissions only.  Please fill out and submit our audition form with your video and send to  [info@secondarycharacters.org](mailto:info@secondarycharacters.org)
 
-\*Please fill out and submit our audition form with your video  
+**Requirements:**
 
+Choose from *Lay All Your Love On Me*, *Mamma Mia* OR another musical theatre song. Video must show your whole body, with quality audio and live or digital accompaniment.  Suggested karaoke links are below:
 
+*[Lay All Your Love On Me](<https://www.youtube.com/watch?v=YgXrd7eE6ME>)*
 
-Requirements:
-
-Choose from "Lay All Your Love On Me", "Mamma Mia" OR another musical theatre song. Video must show your whole body, with quality audio and live or digital accompaniment.  Suggested karaoke links are below:
-
- 
-
-Lay All Your Love On Me
-
-<https://www.youtube.com/watch?v=YgXrd7eE6ME>
-
- 
-
-Mamma Mia
-
-<https://www.youtube.com/watch?v=PBRqCYfGhWo>
-
-### Requirements  (please indicate in audition availability, which option you choose)
-
-
-
-* Video Submission.  Performers must record a long continuous shot with quality audio and live or digital accompaniment.   Accompaniment for the additional song will be sent to you when you sign up to audition.  Please submit by Thursday, July 15th to [info@secondarycharacters.org](mailto:info@secondarycharacters.org)
-
-
-
-Check out our [Audition Guide](/get-involved/audition-guide) for information about the audition process.
-For more information: info@secondarycharacters.org
-
-### Rehearsal Schedule:
-
-**​Location**: 45530 Spadina Avenue, Players Guild Hall, Chilliwack\
-**Readthrough**: TBD\
-**Rehearsal Dates and Times**:\
-August 21-Oct-26\
-Three days a week (times and days TBD)  
-
-*Note that not all cast members will be required on all rehearsal days/times.*
-
-### Show Schedule:
-
-**Location**: Chilliwack Cultural Centre\
-**Dates and Times**:\
-October 27-31
-
-Cast are expected to be available for all dates unless previously discussed with director.
+*[Mamma Mia](<https://www.youtube.com/watch?v=PBRqCYfGhWo>)*
