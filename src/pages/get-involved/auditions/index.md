@@ -51,3 +51,22 @@ Choose from *Lay All Your Love On Me*, *Mamma Mia* OR another musical theatre so
 *[Lay All Your Love On Me](<https://www.youtube.com/watch?v=YgXrd7eE6ME>)*
 
 *[Mamma Mia](<https://www.youtube.com/watch?v=PBRqCYfGhWo>)*
+
+
+
+**Rehearsal Schedule:**
+
+**Location**: 45530 Spadina Avenue, Players Guild Hall, Chilliwack\
+**Rehearsal Dates and Times**:\
+May-August 2022\
+Three days a week (times and days TBD)
+
+*Note that not all cast members will be required on all rehearsal days/times.*
+
+**Show Schedule:**
+
+**Location**: Chilliwack Cultural Centre\
+**Dates and Times**:\
+August 11-21, 2022
+
+Cast are expected to be available for all dates unless previously discussed with director.
