@@ -14,6 +14,8 @@ menuItems:
         linkURL: /shows/joseph-and-the-amazing-technicolor-dreamcoat
       - label: Little Women (2010)
         linkURL: /shows/little-women
+      - label: Sweeney Todd (2021)
+        linkURL: /shows/sweeney-todd-the-demon-barber-of-fleet-street
     label: Past Shows
   - dropdown:
       - label: Auditions
