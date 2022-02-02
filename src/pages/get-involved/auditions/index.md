@@ -1,9 +1,8 @@
 ---
-templateKey: formpage
+templateKey: contentpage
 title: Auditions
 showBanner: true
 image: /img/sweeney-todd.jpeg
-pageForm: auditionform
 sections:
   - sectionHead: Roles
     content: >-
