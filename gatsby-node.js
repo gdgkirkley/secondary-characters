@@ -80,8 +80,6 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
 
   if (
     node.internal.type === `MarkdownRemark` &&
-    (node.frontmatter.templateKey === "contentpage" ||
-      node.frontmatter.templateKey === "formpage") &&
     node.frontmatter.sections &&
     node.frontmatter.sections.length
   ) {
