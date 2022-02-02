@@ -1,7 +1,6 @@
 import React from "react"
 import { ThemeProvider, createGlobalStyle } from "styled-components"
 import Helmet from "react-helmet"
-import PropTypes from "prop-types"
 import useSiteMetadata from "../hooks/useSiteMetadata"
 import Header from "./header"
 import Footer from "./footer"
@@ -143,10 +142,6 @@ const Layout = ({ children }) => {
       </>
     </ThemeProvider>
   )
-}
-
-Layout.propTypes = {
-  children: PropTypes.node.isRequired,
 }
 
 export default Layout

@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import PropTypes from 'prop-types';
 import markdownIt from 'markdown-it';
 
 const markdownParse = new markdownIt({
@@ -189,13 +188,6 @@ const ShowPagePreview = ({ entry, getAsset, fieldsMetadata }) => {
       </div>
     </div>
   );
-};
-
-ShowPagePreview.propTypes = {
-  entry: PropTypes.shape({
-    getIn: PropTypes.func,
-  }),
-  widgetFor: PropTypes.func,
 };
 
 export default ShowPagePreview;

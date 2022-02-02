@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'gatsby';
 import { useStaticQuery, graphql } from 'gatsby';
 import styled from 'styled-components';
-import PropTypes from 'prop-types';
 import {StaticImage} from 'gatsby-plugin-image';
 import NavBar from './navbar';
 
@@ -76,14 +75,6 @@ const Header = () => {
       <NavBar navMenuItems={data.navbarData} />
     </HeaderStyle>
   );
-};
-
-Header.propTypes = {
-  siteTitle: PropTypes.string,
-};
-
-Header.defaultProps = {
-  siteTitle: ``,
 };
 
 export default Header;
