@@ -1,9 +1,9 @@
 ---
 templateKey: show
 upcoming: true
-orderOnHomePage: 2
+orderOnHomePage: 1
 title: Mamma Mia!
-callout: Postponed until summer 2022
+callout: Summer 2022
 image: /img/mammamia-square.jpg
 desktopBanner: /img/mammamia.jpg
 dates: Summer 2022
@@ -25,5 +25,8 @@ creativeTeam:
     credit: Stage Manager
   - artist: Shelley Wojcik
     credit: Choreographer
+sections:
+  - sectionHead: Auditions
+    content: "[Audition Now!](www.secondarycharacters.org/get-involved/auditions)"
 ---
 The story-telling magic of ABBA's timeless songs propels this enchanting tale of love, laughter and friendship, creating an unforgettable show. A large cast, non-stop laughs and explosive dance numbers combine to make Mamma Mia! a guaranteed smash hit for any theatre. A mother. A daughter. Three possible dads. And a trip down the aisle you'll never forget!
