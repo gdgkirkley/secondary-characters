@@ -27,6 +27,6 @@ creativeTeam:
     credit: Choreographer
 sections:
   - sectionHead: Auditions
-    content: "[Audition Now!](www.secondarycharacters.org/get-involved/auditions)"
+    content: "[Audition Now!](/get-involved/auditions)"
 ---
 The story-telling magic of ABBA's timeless songs propels this enchanting tale of love, laughter and friendship, creating an unforgettable show. A large cast, non-stop laughs and explosive dance numbers combine to make Mamma Mia! a guaranteed smash hit for any theatre. A mother. A daughter. Three possible dads. And a trip down the aisle you'll never forget!
