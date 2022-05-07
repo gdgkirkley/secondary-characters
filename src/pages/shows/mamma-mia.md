@@ -9,8 +9,8 @@ desktopBanner: /img/mammamia.jpg
 dates: Summer 2022
 tagline: The magic of ABBA's timeless songs
 location: Chilliwack Cultural Centre
-ticketLink: http://secondarycharacters.org
-ticketOnSale: false
+ticketLink: https://www.chilliwackculturalcentre.ca/event/mama-mia/#.YnapZS0ZOCR
+ticketOnSale: true
 showCredits:
   - artist: Björn Ulvaeus & Benny Andersson
     credit: Music and Lyrics by
@@ -23,8 +23,6 @@ creativeTeam:
     credit: Vocal Director
   - artist: TBD
     credit: Stage Manager
-  - artist: Shelley Wojcik
-    credit: Choreographer
 sections:
   - sectionHead: Auditions
     content: "[Audition Now!](/get-involved/auditions)"
