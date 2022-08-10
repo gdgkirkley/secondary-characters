@@ -3,7 +3,7 @@ templateKey: show
 upcoming: true
 orderOnHomePage: 1
 title: Mamma Mia!
-callout: August 11-21   2022
+callout: OPENING POSTPONED DUE TO COVID
 image: /img/mammamia-square.jpg
 desktopBanner: /img/mammamia.jpg
 dates: Summer 2022
