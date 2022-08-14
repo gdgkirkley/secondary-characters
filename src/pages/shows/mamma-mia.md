@@ -21,8 +21,6 @@ creativeTeam:
     credit: Director
   - artist: Paula Quick
     credit: Vocal Director
-  - artist: TBD
-    credit: Stage Manager
 sections:
   - sectionHead: Program
     content: "[Mamma Mia!](/img/mm5.pdf)"
