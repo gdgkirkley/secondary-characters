@@ -518,7 +518,11 @@ const ShowTemplate = ({ data: { showData } }) => {
                   id={encodeURI(section.sectionHead.toLowerCase())}
                 >
                   <h2 className="section-head">{section.sectionHead}</h2>
-                  <div dangerouslySetInnerHTML={{ __html: section.content }} />
+                  <div
+                    dangerouslySetInnerHTML={{
+                      __html: `<div> ${section.content} </div>`,
+                    }}
+                  />
                 </Section>
               );
             })
