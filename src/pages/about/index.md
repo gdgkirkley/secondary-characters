@@ -23,15 +23,23 @@ sections:
     link: null
   - sectionHead: Board of Directors
     content: >-
-      Kris Ward- President\
+      Kris Ward- President
 
-      Randy Newbury - Secretary                                                                                                                                            Steffi Munshaw - Member\
 
-      Stefanie Swinnard - Member\
+      Randy Newbury - Secretary                                                                                                                         
 
-      Jeff Bodner - Member\
 
-      Paula Quick - Member\
+      Steffi Munshaw - Member
+
+
+      Stefanie Swinnard - Member
+
+
+      Jeff Bodner - Member
+
+
+      Paula Quick - Member
+
 
       Hilda DeRidder - Member
 ---
