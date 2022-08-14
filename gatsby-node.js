@@ -1,12 +1,11 @@
-
-const path = require("path")
-const { createFilePath } = require("gatsby-source-filesystem")
-const remark = require("remark")
-const remarkHTML = require("remark-html")
-const { fmImagesToRelative } = require("gatsby-remark-relative-images-v2")
+const path = require('path');
+const { createFilePath } = require('gatsby-source-filesystem');
+const remark = require('remark');
+const remarkHTML = require('remark-html');
+const { fmImagesToRelative } = require('gatsby-remark-relative-images-v2');
 
 exports.createPages = ({ actions, graphql }) => {
-  const { createPage } = actions
+  const { createPage } = actions;
 
   return graphql(`
     {
@@ -24,34 +23,34 @@ exports.createPages = ({ actions, graphql }) => {
         }
       }
     }
-  `).then(result => {
+  `).then((result) => {
     if (result.errors) {
-      result.errors.forEach(err => console.error(err.toString()))
-      return Promise.reject(result.errors)
+      result.errors.forEach((err) => console.error(err.toString()));
+      return Promise.reject(result.errors);
     }
 
-    const postOrPage = result.data.allMarkdownRemark.edges.filter(edge => {
-      if (edge.node.frontmatter.templateKey === "navbar") {
-        return false
-      } else if (edge.node.frontmatter.templateKey === "footer") {
-        return false
+    const postOrPage = result.data.allMarkdownRemark.edges.filter((edge) => {
+      if (edge.node.frontmatter.templateKey === 'navbar') {
+        return false;
+      } else if (edge.node.frontmatter.templateKey === 'footer') {
+        return false;
       } else {
-        return !Boolean(edge.node.fields.slug.match(/^\/artists\/.*$/))
+        return !Boolean(edge.node.fields.slug.match(/^\/artists\/.*$/));
       }
-    })
+    });
 
-    postOrPage.forEach(edge => {
-      let component, pathName
-      if (edge.node.frontmatter.templateKey === "home-page") {
-        pathName = "/"
-        component = path.resolve(`src/pages/index.js`)
+    postOrPage.forEach((edge) => {
+      let component, pathName;
+      if (edge.node.frontmatter.templateKey === 'home-page') {
+        pathName = '/';
+        component = path.resolve(`src/pages/index.js`);
       } else {
-        pathName = edge.node.fields.slug
+        pathName = edge.node.fields.slug;
         component = path.resolve(
-          `src/templates/${String(edge.node.frontmatter.templateKey)}.js`
-        )
+          `src/templates/${String(edge.node.frontmatter.templateKey)}.js`,
+        );
       }
-      const id = edge.node.id
+      const id = edge.node.id;
       createPage({
         path: pathName,
         component,
@@ -59,23 +58,23 @@ exports.createPages = ({ actions, graphql }) => {
           id,
           slug: pathName,
         },
-      })
-    })
-  })
-}
+      });
+    });
+  });
+};
 
 exports.onCreateNode = ({ node, actions, getNode }) => {
-  const { createNodeField } = actions
+  const { createNodeField } = actions;
 
-  fmImagesToRelative(node)
+  fmImagesToRelative(node);
 
   if (node.internal.type === `MarkdownRemark`) {
-    const value = createFilePath({ node, getNode })
+    const value = createFilePath({ node, getNode });
     createNodeField({
       name: `slug`,
       node,
       value,
-    })
+    });
   }
 
   if (
@@ -83,15 +82,14 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
     node.frontmatter.sections &&
     node.frontmatter.sections.length
   ) {
-    const markdown = node.frontmatter.sections
-    node.frontmatter.sections = markdown.map(section => {
-      const field = section.content
-      section.content = remark()
-        .use(remarkHTML)
-        .processSync(field)
-        .toString()
-      return section
-    })
-    return node
+    const markdown = node.frontmatter.sections;
+    console.log('Markdown', markdown);
+    node.frontmatter.sections = markdown.map((section) => {
+      const field = section.content;
+      section.content = remark().use(remarkHTML).processSync(field).toString();
+      return section;
+    });
+    console.log('HTML', node.frontmatter.sections);
+    return node;
   }
-}
+};
