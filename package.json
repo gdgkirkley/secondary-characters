@@ -34,6 +34,7 @@
     "react-helmet": "^6.1.0",
     "remark": "13.0.0",
     "remark-html": "13.0.2",
+    "showdown": "^2.1.0",
     "styled-components": "5.3.3"
   },
   "devDependencies": {

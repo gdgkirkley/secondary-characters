@@ -7,6 +7,9 @@ import Layout from '../components/layout';
 import Artist from '../components/artist';
 import Seo from '../components/seo';
 import { getSize } from '../lib/functions';
+import showdown from 'showdown';
+
+const converter = new showdown.Converter();
 
 export const query = graphql`
   query ($slug: String!) {
@@ -520,7 +523,7 @@ const ShowTemplate = ({ data: { showData } }) => {
                   <h2 className="section-head">{section.sectionHead}</h2>
                   <div
                     dangerouslySetInnerHTML={{
-                      __html: `<div> ${section.content} </div>`,
+                      __html: converter.makeHtml(section.content),
                     }}
                   />
                 </Section>

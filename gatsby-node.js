@@ -76,20 +76,4 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
       value,
     });
   }
-
-  if (
-    node.internal.type === `MarkdownRemark` &&
-    node.frontmatter.sections &&
-    node.frontmatter.sections.length
-  ) {
-    const markdown = node.frontmatter.sections;
-    console.log('Markdown', markdown);
-    node.frontmatter.sections = markdown.map((section) => {
-      const field = section.content;
-      section.content = remark().use(remarkHTML).processSync(field).toString();
-      return section;
-    });
-    console.log('HTML', node.frontmatter.sections);
-    return node;
-  }
 };

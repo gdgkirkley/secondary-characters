@@ -8,6 +8,9 @@ import DonateForm from '../components/donateform';
 import Seo from '../components/seo';
 import VolunteerForm from '../components/volunteerform';
 import AuditionForm from '../components/auditionform';
+import showdown from 'showdown';
+
+const converter = new showdown.Converter();
 
 export const query = graphql`
   query ($slug: String!) {
@@ -147,7 +150,9 @@ const FormPage = ({ data: { pageData } }) => {
                   <h1 className="section-head">{section.sectionHead}</h1>
                   <div
                     className="main-content"
-                    dangerouslySetInnerHTML={{ __html: section.content }}
+                    dangerouslySetInnerHTML={{
+                      __html: converter.makeHtml(section.content),
+                    }}
                   />
                 </Section>
               );

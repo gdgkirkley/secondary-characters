@@ -5,6 +5,9 @@ import styled from 'styled-components';
 import Layout from '../components/layout';
 import Seo from '../components/seo';
 import Section from '../components/section';
+import showdown from 'showdown';
+
+const converter = new showdown.Converter();
 
 export const query = graphql`
   query ($slug: String!) {
@@ -98,7 +101,9 @@ function ContentPage({ data: { pageData } }) {
                   <h1 className="section-head">{section.sectionHead}</h1>
                   <div
                     className="main-content"
-                    dangerouslySetInnerHTML={{ __html: section.content }}
+                    dangerouslySetInnerHTML={{
+                      __html: converter.makeHtml(section.content),
+                    }}
                   />
                 </Section>
               );
