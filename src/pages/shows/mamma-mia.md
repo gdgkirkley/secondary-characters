@@ -3,7 +3,7 @@ templateKey: show
 upcoming: true
 orderOnHomePage: 1
 title: Mamma Mia!
-callout: OPENING POSTPONED DUE TO COVID
+callout: OPENING OCTOBER 21-30
 image: /img/mammamia-square.jpg
 desktopBanner: /img/mammamia.jpg
 dates: Summer 2022
@@ -23,6 +23,9 @@ creativeTeam:
     credit: Vocal Director
 sections:
   - sectionHead: Program
-    content: "[Mamma Mia!](/img/mm5.pdf)"
+    content: |-
+      ![]()
+
+      [static/img/mm-2022.pdf](undefined)
 ---
 The story-telling magic of ABBA's timeless songs propels this enchanting tale of love, laughter and friendship, creating an unforgettable show. A large cast, non-stop laughs and explosive dance numbers combine to make Mamma Mia! a guaranteed smash hit for any theatre. A mother. A daughter. Three possible dads. And a trip down the aisle you'll never forget!
