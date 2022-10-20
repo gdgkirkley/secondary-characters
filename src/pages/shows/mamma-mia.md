@@ -24,11 +24,9 @@ creativeTeam:
 sections:
   - sectionHead: Program
     content: |-
-      
+      ![](static/img/mm-2022.pdf "Mamma Mia Program")
 
       ![]()
-
-
 
       ```
 
