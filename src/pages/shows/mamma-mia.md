@@ -26,7 +26,7 @@ sections:
     content: |-
       
 
-      ![](static/img/mm-2022.pdf)
+      ![]()
 
 
 
