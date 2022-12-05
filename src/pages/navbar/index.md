@@ -2,12 +2,12 @@
 templateKey: navbar
 menuItems:
   - dropdown:
-      - label: Spelling Bee (2019)
-        linkURL: /shows/the-25th-annual-putnam-county-spelling-bee
       - label: Mamma Mia! (2022)
         linkURL: /shows/mamma-mia
       - label: Sweeney Todd (2021)
         linkURL: /shows/sweeney-todd-the-demon-barber-of-fleet-street
+      - label: Spelling Bee (2019)
+        linkURL: /shows/the-25th-annual-putnam-county-spelling-bee
       - label: The Hunchback of Notre Dame (2018)
         linkURL: /shows/the-hunchback-of-notre-dame
       - label: Joseph (2013)
