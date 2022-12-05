@@ -2,10 +2,6 @@
 templateKey: navbar
 menuItems:
   - dropdown:
-      - label: "Mamma Mia! "
-        linkURL: /shows/mamma-mia
-    label: What's On
-  - dropdown:
       - label: Spelling Bee (2019)
         linkURL: /shows/the-25th-annual-putnam-county-spelling-bee
       - label: The Hunchback of Notre Dame (2018)
@@ -16,6 +12,8 @@ menuItems:
         linkURL: /shows/little-women
       - label: Sweeney Todd (2021)
         linkURL: /shows/sweeney-todd-the-demon-barber-of-fleet-street
+      - label: Mamma Mia! (2022)
+        linkURL: /shows/mamma-mia
     label: Past Shows
   - dropdown:
       - label: Auditions
