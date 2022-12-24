@@ -32,24 +32,6 @@ sections:
       * **Jungle Creatures:**  Various Dr.  Seuss characters. Vocal range top: Db5,  bottom: A3.  (Includes Yertle the Turtle and Vlad Vladicoff)
     displayButton: true
     link: " Roles"
-  - sectionHead: Audition Guide
-    content: Check out our [Audition Guide](/get-involved/audition-guide) for
-      information about the audition process.[](<[Audition
-      Guide](/get-involved/audition-guide)>)
-    displayButton: true
-    link: Resources
-  - sectionHead: Covid Health and Safety
-    content: >-
-      **COVID PRECAUTIONS**\
-
-      \
-
-      Every effort is being made to ensure that the process of putting on *Seussical,* from auditions to performance, will comply with all current safety restrictions as outlined by the BC Ministry of Health and BC Centre for Disease Control. 
-
-
-      While we are taking every precaution possible to ensure the safety of all cast, crew and audience members, we understand that everyone has different comfort levels around Covid and wish to do our best to accommodate these different comfort levels
-    displayButton: true
-    link: Covid Health and Safety
   - sectionHead: Rehearsal and Production Dates
     content: >-
       **Rehearsal Schedule:**
@@ -76,6 +58,24 @@ sections:
 
 
       \*Cast are expected to be available for ALL dates unless previously discussed with director at auditions.
+  - sectionHead: Audition Guide
+    content: Check out our [Audition Guide](/get-involved/audition-guide) for
+      information about the audition process.[](<[Audition
+      Guide](/get-involved/audition-guide)>)
+    displayButton: true
+    link: Resources
+  - sectionHead: Covid Health and Safety
+    content: >-
+      **COVID PRECAUTIONS**\
+
+      \
+
+      Every effort is being made to ensure that the process of putting on *Seussical,* from auditions to performance, will comply with all current safety restrictions as outlined by the BC Ministry of Health and BC Centre for Disease Control. 
+
+
+      While we are taking every precaution possible to ensure the safety of all cast, crew and audience members, we understand that everyone has different comfort levels around Covid and wish to do our best to accommodate these different comfort levels
+    displayButton: true
+    link: Covid Health and Safety
 ---
 ## SEUSSICAL  (July 2023)
 
