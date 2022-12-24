@@ -86,7 +86,7 @@ sections:
 
 [Roles](#roles) | 
 
-[Rehearsal and Production Dates](undefined)
+[Rehearsal and Production Dates ](undefined)
 
  [Audition Guide](#resources) | [COVID Health & Safety](#covid%20health%20and%20safety)
 
