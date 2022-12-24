@@ -311,19 +311,29 @@ sections:
 
 [Roles](#roles) | [Resources](#resources) | [COVID Health & Safety](#covid%20health%20and%20safety)
 
-**Submissions due by** 
+**IN PERSON AUDITIONS:**
 
-\*Video Submissions only.  Please submit your video audition and fill out our online audition form using the following link.
+**Location**
+
+**Time**
+
+**Requirements:**  Sing one musical theatre song and bring your piano sheet music (or digital karaoke accompaniment) to the audition. Please fill out our online audition form using the following link.  Feel free to bring a head shot and resume to auditions as well.  
 
    [Submit Audition](https://forms.gle/q5Wy6r4JMA3VNDEL8)
 
+**VIDEO AUDITIONS:**
+
+**Submissions due by**  
+
 **Requirements:**
 
-Choose from *Lay All Your Love On Me*, *Mamma Mia* OR another musical theatre song. Video must show your whole body, with quality audio and live or digital accompaniment.  Suggested karaoke links are below:
+Choose a musical theatre song to sing. Video must show your whole body, with quality audio and live or digital accompaniment.  
 
-*[Lay All Your Love On Me](https://www.youtube.com/watch?v=YgXrd7eE6ME)*
+Please submit your video audition and fill out our online audition form using the following link.
 
-*[Mamma Mia](https://www.youtube.com/watch?v=PBRqCYfGhWo)*
+   [Submit Audition](https://forms.gle/q5Wy6r4JMA3VNDEL8)
+
+**\*Please read the following inportant dates and information regarding the rehearsal and prodution schedule.** 
 
 **Rehearsal Schedule:**
 
