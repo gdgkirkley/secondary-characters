@@ -60,7 +60,7 @@ sections:
 
 **Time**
 
-**Requirements:**  Sing one musical theatre song and bring your piano sheet music (or digital karaoke accompaniment) to the audition. Please fill out our online audition form using the following link.  Feel free to bring a head shot and resume to auditions as well.  
+**Requirements:**  Prepare one musical theatre song and bring your piano sheet music (or digital karaoke accompaniment) to the audition. Feel free to bring a head shot and resume to auditions as well, but it is not required.  Please fill out our online audition form using the following link and you will be contacted with an audition time.
 
    [Submit Audition](https://forms.gle/q5Wy6r4JMA3VNDEL8)
 
