@@ -32,9 +32,11 @@ sections:
       * **Jungle Creatures:**  Various Dr.  Seuss characters. Vocal range top: Db5,  bottom: A3.  (Includes Yertle the Turtle and Vlad Vladicoff)
     displayButton: true
     link: " Roles"
-  - sectionHead: Resources
-    content: Check out our [Audition Guide](/get-involved/audition-guide) for
-      information about the audition process.
+  - sectionHead: Audition Guide
+    content: Check out our [Audition Guide](<[Audition
+      Guide](/get-involved/audition-guide)>) for information about the audition
+      process.[\[Audition Guide](/get-involved/audition-guide)](<[Audition
+      Guide](/get-involved/audition-guide)>)
     displayButton: true
     link: Resources
   - sectionHead: Covid Health and Safety
