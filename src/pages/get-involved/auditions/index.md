@@ -300,7 +300,7 @@ sections:
 
       \
 
-      Every effort is being made to ensure that the process of putting on *Mamma Mia!,* from auditions to performance, will comply with all current safety restrictions as outlined by the BC Ministry of Health and BC Centre for Disease Control. 
+      Every effort is being made to ensure that the process of putting on *Seussical,* from auditions to performance, will comply with all current safety restrictions as outlined by the BC Ministry of Health and BC Centre for Disease Control. 
 
 
       While we are taking every precaution possible to ensure the safety of all cast, crew and audience members, we understand that everyone has different comfort levels around Covid and wish to do our best to accommodate these different comfort levels
