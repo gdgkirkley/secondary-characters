@@ -50,6 +50,32 @@ sections:
       While we are taking every precaution possible to ensure the safety of all cast, crew and audience members, we understand that everyone has different comfort levels around Covid and wish to do our best to accommodate these different comfort levels
     displayButton: true
     link: Covid Health and Safety
+  - sectionHead: Rehearsal and Production Dates
+    content: >-
+      **Rehearsal Schedule:**
+
+
+      **Location**: 45530 Spadina Avenue, Players Guild Hall, Chilliwack\
+
+      **Rehearsal Dates and Times**:\
+
+      May-August 2023\
+
+      Three days a week (times and days TBD)
+
+
+      *Note that not all cast members will be required on all rehearsal days/times.*
+
+
+      **Production Schedule:**
+
+
+      **Location**: Chilliwack Cultural Centre, Rotary Hall Theatre\
+
+      **Dates and Times**: July 27-August 6, 2023  (9 shows)
+
+
+      \*Cast are expected to be available for ALL dates unless previously discussed with director at auditions.
 ---
 ## SEUSSICAL  (July 2023)
 
@@ -61,7 +87,7 @@ sections:
 
 **Time**
 
-**Requirements:**  Prepare one musical theatre song and bring your piano sheet music (or digital karaoke accompaniment) to the audition. Feel free to bring a head shot and resume to auditions as well, but it is not required.  Please fill out our online audition form using the following link and you will be contacted with an audition time.
+**Requirements:**  Prepare one musical theatre song and bring your piano sheet music (or digital karaoke accompaniment) to the audition. Feel free to bring a head shot and resume to auditions as well, but it is not required.  Familiarize yourself with our audition guide provided at the top of this page.  Please fill out our online audition form using the following link and you will be contacted with an audition time.  Break a leg!
 
    [Submit Audition](https://forms.gle/q5Wy6r4JMA3VNDEL8)
 
@@ -71,26 +97,12 @@ sections:
 
 **Requirements:**
 
-Choose a musical theatre song to sing. Video must show your whole body, with quality audio and live or digital accompaniment.  
+Choose a musical theatre song to sing. Video must show your whole body, with quality audio and live or digital accompaniment.  Familiarize yourself with our audition guide provided at the top of this page. 
 
-Please submit your video audition and fill out our online audition form using the following link.
+Please submit your video audition and fill out our online audition form using the following link.  Break a leg!
 
    [Submit Audition](https://forms.gle/q5Wy6r4JMA3VNDEL8)
 
-**\*Please read the following inportant dates and information regarding the rehearsal and production schedule.** 
 
-**Rehearsal Schedule:**
 
-**Location**: 45530 Spadina Avenue, Players Guild Hall, Chilliwack\
-**Rehearsal Dates and Times**:\
-May-August 2023\
-Three days a week (times and days TBD)
-
-*Note that not all cast members will be required on all rehearsal days/times.*
-
-**Production Schedule:**
-
-**Location**: Chilliwack Cultural Centre, Rotary Hall Theatre\
-**Dates and Times**: July 27-August 6, 2023  (9 shows)
-
-\*Cast are expected to be available for ALL dates unless previously discussed with director at auditions.
+**\*Please read the following inportant dates and information regarding the rehearsal and production schedule.**
