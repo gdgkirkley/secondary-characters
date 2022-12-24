@@ -84,9 +84,11 @@ sections:
 ---
 ## SEUSSICAL  (July 2023)
 
+[Roles](#roles) | 
+
 [Rehearsal and Production Dates](undefined)
 
-[Roles](#roles) | [Audition Guide](#resources) | [COVID Health & Safety](#covid%20health%20and%20safety)
+ [Audition Guide](#resources) | [COVID Health & Safety](#covid%20health%20and%20safety)
 
 **IN PERSON AUDITIONS:**
 
