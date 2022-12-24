@@ -53,7 +53,7 @@ sections:
 ---
 ## SEUSSICAL  (July 2023)
 
-[Roles](#roles) | [Resources](#resources) | [COVID Health & Safety](#covid%20health%20and%20safety)
+[Roles](#roles) | [Audition Guide](#resources) | [COVID Health & Safety](#covid%20health%20and%20safety)
 
 **IN PERSON AUDITIONS:**
 
