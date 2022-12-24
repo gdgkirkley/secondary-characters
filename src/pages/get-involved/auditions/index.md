@@ -33,9 +33,8 @@ sections:
     displayButton: true
     link: " Roles"
   - sectionHead: Audition Guide
-    content: Check out our [Audition Guide](<[Audition
-      Guide](/get-involved/audition-guide)>) for information about the audition
-      process.[\[Audition Guide](/get-involved/audition-guide)](<[Audition
+    content: Check out our [Audition Guide](/get-involved/audition-guide) for
+      information about the audition process.[](<[Audition
       Guide](/get-involved/audition-guide)>)
     displayButton: true
     link: Resources
