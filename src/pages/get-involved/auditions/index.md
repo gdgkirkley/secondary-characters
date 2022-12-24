@@ -34,6 +34,11 @@ sections:
     link: " Roles"
   - sectionHead: Rehearsal and Production Dates
     content: >-
+      
+
+      [](undefined)
+
+
       **Rehearsal Schedule:**
 
 
@@ -78,6 +83,8 @@ sections:
     link: Covid Health and Safety
 ---
 ## SEUSSICAL  (July 2023)
+
+[Rehearsal and Production Dates](undefined)
 
 [Roles](#roles) | [Audition Guide](#resources) | [COVID Health & Safety](#covid%20health%20and%20safety)
 
