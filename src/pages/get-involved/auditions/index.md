@@ -76,7 +76,7 @@ Please submit your video audition and fill out our online audition form using th
 
    [Submit Audition](https://forms.gle/q5Wy6r4JMA3VNDEL8)
 
-**\*Please read the following inportant dates and information regarding the rehearsal and prodution schedule.** 
+**\*Please read the following inportant dates and information regarding the rehearsal and production schedule.** 
 
 **Rehearsal Schedule:**
 
