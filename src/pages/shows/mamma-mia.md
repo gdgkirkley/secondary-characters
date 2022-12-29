@@ -1,6 +1,6 @@
 ---
 templateKey: show
-upcoming: true
+upcoming: false
 orderOnHomePage: 1
 title: Mamma Mia!
 callout: OPENING OCTOBER 21-30
@@ -10,7 +10,7 @@ dates: Summer 2022
 tagline: The magic of ABBA's timeless songs
 location: "Chilliwack Cultural Centre, Rotary Hall "
 ticketLink: https://www.chilliwackculturalcentre.ca/event/mama-mia/#.YnapZS0ZOCR
-ticketOnSale: true
+ticketOnSale: false
 showCredits:
   - artist: Björn Ulvaeus & Benny Andersson
     credit: Music and Lyrics by
