@@ -17,17 +17,17 @@ sections:
 
       * **JoJo:**  A thinker with a wild imagination. Vocal range top: D6,  bottom: Ab4.  
 
-      * **Horton the Elephant:**  A gentle giant who always tries to do the right thing. Vocal range top: E6, bottom: A4.  
+      * **Horton the Elephant:**  A gentle creature who always tries to do the right thing. Vocal range top: E6, bottom: A4.  
 
-      * **Gertrude McFuzz:**  Self conscious and nervous bird.​ Vocal range top: Eb5, bottom: F3.  
+      * **Gertrude McFuzz:**  Self conscious and nervous.​ Vocal range top: Eb5, bottom: F3.  
 
       * **Mayzie La Bird:**  Self centered, selfish and vain, but not all bad. Vocal range top: E5, bottom: G#3.  
 
       * **Sour Kangaroo:**  Loud, brassy and a lot of fun.  Vocal range top: Eb5, bottom: A3.
 
-      * **The Wickersham Brothers:**  Get a kick out of making mischief.  Vocal range top: G6, bottom: A4.
+      * **The Wickershams:**  Get a kick out of making mischief.  Vocal range top: G6, bottom: A4.
 
-      * **The Whos**:  various Dr. Seuss characters. Vocal range top: D#5, bottom: G3.  (Includes Mr. and Mrs.  Mayor and the Grinch)
+      * **The Whos**:  various Dr. Seuss characters. Vocal range top: D#5, bottom: G3.  (Includes JoJo's Parents and the Grinch)
 
       * **Jungle Creatures:**  Various Dr.  Seuss characters. Vocal range top: Db5,  bottom: A3.  (Includes Yertle the Turtle and Vlad Vladicoff)
     displayButton: true
