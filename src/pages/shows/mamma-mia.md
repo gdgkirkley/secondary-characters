@@ -3,10 +3,10 @@ templateKey: show
 upcoming: false
 orderOnHomePage: 1
 title: Mamma Mia!
-callout: OPENING OCTOBER 21-30
+callout: OCTOBER 21-30
 image: /img/mammamia-square.jpg
 desktopBanner: /img/mammamia.jpg
-dates: Summer 2022
+dates: ""
 tagline: The magic of ABBA's timeless songs
 location: "Chilliwack Cultural Centre, Rotary Hall "
 ticketLink: https://www.chilliwackculturalcentre.ca/event/mama-mia/#.YnapZS0ZOCR
