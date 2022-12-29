@@ -118,11 +118,11 @@ Co-choreographer:  Ann Matterson
 
 ### **IN PERSON AUDITIONS:**
 
-**Dates:  February 11th-12th**
+**Dates:**  February 11th-12th
 
-**Times:  Between 10:00am-4:00pm**
+**Times:**  Between 10:00am-4:00pm
 
-**Location:**  
+**Location:**  45530 Spadina Avenue, Chilliwack.
 
 **Requirements:**  Prepare one musical theatre song and bring your piano sheet music (or digital karaoke accompaniment) to the audition. Feel free to bring a head shot and resume to auditions as well, but it is not required.  Familiarize yourself with our audition guide and schedule provided at the top of this page. Be available for callbacks and please fill out our online audition form using the following link and you will be contacted with an audition time.  Break a leg!
 
