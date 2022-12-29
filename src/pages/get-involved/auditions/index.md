@@ -34,21 +34,18 @@ sections:
     link: " Roles"
   - sectionHead: Rehearsal and Production Dates
     content: >-
-      
-
       [](undefined)
 
 
       **Rehearsal Schedule:**
 
 
-      **Location**: 45530 Spadina Avenue, Players Guild Hall, Chilliwack\
+      Location: 45530 Spadina Avenue, Players Guild Hall, Chilliwack\
 
-      **Rehearsal Dates and Times**:\
+      Rehearsal Dates and Times:  April 1st -July 21st 
 
-      May-August 2023\
 
-      Three days a week (times and days TBD)
+      Sundays(12pm-6pm) and Wednesdays and Thursdays (5pm-8pm)
 
 
       *Note that not all cast members will be required on all rehearsal days/times.*
@@ -82,7 +79,7 @@ sections:
     displayButton: true
     link: Covid Health and Safety
 ---
-## SEUSSICAL  (July 2023)
+## SEUSSICAL  (July/August 2023)
 
 [Roles](#roles) | [Rehearsal and Production Dates ](undefined)
 
@@ -106,16 +103,10 @@ CALLBACKS:  Feb 25/26
 
  [Audition Form](https://forms.gle/q5Wy6r4JMA3VNDEL8)
 
-**VIDEO AUDITIONS:**
+### **VIDEO AUDITIONS:**
 
 **Submissions due February 12th, 2023.** 
 
-**Requirements:**
-
-Choose a musical theatre song to sing. Video must show your whole body, with quality audio and live or digital accompaniment.  Familiarize yourself with our audition guide provided at the top of this page. 
-
-Please submit your video audition and fill out our online audition form using the following link.  Break a leg!
+**Requirements:**  Choose a musical theatre song to sing. Video must show your whole body, with quality audio and live or digital accompaniment.  Familiarize yourself with our audition guide and schedule provided at the top of this page. Be available for callbacks and please submit your video audition and fill out our online audition form using the following link.  Break a leg!
 
  [Submit Audition](https://forms.gle/q5Wy6r4JMA3VNDEL8)
-
-**\*Please read the rehearsal and production schedule before committing to an audition.**
