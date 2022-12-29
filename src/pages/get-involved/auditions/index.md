@@ -102,21 +102,19 @@ sections:
 ---
 ## SEUSSICAL  (July 28-August 6, 2023)
 
+**AUDITIONS:  Feb 11/12**
+
+**CALLBACKS:  Feb 25/26**
+
 Director/choreographer:  Shelley Wojcik
 
 Vocal director:  Stefanie Swinnard
 
 Co-choreographer:  Ann Matterson
 
-Orchestral director:  Nicola Davies
-
 [Roles](#roles) | [Rehearsal and Production Dates ](undefined)
 
 [Audition Guide](#resources) | [COVID Health & Safety](#covid%20health%20and%20safety)
-
-AUDITIONS:  Feb 11/12
-
-CALLBACKS:  Feb 25/26
 
 ### **IN PERSON AUDITIONS:**
 
