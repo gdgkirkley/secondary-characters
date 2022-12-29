@@ -37,33 +37,54 @@ sections:
       [](undefined)
 
 
-      **Rehearsal Schedule:**
+      ### **Rehearsal Schedule**
 
 
-      Location: 45530 Spadina Avenue, Players Guild Hall, Chilliwack\
-
-      Rehearsal Dates and Times:  April 1st -July 21st 
+      **April 1st -July 21st** 
 
 
-      Sundays(12pm-6pm) and Wednesdays and Thursdays (5pm-8pm)
+      **Location**: 45005 Squiala Road, Chilliwack.\
+
+      **Dates and Times:**  Sundays(12pm-6pm) and Wednesdays and Thursdays (5pm-8pm)
 
 
-      *Note that not all cast members will be required on all rehearsal days/times.*
+      **July 2nd-July 21st**
 
 
-      **Production Schedule:**
+      **Location**: 45680 Hocking Avenue, Unit 102, Creative Outlet, Chilliwack.\
+
+      **Dates and Times:**  Saturdays (10am- 4pm), Sundays (10am-4pm), Wednesdays and Thursdays (6:00pm-10:00pm)
 
 
-      **Location**: Chilliwack Cultural Centre, Rotary Hall Theatre\
-
-      **Dates and Times**: July 27-August 6, 2023  (9 shows)
+      \*Note: Advanced notice will be given for any changes.
 
 
-      \*Cast are expected to be available for ALL dates unless previously discussed with director at auditions.
+      ### **Technical Schedule**
+
+
+      **Location**: 9201 Corbould St., Chilliwack Cultural Centre, Rotary Hall Theatre, Chilliwack.\
+
+      **Dates and Times**: July 22-July 27, 2023  
+
+
+      ### **Production Schedule**
+
+
+      **Location**: 9201 Corbould St., Chilliwack Cultural Centre, Rotary Hall Theatre, Chilliwack.\
+
+      **Dates and Times**: July 28-August 6, 2023  (9 shows)
+
+
+      **July 28, 29, 29, 30, Aug 3, 4, 5, 5, 6.**
+
+
+      \*Cast are expected to be available for ALL rehearsals unless previously discussed with director.
+
+
+      \*Cast and crew are expected to be available for ALL technical and production dates.
   - sectionHead: Audition Guide
-    content: Check out our [Audition Guide](/get-involved/audition-guide) for
-      information about the audition process.[](<[Audition
-      Guide](/get-involved/audition-guide)>)
+    content: Check out our [Audition Guide](/get-involved/audition-guide) for extra
+      help with auditions.[](<[Audition Guide](/get-involved/audition-guide)>)
     displayButton: true
     link: Resources
   - sectionHead: Covid Health and Safety
