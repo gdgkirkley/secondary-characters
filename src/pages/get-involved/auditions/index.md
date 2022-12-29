@@ -6,8 +6,8 @@ image: /img/seussical.jpeg
 sections:
   - sectionHead: Roles
     content: >-
-      \*All experience levels and abilities, genders/identities,
-      race/ethnicities and age levels are encouraged to audition for ANY role. 
+      \*Secondary Characters is committed to casting with a focus on diversity,
+      equity, and inclusion.  All are welcome to audition for any role.
 
 
       **Roles:**
