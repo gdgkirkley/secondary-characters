@@ -88,19 +88,27 @@ sections:
 
 [Audition Guide](#resources) | [COVID Health & Safety](#covid%20health%20and%20safety)
 
-**IN PERSON AUDITIONS:**
+AUDITIONS:  Feb 11/12
 
-**Location**
+CALLBACKS:  Feb 25/26
 
-**Time**
 
-**Requirements:**  Prepare one musical theatre song and bring your piano sheet music (or digital karaoke accompaniment) to the audition. Feel free to bring a head shot and resume to auditions as well, but it is not required.  Familiarize yourself with our audition guide provided at the top of this page.  Please fill out our online audition form using the following link and you will be contacted with an audition time.  Break a leg!
 
-   [Submit Audition](https://forms.gle/q5Wy6r4JMA3VNDEL8)
+### **IN PERSON AUDITIONS:**
+
+**Dates:  February 11th-12th**
+
+**Times:  Between 10:00am-4:00pm**
+
+**Location:**  
+
+**Requirements:**  Prepare one musical theatre song and bring your piano sheet music (or digital karaoke accompaniment) to the audition. Feel free to bring a head shot and resume to auditions as well, but it is not required.  Familiarize yourself with our audition guide and schedule provided at the top of this page. Be available for callbacks and please fill out our online audition form using the following link and you will be contacted with an audition time.  Break a leg!
+
+ [Audition Form](https://forms.gle/q5Wy6r4JMA3VNDEL8)
 
 **VIDEO AUDITIONS:**
 
-**Submissions due by**  
+**Submissions due February 12th, 2023.** 
 
 **Requirements:**
 
@@ -108,6 +116,6 @@ Choose a musical theatre song to sing. Video must show your whole body, with qu
 
 Please submit your video audition and fill out our online audition form using the following link.  Break a leg!
 
-   [Submit Audition](https://forms.gle/q5Wy6r4JMA3VNDEL8)
+ [Submit Audition](https://forms.gle/q5Wy6r4JMA3VNDEL8)
 
 **\*Please read the rehearsal and production schedule before committing to an audition.**
