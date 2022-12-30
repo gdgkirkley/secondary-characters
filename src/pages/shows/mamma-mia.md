@@ -32,7 +32,7 @@ photoGallery:
     altText: Super Trouper Mamma Mia
     imageCredit: Steffi Munshaw
     imageDescription: Super Trouper
-  - image: /img/20221029_190107.jpg
+  - image: /img/screen-shot-2022-12-30-at-2.58.23-pm.png
     id: Dancing Queen
     altText: Dancing Queen Mamma Mia
     imageCredit: Steffi Munshaw
@@ -57,7 +57,7 @@ photoGallery:
     altText: Our Last Summer Mamma Mia
     imageCredit: Steffi Munshaw
     imageDescription: Our Last Summer
-  - image: /img/20221023_171715.jpg
+  - image: /img/screen-shot-2022-12-30-at-2.58.07-pm.png
     id: Does your mother know
     altText: Does your mother know Mamma Mia
     imageCredit: Steffi Munshaw
