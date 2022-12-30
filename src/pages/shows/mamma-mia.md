@@ -16,6 +16,7 @@ showCredits:
     credit: Music and Lyrics by
   - artist: Catherine Johnson
     credit: Book by
+photoGallery: []
 creativeTeam:
   - artist: Steffi Munshaw
     credit: Director
