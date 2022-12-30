@@ -9,7 +9,7 @@ desktopBanner: /img/mammamia.jpg
 dates: ""
 tagline: The magic of ABBA's timeless songs
 location: "Chilliwack Cultural Centre, Rotary Hall "
-ticketLink: https://www.chilliwackculturalcentre.ca/event/mama-mia/#.YnapZS0ZOCR
+ticketLink: ""
 ticketOnSale: false
 showCredits:
   - artist: Björn Ulvaeus & Benny Andersson
