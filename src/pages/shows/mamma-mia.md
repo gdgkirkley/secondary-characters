@@ -37,6 +37,12 @@ creativeTeam:
     credit: Director
   - artist: Paula Quick
     credit: Vocal Director
+  - credit: Choreographer
+    artist: Ann Matterson
+  - credit: Stage Manager
+    artist: Michael Quaglia
+  - credit: Conductor
+    artist: Shannon Goldsmith
 sections:
   - sectionHead: Program
     content: |-
