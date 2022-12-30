@@ -27,6 +27,11 @@ photoGallery:
     altText: Thank you for the music scene
     imageCredit: Steffi Munshaw
     imageDescription: Thank you for the music
+cast:
+  - credit: Donna Sheridan
+    artist: Shelley Wojcik
+  - credit: Sophie Sheridan
+    artist: Lauren Clift
 creativeTeam:
   - artist: Steffi Munshaw
     credit: Director
