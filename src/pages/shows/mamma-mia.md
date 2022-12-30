@@ -8,7 +8,7 @@ image: /img/mammamia-square.jpg
 desktopBanner: /img/mammamia.jpg
 dates: ""
 tagline: The magic of ABBA's timeless songs
-location: ""
+location: Chilliwack Cultural Centre
 ticketLink: ""
 ticketOnSale: false
 showCredits:
