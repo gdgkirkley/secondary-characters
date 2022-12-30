@@ -1,0 +1,6 @@
+---
+templateKey: artist
+name: Darren Burkett
+headshot: /img/darren-burkett-headshot.jpg
+---
+Darren is thrilled to be on the other side of the stage with Secondary Characters’ Mamma Mia! Darren has been doing lighting and set design for 15 years for various dance schools and theatre programs around the lower mainland, and he is thrilled to be able to stretch those muscles further with this amazing production. As an actor, he has worked across Canada with such theatre companies as Stage West Theatre, Drayton Entertainment, Canadian Opera Company, The Ross Petty Panto, Globe Theatre, Western Canada Theatre, Thousand Island Playhouse, The Arts Club, Chemainus Theatre Festival, and Carousel Theatre for Young Audiences. He has also been honoured to have been in the National Tour/Mirvish production of Matilda, the International Tour of Angelina Ballerina, and to have won a Jessie Award for his performance as ‘Snail’ in A Year with Frog and Toad. Many thanks to Shelley and Steffi for this opportunity, and to Hunter, and his family and friends for their never ending love and support!
