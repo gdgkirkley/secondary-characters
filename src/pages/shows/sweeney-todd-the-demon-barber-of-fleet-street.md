@@ -53,8 +53,6 @@ cast:
     artist: Reginald Pillay
   - credit: Mrs. Lovett
     artist: Emily Hamel-Brisson
-  - credit: Judge Turpin
-    artist: Andrew Gillot
   - credit: Johanna
     artist: Lauren Clift
   - credit: Anthony
@@ -81,6 +79,8 @@ cast:
     artist: Sawyer Gordon
   - credit: Ensemble Dancer
     artist: Taya Edwards
+  - credit: Judge Turpin
+    artist: Andrew Gillot
 creativeTeam:
   - credit: Director
     artist: Steffi Munshaw
