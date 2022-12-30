@@ -1,0 +1,6 @@
+---
+templateKey: artist
+name: Ann Matterson
+headshot: /img/ann-matterson-headshot.jpg
+---
+Ann is a Vancouver-based choreographer, singer, performer, and performing arts teacher majoring in jazz and contemporary voice at Vancouver Community College. She is very excited to be making her Secondary Characters debut as choreographer on the production team, and as Ali in the production. Ann has been involved in various productions across the Lower Mainland since moving here in 2009. Most recently, she has been on the choreography team for Spamalot and Robinson Crusoe (White Rock Players Club), and Little Shop Of Horrors (Delta Secondary Theatre Company), as well as performing with White Rock Players Club in each. Previously, she has been involved in performances with Delta Youth Theatre (Elf, The Little Mermaid, Willy Wonka, Mary Poppins, Music Man) and Delta Secondary Theatre Company (Grease, Aladdin, Great American Musical Disaster, Urinetown). Previous choreography works include Oliver and The 25th Annual Putnam County Spelling Bee (Delta Secondary Theatre Company). She would like to thank her parents for the endless support and hopes you enjoy the show.
