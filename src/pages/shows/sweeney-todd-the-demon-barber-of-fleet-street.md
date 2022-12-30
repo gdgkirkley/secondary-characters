@@ -5,11 +5,11 @@ orderOnHomePage: 1
 title: Sweeney Todd, the demon barber of Fleet Street.
 callout: October 2021
 image: /img/sw.jpg
-dates: "October 27-31, 2021  "
-tagline: Halloween Entertainment!
+dates: ""
+tagline: ""
 location: Chilliwack Cultural Centre
-ticketLink: https://www.chilliwackculturalcentre.ca
-ticketOnSale: true
+ticketLink: ""
+ticketOnSale: false
 creativeTeam:
   - credit: Director
     artist: Steffi Munshaw
