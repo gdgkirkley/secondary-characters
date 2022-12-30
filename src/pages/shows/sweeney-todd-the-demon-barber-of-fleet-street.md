@@ -17,6 +17,37 @@ showCredits:
     artist: Stephen Sondheim
   - credit: Based on an adaptation by
     artist: Christopher Bond
+photoGallery:
+  - image: /img/img_7165.jpg
+    id: Sweeney cut
+    altText: Sweeney Cut Throat
+    imageCredit: Steffi Munshaw
+    imageDescription: Sweeney Todd
+  - image: /img/img_7019.jpg
+    id: Turpin
+    altText: Turpin attacked
+    imageCredit: Steffi Munshaw
+    imageDescription: "Turpin "
+  - image: /img/img_6906.jpg
+    id: Pirelli
+    altText: Pirelli performs
+    imageCredit: Steffi Munshaw
+    imageDescription: Pirelli
+  - image: /img/img_6994.jpg
+    id: Ensemble
+    altText: Ensemble Dances
+    imageCredit: Steffi Munshaw
+    imageDescription: Ensemble
+  - image: /img/img_6940.jpg
+    id: Bird cage
+    altText: Bird cage johanna
+    imageCredit: Steffi Munshaw
+    imageDescription: Johanna and Anthony
+  - image: /img/img_7132.jpg
+    id: Lovett
+    altText: Lovett and pie
+    imageCredit: Steffi Munshaw
+    imageDescription: Mrs.  Lovett
 cast:
   - credit: Sweeney Todd
     artist: Reginald Pillay
