@@ -10,6 +10,13 @@ tagline: ""
 location: Chilliwack Cultural Centre
 ticketLink: ""
 ticketOnSale: false
+showCredits:
+  - credit: Book by
+    artist: Hugh Wheeler
+  - credit: Music and Lyrics by
+    artist: Stephen Sondheim
+  - credit: Based on an adaptation by
+    artist: Christopher Bond
 cast:
   - credit: Sweeney Todd
     artist: Reginald Pillay
