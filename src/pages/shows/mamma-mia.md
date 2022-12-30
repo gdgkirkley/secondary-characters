@@ -3,12 +3,12 @@ templateKey: show
 upcoming: false
 orderOnHomePage: 1
 title: Mamma Mia!
-callout: OCTOBER 21-30
+callout: October 2022
 image: /img/mammamia-square.jpg
 desktopBanner: /img/mammamia.jpg
 dates: ""
 tagline: The magic of ABBA's timeless songs
-location: "Chilliwack Cultural Centre, Rotary Hall "
+location: ""
 ticketLink: ""
 ticketOnSale: false
 showCredits:
@@ -27,6 +27,46 @@ photoGallery:
     altText: Thank you for the music scene
     imageCredit: Steffi Munshaw
     imageDescription: Thank you for the music
+  - image: /img/20221023_174304.jpg
+    id: Super Trouper
+    altText: Super Trouper Mamma Mia
+    imageCredit: Steffi Munshaw
+    imageDescription: Super Trouper
+  - image: /img/20221029_190107.jpg
+    id: Dancing Queen
+    altText: Dancing Queen Mamma Mia
+    imageCredit: Steffi Munshaw
+    imageDescription: Dancing Queen
+  - image: /img/20221023_173347.jpg
+    id: Under Attack
+    altText: Under Attack Mamma Mia
+    imageCredit: Steffi Munshaw
+    imageDescription: Under Attack
+  - image: /img/20221023_172648.jpg
+    id: Lay all your love
+    altText: Lay all your love on me
+    imageCredit: Steffi Munshaw
+    imageDescription: Lay all your love on me
+  - image: /img/20221020_203711.jpg
+    id: Name of the game
+    altText: Name of the Game Mamma Mia
+    imageCredit: Steffi Munshaw
+    imageDescription: The Name of the Game
+  - image: /img/20221023_170943.jpg
+    id: Our Last Summer
+    altText: Our Last Summer Mamma Mia
+    imageCredit: Steffi Munshaw
+    imageDescription: Our Last Summer
+  - image: /img/20221023_171715.jpg
+    id: Does your mother know
+    altText: Does your mother know Mamma Mia
+    imageCredit: Steffi Munshaw
+    imageDescription: Does your mother know
+  - image: /img/20221020_195200.jpg
+    id: Money Money Money
+    altText: Money Mamma Mia
+    imageCredit: Steffi Munshaw
+    imageDescription: Money Money Money
 cast:
   - credit: Donna Sheridan
     artist: Shelley Wojcik
