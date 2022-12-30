@@ -16,7 +16,17 @@ showCredits:
     credit: Music and Lyrics by
   - artist: Catherine Johnson
     credit: Book by
-photoGallery: []
+photoGallery:
+  - image: /img/mamma-mia-cast.jpg
+    id: Finale
+    altText: Mamma Mia Bows
+    imageCredit: Steffi Munshaw
+    imageDescription: Mamma Mia Finale
+  - image: /img/20221020_195925.jpg
+    id: Thank you for the music
+    altText: Thank you for the music scene
+    imageCredit: Steffi Munshaw
+    imageDescription: Thank you for the music
 creativeTeam:
   - artist: Steffi Munshaw
     credit: Director
