@@ -72,6 +72,24 @@ cast:
     artist: Shelley Wojcik
   - credit: Sophie Sheridan
     artist: Lauren Clift
+  - credit: Tanya
+    artist: Stefanie Swinnard
+  - credit: Rosie
+    artist: Susan Newbury
+  - credit: Sam
+    artist: Randy Newbury
+  - credit: Harry
+    artist: Jeff Hanson
+  - credit: Bill
+    artist: Warren Schatz
+  - credit: Sky
+    artist: Aidan Sharpe
+  - credit: Lisa
+    artist: Harriet Dykstra
+  - credit: Ali
+    artist: Ann Matterson
+  - credit: Pepper
+    artist: Michael Kirk
 creativeTeam:
   - artist: Steffi Munshaw
     credit: Director
