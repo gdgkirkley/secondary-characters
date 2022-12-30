@@ -1,0 +1,6 @@
+---
+templateKey: artist
+name: Susan Newbury
+headshot: /img/susan-newbury-headshot.jpg
+---
+Susan has enjoyed dance and theatre from a very young age. Even though the pandemic has kept her off the stage for too many years, the challenge of *Mamma Mia* has got Susan back in her game! ABBA wasn’t part of Susan’s song choice growing up until she met her husband 40 years ago! He encouraged her to listen to ABBA, and now it’s a fixture of their Spotify list. Susan would love to visit Greece one day but for now, she imagines the gorgeous country in this lovely and funny musical that she has the privilege to play Rosie and work with a hard-working and talented cast, crew, and orchestra. Susan would like to dedicate this show to her lovely daughters, Coneitia, Celeste, and Chloe, “cause somewhere in the crowd there’s YOU!”, and to her husband, Randy, who always reminds her that even as they age, they can always enjoy a little theatre of song and dance to keep them young and to keep the spark going!
