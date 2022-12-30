@@ -95,6 +95,8 @@ cast:
   - credit: Father Alexandrios
     artist: Ralph Verhagen
   - credit: Ensemble
+    artist: Madeline McCulloch
+  - credit: Ensemble
     artist: Kimberly Iversen
   - credit: Ensemble
     artist: Jennifer Stevens
@@ -102,8 +104,6 @@ cast:
     artist: Laura Madsen
   - credit: Ensemble
     artist: Envy Malloway
-  - credit: Ensemble
-    artist: Madeline McCulloch
 creativeTeam:
   - artist: Steffi Munshaw
     credit: Director
