@@ -106,7 +106,7 @@ cast:
     artist: Envy Malloway
 creativeTeam:
   - artist: Steffi Munshaw
-    credit: Director
+    credit: Director/Costume Designer
   - artist: Paula Quick
     credit: Vocal Director
   - credit: Choreographer
@@ -115,6 +115,8 @@ creativeTeam:
     artist: Michael Quaglia
   - credit: Conductor
     artist: Shannon Goldsmith
+  - credit: Set/Lighting Designer
+    artist: Darren Burkett
 sections:
   - sectionHead: Program
     content: |-
