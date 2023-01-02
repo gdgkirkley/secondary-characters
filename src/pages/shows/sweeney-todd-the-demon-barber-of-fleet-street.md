@@ -54,7 +54,7 @@ cast:
   - credit: Mrs. Lovett
     artist: Emily Hamel-Brisson
   - credit: Judge Turpin
-    artist: Andrew Gillot
+    artist: Andrew Gillott
   - credit: Johanna
     artist: Lauren Clift
   - credit: Anthony
