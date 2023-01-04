@@ -40,7 +40,7 @@ sections:
       ### **Rehearsal Schedule**
 
 
-      **April 1st -July 21st** 
+      **April 1st -June 30th** 
 
 
       **Location**: 45005 Squiala Road, Chilliwack.\
