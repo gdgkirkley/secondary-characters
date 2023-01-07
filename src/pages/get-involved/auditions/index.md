@@ -1,6 +1,6 @@
 ---
 templateKey: contentpage
-title: Audition Notice
+title: Auditions
 showBanner: true
 image: /img/seussical.jpeg
 sections:
@@ -43,7 +43,7 @@ sections:
       **April 1st -June 30th** 
 
 
-      **Location**: 45005 Squiala Road, Chilliwack.\
+      **Location**: TBD, Chilliwack.\
 
       **Dates and Times:**  Sundays(12pm-6pm) and Wednesdays and Thursdays (5pm-8pm)
 
@@ -122,7 +122,7 @@ Co-choreographer:  Ann Matterson
 
 **Times:**  Between 10:00am-4:00pm
 
-**Location:**  45530 Spadina Avenue, Chilliwack.
+**Location:**  45680 Hocking Ave unit 102 rear, Chilliwack, BC.  (Creative Outlet)
 
 **Requirements:**  Prepare one musical theatre song and bring your piano sheet music (or digital karaoke accompaniment) to the audition. Feel free to bring a head shot and resume to auditions as well, but it is not required.  Familiarize yourself with our audition guide and schedule provided at the top of this page. Be available for callbacks and please fill out our online audition form using the following link and you will be contacted with an audition time.  Break a leg!
 
