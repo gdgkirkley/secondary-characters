@@ -48,7 +48,7 @@ sections:
       **Dates and Times:**  Sundays(12pm-6pm) and Wednesdays and Thursdays (5pm-8pm)
 
 
-      **July 2nd-July 21st**
+      **July 2nd-July 22nd**
 
 
       **Location**: 45680 Hocking Avenue, Unit 102, Creative Outlet, Chilliwack.\
