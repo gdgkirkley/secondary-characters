@@ -83,8 +83,8 @@ sections:
 
       \*Cast and crew are expected to be available for ALL technical and production dates.
   - sectionHead: Audition Guide
-    content: Check out our [Audition Guide](/get-involved/audition-guide) for extra
-      help with auditions.[](<[Audition Guide](/get-involved/audition-guide)>)
+    content: Check out our [Audition Guide](/get-involved/audition-guide)
+      [](<[Audition Guide](/get-involved/audition-guide)>)
     displayButton: true
     link: Resources
   - sectionHead: Covid Health and Safety
