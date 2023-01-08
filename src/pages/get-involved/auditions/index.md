@@ -118,13 +118,21 @@ Co-choreographer:  Ann Matterson
 
 ### **IN PERSON AUDITIONS:**
 
-**Dates:**  February 11th-12th
-
-**Times:**  Between 10:00am-4:00pm
+**Dates:**  February 11th-12th   **Times:**  Between 10:00am-4:00pm
 
 **Location:**  45680 Hocking Ave unit 102 rear, Chilliwack, BC.  (Creative Outlet)
 
-**Requirements:**  Prepare one musical theatre song and bring your piano sheet music (or digital karaoke accompaniment) to the audition. Feel free to bring a head shot and resume to auditions as well, but it is not required.  Familiarize yourself with our audition guide and schedule provided at the top of this page. Be available for callbacks and please fill out our online audition form using the following link and you will be contacted with an audition time.  Break a leg!
+**Requirements:**  
+
+**To be considered for an ensemble or supporting role**, you will be attending a group call.  This involves informal movement and vocal activities in a group setting.   Familiarize yourself with our audition guide and schedule provided at the top of this page.   Please fill out our online audition form using the following link and you will be contacted with a group audition time.  Break a leg!
+
+ [Audition Form](https://forms.gle/q5Wy6r4JMA3VNDEL8)
+
+**To be considered for a supporting or lead role**, you will be attending an individual audition in which you will need to prepare a musical theatre song and bring your piano sheet music (or digital karaoke accompaniment) to the audition. Feel free to bring a head shot and resume to auditions as well, but it is not required.  Familiarize yourself with our audition guide and schedule provided at the top of this page. Be available for callbacks and please fill out our online audition form using the following link and you will be contacted with an audition time.  Break a leg!
+
+ [Audition Form](https://forms.gle/q5Wy6r4JMA3VNDEL8)
+
+**If you have previously performed for Secondary Characters** and would like to be considered for callbacks, please come to a group call first and we will arrange to see you at callbacks to sing a song from the show.  Familiarize yourself with our audition guide and schedule provided at the top of this page. Be available for callbacks and please fill out our online audition form using the following link and you will be contacted with an audition time.  Break a leg!
 
  [Audition Form](https://forms.gle/q5Wy6r4JMA3VNDEL8)
 
