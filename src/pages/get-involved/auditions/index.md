@@ -106,11 +106,11 @@ sections:
 
 **CALLBACKS:  Feb 25/26**
 
-Director/choreographer:  Shelley Wojcik
+Director/Co-Choreographer:  Shelley Wojcik
 
-Vocal director:  Stefanie Swinnard
+Vocal Director:  Stefanie Swinnard
 
-Co-choreographer:  Ann Matterson
+Co-Choreographer:  Ann Matterson
 
 [Roles](#roles) | [Rehearsal and Production Dates ](undefined)
 
