@@ -37,6 +37,9 @@ sections:
       [](undefined)
 
 
+      [undefined](undefined)
+
+
       ### **Rehearsal Schedule**
 
 
@@ -112,7 +115,7 @@ Vocal Director:  Stefanie Swinnard
 
 Co-Choreographer:  Ann Matterson
 
-[Roles](#roles) | [Rehearsal and Production Dates ](undefined)
+[Roles](#roles) | [Rehearsal and Production Dates ](<#rehearsal and production dates>)
 
 [Audition Guide](#resources) | [COVID Health & Safety](#covid%20health%20and%20safety)
 
