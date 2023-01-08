@@ -37,6 +37,9 @@ sections:
       [](undefined)
 
 
+      [undefined](undefined)
+
+
       ### **Rehearsal Schedule**
 
 
@@ -83,8 +86,8 @@ sections:
 
       \*Cast and crew are expected to be available for ALL technical and production dates.
   - sectionHead: Audition Guide
-    content: Check out our [Audition Guide](/get-involved/audition-guide) for extra
-      help with auditions.[](<[Audition Guide](/get-involved/audition-guide)>)
+    content: Check out our [Audition Guide](/get-involved/audition-guide)
+      [](<[Audition Guide](/get-involved/audition-guide)>)
     displayButton: true
     link: Resources
   - sectionHead: Covid Health and Safety
@@ -112,7 +115,7 @@ Vocal Director:  Stefanie Swinnard
 
 Co-Choreographer:  Ann Matterson
 
-[Roles](#roles) | [Rehearsal and Production Dates ](undefined)
+[Roles](#roles) | [Rehearsal and Production Dates ](<#rehearsal and production dates>)
 
 [Audition Guide](#resources) | [COVID Health & Safety](#covid%20health%20and%20safety)
 
