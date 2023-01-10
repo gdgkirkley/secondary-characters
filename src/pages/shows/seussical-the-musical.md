@@ -35,7 +35,7 @@ creativeTeam:
     artist: Steffi Munshaw
   - credit: Set Designer
     artist: Darren Burkett
-  - credit: Conductor
+  - credit: Orchestral Conductor
     artist: Nicola Davies
 ---
 The Cat in the Hat tells the story of Horton, an elephant who discovers a speck of dust that contains the Whos, including Jojo, a Who child sent off to military school for thinking too many "thinks." Horton faces a double challenge: not only must they protect the Whos from a world of naysayers and dangers, but they must guard an abandoned egg, left in their care by the irresponsible Mayzie La Bird. Although Horton faces ridicule, danger, kidnapping and a trial, the intrepid Gertrude McFuzz never loses faith in them. Ultimately, the powers of friendship, loyalty, family and community are challenged and emerge triumphant.
