@@ -2,7 +2,7 @@
 templateKey: contentpage
 title: Auditions
 showBanner: true
-image: /img/seussical_logo_title_4c.jpg
+image: /img/seussical.jpeg
 sections:
   - sectionHead: Roles
     content: >-
