@@ -4,8 +4,8 @@ upcoming: true
 orderOnHomePage: 1
 title: "Seussical "
 callout: July 28 to August 6
-image: /img/seussical.jpeg
-desktopBanner: /img/seussical.jpeg
+image: /img/seussical_logo_title_4c.jpg
+desktopBanner: /img/seussical_logo_title_4c.jpg
 dates: July 28th to August 6th
 tagline: Oh, the Thinks you can Think!
 location: Chilliwack Cultural Centre
