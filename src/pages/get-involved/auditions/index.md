@@ -132,7 +132,7 @@ Co-Choreographer:  Ann Matterson
 
  [Audition Form](https://forms.gle/q5Wy6r4JMA3VNDEL8)
 
-**If you have previously performed for Secondary Characters** and would like to be considered for callbacks, please come to a group call first and we will arrange to see you at callbacks to sing a song from the show.  Familiarize yourself with our audition guide and schedule provided at the top of this page. Be available for callbacks and please fill out our online audition form using the following link and you will be contacted with an audition time.  Break a leg!
+**If you have previously performed for Secondary Characters** and would like to be considered for callbacks, we will arrange to see you at callbacks to sing a song from the show.  Familiarize yourself with our audition guide and schedule provided at the top of this page. Be available for callbacks and please fill out our online audition form using the following link and you will be contacted with a time.  Break a leg!
 
  [Audition Form](https://forms.gle/q5Wy6r4JMA3VNDEL8)
 
