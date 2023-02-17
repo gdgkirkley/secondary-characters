@@ -1,8 +1,10 @@
 ---
 templateKey: show
 upcoming: false
+showOnHomePage: false
 orderOnHomePage: 0
 title: The Hunchback of Notre Dame
+startDate: 2018-07-12
 dates: July 2018
 shortDate: July 2018
 tagline: The epic Disney classic

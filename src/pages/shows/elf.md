@@ -2,9 +2,11 @@
 templateKey: show
 upcoming: false
 orderOnHomePage: 1
+showOnHomePage: false
 title: "Elf: The Musical"
 callout: Holiday Musical for all!
 image: /img/elf.jpg
+startDate: 2019-12-20
 dates: December 20 - 21, 2019
 tagline: The modern holiday classic
 location: St. Thomas Church Hall

@@ -1,10 +1,12 @@
 ---
 templateKey: show
 upcoming: false
+showOnHomePage: false
 orderOnHomePage: 1
 title: Sweeney Todd, the demon barber of Fleet Street.
 callout: October 2021
 image: /img/sw.jpg
+startDate: 2021-10-22
 dates: ""
 tagline: ""
 location: Chilliwack Cultural Centre

@@ -1,8 +1,10 @@
 ---
 templateKey: show
 upcoming: false
+showOnHomePage: false
 orderOnHomePage: 0
 title: The 25th Annual Putnam County Spelling Bee
+startDate: 2019-07-18
 dates: July 18-28, 2019
 shortDate: July 2019
 tagline: The hilarious spelling musical

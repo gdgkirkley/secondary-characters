@@ -1,10 +1,12 @@
 ---
 templateKey: show
 upcoming: false
+showOnHomePage: false
 orderOnHomePage: 1
 title: The Sound of Music
 callout: June 2012
 image: /img/sound-of-music_1080x1080_with-billing.jpeg
+startDate: 2012-06-22
 dates: ""
 tagline: ""
 location: University of the Fraser Valley Theatre, Chilliwack

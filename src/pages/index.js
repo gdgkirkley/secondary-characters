@@ -102,18 +102,19 @@ const IndexPage = () => {
       }
       showData: allMarkdownRemark(
         filter: {
-          frontmatter: { templateKey: { eq: "show" }, upcoming: { eq: true } }
+          frontmatter: { templateKey: { eq: "show" }, showOnHomePage: { eq: true }}
         }
-        sort: { fields: [frontmatter___orderOnHomePage], order: ASC }
+        sort: { fields: [frontmatter___startDate], order: DESC }
       ) {
         edges {
           node {
             frontmatter {
               title
               callout
+              startDate
               dates
               tagline
-              orderOnHomePage
+              showOnHomePage
               image {
                 childImageSharp {
                   fluid(maxWidth: 300) {

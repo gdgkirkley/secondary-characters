@@ -1,8 +1,10 @@
 ---
 templateKey: show
 upcoming: false
+showOnHomePage: false
 orderOnHomePage: 0
 title: Joseph and the Amazing Technicolor Dreamcoat
+startDate: 2013-07-12
 dates: July 2013
 shortDate: July 2013
 tagline: The family classic musical

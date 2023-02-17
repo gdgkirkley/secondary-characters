@@ -1,8 +1,10 @@
 ---
 templateKey: show
 upcoming: false
+showOnHomePage: false
 orderOnHomePage: 0
 title: The Wizard of Oz
+startDate: 2016-07-14
 dates: July 2016
 shortDate: July 2016
 tagline: The classic musical
