@@ -1,7 +1,7 @@
 ---
 templateKey: show
 upcoming: false
-orderOnHomePage: 1
+orderOnHomePage: 0
 title: Mamma Mia!
 callout: October 2022
 image: /img/mammamia-square.jpg
