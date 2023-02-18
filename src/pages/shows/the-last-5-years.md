@@ -10,6 +10,55 @@ tagline: ""
 location: Chilliwack Cultural Centre, Rotary Hall
 ticketLink: ""
 ticketOnSale: false
+showCredits:
+  - credit: Book, Music and Lyrics by
+    artist: Jason Robert Brown
+photoGallery:
+  - image: /img/img_9723.jpg
+    id: Together
+    altText: Together
+    imageDescription: Together
+    imageCredit: SM
+  - image: /img/img_9845.jpg
+    id: Jamie
+    altText: Jamie
+    imageDescription: Jamie
+    imageCredit: SM
+  - image: /img/img_9865.jpg
+    id: Cathy
+    altText: Cathy
+    imageDescription: Cathy
+    imageCredit: SM
+  - image: /img/img_9730.jpg
+    id: Nose Tap
+    altText: Nose Tap
+    imageDescription: Nose Tap
+    imageCredit: SM
+  - image: /img/img_9667.jpg
+    id: Cathy2
+    altText: Cathy2
+    imageDescription: Cathy2
+    imageCredit: SM
+  - image: /img/img_9575.jpg
+    id: Jamie2
+    altText: Jamie2
+    imageDescription: Jamie2
+    imageCredit: SM
+  - image: /img/img_9739.jpg
+    id: Kiss
+    altText: Kiss
+    imageDescription: Kiss
+    imageCredit: SM
+  - image: /img/img_9764.jpg
+    id: Jamie3
+    altText: Jamie3
+    imageDescription: Jamie3
+    imageCredit: SM
+  - image: /img/img_9380.jpg
+    id: Cathy3
+    altText: Cathy3
+    imageDescription: Cathy3
+    imageCredit: SM
 cast:
   - credit: Cathy Hiatt
     artist: Katrina Barson
