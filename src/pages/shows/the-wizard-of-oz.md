@@ -3,11 +3,14 @@ templateKey: show
 upcoming: false
 orderOnHomePage: 0
 title: The Wizard of Oz
+callout: July 2016
+image: /img/img_6516.jpg
 dates: July 2016
-shortDate: July 2016
 tagline: The classic musical
 location: Chilliwack Cultural Centre
-image: /img/hunchback_cast.JPG
+ticketLink: null
+shortDate: July 2016
+ticketOnSale: false
 showCredits:
   - credit: By
     artist: L. Frank Baum
@@ -15,7 +18,6 @@ showCredits:
     artist: Harold Arlen and E.Y. Harburg
   - credit: Background Music by
     artist: Herbert Stothart
-ticketLink: null
 creativeTeam:
   - credit: Director
     artist: Steffi Munshaw
