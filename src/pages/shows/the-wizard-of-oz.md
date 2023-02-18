@@ -20,6 +20,21 @@ photoGallery:
     altText: Scarecrow
     imageDescription: Scarecrow
     imageCredit: Steffi Munshaw
+  - image: /img/img_6438.jpg
+    id: Wicked Witch
+    altText: Wicked Witch
+    imageDescription: Wicked Witch
+    imageCredit: Steffi Munshaw
+  - image: /img/img_6325.jpg
+    id: Over the Rainbow
+    altText: Over the Rainbow
+    imageDescription: Over the Rainbow
+    imageCredit: Steffi Munshaw
+  - image: /img/img_6360.jpg
+    id: Oz
+    altText: Oz
+    imageDescription: Oz
+    imageCredit: Steffi Munshaw
 shortDate: July 2016
 ticketOnSale: false
 showCredits:
