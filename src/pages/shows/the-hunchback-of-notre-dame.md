@@ -3,11 +3,14 @@ templateKey: show
 upcoming: false
 orderOnHomePage: 0
 title: The Hunchback of Notre Dame
+callout: July 2018
+image: /img/img_0699.jpg
 dates: July 2018
-shortDate: July 2018
 tagline: The epic Disney classic
 location: Chilliwack Cultural Centre
-image: /img/hunchback_cast.JPG
+ticketLink: null
+shortDate: July 2018
+ticketOnSale: false
 showCredits:
   - credit: Music by
     artist: Alan Menken
@@ -15,10 +18,11 @@ showCredits:
     artist: Stephen Schwartz
   - credit: Book by
     artist: Peter Parnell
-ticketLink: null
 cast:
   - credit: Quasimodo
     artist: Christopher Sherwood
+  - credit: Clopin
+    artist: Kevin Biegel
   - credit: Frollo
     artist: Arne Larsen
   - credit: Esmerelda
