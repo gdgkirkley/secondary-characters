@@ -1,15 +1,16 @@
 ---
 templateKey: show
 upcoming: false
-showOnHomePage: false
 orderOnHomePage: 0
 title: The 25th Annual Putnam County Spelling Bee
-startDate: 2019-07-18
+callout: July 2019
+image: /img/spellingbee-banner.jpg
 dates: July 18-28, 2019
-shortDate: July 2019
 tagline: The hilarious spelling musical
 location: Chilliwack Cultural Centre
-image: /img/spellingbee-banner.jpg
+ticketLink: null
+shortDate: July 2019
+ticketOnSale: false
 showCredits:
   - credit: Conceived by
     artist: Rebecca Feldman
@@ -19,10 +20,28 @@ showCredits:
     artist: William Finn
   - credit: Book by
     artist: Rachel Sheinkin
-ticketLink: null
+cast:
+  - credit: Mitch Mahoney
+    artist: Vince Dimanno
+  - credit: Chip Tolentino
+    artist: Ethan Falk
+  - credit: Rona Lisa Peretti
+    artist: Lisa Hahn
+  - credit: William Barfee
+    artist: Brady Moore
+  - credit: Olive Ostrovsky
+    artist: Steffi Munshaw
+  - credit: Leaf Coneybear
+    artist: Chris Sherwood
+  - credit: Logainne Schwartzandgrubenniere
+    artist: Emily Smith
+  - credit: Doug Panch
+    artist: Thomas Smith
+  - credit: Marcy Park
+    artist: Jessica Spenst
 creativeTeam:
   - credit: Director
-    artist: Adam Charles
+    artist: Randy Newbury
   - credit: Designer
     artist: Steffi Munshaw
   - credit: Construction Manager/Designer
@@ -37,6 +56,8 @@ creativeTeam:
     artist: Jasephe Lamache
   - credit: Vocal Director
     artist: Paula Quick
+  - credit: Lighting Designer
+    artist: Noel Funk
 ---
 
 An eclectic group of six mid-pubescents vie for the spelling championship of a lifetime. While candidly disclosing hilarious and touching stories from their home lives, the tweens spell their way through a series of (potentially made-up) words, hoping never to hear the soul-crushing, pout-inducing, life un-affirming "ding" of the bell that signals a spelling mistake. Six spellers enter; one speller leaves! At least the losers get a juice box.
