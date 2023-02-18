@@ -48,5 +48,93 @@ photoGallery:
     altText: Getting Married
     imageCredit: Shelley Wojcik
     imageDescription: Getting Married
+  - image: /img/children4.jpg
+    id: Do Re Me
+    altText: Do Re Me
+    imageDescription: Do Re Me
+    imageCredit: Shelley Wojcik
+  - image: /img/children2.jpg
+    id: Line up
+    altText: Line up
+    imageDescription: Line up
+    imageCredit: Shelley Wojcik
+  - image: /img/img_6063.jpg
+    id: Flirty
+    altText: Flirty
+    imageDescription: Flirty
+    imageCredit: Shelley Wojcik
+  - image: /img/img_5862.jpg
+    id: Dance
+    altText: Dance
+    imageDescription: Dance
+    imageCredit: Shelley Wojcik
+cast:
+  - credit: Maria Rainer
+    artist: Caroline Davies
+  - credit: Captain Georg von Trapp
+    artist: Darren Guenther
+  - credit: Max Detweiler
+    artist: Randy Newbury
+  - credit: Elsa Schraeder
+    artist: Steffi Munshaw
+  - credit: Mother Abbess
+    artist: Sarah Benjamins
+  - credit: Sister Berthe
+    artist: Geneva Perkins
+  - credit: Sister Margaretta
+    artist: Gwen Ward
+  - credit: Sister Sophia
+    artist: Tina Sharkey
+  - credit: Liesl von Trapp
+    artist: Kaitie Allinger
+  - credit: Friedrich von Trapp
+    artist: Connor Ferris
+  - credit: Louisa von Trapp
+    artist: Darby Howard
+  - credit: Kurt von Trapp
+    artist: Jackson Howard
+  - credit: Brigitta von Trapp
+    artist: Sydney Dombowsky
+  - credit: Marta von Trapp
+    artist: Maya Dombowsky
+  - credit: Gretl von Trapp
+    artist: Eden Wedel
+  - credit: Rolf Gruber
+    artist: Ben Buckingham
+  - credit: Herr Zeller
+    artist: Bevin Van Liempt
+  - credit: Franz
+    artist: Rhys Murley
+  - credit: Frau Schmidt/Ensemble
+    artist: Shelly Roach
+  - credit: Ensemble
+    artist: Alyson Seale
+  - credit: Ensemble
+    artist: Leanne Atley
+  - credit: Ensemble
+    artist: Lauren Kozak
+  - credit: Ensemble
+    artist: Coco Gazso
+  - credit: Ensemble
+    artist: Sydney Gazso
+  - credit: Ensemble
+    artist: Kassy Koutorjevski
+  - credit: Ensemble
+    artist: Rachelle Sakulsinghdusit
+creativeTeam:
+  - credit: Director
+    artist: Randy Newbury
+  - credit: Assistant Director and Choreographer
+    artist: Shelley Wojcik
+  - credit: Music Director
+    artist: Nicola Davies
+  - credit: Stage Manager
+    artist: Allena Letkeman
+  - credit: Costume Designers
+    artist: Mary Spani and Chrystal Romano
+  - credit: Properties Manager
+    artist: Alyson Seale
+  - credit: Lighting Designer
+    artist: Gabriel Kirkley
 ---
 The final collaboration between Rodgers & Hammerstein was destined to become the world's most beloved musical. Featuring a trove of cherished songs, including "Climb Ev'ry Mountain," "My Favorite Things," "Do-Re-Mi," "Sixteen Going on Seventeen" and the title number, *The Sound of Music* won the hearts of audiences worldwide, earning five Tony Awards and five Oscars. The inspirational story, based on the memoir of Maria Augusta Trapp, follows an ebullient postulate who serves as governess to the seven children of the imperious Captain von Trapp, bringing music and joy to the household. But as the forces of Nazism take hold of Austria, Maria and the entire von Trapp family must make a moral decision.
