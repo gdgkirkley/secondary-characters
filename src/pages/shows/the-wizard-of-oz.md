@@ -69,15 +69,74 @@ showCredits:
     artist: Harold Arlen and E.Y. Harburg
   - credit: Background Music by
     artist: Herbert Stothart
+cast:
+  - credit: Dorothy
+    artist: Halle Galloway
+  - credit: The Wicked Witch
+    artist: Bethany Caldwell
+  - credit: Glinda
+    artist: Nicole Farion
+  - credit: Toto
+    artist: Payten Whittome
+  - credit: Scarecrow
+    artist: Cruze Hurley
+  - credit: Tinman
+    artist: Lyndon Shuster
+  - credit: Lion
+    artist: Karliana Dewolff
+  - credit: Aunt Em
+    artist: Shelly Roach
+  - credit: Uncle Henry
+    artist: Jeff Hanson
+  - credit: The Wizard
+    artist: Danielle Milette
+  - credit: Spirit of Oz
+    artist: Belle Hernberg-Johnson
+  - credit: Spirit of Oz
+    artist: Deanne Ratzlaff
+  - credit: Spirit of Oz
+    artist: Elizabeth Seaman
+  - credit: Spirit of Oz
+    artist: Emily Smith
+  - credit: Adult Chorus
+    artist: Chantal Schilling
+  - credit: Adult Chorus
+    artist: Kira Taves
+  - credit: Adult Chorus
+    artist: Keegan Zaporozan
+  - credit: Youth Chorus/Munchkin Wrangler
+    artist: Rebecca Bailey
+  - credit: Youth Chorus/Dance Captain
+    artist: Lily Renaud
+  - credit: Youth Chorus/Dance Captain
+    artist: Eden Wedel
+  - credit: Youth Chorus
+    artist: Madeline Wojcik
+  - credit: Youth Chorus
+    artist: Madison Shpeley
+  - credit: Youth Chorus
+    artist: Wyatt Renaud
+  - credit: Youth Chorus
+    artist: Madeline McCulloch
+  - credit: Youth Chorus
+    artist: Makenzi McManus
+  - credit: Youth Chorus
+    artist: Rachel Olivares
+  - credit: Youth Chorus
+    artist: Shianna Chestney
+  - credit: Youth Chorus
+    artist: Olyviah Doherty
 creativeTeam:
   - credit: Director
     artist: Steffi Munshaw
-  - credit: Conductor
-    artist: Nicola Davies
   - credit: Vocal Director
     artist: Carmen Harris
   - credit: Choreographer
     artist: Shelley Wojcik
+  - credit: Producers
+    artist: Chuck & Vaila Charles and Howard & Delia Davies
+  - credit: Conductor
+    artist: Nicola Davies
   - credit: Costume Designer
     artist: Christy Zaporozan
   - credit: Lighting Designer
