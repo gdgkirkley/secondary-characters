@@ -35,6 +35,31 @@ photoGallery:
     altText: Oz
     imageDescription: Oz
     imageCredit: Steffi Munshaw
+  - image: /img/img_6401.jpg
+    id: Fear
+    altText: Fear
+    imageDescription: Fear
+    imageCredit: Steffi Munshaw
+  - image: /img/img_6391.jpg
+    id: Jitter Bugs
+    altText: Jitter Bugs
+    imageDescription: Jitter Bugs
+    imageCredit: Steffi Munshaw
+  - image: /img/img_6503.jpg
+    id: Munchkins
+    altText: Munchkins
+    imageDescription: Munchkins
+    imageCredit: Steffi Munshaw
+  - image: /img/img_6465.jpg
+    id: Crows
+    altText: Crows
+    imageDescription: Crows
+    imageCredit: Steffi Munshaw
+  - image: /img/img_6428.jpg
+    id: Spirits
+    altText: Spirits
+    imageDescription: Spirits
+    imageCredit: Steffi Munshaw
 shortDate: July 2016
 ticketOnSale: false
 showCredits:
