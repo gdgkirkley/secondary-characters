@@ -48,5 +48,25 @@ photoGallery:
     altText: Getting Married
     imageCredit: Shelley Wojcik
     imageDescription: Getting Married
+  - image: /img/children4.jpg
+    id: Do Re Me
+    altText: Do Re Me
+    imageDescription: Do Re Me
+    imageCredit: Shelley Wojcik
+  - image: /img/children2.jpg
+    id: Line up
+    altText: Line up
+    imageDescription: Line up
+    imageCredit: Shelley Wojcik
+  - image: /img/img_6063.jpg
+    id: Flirty
+    altText: Flirty
+    imageDescription: Flirty
+    imageCredit: Shelley Wojcik
+  - image: /img/img_5862.jpg
+    id: Dance
+    altText: Dance
+    imageDescription: Dance
+    imageCredit: Shelley Wojcik
 ---
 The final collaboration between Rodgers & Hammerstein was destined to become the world's most beloved musical. Featuring a trove of cherished songs, including "Climb Ev'ry Mountain," "My Favorite Things," "Do-Re-Mi," "Sixteen Going on Seventeen" and the title number, *The Sound of Music* won the hearts of audiences worldwide, earning five Tony Awards and five Oscars. The inspirational story, based on the memoir of Maria Augusta Trapp, follows an ebullient postulate who serves as governess to the seven children of the imperious Captain von Trapp, bringing music and joy to the household. But as the forces of Nazism take hold of Austria, Maria and the entire von Trapp family must make a moral decision.
