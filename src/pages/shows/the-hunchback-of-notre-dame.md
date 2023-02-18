@@ -21,6 +21,8 @@ showCredits:
 cast:
   - credit: Quasimodo
     artist: Christopher Sherwood
+  - credit: Clopin
+    artist: Kevin Biegel
   - credit: Frollo
     artist: Arne Larsen
   - credit: Esmerelda
