@@ -58,6 +58,8 @@ creativeTeam:
     artist: Paula Quick
   - credit: Lighting Designer
     artist: Noel Funk
+  - credit: Assistant Props and Costume Design
+    artist: Susan Newbury
 ---
 
 An eclectic group of six mid-pubescents vie for the spelling championship of a lifetime. While candidly disclosing hilarious and touching stories from their home lives, the tweens spell their way through a series of (potentially made-up) words, hoping never to hear the soul-crushing, pout-inducing, life un-affirming "ding" of the bell that signals a spelling mistake. Six spellers enter; one speller leaves! At least the losers get a juice box.
