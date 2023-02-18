@@ -9,6 +9,17 @@ dates: July 2016
 tagline: The classic musical
 location: Chilliwack Cultural Centre
 ticketLink: null
+photoGallery:
+  - image: /img/img_6477.jpg
+    id: Emerald City
+    altText: Emerald City
+    imageDescription: Emerald City
+    imageCredit: Steffi Munshaw
+  - image: /img/img_6468.jpg
+    id: Scarecrow
+    altText: Scarecrow
+    imageDescription: Scarecrow
+    imageCredit: Steffi Munshaw
 shortDate: July 2016
 ticketOnSale: false
 showCredits:
