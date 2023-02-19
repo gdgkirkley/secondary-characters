@@ -5,7 +5,7 @@ orderOnHomePage: 0
 title: The 25th Annual Putnam County Spelling Bee
 callout: July 2019
 image: /img/spellingbee-banner.jpg
-dates: July 18-28, 2019
+dates: July 2019
 tagline: The hilarious spelling musical
 location: Chilliwack Cultural Centre
 ticketLink: null
