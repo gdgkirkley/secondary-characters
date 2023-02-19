@@ -5,6 +5,7 @@ orderOnHomePage: 1
 title: Oklahoma!
 callout: July 2015
 image: /img/ssp_oklahomaweb-100.jpg
+desktopBanner: ""
 dates: ""
 tagline: ""
 location: Chilliwack Cultural Centre, HUB International Theatre
