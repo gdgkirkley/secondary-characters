@@ -22,6 +22,46 @@ photoGallery:
     altText: In love
     imageDescription: In love
     imageCredit: SSP
+  - image: /img/ssp_oklahomaweb-68.jpg
+    id: Cain't say no
+    altText: Cain't say no
+    imageDescription: Cain't say no
+    imageCredit: SSP
+  - image: /img/oklahomastage_sarahsovereignphotography-191-.jpg
+    id: Aunt Eller
+    altText: Aunt Eller
+    imageDescription: Aunt Eller
+    imageCredit: SSP
+  - image: /img/oklahomastage_sarahsovereignphotography-100-.jpg
+    id: Dance
+    altText: Dance
+    imageDescription: Dance
+    imageCredit: SSP
+  - image: /img/oklahomastage_sarahsovereignphotography-129-.jpg
+    id: Poor Jud Fry
+    altText: Poor Jud Fry
+    imageDescription: Poor Jud Fry
+    imageCredit: SSP
+  - image: /img/oklahomastage_sarahsovereignphotography-40-.jpg
+    id: Oklahoma
+    altText: Oklahoma
+    imageDescription: Oklahoma
+    imageCredit: SSP
+  - image: /img/oklahomastage_sarahsovereignphotography-174-.jpg
+    id: Fun
+    altText: Fun
+    imageDescription: Fun
+    imageCredit: SSP
+  - image: /img/oklahomastage_sarahsovereignphotography-79-.jpg
+    id: Party
+    altText: Party
+    imageDescription: Party
+    imageCredit: SSP
+  - image: /img/oklahomastage_sarahsovereignphotography-75-.jpg
+    id: Party
+    altText: Party
+    imageDescription: Party
+    imageCredit: SSP
 cast:
   - credit: Curly
     artist: Morgan Cox
