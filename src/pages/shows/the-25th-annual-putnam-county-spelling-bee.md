@@ -42,20 +42,20 @@ cast:
 creativeTeam:
   - credit: Director
     artist: Randy Newbury
-  - credit: Designer
-    artist: Steffi Munshaw
-  - credit: Construction Manager/Designer
-    artist: Kris Ward
-  - credit: Stage Manager
-    artist: Michael Quaglia
-  - credit: Assistant Stage Manager
-    artist: Amber Bergeron
-  - credit: Orchestral Conductor
-    artist: Shannon Goldsmith
-  - credit: Rehearsal Pianist
-    artist: Jasephe Lamache
   - credit: Vocal Director
     artist: Paula Quick
+  - credit: Designer
+    artist: Steffi Munshaw
+  - credit: Stage Manager
+    artist: Michael Quaglia
+  - credit: Orchestral Conductor
+    artist: Shannon Goldsmith
+  - credit: Assistant Stage Manager
+    artist: Amber Bergeron
+  - credit: Rehearsal Pianist
+    artist: Jasephe Lamache
+  - credit: Construction Manager/Designer
+    artist: Kris Ward
   - credit: Lighting Designer
     artist: Noel Funk
   - credit: Assistant Props and Costume Design
