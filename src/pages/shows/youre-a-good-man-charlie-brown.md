@@ -4,7 +4,7 @@ upcoming: false
 orderOnHomePage: 1
 title: You're a Good Man Charlie Brown
 callout: July 2010
-image: /img/every-child-matters.jpg
+image: /img/dsc_2378.jpg
 dates: ""
 tagline: ""
 location: UFV Theatre
@@ -19,7 +19,57 @@ showCredits:
     artist: Michael Mayer
   - credit: Additional Music and Lyrics by
     artist: Andrew Lippa
-photoGallery: []
+photoGallery:
+  - image: /img/dsc_2394.jpg
+    id: The Gang
+    altText: The Gang
+    imageCredit: Andrew Smith
+    imageDescription: The Gang
+  - image: /img/dsc_4045.jpg
+    id: The Red Baron
+    altText: The Red Baron
+    imageCredit: Andrew Smith
+    imageDescription: The Red Baron
+  - image: /img/dsc_4006.jpg
+    id: Hunting
+    altText: Hunting
+    imageCredit: Andrew Smith
+    imageDescription: Hunting
+  - image: /img/dsc_4240.jpg
+    id: Suppertime
+    altText: Suppertime
+    imageCredit: Andrew Smith
+    imageDescription: Suppertime
+  - image: /img/dsc_4118.jpg
+    id: Baseball
+    altText: Baseball
+    imageCredit: Andrew Smith
+    imageDescription: Baseball
+  - image: /img/dsc_3877.jpg
+    id: Doctor
+    altText: Doctor
+    imageCredit: Andrew Smith
+    imageDescription: Doctor
+  - image: /img/dsc_3476.jpg
+    id: Beethoven
+    altText: Beethoven
+    imageDescription: Beethoven
+    imageCredit: Andrew Smith
+  - image: /img/dsc_4073.jpg
+    id: Sally
+    altText: Sally
+    imageDescription: Sally
+    imageCredit: Andrew Smith
+  - image: /img/dsc_3437.jpg
+    id: Late
+    altText: Late
+    imageDescription: Late
+    imageCredit: Andrew Smith
+  - image: /img/dsc_3741.jpg
+    id: Book Report
+    altText: Book Report
+    imageDescription: Book Report
+    imageCredit: Andrew Smith
 cast:
   - credit: Charlie Brown
     artist: Stephen Wilhite
