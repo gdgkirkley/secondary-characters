@@ -15,6 +15,48 @@ showCredits:
     artist: James Lapine
   - credit: Music an Lyrics by
     artist: Stephen Sondheim
+cast:
+  - credit: Witch
+    artist: Emily Hamel-Brisson
+  - credit: Baker
+    artist: Andrew Smith
+  - credit: Baker's Wife
+    artist: Shelley Wojcik
+  - credit: Cinderella
+    artist: Kaitie Allinger
+  - credit: Cinderella's Prince
+    artist: Timothy Howe
+  - credit: Jack
+    artist: William Tippery
+  - credit: Little Red Riding Hood
+    artist: Katrina Barson
+  - credit: Narrator
+    artist: Jim McGroarty
+  - credit: Jack's Mom
+    artist: Shelly Roach
+  - credit: Rapunzel
+    artist: Deanne Ratzlaff
+  - credit: Rapunzel's Prince
+    artist: D
+  - credit: Grandmother
+    artist: Tina Sharkey
+  - credit: Step Mother
+    artist: Lisa Braun
+  - credit: Step Sister
+    artist: Caroline Davies
+  - credit: Step Sister
+    artist: Brittany Clough
+creativeTeam:
+  - credit: Director and Choreographer
+    artist: Adam Charles
+  - credit: Music Director
+    artist: Nicola Davies
+  - credit: Stage Manager
+    artist: Thomas Smith
+  - credit: Set Designer
+    artist: Bryan Cutler
+  - credit: Lighting Designer
+    artist: Jamea Lister
 ---
 James Lapine and Stephen Sondheim take everyone's favorite storybook characters and bring them together for a timeless, yet relevant, piece... and a rare modern classic. The Tony Award-winning book and score are both enchanting and touching.
 
