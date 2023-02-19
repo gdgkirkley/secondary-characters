@@ -9,6 +9,87 @@ dates: July 18-28, 2019
 tagline: The hilarious spelling musical
 location: Chilliwack Cultural Centre
 ticketLink: null
+photoGallery:
+  - image: /img/dsc_0230.jpg
+    id: Pledge
+    altText: Pledge
+    imageDescription: Pledge
+    imageCredit: SW
+  - image: /img/dsc_0107-2-.jpg
+    id: Marcy
+    altText: Marcy
+    imageDescription: Marcy
+    imageCredit: SW
+  - image: /img/dsc_0456.jpg
+    id: Pandemonium
+    altText: Pandemonium
+    imageDescription: Pandemonium
+    imageCredit: SW
+  - image: /img/dsc_0328-2-.jpg
+    id: Panch
+    altText: Panch
+    imageDescription: Panch
+    imageCredit: SW
+  - image: /img/dsc_0444-2-.jpg
+    id: I love you
+    altText: I love you
+    imageDescription: I love you
+    imageCredit: SW
+  - image: /img/dsc_0735.jpg
+    id: Magic Foot
+    altText: Magic Foot
+    imageDescription: Magic Foot
+    imageCredit: SW
+  - image: /img/dsc_0337-2-.jpg
+    id: Fight
+    altText: Fight
+    imageDescription: Fight
+    imageCredit: SW
+  - image: /img/dsc_0936.jpg
+    id: Intermission
+    altText: Intermission
+    imageDescription: Intermission
+    imageCredit: SW
+  - image: /img/dsc_0045.jpg
+    id: Dads
+    altText: Dads
+    imageDescription: Dads
+    imageCredit: SW
+  - image: /img/dsc_0262.jpg
+    id: Olive
+    altText: Olive
+    imageDescription: Olive
+    imageCredit: SW
+  - image: /img/dsc_0166-2-.jpg
+    id: Marcy P
+    altText: Marcy P
+    imageDescription: Marcy P
+    imageCredit: SW
+  - image: /img/dsc_0014.jpg
+    id: frustrated
+    altText: frustrated
+    imageDescription: frustrated
+    imageCredit: SW
+  - image: /img/dsc_0423.jpg
+    id: Chip
+    altText: Chip
+    imageDescription: Chip
+    imageCredit: SW
+  - image: /img/dsc_0133.jpg
+    id: Leaf
+    altText: Leaf
+    imageDescription: Leaf
+    imageCredit: SW
+  - image: /img/dsc_0940-2-.jpg
+    id: The Gang
+    altText: The Gang
+    imageDescription: The Gang
+    imageCredit: SW
+  - image: /img/dsc_0787-2-.jpg
+    id: Winner
+    altText: Winner
+    imageDescription: Winner
+    imageCredit: SW
 shortDate: July 2019
 ticketOnSale: false
 showCredits:
