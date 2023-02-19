@@ -1,8 +1,10 @@
 ---
 templateKey: show
 upcoming: false
+showOnHomePage: false
 orderOnHomePage: 0
 title: Joseph and the Amazing Technicolor Dreamcoat
+startDate: 2013-07-12
 callout: July 2013
 image: /img/joseph-title.jpg
 dates: July 2013

@@ -1,8 +1,10 @@
 ---
 templateKey: show
 upcoming: false
+showOnHomePage: false
 orderOnHomePage: 0
 title: The Hunchback of Notre Dame
+startDate: 2018-07-12
 callout: July 2018
 image: /img/img_0699.jpg
 dates: July 2018

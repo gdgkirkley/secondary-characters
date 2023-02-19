@@ -62,6 +62,7 @@ const ArtistHeadshot = styled.div`
   align-self: center;
   border: 0px solid ${(props) => props.theme.primary5};
   transition: border 0.1s ease-in-out;
+  position: relative;
 
   ${ArtistCredit}:hover & {
     border: ${(props) =>
@@ -72,6 +73,15 @@ const ArtistHeadshot = styled.div`
     height: 100px;
   }
 `;
+
+const ArtistImage = styled(GatsbyImage)`
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+`
 
 const ArtistBioModal = styled.div`
   position: fixed;
@@ -94,7 +104,7 @@ const ArtistBioModal = styled.div`
   & button {
     &.close-button {
       float: right;
-      width: 1.5rem;
+      width: 3rem;
       max-height: 30px;
       min-height: 30px;
       padding: 0;
@@ -102,10 +112,11 @@ const ArtistBioModal = styled.div`
       text-align: center;
       cursor: pointer;
       border-radius: 0.25rem;
-      background-color: lightgray;
+      color: white;
+      background-color: ${(props) => props.theme.primary5};;
       border: none;
       &:hover {
-        background-color: darkgrey;
+        background-color: ${(props) => props.theme.primary3};;
       }
       @media (max-width: 768px) {
         width: 24px;
@@ -191,9 +202,9 @@ const Artist = ({ artist }) => {
       <>
         <ArtistCredit onClick={toggleBioModal}>
           <ArtistHeadshot>
-            <GatsbyImage
+            <ArtistImage
               image={getImage(foundArtist.node.frontmatter.headshot)}
-              style={{ width: '150px' }}
+
             />
           </ArtistHeadshot>
           <p className="credit">

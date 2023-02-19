@@ -1,8 +1,10 @@
 ---
 templateKey: show
 upcoming: false
+showOnHomePage: false
 orderOnHomePage: 0
 title: The Wizard of Oz
+startDate: 2016-07-14
 callout: July 2016
 image: /img/img_6516.jpg
 dates: July 2016

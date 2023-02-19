@@ -1,11 +1,13 @@
 ---
 templateKey: show
 upcoming: false
+showOnHomePage: false
 orderOnHomePage: 0
 title: Mamma Mia!
 callout: October 2022
 image: /img/mammamia-square.jpg
 desktopBanner: /img/mammamia.jpg
+startDate: 2022-10-20
 dates: ""
 tagline: The magic of ABBA's timeless songs
 location: Chilliwack Cultural Centre
@@ -120,11 +122,8 @@ creativeTeam:
 sections:
   - sectionHead: Program
     content: |-
-      ![]()
 
       [Click Here](/img/mm-2022.pdf)
-
-      ![]()
 
       ```
 

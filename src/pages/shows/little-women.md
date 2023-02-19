@@ -1,9 +1,11 @@
 ---
 templateKey: show
 upcoming: false
+showOnHomePage: false
 orderOnHomePage: 0
 title: Little Women
 image: /img/littlewomen1.jpg
+startDate: 2010-07-08
 dates: July 2010
 tagline: The classic story by Louisa May Alcott
 location: UFV Theatre

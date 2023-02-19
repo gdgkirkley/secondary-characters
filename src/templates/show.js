@@ -265,9 +265,9 @@ const PhotoGalleryMainImage = styled(GatsbyImage)`
   border-radius: 16px;
   opacity: 0;
   visibility: hidden;
-  width: 100%;
-  height: 100%;
+
   position: absolute;
+  object-fit: contain;
   top: 0;
   left: 0;
   transition: all 1s ease-in-out;
@@ -467,6 +467,7 @@ const ShowTemplate = ({ data: { showData } }) => {
                     className={index === photoActive ? 'active' : ''}
                     style={{ zIndex: index, position: 'absolute' }}
                     alt={photo.altText}
+                    objectFit="contain"
                   />
                 );
               })}

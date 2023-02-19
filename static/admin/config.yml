@@ -113,20 +113,20 @@ collections:
           default: 'show',
         }
       - {
-          label: 'Is this show upcoming?',
-          name: 'upcoming',
+          label: 'Show on home page?',
+          name: 'showOnHomePage',
           widget: 'boolean',
-          hint: 'Upcoming shows will appear on the home page.',
-          required: true,
+          hint: 'Shows that will appear on the home page.',
+          required: false,
           default: false,
         }
       - {
-          label: 'Order on Home Page',
-          name: 'orderOnHomePage',
-          widget: 'number',
-          valueType: 'int',
-          hint: 'Controls the order of shows on the home page where 1 is first.',
-          default: 1,
+          label: 'Start Date',
+          name: 'startDate',
+          widget: 'string',
+          hint: 'Format: 2023-01-01. Controls the order of shows on the home page the biggest date is first.',
+          default: "",
+          required: false
         }
       - {
           label: 'Title',
@@ -139,7 +139,6 @@ collections:
           label: 'Callout',
           name: 'callout',
           widget: 'string',
-          required: true,
           default: '',
           hint: 'Put a message on a show',
         }
