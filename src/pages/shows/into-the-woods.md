@@ -4,10 +4,10 @@ upcoming: false
 orderOnHomePage: 0
 title: Into the Woods
 callout: July 2014
-image: /img/adam.jpg
+image: /img/itw-17.jpg
 dates: ""
 tagline: ""
-location: ""
+location: Chilliwack Cultural Centre, HUB International Theatre
 ticketLink: ""
 ticketOnSale: false
 showCredits:
@@ -46,6 +46,8 @@ cast:
     artist: Caroline Davies
   - credit: Step Sister
     artist: Brittany Clough
+  - credit: Coachman
+    artist: Forrest Shuster
 creativeTeam:
   - credit: Director and Choreographer
     artist: Adam Charles
