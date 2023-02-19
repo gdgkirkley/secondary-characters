@@ -37,7 +37,7 @@ cast:
   - credit: Rapunzel
     artist: Deanne Ratzlaff
   - credit: Rapunzel's Prince
-    artist: D
+    artist: Dayton P
   - credit: Grandmother
     artist: Tina Sharkey
   - credit: Step Mother
