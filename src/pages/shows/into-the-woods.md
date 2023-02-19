@@ -15,6 +15,52 @@ showCredits:
     artist: James Lapine
   - credit: Music an Lyrics by
     artist: Stephen Sondheim
+photoGallery:
+  - image: /img/itw-18.jpg
+    id: Jack
+    altText: Jack
+    imageDescription: Jack
+    imageCredit: Sarah Sovereign
+  - image: /img/sarahsovereignphotography_photocall-148-.jpg
+    imageCredit: Sarah Sovereign
+    id: Quest
+    altText: Quest
+    imageDescription: Quest
+  - image: /img/sarahsovereignphotography_photocall-157-.jpg
+    imageCredit: Sarah Sovereign
+    id: Cinderella
+    altText: Cinderella
+    imageDescription: Cinderella
+  - image: /img/sarahsovereignphotography_photocall-70-.jpg
+    id: Fear
+    altText: Fear
+    imageCredit: Sarah Sovereign
+    imageDescription: Fear
+  - image: /img/sarahsovereignphotography_photocall-199-.jpg
+    imageCredit: Sarah Sovereign
+    id: Children will Listen
+    altText: Children will Listen
+    imageDescription: Children will Listen
+  - image: /img/sarahsovereignphotography_photocall-189-.jpg
+    imageCredit: Sarah Sovereign
+    id: Wicked
+    altText: Wicked
+    imageDescription: Wicked
+  - image: /img/sarahsovereignphotography_photocall-180-.jpg
+    id: Milky White
+    altText: Milky White
+    imageCredit: Sarah Sovereign
+    imageDescription: Milky White
+  - image: /img/sarahsovereignphotography_photocall-118-.jpg
+    id: Narrator
+    altText: Narrator
+    imageCredit: Sarah Sovereign
+    imageDescription: Narrator
+  - image: /img/sarahsovereignphotography_photocall-10-.jpg
+    id: Comfort
+    altText: Comfort
+    imageCredit: Sarah Sovereign
+    imageDescription: Comfort
 cast:
   - credit: Witch
     artist: Emily Hamel-Brisson
