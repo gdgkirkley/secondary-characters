@@ -5,21 +5,19 @@ showOnHomePage: false
 orderOnHomePage: 0
 title: Joseph and the Amazing Technicolor Dreamcoat
 startDate: 2013-07-12
+callout: July 2013
+image: /img/joseph-title.jpg
 dates: July 2013
-shortDate: July 2013
 tagline: The family classic musical
 location: UFV Theatre
-image: /img/joseph-title.jpg
-showCredits:
-  - credit: Music by
-    artist: Andrew Lloyd Webber
-  - credit: Lyrics by
-    artist: Tim Rice
 ticketLink: null
 photoGallery:
   - image: /img/joseph1.jpg
     id: joseph1
-    altText: Joseph, a young man wearing the costume of an Egyptian pharoah, crosses his arms and stares out towards the camera with a determined expression. A group of men who are mostly his brothers, all wearing Egyptian clothing, are arrayed in pleading positions behind him.
+    altText: Joseph, a young man wearing the costume of an Egyptian pharoah, crosses
+      his arms and stares out towards the camera with a determined expression. A
+      group of men who are mostly his brothers, all wearing Egyptian clothing,
+      are arrayed in pleading positions behind him.
     imageCredit: Photographer
     imageDescription: This is a photo of Joseph
   - image: /img/joseph2.jpg
@@ -67,11 +65,60 @@ photoGallery:
     altText: Joseph 10
     imageCredit: Photographer
     imageDescription: Another photo
+shortDate: July 2013
+ticketOnSale: false
+showCredits:
+  - credit: Music by
+    artist: Andrew Lloyd Webber
+  - credit: Lyrics by
+    artist: Tim Rice
 cast:
   - credit: Joseph
     artist: Morgan Cox
   - credit: Narrator
     artist: Caroline Davies
+  - credit: Jacob/Potiphar
+    artist: Glen Pinchin
+  - credit: Pharaoh
+    artist: Jeff Bodner
+  - credit: Reuben
+    artist: Kevin Biegel
+  - credit: Simeon
+    artist: Dale Botha
+  - credit: Levi
+    artist: Michael Berger
+  - credit: Naphtali
+    artist: Jeff Dressler
+  - credit: Issachar
+    artist: Eli Harrison-Morry
+  - credit: Asher
+    artist: William Tippery
+  - credit: Dan
+    artist: Ben Buckingham
+  - credit: Zebulon
+    artist: Lyndon Shuster
+  - credit: Judah
+    artist: Forrest Shuster
+  - credit: Benjamin
+    artist: Connor Ferris
+  - credit: Mrs.  Potiphar/Wives' Chorus
+    artist: Rachel Stephens
+  - credit: Wives' Chorus
+    artist: Kaitie Allinger
+  - credit: Wives' Chorus
+    artist: Chelsea Biegel
+  - credit: Wives' Chorus
+    artist: Colleen Braun
+  - credit: Wives' Chorus
+    artist: Lisa Braun
+  - credit: Wives' Chorus
+    artist: Karen Dalzeil
+  - credit: Wives' Chorus
+    artist: Deanne Ratzlaff
+  - credit: Youth Choir
+    artist: Olivia Hochstetter, Stephanie Everett, Maggie Pearce, Sam Szijjarto,
+      Tanner Biegel, Maya Dombowsky, Sydney Dombowsky, Eden Wedel, Madeline
+      Wojcik, Noah Buhler, and June Warren
 creativeTeam:
   - credit: Director/Choreographer
     artist: Shelley Wojcik

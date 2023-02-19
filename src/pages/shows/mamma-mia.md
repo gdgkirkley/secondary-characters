@@ -122,11 +122,8 @@ creativeTeam:
 sections:
   - sectionHead: Program
     content: |-
-      ![]()
 
       [Click Here](/img/mm-2022.pdf)
-
-      ![]()
 
       ```
 

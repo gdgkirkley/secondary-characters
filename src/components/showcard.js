@@ -81,7 +81,7 @@ const TicketButton = styled.div`
 const Callout = styled.div`
   position: absolute;
   top: -10px;
-  right: 0;
+  right: -10px;
   padding: 10px 20px;
   font-size: ${props => props.theme.fontSize.emphasis};
   border-radius: ${props => props.theme.borderRadius};

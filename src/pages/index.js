@@ -62,7 +62,7 @@ const Shows = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 170px;
-  margin: 64px 250px;
+  margin: 64px 150px;
   justify-content: space-around;
   align-items: center;
   transition: 0.2s linear;
