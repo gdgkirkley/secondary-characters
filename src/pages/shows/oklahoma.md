@@ -16,6 +16,12 @@ showCredits:
     credit: Music by
   - credit: Book and Lyrics by
     artist: Oscar Hammerstein II
+photoGallery:
+  - image: /img/ssp_oklahomaweb-43.jpg
+    id: In love
+    altText: In love
+    imageDescription: In love
+    imageCredit: SSP
 cast:
   - credit: Curly
     artist: Morgan Cox
