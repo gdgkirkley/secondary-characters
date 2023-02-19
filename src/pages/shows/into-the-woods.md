@@ -61,6 +61,31 @@ photoGallery:
     altText: Comfort
     imageCredit: Sarah Sovereign
     imageDescription: Comfort
+  - image: /img/itw-24.jpg
+    id: Ever After
+    altText: Ever After
+    imageCredit: Sarah Sovereign
+    imageDescription: Ever After
+  - image: /img/itw-47.jpg
+    id: Rapunzel
+    altText: Rapunzel
+    imageCredit: Sarah Sovereign
+    imageDescription: Rapunzel
+  - image: /img/itw-49.jpg
+    id: Little Red and Wolf
+    imageCredit: Sarah Sovereign
+    imageDescription: Little Red and Wolf
+    altText: Little Red and Wolf
+  - image: /img/itw-41.jpg
+    id: It takes two
+    altText: It takes two
+    imageCredit: Sarah Sovereign
+    imageDescription: It takes two
+  - image: /img/itw-20.jpg
+    id: Agony
+    altText: Agony
+    imageCredit: Sarah Sovereign
+    imageDescription: Agony
 cast:
   - credit: Witch
     artist: Emily Hamel-Brisson
