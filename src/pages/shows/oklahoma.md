@@ -62,6 +62,21 @@ photoGallery:
     altText: Party
     imageDescription: Party
     imageCredit: SSP
+  - image: /img/oklahoma1.jpg
+    id: Boys
+    altText: Boys
+    imageDescription: Boys
+    imageCredit: SSP
+  - image: /img/oklahomastage_sarahsovereignphotography-155-.jpg
+    id: Girls
+    altText: Girls
+    imageDescription: Girls
+    imageCredit: SSP
+  - image: /img/ssp-oklahomaweb-51_orig.jpg
+    id: In Love
+    altText: In Love
+    imageDescription: In Love
+    imageCredit: SSP
 cast:
   - credit: Curly
     artist: Morgan Cox
