@@ -10,7 +10,7 @@ dates: July 28th to August 6th
 tagline: Oh, the Thinks you can Think!
 location: Chilliwack Cultural Centre
 ticketLink: https://www.chilliwackculturalcentre.ca/tickets/?d=2023-07#.ZBntVOzMKCQ
-ticketOnSale: true
+ticketOnSale: false
 creativeTeam:
   - credit: Director/Choreographer
     artist: Shelley Wojcik
