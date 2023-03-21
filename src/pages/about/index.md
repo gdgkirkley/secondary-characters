@@ -39,9 +39,6 @@ sections:
 
 
       Paula Quick - Member
-
-
-      Hilda DeRidder - Member
 ---
 Secondary Characters Musical Theatre Society is a registered not-for-profit community theatre company based in Chilliwack, British Columbia. It was founded in 2009 by two local artists, **Shelley Wojcik** a director and choreographer and **Nicola Davies** a musician and collaborative pianist, who wanted to offer opportunities for community members to engage in the creation of theatre. These two women are passionate about the performing arts, appreciate the value of artistic expression and believe strongly in multi-generational and interdisciplinary mentoring opportunities. The Secondary Characters family is made up of volunteers of all ages with a firm understanding that everyone, regardless of age or experience, has something to contribute and to teach to their ensemble.
 
