@@ -1,7 +1,7 @@
 ---
 templateKey: show
 showOnHomePage: true
-startDate: 2024-07-28
+startDate: 2023-07-28
 title: "Seussical "
 callout: July 28 to August 6
 image: /img/seussical-poster.jpg
