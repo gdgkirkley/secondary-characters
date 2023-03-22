@@ -9,8 +9,8 @@ desktopBanner: /img/seussical-poster.jpg
 dates: July 28th to August 6th
 tagline: Oh, the Thinks you can Think!
 location: Chilliwack Cultural Centre
-ticketLink: https://www.chilliwackculturalcentre.ca/tickets/?d=2023-07#.ZBntVOzMKCQ
-ticketOnSale: false
+ticketLink: https://www.chilliwackculturalcentre.ca/event/seussical/
+ticketOnSale: true
 creativeTeam:
   - credit: Director/Choreographer
     artist: Shelley Wojcik
