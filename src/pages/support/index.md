@@ -1,7 +1,7 @@
 ---
 templateKey: formpage
 title: Support
-showBanner: false
+showBanner: true
 image: /img/20221020_195925.jpg
 pageForm: donateform
 ---
