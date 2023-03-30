@@ -5,6 +5,10 @@ showBanner: true
 image: /img/20221020_195925.jpg
 pageForm: donateform
 ---
+
+
+[Sponsorship Package and Benefits](static/img/seussical-sponsorship-package-2-.pdf)
+
 Much of our success is due to the passionate individuals who volunteer their time and energy to the creative process as well as those generous individuals & companies within the community who offer support to our production.
 
 ### Now this is where you come in, we are asking for your help to ensure the success of our future.
