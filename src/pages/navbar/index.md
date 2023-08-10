@@ -20,6 +20,8 @@ menuItems:
         linkURL: /get-involved/auditions/
       - label: Volunteer
         linkURL: /get-involved/volunteer/
+      - label: Subscribe
+        linkURL: /get-involved/subscribe/
     label: Get Involved
   - dropdown:
       - label: About
