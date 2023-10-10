@@ -1,6 +1,6 @@
 ---
 templateKey: show
-showOnHomePage: true
+showOnHomePage: false
 startDate: 2023-07-28
 title: "Seussical "
 callout: July 28 to August 6
