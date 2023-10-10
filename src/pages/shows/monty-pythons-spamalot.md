@@ -5,7 +5,7 @@ startDate: 2024-07-19
 title: Monty Python's Spamalot
 callout: Audition info coming soon!
 image: /img/spamalot_logo_color.jpg
-desktopBanner: /img/spamalot_title-treatment_color.jpg
+desktopBanner: /img/spamalot_logo_color.jpg
 dates: ""
 tagline: ""
 location: Chilliwack Cultural Centre
