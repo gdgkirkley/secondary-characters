@@ -72,7 +72,7 @@ sections:
       **Dates and Times:**  Sundays(12pm-6pm) and Wednesdays and Thursdays (5pm-8pm)
 
 
-      **July 2nd-July 22nd**
+      **July 2nd-July 12th**
 
 
       **Location**: 45680 Hocking Avenue, Unit 102, Creative Outlet, Chilliwack.\
@@ -88,7 +88,7 @@ sections:
 
       **Location**: 9201 Corbould St., Chilliwack Cultural Centre, Rotary Hall Theatre, Chilliwack.\
 
-      **Dates and Times**: July 22-July 27, 2023  
+      **Dates and Times**: July 13-July 18, 2024  
 
 
       ### **Production Schedule**
@@ -96,10 +96,10 @@ sections:
 
       **Location**: 9201 Corbould St., Chilliwack Cultural Centre, Rotary Hall Theatre, Chilliwack.\
 
-      **Dates and Times**: July 28-August 6, 2023  (9 shows)
+      **Dates and Times**: July 19-July 28, 2024  (9 shows)
 
 
-      **July 28, 29, 29, 30, Aug 3, 4, 5, 5, 6.**
+      **July 19, 20, 21, 25, 26, 27,  28**
 
 
       \*Cast are expected to be available for ALL rehearsals unless previously discussed with director.
