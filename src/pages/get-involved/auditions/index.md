@@ -2,7 +2,7 @@
 templateKey: contentpage
 title: Auditions
 showBanner: true
-image: /img/seussical.jpeg
+image: /img/spamalot_title-treatment_color.jpg
 sections:
   - sectionHead: Roles
     content: >-
@@ -13,23 +13,7 @@ sections:
       **Roles:**
 
 
-      * **The Cat in the Hat:**  The essence of mischief, fun, and imagination. Vocal range top: D6, bottom: Bb4.  
-
-      * **JoJo:**  A thinker with a wild imagination. Vocal range top: D6,  bottom: Ab4.  
-
-      * **Horton the Elephant:**  A gentle creature who always tries to do the right thing. Vocal range top: E6, bottom: A4.  
-
-      * **Gertrude McFuzz:**  Self conscious and nervous.​ Vocal range top: Eb5, bottom: F3.  
-
-      * **Mayzie La Bird:**  Self centered, selfish and vain, but not all bad. Vocal range top: E5, bottom: G#3.  
-
-      * **Sour Kangaroo:**  Loud, brassy and a lot of fun.  Vocal range top: Eb5, bottom: A3.
-
-      * **The Wickershams:**  Get a kick out of making mischief.  Vocal range top: G6, bottom: A4.
-
-      * **The Whos**:  various Dr. Seuss characters. Vocal range top: D#5, bottom: G3.  (Includes JoJo's Parents and the Grinch)
-
-      * **Jungle Creatures:**  Various Dr.  Seuss characters. Vocal range top: Db5,  bottom: A3.  (Includes Yertle the Turtle and Vlad Vladicoff)
+      *
     displayButton: true
     link: " Roles"
   - sectionHead: Rehearsal and Production Dates
@@ -100,23 +84,27 @@ sections:
     displayButton: true
     link: Covid Health and Safety
 ---
-## SEUSSICAL  (July 28-August 6, 2023)
+## Monty Python's Spamalot 
 
-**AUDITIONS:  Feb 11/12**
+## (July 19- July 28, 2024)
 
-**CALLBACKS:  Feb 25/26**
+**AUDITIONS:**  
 
-Director/Co-Choreographer:  Shelley Wojcik
+**CALLBACKS:**  
 
-Vocal Director:  Stefanie Swinnard
+Director:  Steffi Munshaw
 
-Co-Choreographer:  Ann Matterson
+Assistant Director:  Aidan Sharpe
+
+Vocal Director:  Paula Quick
+
+Choreographer:  Ann Matterson
 
 [Roles](#roles) | [Rehearsal and Production Dates ](<#rehearsal and production dates>)
 
 [Audition Guide](<#audition guide>) | [COVID Health & Safety](#covid%20health%20and%20safety)
 
-# **You have 4 audition options. Please choose one that suits your situation.**  
+# **You have 4 audition options. Please choose one that suits your situation.**
 
 ### **1.  IN PERSON, GROUP AUDITIONS**
 
