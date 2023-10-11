@@ -13,7 +13,47 @@ sections:
       **Roles:**
 
 
-      *
+      * King Arthur, lead, baritone
+
+      * Lady of the Lake, lead, alto
+
+      * Sir Robin, lead, bass-baritone
+
+      * Sir Lancelot, lead, tenor, baritone
+
+      * Sir Bedevere, supporting, baritone
+
+      * The Historian, supporting, spoken
+
+      * Mayor, supporting
+
+      * Not-Dead-Fred, supporting
+
+      * Patsy, supporting, bass-baritone
+
+      * Prince Herbert, supporting, tenor
+
+      * Sir Dennis Galahad, supporting, tenor
+
+      * Brother Maynard, featured
+
+      * Sir Not-Appearing-in-this-show, featured
+
+      * The French Taunter, featured
+
+      * Knights of Ni, featured
+
+      * Tim the Enchanter, featured
+
+      * Dennis's Mother, featured
+
+      * Concorde, featured
+
+      * The Black Knight, featured
+
+      * Prince Herbert's Father, featured
+
+      * Ensemble, All voice types
     displayButton: true
     link: " Roles"
   - sectionHead: Rehearsal and Production Dates
