@@ -124,7 +124,7 @@ sections:
     displayButton: true
     link: Covid Health and Safety
 ---
-## Monty Python's Spamalot 
+## Monty Python's Spamalot
 
 ## (July 19- July 28, 2024)
 
@@ -144,7 +144,7 @@ Choreographer:  Ann Matterson
 
 [Audition Guide](<#audition guide>) | [COVID Health & Safety](#covid%20health%20and%20safety)
 
-# **You have 4 audition options. Please choose one that suits your situation.**
+# **You have 4 audition options. Please choose one.**
 
 ### **1.  IN PERSON, GROUP AUDITIONS**
 
@@ -180,7 +180,7 @@ Choreographer:  Ann Matterson
 
 ### **4.  VIDEO AUDITIONS**
 
-**Submissions due February 12th, 2023.** 
+**Submissions due February, 2024.** 
 
 **Requirements:**  Choose a musical theatre song to sing. Video must show your whole body, with quality audio and live or digital accompaniment.  Familiarize yourself with our audition guide and schedule provided at the top of this page. Be available for callbacks and please submit your video audition and fill out our online audition form using the following link.  Break a leg!
 
