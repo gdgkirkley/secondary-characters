@@ -104,7 +104,7 @@ Choreographer:  Ann Matterson
 
 [Audition Guide](<#audition guide>) | [COVID Health & Safety](#covid%20health%20and%20safety)
 
-# **You have 4 audition options. Please choose one.**
+# **You have 3 audition options. Please choose one.**
 
 ### **1.  GROUP AUDITIONS**
 
@@ -128,7 +128,7 @@ Choreographer:  Ann Matterson
 
  [Audition Form](https://forms.gle/q5Wy6r4JMA3VNDEL8)
 
-### **3.  CALLBACKS**
+### **3.  Callbacks**
 
 **Dates:**  February 25th-26th   **Times:**  Between 10:00am-4:00pm
 
@@ -137,11 +137,3 @@ Choreographer:  Ann Matterson
 **If you have previously performed for Secondary Characters** and would like to go directly to callbacks and be considered for a supporting or lead role, we will arrange to see you at callbacks to sing a song from the show.  Familiarize yourself with our audition guide and schedule provided at the top of this page. Be available for callbacks and please fill out our online audition form using the following link and you will be contacted with a time.  Break a leg!
 
  [Audition Form](https://forms.gle/q5Wy6r4JMA3VNDEL8)
-
-### **4.  VIDEO AUDITIONS**
-
-**Submissions due February, 2024.** 
-
-**Requirements:**  Choose a musical theatre song to sing. Video must show your whole body, with quality audio and live or digital accompaniment.  Familiarize yourself with our audition guide and schedule provided at the top of this page. Be available for callbacks and please submit your video audition and fill out our online audition form using the following link.  Break a leg!
-
- [Submit Audition](https://forms.gle/q5Wy6r4JMA3VNDEL8)
