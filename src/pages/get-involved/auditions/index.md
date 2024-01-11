@@ -10,50 +10,13 @@ sections:
       equity, and inclusion.  All are welcome to audition for any role.
 
 
+      *With the exception of King Arthur, Lady of the Lake, and Lancelot, roles will be cast gender-blind as we do not feel gender to be of high importance due to the goofy antics, costuming and general silliness of this show.*
+
+
+       *This show contains terribly unrealistic depictions of violence and some inappropriate language.*
+
+
       **Roles:**
-
-
-      * King Arthur, lead, baritone
-
-      * Lady of the Lake, lead, alto
-
-      * Sir Robin, lead, bass-baritone
-
-      * Sir Lancelot, lead, tenor, baritone
-
-      * Sir Bedevere, supporting, baritone
-
-      * The Historian, supporting, spoken
-
-      * Mayor, supporting
-
-      * Not-Dead-Fred, supporting
-
-      * Patsy, supporting, bass-baritone
-
-      * Prince Herbert, supporting, tenor
-
-      * Sir Dennis Galahad, supporting, tenor
-
-      * Brother Maynard, featured
-
-      * Sir Not-Appearing-in-this-show, featured
-
-      * The French Taunter, featured
-
-      * Knights of Ni, featured
-
-      * Tim the Enchanter, featured
-
-      * Dennis's Mother, featured
-
-      * Concorde, featured
-
-      * The Black Knight, featured
-
-      * Prince Herbert's Father, featured
-
-      * Ensemble, All voice types
     displayButton: true
     link: " Roles"
   - sectionHead: Rehearsal and Production Dates
@@ -126,15 +89,13 @@ sections:
 ---
 ## Monty Python's Spamalot
 
-## (July 19- July 28, 2024)
+## Showing July 19- July 28, 2024
 
 **AUDITIONS:**  
 
 **CALLBACKS:**  
 
 Director:  Steffi Munshaw
-
-Assistant Director:  Aidan Sharpe
 
 Vocal Director:  Paula Quick
 
@@ -146,7 +107,7 @@ Choreographer:  Ann Matterson
 
 # **You have 4 audition options. Please choose one.**
 
-### **1.  IN PERSON, GROUP AUDITIONS**
+### **1.  GROUP AUDITIONS**
 
 **Dates:**  February 11th-12th   **Times:**  Between 10:00am-4:00pm
 
@@ -158,7 +119,7 @@ Choreographer:  Ann Matterson
 
  [Audition Form](https://forms.gle/q5Wy6r4JMA3VNDEL8)
 
-### **2.  IN PERSON, INDIVIDUAL AUDITIONS**
+### **2. INDIVIDUAL AUDITIONS**
 
 **Dates:**  February 11th-12th   **Times:**  Between 10:00am-4:00pm
 
@@ -168,7 +129,7 @@ Choreographer:  Ann Matterson
 
  [Audition Form](https://forms.gle/q5Wy6r4JMA3VNDEL8)
 
-### **3.  IN PERSON, CALLBACKS**
+### **3.  CALLBACKS**
 
 **Dates:**  February 25th-26th   **Times:**  Between 10:00am-4:00pm
 
