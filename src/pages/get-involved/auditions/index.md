@@ -16,7 +16,7 @@ sections:
        *This show contains terribly unrealistic depictions of violence and some inappropriate language.*
 
 
-      **Roles:**
+      **[Roles](static/img/casting.pdf)**
     displayButton: true
     link: " Roles"
   - sectionHead: Rehearsal and Production Dates
