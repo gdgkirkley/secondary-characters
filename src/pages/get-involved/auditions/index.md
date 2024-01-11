@@ -6,14 +6,13 @@ image: /img/spamalot_title-treatment_color.jpg
 sections:
   - sectionHead: Roles
     content: >-
-      \*Secondary Characters is committed to casting with a focus on diversity,
-      equity, and inclusion.  All are welcome to audition for any role.
+      *With the exception of King Arthur, Lady of the Lake, and Lancelot, roles
+      will be cast gender-blind as we do not feel gender to be of high
+      importance due to the goofy antics, costuming and general silliness of
+      this show.*
 
 
-      *With the exception of King Arthur, Lady of the Lake, and Lancelot, roles will be cast gender-blind as we do not feel gender to be of high importance due to the goofy antics, costuming and general silliness of this show.*
-
-
-       *This show contains terribly unrealistic depictions of violence and some inappropriate language.*
+      *This show contains terribly unrealistic depictions of violence and some inappropriate language.*
 
 
       **[Roles](static/img/casting.pdf)**
