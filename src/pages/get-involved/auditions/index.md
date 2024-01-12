@@ -26,20 +26,20 @@ sections:
       ### **Rehearsal Schedule**
 
 
-      **April 1st -June 30th** 
+      **May 1st -June 30th** 
 
 
-      **Location**: TBD, Chilliwack.\
+      **Location**: TBD, Chilliwack\
 
-      **Dates and Times:**  Sundays(12pm-6pm) and Wednesdays and Thursdays (5pm-8pm)
+      **Dates and Times:**  Sundays during the day and Wednesday and Friday evenings.
 
 
-      **July 2nd-July 12th**
+      **July 1st-July 13th**
 
 
       **Location**: 45680 Hocking Avenue, Unit 102, Creative Outlet, Chilliwack.\
 
-      **Dates and Times:**  Saturdays (10am- 4pm), Sundays (10am-4pm), Wednesdays and Thursdays (6:00pm-10:00pm)
+      **Dates and Times:**  Weekday evenings and all day weekends.
 
 
       \*Note: Advanced notice will be given for any changes.
@@ -90,9 +90,9 @@ sections:
 
 ## Showing July 19- July 28, 2024
 
-**AUDITIONS:**  February 9th and February 10th.
+**AUDITIONS:**  Friday February 9th and Saturday February 10th.
 
-**CALLBACKS:**  
+**CALLBACKS:**  Friday February 16th
 
 Director:  Steffi Munshaw
 
@@ -104,7 +104,7 @@ Choreographer:  Ann Matterson
 
 [Audition Guide](<#audition guide>) | [COVID Health & Safety](#covid%20health%20and%20safety)
 
-# **You have 3 audition options. Please choose one.**
+# **Please choose one audition option.**
 
 ### **1. INDIVIDUAL AUDITIONS**
 
