@@ -90,7 +90,7 @@ sections:
 
 ## Showing July 19- July 28, 2024
 
-**AUDITIONS:**  
+**AUDITIONS:**  February 9th and February 10th.
 
 **CALLBACKS:**  
 
@@ -106,21 +106,9 @@ Choreographer:  Ann Matterson
 
 # **You have 3 audition options. Please choose one.**
 
-### **1.  GROUP AUDITIONS**
+### **1. INDIVIDUAL AUDITIONS**
 
-**Dates:**  February 11th-12th   **Times:**  Between 10:00am-4:00pm
-
-**Location:**  45680 Hocking Ave unit 102 rear, Chilliwack, BC.  (Creative Outlet)
-
-**Requirements:**  
-
-**To be considered for an ensemble or supporting role**, you will be attending a group call.  This involves informal movement and vocal activities in a group setting.   Familiarize yourself with our audition guide and schedule provided at the top of this page.   Please fill out our online audition form using the following link and you will be contacted with a group audition time.  Break a leg!
-
- [Audition Form](https://forms.gle/q5Wy6r4JMA3VNDEL8)
-
-### **2. INDIVIDUAL AUDITIONS**
-
-**Dates:**  February 11th-12th   **Times:**  Between 10:00am-4:00pm
+**Dates:**  Friday, February 9th  **Times:**  Between 5:00pm-9:00pm
 
 **Location:**  45680 Hocking Ave unit 102 rear, Chilliwack, BC.  (Creative Outlet)
 
@@ -128,12 +116,22 @@ Choreographer:  Ann Matterson
 
  [Audition Form](https://forms.gle/q5Wy6r4JMA3VNDEL8)
 
-### **3.  Callbacks**
+### **2.  GROUP AUDITIONS**
 
-**Dates:**  February 25th-26th   **Times:**  Between 10:00am-4:00pm
+**Dates:**  Saturday, February 10th  **Times:**  Between 12:00pm-4:00pm
 
 **Location:**  45680 Hocking Ave unit 102 rear, Chilliwack, BC.  (Creative Outlet)
 
-**If you have previously performed for Secondary Characters** and would like to go directly to callbacks and be considered for a supporting or lead role, we will arrange to see you at callbacks to sing a song from the show.  Familiarize yourself with our audition guide and schedule provided at the top of this page. Be available for callbacks and please fill out our online audition form using the following link and you will be contacted with a time.  Break a leg!
+**To be considered for an ensemble or supporting role**, you will be attending a group call.  This involves informal movement and vocal activities in a group setting.   Please familiarize yourself with our audition guide and schedule provided at the top of this page.   Please fill out our online audition form using the following link and you will be contacted with a group audition time.  Break a leg!
+
+ [Audition Form](https://forms.gle/q5Wy6r4JMA3VNDEL8)
+
+### **3.  CALLBACKS**
+
+**Dates:**  Friday, February 16th  **Times:**  Between 5:00pm-9:00pm
+
+**Location:**  45680 Hocking Ave unit 102 rear, Chilliwack, BC.  (Creative Outlet)
+
+**If you have previously performed for Secondary Characters** and would like to be considered for an ensemble, supporting or lead role, we will arrange to see you at callbacks. We may require you to sing a song from the show, read sides, and/or attend a group dance call.  Please familiarize yourself with the schedule provided at the top of this page and fill out our online audition form using the following link.  You will be contacted with a callback time and any necessary songs or sides.  Break a leg!
 
  [Audition Form](https://forms.gle/q5Wy6r4JMA3VNDEL8)
