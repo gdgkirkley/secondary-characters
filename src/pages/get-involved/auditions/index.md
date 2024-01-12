@@ -34,7 +34,7 @@ sections:
       **Dates and Times:**  Sundays during the day and Wednesday and Friday evenings.
 
 
-      **July 1st-July 13th**
+      **July 1st-July 14th**
 
 
       **Location**: 45680 Hocking Avenue, Unit 102, Creative Outlet, Chilliwack.\
@@ -50,7 +50,7 @@ sections:
 
       **Location**: 9201 Corbould St., Chilliwack Cultural Centre, Rotary Hall Theatre, Chilliwack.\
 
-      **Dates and Times**: July 13-July 18, 2024  
+      **Dates and Times**: July 15-July 18, 2024  
 
 
       ### **Production Schedule**
