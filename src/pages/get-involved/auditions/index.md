@@ -2,34 +2,20 @@
 templateKey: contentpage
 title: Auditions
 showBanner: true
-image: /img/seussical.jpeg
+image: /img/spamalot_title-treatment_color.jpg
 sections:
   - sectionHead: Roles
     content: >-
-      \*Secondary Characters is committed to casting with a focus on diversity,
-      equity, and inclusion.  All are welcome to audition for any role.
+      *With the exception of King Arthur, Lady of the Lake, and Lancelot, roles
+      will be cast gender-blind as we do not feel gender to be of high
+      importance due to the goofy antics, costuming and general silliness of
+      this show.*
 
 
-      **Roles:**
+      *This show contains terribly unrealistic depictions of violence and some inappropriate language.*
 
 
-      * **The Cat in the Hat:**  The essence of mischief, fun, and imagination. Vocal range top: D6, bottom: Bb4.  
-
-      * **JoJo:**  A thinker with a wild imagination. Vocal range top: D6,  bottom: Ab4.  
-
-      * **Horton the Elephant:**  A gentle creature who always tries to do the right thing. Vocal range top: E6, bottom: A4.  
-
-      * **Gertrude McFuzz:**  Self conscious and nervous.​ Vocal range top: Eb5, bottom: F3.  
-
-      * **Mayzie La Bird:**  Self centered, selfish and vain, but not all bad. Vocal range top: E5, bottom: G#3.  
-
-      * **Sour Kangaroo:**  Loud, brassy and a lot of fun.  Vocal range top: Eb5, bottom: A3.
-
-      * **The Wickershams:**  Get a kick out of making mischief.  Vocal range top: G6, bottom: A4.
-
-      * **The Whos**:  various Dr. Seuss characters. Vocal range top: D#5, bottom: G3.  (Includes JoJo's Parents and the Grinch)
-
-      * **Jungle Creatures:**  Various Dr.  Seuss characters. Vocal range top: Db5,  bottom: A3.  (Includes Yertle the Turtle and Vlad Vladicoff)
+      [Description of Roles](/img/casting.pdf)
     displayButton: true
     link: " Roles"
   - sectionHead: Rehearsal and Production Dates
@@ -40,20 +26,20 @@ sections:
       ### **Rehearsal Schedule**
 
 
-      **April 1st -June 30th** 
+      **May 1st -June 30th** 
 
 
-      **Location**: TBD, Chilliwack.\
+      **Location**: TBD, Chilliwack\
 
-      **Dates and Times:**  Sundays(12pm-6pm) and Wednesdays and Thursdays (5pm-8pm)
+      **Dates and Times:**  Sundays during the day and Wednesday and Friday evenings.
 
 
-      **July 2nd-July 22nd**
+      **July 1st-July 14th**
 
 
       **Location**: 45680 Hocking Avenue, Unit 102, Creative Outlet, Chilliwack.\
 
-      **Dates and Times:**  Saturdays (10am- 4pm), Sundays (10am-4pm), Wednesdays and Thursdays (6:00pm-10:00pm)
+      **Dates and Times:**  Weekday evenings and all day weekends.
 
 
       \*Note: Advanced notice will be given for any changes.
@@ -64,7 +50,7 @@ sections:
 
       **Location**: 9201 Corbould St., Chilliwack Cultural Centre, Rotary Hall Theatre, Chilliwack.\
 
-      **Dates and Times**: July 22-July 27, 2023  
+      **Dates and Times**: July 15-July 18, 2024  
 
 
       ### **Production Schedule**
@@ -72,10 +58,10 @@ sections:
 
       **Location**: 9201 Corbould St., Chilliwack Cultural Centre, Rotary Hall Theatre, Chilliwack.\
 
-      **Dates and Times**: July 28-August 6, 2023  (9 shows)
+      **Dates and Times**: July 19-July 28, 2024  (9 shows)
 
 
-      **July 28, 29, 29, 30, Aug 3, 4, 5, 5, 6.**
+      **July 19, 20, 21, 25, 26, 27,  28**
 
 
       \*Cast are expected to be available for ALL rehearsals unless previously discussed with director.
@@ -93,67 +79,59 @@ sections:
 
       \
 
-      Every effort is being made to ensure that the process of putting on *Seussical,* from auditions to performance, will comply with all current safety restrictions as outlined by the BC Ministry of Health and BC Centre for Disease Control. 
+      Every effort is being made to ensure that the process from auditions to performance, will comply with all current safety restrictions as outlined by the BC Ministry of Health and BC Centre for Disease Control. 
 
 
-      While we are taking every precaution possible to ensure the safety of all cast, crew and audience members, we understand that everyone has different comfort levels around Covid and wish to do our best to accommodate these different comfort levels
+      While we are taking every precaution possible to ensure the health and safety of all cast, crew and audience members, we understand that everyone has different comfort levels around Covid and wish to do our best to accommodate these different comfort levels
     displayButton: true
     link: Covid Health and Safety
 ---
-## SEUSSICAL  (July 28-August 6, 2023)
+## Monty Python's Spamalot
 
-**AUDITIONS:  Feb 11/12**
+## Showing July 19- July 28, 2024
 
-**CALLBACKS:  Feb 25/26**
+**AUDITIONS:**  Friday February 9th and Saturday February 10th.
 
-Director/Co-Choreographer:  Shelley Wojcik
+**CALLBACKS:**  Friday February 16th
 
-Vocal Director:  Stefanie Swinnard
+Director:  Steffi Munshaw
 
-Co-Choreographer:  Ann Matterson
+Vocal Director:  Paula Quick
+
+Choreographer:  Ann Matterson
 
 [Roles](#roles) | [Rehearsal and Production Dates ](<#rehearsal and production dates>)
 
 [Audition Guide](<#audition guide>) | [COVID Health & Safety](#covid%20health%20and%20safety)
 
-# **You have 4 audition options. Please choose one that suits your situation.**  
+# **Please choose one audition option.**
 
-### **1.  IN PERSON, GROUP AUDITIONS**
+### **1. INDIVIDUAL AUDITIONS**
 
-**Dates:**  February 11th-12th   **Times:**  Between 10:00am-4:00pm
-
-**Location:**  45680 Hocking Ave unit 102 rear, Chilliwack, BC.  (Creative Outlet)
-
-**Requirements:**  
-
-**To be considered for an ensemble or supporting role**, you will be attending a group call.  This involves informal movement and vocal activities in a group setting.   Familiarize yourself with our audition guide and schedule provided at the top of this page.   Please fill out our online audition form using the following link and you will be contacted with a group audition time.  Break a leg!
-
- [Audition Form](https://forms.gle/q5Wy6r4JMA3VNDEL8)
-
-### **2.  IN PERSON, INDIVIDUAL AUDITIONS**
-
-**Dates:**  February 11th-12th   **Times:**  Between 10:00am-4:00pm
+**Dates:**  Friday, February 9th  **Times:**  Between 5:00pm-9:00pm
 
 **Location:**  45680 Hocking Ave unit 102 rear, Chilliwack, BC.  (Creative Outlet)
 
 **To be considered for a supporting or lead role**, you will be attending an individual audition in which you will need to prepare a musical theatre song and bring your piano sheet music (or digital karaoke accompaniment) to the audition. Feel free to bring a head shot and resume to auditions as well, but it is not required.  Familiarize yourself with our audition guide and schedule provided at the top of this page. Be available for callbacks and please fill out our online audition form using the following link and you will be contacted with an audition time.  Break a leg!
 
- [Audition Form](https://forms.gle/q5Wy6r4JMA3VNDEL8)
+[ Audition Form](https://forms.gle/mo77G5eRmyBPWrmLA)
 
-### **3.  IN PERSON, CALLBACKS**
+### **2.  GROUP AUDITIONS**
 
-**Dates:**  February 25th-26th   **Times:**  Between 10:00am-4:00pm
+**Dates:**  Saturday, February 10th  **Times:**  Between 12:00pm-4:00pm
 
 **Location:**  45680 Hocking Ave unit 102 rear, Chilliwack, BC.  (Creative Outlet)
 
-**If you have previously performed for Secondary Characters** and would like to go directly to callbacks and be considered for a supporting or lead role, we will arrange to see you at callbacks to sing a song from the show.  Familiarize yourself with our audition guide and schedule provided at the top of this page. Be available for callbacks and please fill out our online audition form using the following link and you will be contacted with a time.  Break a leg!
+**To be considered for an ensemble or supporting role**, you will be attending a group call.  This involves informal movement and vocal activities in a group setting.   Please familiarize yourself with our audition guide and schedule provided at the top of this page.   Please fill out our online audition form using the following link and you will be contacted with a group audition time.  Break a leg!
 
- [Audition Form](https://forms.gle/q5Wy6r4JMA3VNDEL8)
+ [Audition Form](https://forms.gle/mo77G5eRmyBPWrmLA)
 
-### **4.  VIDEO AUDITIONS**
+### **3.  CALLBACKS**
 
-**Submissions due February 12th, 2023.** 
+**Dates:**  Friday, February 16th  **Times:**  Between 5:00pm-9:00pm
 
-**Requirements:**  Choose a musical theatre song to sing. Video must show your whole body, with quality audio and live or digital accompaniment.  Familiarize yourself with our audition guide and schedule provided at the top of this page. Be available for callbacks and please submit your video audition and fill out our online audition form using the following link.  Break a leg!
+**Location:**  45680 Hocking Ave unit 102 rear, Chilliwack, BC.  (Creative Outlet)
 
- [Submit Audition](https://forms.gle/q5Wy6r4JMA3VNDEL8)
+**If you have previously performed for Secondary Characters** and would like to be considered for an ensemble, supporting or lead role, we will arrange to see you at callbacks. We may require you to sing a song from the show, read sides, and/or attend a group dance call.  Please familiarize yourself with the schedule provided at the top of this page and fill out our online audition form using the following link.  You will be contacted with a callback time and any necessary songs or sides.  Break a leg!
+
+ [Audition Form](https://forms.gle/mo77G5eRmyBPWrmLA)
