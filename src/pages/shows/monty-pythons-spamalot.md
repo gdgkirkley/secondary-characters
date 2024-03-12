@@ -24,6 +24,15 @@ showCredits:
       Madover, Stephanie McClelland/Lawrence Horowitz, Elan V McAllister/Allan
       S. Gordon, Independent Presenters Network, Roy Furman, GRS Associates, Jam
       Theatricals, TGA Entertainment, and Clear Channel Entertainment
+creativeTeam:
+  - credit: Director
+    artist: Steffi Munshaw
+  - credit: Paula Quick
+    artist: Vocal Director
+  - credit: Choreographer
+    artist: Ann Matterson
+  - credit: Conductor
+    artist: Shannon Goldsmith
 sections:
   - sectionHead: Auditions
     content: "[Audition information](/get-involved/auditions/)"
