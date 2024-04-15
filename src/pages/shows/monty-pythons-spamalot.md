@@ -34,8 +34,53 @@ creativeTeam:
   - credit: Conductor
     artist: Shannon Goldsmith
 sections:
+  - sectionHead: Rehearsal Information
+    content: >-
+      ### ***Rehearsal Schedule***
+
+
+      **May 1st -June 30th**
+
+
+      **Location**: 45005 Squiala Road, Squiala Band Hall, Chilliwack 
+
+
+      **Dates and Times:** Sundays during the day (usually between 12-6pm)  and Wednesday and Friday evenings. (usually between 6-10pm)
+
+
+      **July 1st-July 14th**
+
+
+      **Location**: 45680 Hocking Avenue, Unit 102, Creative Outlet, Chilliwack.
+
+
+      **Dates and Times:** Weekday evenings and all day weekends. (usually same  times as above)   
+
+
+      ### ***Technical Schedule***
+
+
+      **Location**: 9201 Corbould St., Chilliwack Cultural Centre, Rotary Hall Theatre, Chilliwack.
+
+
+      **Dates and Times**: July 15-July 18, 2024
+
+
+      ### ***Production Schedule***
+
+
+      **Location**: 9201 Corbould St., Chilliwack Cultural Centre, Rotary Hall Theatre, Chilliwack.
+
+
+      **Dates and Times**: July 19-July 28, 2024 (9 shows)
+
+
+      **July 19, 20, 21, 25, 26, 27, 28**
   - sectionHead: Auditions
-    content: "[Audition information](/get-involved/auditions/)"
+    content: |-
+      **A﻿uditions have closed.**
+
+      [Audition information](/get-involved/auditions/)
 ---
 Lovingly ripped off from the classic film comedy Monty Python and the Holy Grail, MONTY PYTHON’S SPAMALOT retells the legend of King Arthur and his Knights of the Round Table, and features a bevy of beautiful show girls, not to mention cows, killer rabbits, and French people.  The 2005 Broadway production won three Tony® Awards, including Best Musical, and was followed by two successful West End runs. The outrageous, uproarious, and gloriously entertaining story of King Arthur and the Lady of the Lake will delight audiences as they search for the Holy Grail and “always look on the bright side of life.”
 
