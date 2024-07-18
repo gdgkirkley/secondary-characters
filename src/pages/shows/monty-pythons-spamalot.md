@@ -35,7 +35,7 @@ creativeTeam:
     artist: Shannon Goldsmith
 sections:
   - sectionHead: Program
-    content: "[Spamalot Program](static/img/program-spamalot.pdf)"
+    content: "[Spamalot Program](/img/program-spamalot.pdf)"
   - sectionHead: Rehearsal Information
     content: >-
       ### ***Rehearsal Schedule***
