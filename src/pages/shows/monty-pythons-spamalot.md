@@ -34,6 +34,8 @@ creativeTeam:
   - credit: Conductor
     artist: Shannon Goldsmith
 sections:
+  - sectionHead: Program
+    content: "[Spamalot Program](/img/program-spamalot.pdf)"
   - sectionHead: Rehearsal Information
     content: >-
       ### ***Rehearsal Schedule***
@@ -84,8 +86,4 @@ sections:
 ---
 Lovingly ripped off from the classic film comedy Monty Python and the Holy Grail, MONTY PYTHON’S SPAMALOT retells the legend of King Arthur and his Knights of the Round Table, and features a bevy of beautiful show girls, not to mention cows, killer rabbits, and French people.  The 2005 Broadway production won three Tony® Awards, including Best Musical, and was followed by two successful West End runs. The outrageous, uproarious, and gloriously entertaining story of King Arthur and the Lady of the Lake will delight audiences as they search for the Holy Grail and “always look on the bright side of life.”
 
-
-
-
-
-***Monty Python's Spamalot** is presented through special arrangement with and all authorized performance materials are supplied by Theatrical Rights Worldwide 1180 Avenue of the Americas, Suite 640, New York, NY 10036. www.theatricalrights.com*
+**\*Monty Python's Spamalot** is presented through special arrangement with and all authorized performance materials are supplied by Theatrical Rights Worldwide 1180 Avenue of the Americas, Suite 640, New York, NY 10036. www.theatricalrights.com*
