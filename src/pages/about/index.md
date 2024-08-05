@@ -22,23 +22,20 @@ sections:
     displayButton: false
     link: null
   - sectionHead: Board of Directors
-    content: >-
+    content: |-
       Kris Ward- President
 
+      Vince Dimmano-Secretary
 
-      Randy Newbury - Secretary                                                                                                                         
-
+      D﻿ayna Fredericks-Treasurer
 
       Steffi Munshaw - Member
 
-
       Stefanie Swinnard - Member
 
-
-      Jeff Bodner - Member
-
-
       Paula Quick - Member
+
+      W﻿arren Schatz-Member
 ---
 Secondary Characters Musical Theatre Society is a registered not-for-profit community theatre company based in Chilliwack, British Columbia. It was founded in 2009 by two local artists, **Shelley Wojcik** a director and choreographer and **Nicola Davies** a musician and collaborative pianist, who wanted to offer opportunities for community members to engage in the creation of theatre. These two women are passionate about the performing arts, appreciate the value of artistic expression and believe strongly in multi-generational and interdisciplinary mentoring opportunities. The Secondary Characters family is made up of volunteers of all ages with a firm understanding that everyone, regardless of age or experience, has something to contribute and to teach to their ensemble.
 
@@ -50,6 +47,8 @@ Members of Secondary Characters come back year after year to audition, help back
 
 One of our latest productions, *The Last 5 Years*, played in the first annual Rick Rack in the ‘Wack fringe- style festival in Chilliwack and was chosen to present at the Harrison Festival in July. This was a smaller scale musical with only two cast members and played in conjunction with our larger mainstage production of *Oklahoma!* Our production of *The Wizard of Oz* saw adult cast members learning from 10 year old dance captains, high school students playing in an orchestra side by side with their music instructors, and youth being trained by theatre staff as running crew backstage.
 
-2018's  production of *The Hunchback of Notre Dame* played to sold out audiences and had cast members from North Vancouver, New West, Abbotsford and Chilliwack plus local musicians and singers for our amazing orchestra and choir.  Our 10 Year Anniversary production was "The 25th Annual Putnam County Spelling Bee" and invited special guest spellers from all around the community.
+2018's  production of *The Hunchback of Notre Dame* played to sold out audiences and had cast members from North Vancouver, New West, Abbotsford and Chilliwack plus local musicians and singers for our amazing orchestra and choir.  Our 10 Year Anniversary production in 2019, was *The 25th Annual Putnam County Spelling Bee* and invited special guest spellers from all around the community.  
+
+Before the world shut down from Covid 19, we were able to put on a Christmas production of *Elf* for schools all around the community.  We were back with 50% audience and masks with our production of *Sweeney Todd, the Demon Barber of Fleet Street.*  Our next three shows, *Mamma Mia!, Seussical and Spamalot,* were well received by Chilliwack with many sold out performances.
 
 Secondary Characters believes in the value of artistic and collaborative opportunities within the community and hopes to continue to offer musical theatre to Chilliwack for many more years to come.
