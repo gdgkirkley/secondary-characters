@@ -9,8 +9,8 @@ desktopBanner: /img/screen-shot-2023-10-10-at-1.01.06-pm.png
 dates: July 2024
 tagline: ""
 location: Chilliwack Cultural Centre
-ticketLink: https://www.chilliwackculturalcentre.ca/ccc-event/monty-pythons-spamalot-2/2024-07-19/
-ticketOnSale: true
+ticketLink: ""
+ticketOnSale: false
 showCredits:
   - credit: Book and Lyrics by
     artist: Eric Idle
