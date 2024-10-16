@@ -1,6 +1,6 @@
 ---
 templateKey: show
-showOnHomePage: true
+showOnHomePage: false
 startDate: 2024-07-19
 title: Monty Python's Spamalot
 callout: A Legendary Show!
