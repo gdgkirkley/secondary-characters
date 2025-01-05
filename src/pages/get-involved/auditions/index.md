@@ -5,7 +5,7 @@ showBanner: true
 image: /img/something-rotten_logo-banner-stacked_4c.png
 sections:
   - sectionHead: Roles
-    content: D﻿escription of Roles
+    content: "[D﻿escription of Roles](static/img/casting.pdf)"
     displayButton: true
     link: " Roles"
   - sectionHead: Rehearsal and Production Dates
