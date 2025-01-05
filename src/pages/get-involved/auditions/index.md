@@ -5,7 +5,7 @@ showBanner: true
 image: /img/something-rotten_logo-banner-stacked_4c.png
 sections:
   - sectionHead: Roles
-    content: Description of Roles
+    content: D﻿escription of Roles
     displayButton: true
     link: " Roles"
   - sectionHead: Rehearsal and Production Dates
