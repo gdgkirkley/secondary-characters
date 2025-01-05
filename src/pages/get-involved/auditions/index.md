@@ -25,21 +25,11 @@ sections:
 
       ### **Rehearsal Schedule**
 
+       Start time TBA
 
-      **May 1st -June 30th** 
+      **Location**: Creative Outlet\
 
-
-      **Location**: TBD, Chilliwack\
-
-      **Dates and Times:**  Sundays during the day and Wednesday and Friday evenings.
-
-
-      **July 1st-July 14th**
-
-
-      **Location**: 45680 Hocking Avenue, Unit 102, Creative Outlet, Chilliwack.\
-
-      **Dates and Times:**  Weekday evenings and all day weekends.
+      **Dates and Times:**  Sundays during the day and Wednesday and Friday evenings.  July-weekday eveings and all day weekends
 
 
       \*Note: Advanced notice will be given for any changes.
@@ -48,20 +38,23 @@ sections:
       ### **Technical Schedule**
 
 
-      **Location**: 9201 Corbould St., Chilliwack Cultural Centre, Rotary Hall Theatre, Chilliwack.\
+      **Location**: 9201 Corbould St., Chilliwack Cultural Centre, HUB Theatre, Chilliwack. \
 
-      **Dates and Times**: July 15-July 18, 2024  
+      **Dates and Times**: July 12-July 17
 
 
       ### **Production Schedule**
 
 
-      **Location**: 9201 Corbould St., Chilliwack Cultural Centre, Rotary Hall Theatre, Chilliwack.\
+      **Location**: 9201 Corbould St., Chilliwack Cultural Centre, HUB Theatre, Chilliwack.\
 
-      **Dates and Times**: July 19-July 28, 2024  (9 shows)
+      **Dates and Times**: 
 
 
-      **July 19, 20, 21, 25, 26, 27,  28**
+      **July 18, 19, 25, 26 (7:30pm shows)**
+
+
+      **J﻿uly 20, 27 (2:00pm shows)**
 
 
       \*Cast are expected to be available for ALL rehearsals unless previously discussed with director.
@@ -88,7 +81,7 @@ sections:
 ---
 ## Something Rotten!
 
-## Showing July 19- July 28, 2024
+## Showing July 18- July 27, 2025
 
 **AUDITIONS:**  Friday February 9th and Saturday February 10th.
 
