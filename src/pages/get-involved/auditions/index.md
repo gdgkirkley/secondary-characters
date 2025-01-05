@@ -2,7 +2,7 @@
 templateKey: contentpage
 title: Auditions
 showBanner: true
-image: /img/spamalot_title-treatment_color.jpg
+image: /img/something-rotten_logo-banner-stacked_4c.png
 sections:
   - sectionHead: Roles
     content: >-
@@ -86,7 +86,7 @@ sections:
     displayButton: true
     link: Covid Health and Safety
 ---
-## Monty Python's Spamalot
+## Something Rotten!
 
 ## Showing July 19- July 28, 2024
 
@@ -94,11 +94,11 @@ sections:
 
 **CALLBACKS:**  Friday February 16th
 
-Director:  Steffi Munshaw
+Director:  
 
 Vocal Director:  Paula Quick
 
-Choreographer:  Ann Matterson
+Choreographer:  Shelley Wojcik and Maya Dombowsky
 
 [Roles](#roles) | [Rehearsal and Production Dates ](<#rehearsal and production dates>)
 
