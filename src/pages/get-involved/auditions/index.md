@@ -5,17 +5,7 @@ showBanner: true
 image: /img/something-rotten_logo-banner-stacked_4c.png
 sections:
   - sectionHead: Roles
-    content: >-
-      *With the exception of King Arthur, Lady of the Lake, and Lancelot, roles
-      will be cast gender-blind as we do not feel gender to be of high
-      importance due to the goofy antics, costuming and general silliness of
-      this show.*
-
-
-      *This show contains terribly unrealistic depictions of violence and some inappropriate language.*
-
-
-      [Description of Roles](/img/casting.pdf)
+    content: Description of Roles
     displayButton: true
     link: " Roles"
   - sectionHead: Rehearsal and Production Dates
