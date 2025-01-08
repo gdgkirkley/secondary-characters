@@ -5,7 +5,18 @@ showBanner: true
 image: /img/something-rotten_logo-banner-stacked_4c.png
 sections:
   - sectionHead: Roles
-    content: "[D﻿escription of Roles](static/img/casting.pdf)"
+    content: >-
+      [](static/img/casting.pdf)S﻿et in the 1590's, brothers Nick and Nigel
+      Bottom are desperate to write a hit play but are stuck in the shadow of
+      that Renaissance rock star known as "The Bard" (William
+      Shakespeare).  When a local soothsayer foetells that the future of theatre
+      involves singing, dancing and acting at the same time, Nick and Nigel set
+      out to write the world's very first musical.  But amidst the scandelous
+      excitment of opening night, the Bottom Brothers realize that reaching the
+      top means being true to thine own self....and all that jazz.
+
+
+      *S﻿omething Rotten* features large song and dance numbers, and an eccentric cast of over-the-top characters, each given their own special moment in the show to shine.
     displayButton: true
     link: " Roles"
   - sectionHead: Rehearsal and Production Dates
