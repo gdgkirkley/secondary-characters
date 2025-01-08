@@ -95,7 +95,7 @@ Director:
 
 Vocal Director:  Paula Quick
 
-Choreographer:  Shelley Wojcik and Maya Dombowsky
+Choreographers:  Shelley Wojcik and Maya Dombowsky
 
 [Roles](#roles) | [Rehearsal and Production Dates ](<#rehearsal and production dates>)
 
