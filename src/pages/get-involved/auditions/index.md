@@ -29,11 +29,19 @@ sections:
 
       ### **Rehearsal Schedule**
 
-       Start time TBA
+
+      A﻿pril-July
+
 
       **Location**: Creative Outlet\
 
-      **Dates and Times:**  Sundays during the day and Wednesday and Friday evenings.  July-weekday eveings and all day weekends
+      **Dates and Times:**  
+
+
+      April 1-June 14 Saturdays (1-4, or 7-9), Sundays (12-4)  
+
+
+      June 14-July 11  Mon, Wed, Fri 
 
 
       \*Note: Advanced notice will be given for any changes.
@@ -87,11 +95,11 @@ sections:
 
 ## Showing July 18- July 27, 2025
 
-**AUDITIONS:**  Friday February 9th and Saturday February 10th.
+**AUDITIONS:**  March 8th and 9th
 
-**CALLBACKS:**  Friday February 16th
+**CALLBACKS:**  March 22nd and 23rd 
 
-Director:  
+Director:  Shelley Wojcik
 
 Vocal Director:  Paula Quick
 
@@ -101,34 +109,22 @@ Choreographers:  Shelley Wojcik and Maya Dombowsky
 
 [Audition Guide](<#audition guide>) | [COVID Health & Safety](#covid%20health%20and%20safety)
 
-# **Please choose one audition option.**
+### **AUDITIONS**
 
-### **1. INDIVIDUAL AUDITIONS**
-
-**Dates:**  Friday, February 9th  **Times:**  Between 5:00pm-9:00pm
+**Dates:**  March 8/9   **Times:**  Between 10:00am and 4:00pm
 
 **Location:**  45680 Hocking Ave unit 102 rear, Chilliwack, BC.  (Creative Outlet)
 
-**To be considered for a supporting or lead role**, you will be attending an individual audition in which you will need to prepare a musical theatre song and bring your piano sheet music (or digital karaoke accompaniment) to the audition. Feel free to bring a head shot and resume to auditions as well, but it is not required.  Familiarize yourself with our audition guide and schedule provided at the top of this page. Be available for callbacks and please fill out our online audition form using the following link and you will be contacted with an audition time.  Break a leg!
+**To be considered for a supporting or lead role**, you will be attending an individual audition in which you will need to prepare a musical theatre song and bring your piano sheet music or digital karaoke accompaniment to the audition. Familiarize yourself with our audition guide and schedule provided at the top of this page. Be available for callbacks and please fill out our online audition form using the link below so you can be contacted with an audition time.  Break a leg! 
 
 [ Audition Form](https://forms.gle/mo77G5eRmyBPWrmLA)
 
-### **2.  GROUP AUDITIONS**
-
-**Dates:**  Saturday, February 10th  **Times:**  Between 12:00pm-4:00pm
-
-**Location:**  45680 Hocking Ave unit 102 rear, Chilliwack, BC.  (Creative Outlet)
-
-**To be considered for an ensemble or supporting role**, you will be attending a group call.  This involves informal movement and vocal activities in a group setting.   Please familiarize yourself with our audition guide and schedule provided at the top of this page.   Please fill out our online audition form using the following link and you will be contacted with a group audition time.  Break a leg!
-
- [Audition Form](https://forms.gle/mo77G5eRmyBPWrmLA)
-
-### **3.  CALLBACKS**
+### **CALLBACKS**
 
 **Dates:**  Friday, February 16th  **Times:**  Between 5:00pm-9:00pm
 
 **Location:**  45680 Hocking Ave unit 102 rear, Chilliwack, BC.  (Creative Outlet)
 
-**If you have previously performed for Secondary Characters** and would like to be considered for an ensemble, supporting or lead role, we will arrange to see you at callbacks. We may require you to sing a song from the show, read sides, and/or attend a group dance call.  Please familiarize yourself with the schedule provided at the top of this page and fill out our online audition form using the following link.  You will be contacted with a callback time and any necessary songs or sides.  Break a leg!
+**If you have previously performed for Secondary Characters** and would like to be considered for an ensemble, supporting or lead role, we will arrange to see you at callbacks. We may require you to sing a song from the show, read sides, and/or attend a group dance call.  Please familiarize yourself with the schedule provided at the top of this page and fill out our online audition form using the link below.  You will be contacted with a callback time and any necessary songs or sides.  Break a leg!
 
  [Audition Form](https://forms.gle/mo77G5eRmyBPWrmLA)
