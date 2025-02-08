@@ -115,16 +115,14 @@ Choreographers:  Shelley Wojcik and Maya Dombowsky
 
 **Location:**  45680 Hocking Ave unit 102 rear, Chilliwack, BC.  (Creative Outlet)
 
-**To be considered for a supporting or lead role**, you will be attending an individual audition in which you will need to prepare a musical theatre song and bring your piano sheet music or digital karaoke accompaniment to the audition. Familiarize yourself with our audition guide and schedule provided at the top of this page. Be available for callbacks and please fill out our online audition form using the link below so you can be contacted with an audition time.  Break a leg! 
+**To be considered for a role (including returning members)**, you will be attending an individual audition in which you will need to prepare a musical theatre song and bring your piano sheet music or digital karaoke accompaniment to the audition. Familiarize yourself with our audition guide and schedule provided at the top of this page. Be available for callbacks and please fill out our online audition form using the link below so you can be contacted with an audition time.  Break a leg! 
 
 [ Audition Form](https://forms.gle/mo77G5eRmyBPWrmLA)
 
-### **CALLBACKS**
+### **CALLBACKS** 
 
-**Dates:**  Friday, February 16th  **Times:**  Between 5:00pm-9:00pm
+**Dates:**  Sunday, March 23rd       **Times:**  Between 12:00pm-4:00pm
 
 **Location:**  45680 Hocking Ave unit 102 rear, Chilliwack, BC.  (Creative Outlet)
 
-**If you have previously performed for Secondary Characters** and would like to be considered for an ensemble, supporting or lead role, we will arrange to see you at callbacks. We may require you to sing a song from the show, read sides, and/or attend a group dance call.  Please familiarize yourself with the schedule provided at the top of this page and fill out our online audition form using the link below.  You will be contacted with a callback time and any necessary songs or sides.  Break a leg!
-
- [Audition Form](https://forms.gle/mo77G5eRmyBPWrmLA)
+You may be required to sing a song from the show, read sides, and/or attend a group dance call.  We will contact you with times and instructions a week before callbacks.
