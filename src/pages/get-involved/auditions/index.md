@@ -97,7 +97,7 @@ sections:
 
 **AUDITIONS:**  March 8th and 9th
 
-**CALLBACKS:**  March 22nd and 23rd 
+**CALLBACKS:**  March 23rd 
 
 Director:  Shelley Wojcik
 
