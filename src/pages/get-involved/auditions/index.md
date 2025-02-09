@@ -111,7 +111,7 @@ Choreographers:  Shelley Wojcik and Maya Dombowsky
 
 ### **AUDITIONS**
 
-**Dates:**  March 8/9   **Times:**  Between 10:00am and 4:00pm
+**Dates:**  March 8/9   **Times:**  Between 10:00am and 6:00pm
 
 **Location:**  45680 Hocking Ave unit 102 rear, Chilliwack, BC.  (Creative Outlet)
 
@@ -121,7 +121,7 @@ Choreographers:  Shelley Wojcik and Maya Dombowsky
 
 ### **CALLBACKS**
 
-**Dates:**  Sunday, March 23rd       **Times:**  Between 12:00pm-4:00pm
+**Dates:**  Sunday, March 23rd       **Times:**  Between 12:00pm-6:00pm
 
 **Location:**  45680 Hocking Ave unit 102 rear, Chilliwack, BC.  (Creative Outlet)
 
