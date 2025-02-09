@@ -8,15 +8,15 @@ sections:
     content: >-
       Set in the 1590's, brothers Nick and Nigel Bottom are desperate to write a
       hit play but are stuck in the shadow of that Renaissance rock star known
-      as "The Bard" (William Shakespeare).  When a local soothsayer foetells
+      as "The Bard" (William Shakespeare).  When a local soothsayer foretells
       that the future of theatre involves singing, dancing and acting at the
       same time, Nick and Nigel set out to write the world's very first
-      musical.  But amidst the scandelous excitment of opening night, the Bottom
-      Brothers realize that reaching the top means being true to thine own
-      self....and all that jazz.
+      musical.  But amidst the scandalous excitement of opening night, the
+      Bottom Brothers realize that reaching the top means being true to thine
+      own self....and all that jazz.
 
 
-      *S﻿omething Rotten* features large song and dance numbers, and an eccentric cast of over-the-top characters, each given their own special moment in the show to shine.
+      *S﻿omething Rotten!* features large song and dance numbers, and an eccentric cast of over-the-top characters, each given their own special moment in the show to shine.
 
 
       [Characters](/img/casting.pdf)
