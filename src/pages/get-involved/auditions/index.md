@@ -115,7 +115,7 @@ Choreographers:  Shelley Wojcik and Maya Dombowsky
 
 **Location:**  45680 Hocking Ave unit 102 rear, Chilliwack, BC.  (Creative Outlet)
 
-**To be considered for a role (including returning members)**, you will be attending an individual audition in which you will need to prepare a musical theatre song and bring digital karaoke accompaniment to the audition. Familiarize yourself with our audition guide and schedule provided at the top of this page. Be available for callbacks and please fill out our online audition form using the link below so you can be contacted with an audition time.  Break a leg! 
+**To be considered for a role (including returning members)**, you will be attending an individual audition in which you need to prepare a musical theatre song and bring digital karaoke accompaniment to the audition. (we will provide a bluetooth speaker) Familiarize yourself with our audition guide and schedule provided at the top of this page. Be available for callbacks and please fill out our online audition form using the link below so you can be contacted with an audition time.  Break a leg! 
 
 [ Audition Form](https://forms.gle/mo77G5eRmyBPWrmLA)
 
