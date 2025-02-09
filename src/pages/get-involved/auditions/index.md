@@ -30,7 +30,7 @@ sections:
       ### **Rehearsal Schedule**
 
 
-      A﻿pril-July
+      **A﻿pril-July**
 
 
       **Location**: Creative Outlet\
@@ -38,10 +38,19 @@ sections:
       **Dates and Times:**  
 
 
-      April 1-June 14 Saturdays (1-4, or 7-9), Sundays (12-4)  
+      **April 1-June 14** 
 
 
-      June 14-July 11  Mon, Wed, Fri 
+      Saturdays (1-4, or 7-9), Sundays (12-4)  
+
+
+      **June 14-July 11**   
+
+
+      Wednesdays, Thursdays (5-9)  
+
+
+      Saturdays, Sundays   (12-6) 
 
 
       \*Note: Advanced notice will be given for any changes.
