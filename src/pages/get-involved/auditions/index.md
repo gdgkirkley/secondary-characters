@@ -19,10 +19,7 @@ sections:
       *S﻿omething Rotten* features large song and dance numbers, and an eccentric cast of over-the-top characters, each given their own special moment in the show to shine.
 
 
-      ``
-
-
-      [](/img/casting.pdf)
+      [Characters](/img/casting.pdf)
     displayButton: true
     link: " Roles"
   - sectionHead: Rehearsal and Production Dates
