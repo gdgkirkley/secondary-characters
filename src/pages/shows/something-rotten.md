@@ -18,6 +18,15 @@ showCredits:
     artist: Wayne Kirkpatrick and Karey Kirkpatrick
   - credit: Conceived by
     artist: Karey Kirkpatrick and Wayne Kirkpatrick
+creativeTeam:
+  - credit: Director/Choreographer
+    artist: Shelley Wojcik
+  - credit: Vocal Director
+    artist: Paula Quick
+  - credit: Choreographer
+    artist: Maya Dombowsky
+  - credit: Orchestral Director
+    artist: Shannon Goldsmith
 ---
 [T﻿ICKETS HERE!](https://www.chilliwackculturalcentre.ca/ccc-event/something-rotten/2025-07-18/)
 
