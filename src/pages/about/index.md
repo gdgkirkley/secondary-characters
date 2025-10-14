@@ -31,8 +31,6 @@ sections:
 
       Steffi Munshaw - Member
 
-      Stefanie Swinnard - Member
-
       Paula Quick - Member
 
       W﻿arren Schatz-Member
