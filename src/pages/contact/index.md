@@ -15,8 +15,3 @@ pageForm: contactform
 
 **Steffi Munshaw**\
 [steffi@secondarycharacters.org](mailto:steffi@secondarycharacters.org)
-
-### Co-founder and past artistic director
-
-**Shelley Wojcik**\
-[shelley@secondarycharacters.org](mailto:shelley@secondarycharacters.org)
