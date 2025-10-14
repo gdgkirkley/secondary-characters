@@ -5,8 +5,6 @@ showBanner: true
 image: /img/20221020_195925.jpg
 pageForm: donateform
 ---
-
-
 [Sponsorship Package and Benefits](/img/seussical-sponsorship-package-2-.pdf)
 
 Much of our success is due to the passionate individuals who volunteer their time and energy to the creative process as well as those generous individuals & companies within the community who offer support to our production.
@@ -22,5 +20,5 @@ Thank you in advance for your consideration and support. We look forward to spea
 Sincerely,
 
 **Shelley Wojcik**\
-Executive Artistic Director\
+Co-Founder\
 Secondary Characters
