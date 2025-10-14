@@ -5,19 +5,16 @@ showBanner: true
 image: /img/joseph3.jpg
 pageForm: contactform
 ---
-
 ## Or, contact us directly
 
-### General Inquires
+### General inquires
 
 [info@secondarycharacters.org](mailto:info@secondarycharacters.org)
 
-### Executive Artistic Director
+### I﻿nterim artistic director
 
-**Shelley Wojcik**  
-[shelley@secondarycharacters.org](mailto:shelley@secondarycharacters.org)
+**Steffi Munshaw**
 
-### Production Manager
+[s﻿teffi@secondarycharacters.org](<mailto:s﻿teffi@secondarycharacters.org>)
 
-**Steffi Munshaw**  
-[steffi@secondarycharacters.org](mailto:steffi@secondarycharacters.org)
+[s﻿teffimunshaw@gmail.com](mailto:steffimunshaw@gmail.com)
