@@ -1,6 +1,6 @@
 ---
 templateKey: show
-showOnHomePage: true
+showOnHomePage: false
 startDate: ""
 title: Something Rotten!
 callout: "July 2025 "
@@ -10,7 +10,7 @@ dates: ""
 tagline: If you liked Spamalot...you'll love Something Rotten!
 location: Chilliwack Cultural Centre, HUB Theatre.
 ticketLink: https://www.chilliwackculturalcentre.ca/ccc-event/something-rotten/2025-07-18/
-ticketOnSale: true
+ticketOnSale: false
 showCredits:
   - credit: Book by
     artist: Karey Kirkpatrick and John O’Farrell
