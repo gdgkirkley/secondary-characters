@@ -13,5 +13,8 @@ pageForm: contactform
 
 ### I﻿nterim artistic director
 
-**Steffi Munshaw**\
-[steffi@secondarycharacters.org](mailto:steffi@secondarycharacters.org)
+**Steffi Munshaw**
+
+[s﻿teffi@secondarycharacters.org](<mailto:s﻿teffi@secondarycharacters.org>)
+
+[s﻿teffimunshaw@gmail.com](mailto:steffimunshaw@gmail.com)
