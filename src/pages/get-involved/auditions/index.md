@@ -2,7 +2,7 @@
 templateKey: contentpage
 title: Auditions
 showBanner: true
-image: /img/something-rotten_logo-banner-stacked_4c.png
+image: /img/sc-logo-no-background_1.png
 sections:
   - sectionHead: Roles
     content: >-
