@@ -1,9 +1,9 @@
 ---
 templateKey: show
-showOnHomePage: true
+showOnHomePage: false
 startDate: ""
 title: Guys and Dolls Sr.
-callout: Spring 2026
+callout: Postponed until Spring 2027
 image: /img/guys-and-dolls-sr_full-art_sq_4c.jpg
 desktopBanner: /img/guys-and-dolls-sr_full-art_sq_4c.jpg
 dates: ""
